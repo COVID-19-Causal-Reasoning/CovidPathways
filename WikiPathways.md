@@ -5,7 +5,7 @@ Here is a listing of the pathways being modeled and curated by the community at 
 And all pathways tagged for our Current Highlight (which is COVID-19, of course) can be downloaded in bulk in multiple formats:
 * [GPML](https://www.wikipathways.org//wpi/batchDownload.php?species=Homo%20sapiens&fileType=gpml&tag=Curation:CurrentHighlight)
 * [SVG](https://www.wikipathways.org//wpi/batchDownload.php?species=Homo%20sapiens&fileType=svg&tag=Curation:CurrentHighlight)
-* [GPML](https://www.wikipathways.org//wpi/batchDownload.php?species=Homo%20sapiens&fileType=png&tag=Curation:CurrentHighlight)
+* [PNG](https://www.wikipathways.org//wpi/batchDownload.php?species=Homo%20sapiens&fileType=png&tag=Curation:CurrentHighlight)
 
 We will also try to keep the listing in this document up-to-date as well
 
