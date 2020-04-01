@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner" level="2" version="4">
+<model >
+<listOfUnitDefinitions>
+</listOfUnitDefinitions>
+<notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title/></head><body>Lipid metabolism alternations that are related to infection by corona viruses. The information comes from the Yan et al. in 2019 in the bibliography, particularly Figure 5. That paper uses the HCoV-229E virus as a model. Note that that is different from the virus that causes the 2020 pandemic SARS-CoV-2. Fig 5 is in turn taken from https://www.kegg.jp/kegg-bin/show_pathway?map00591, which is a very simplified pathway, omitting several steps&#10;The paper mentions that after virus infection many of the metabolites in his figure are increased in concentration. Interestingly, exogenous supplement of LA or AA in HCoV-229E-infected cells significantly suppressed HCoV-229E virus replication and this also happened in MERS-CoV.&#10;
+CellDesigner requires innerWidth to be at least: 1.0
+CellDesigner requires outerWidth to be at least: 2.0
+CellDesigner requires thickness to be at least: 2.5</body></html></notes><annotation>
+<celldesigner:extension>
+<celldesigner:modelVersion>4.0</celldesigner:modelVersion>
+<celldesigner:modelDisplay sizeX="475" sizeY="619"/>
+<celldesigner:listOfIncludedSpecies>
+<celldesigner:species id="s_id_bcd60" name="LysoPC16:0"><celldesigner:notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title/></head><body>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_bcd60">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:lipidmaps:LMGP01050113"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</body></html></celldesigner:notes>
+<celldesigner:annotation>
+<celldesigner:complexSpecies>s_id_b2683</celldesigner:complexSpecies>
+<celldesigner:speciesIdentity><celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>LysoPC16:0</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:annotation>
+</celldesigner:species>
+<celldesigner:species id="s_id_e24ab" name="LysPE_space_16:0"><celldesigner:notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title/></head><body>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_e24ab">
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</body></html></celldesigner:notes>
+<celldesigner:annotation>
+<celldesigner:complexSpecies>s_id_b2683</celldesigner:complexSpecies>
+<celldesigner:speciesIdentity><celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>LysPE_space_16:0</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:annotation>
+</celldesigner:species>
+</celldesigner:listOfIncludedSpecies>
+<celldesigner:listOfCompartmentAliases>
+<celldesigner:compartmentAlias id="da018" compartment="s_id_da018">
+<celldesigner:class>SQUARE</celldesigner:class>
+<celldesigner:bounds x="-73.732748935914" y="166.5" w="518.5" h="422.5"/>
+<celldesigner:namePoint x="-73.732748935914" y="166.5"/>
+<celldesigner:doubleLine thickness="2.5" outerWidth="2.0" innerWidth="1.0"/>
+<celldesigner:paint color="FF808080" scheme="Color"/>
+</celldesigner:compartmentAlias>
+</celldesigner:listOfCompartmentAliases>
+<celldesigner:listOfComplexSpeciesAliases>
+<celldesigner:complexSpeciesAlias id="b2683" species="s_id_b2683" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="33.05263157894737" y="219.92105263157893" w="107.82894736842107" h="62.815789473684134" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="33.05263157894737" y="219.92105263157893"/><celldesigner:boxSize width="107.82894736842107" height="62.815789473684134"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFF8F7F0" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="33.05263157894737" y="219.92105263157893"/><celldesigner:boxSize width="107.82894736842107" height="62.815789473684134"/><celldesigner:singleLine width="107.82894736842107"/><celldesigner:paint color="FFF8F7F0" scheme="Color"/></celldesigner:briefView>
+</celldesigner:complexSpeciesAlias>
+</celldesigner:listOfComplexSpeciesAliases>
+<celldesigner:listOfSpeciesAliases>
+<celldesigner:speciesAlias id="b2e17" species="s_id_b2e17" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="289.42105263157924" y="265.0263157894738" w="90.0" h="25.0" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="289.42105263157924" y="265.0263157894738"/><celldesigner:boxSize width="90.0" height="25.0"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="289.42105263157924" y="265.0263157894738"/><celldesigner:boxSize width="90.0" height="25.0"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="f34d0" species="s_id_f34d0" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="128.76725106408603" y="154.5" w="113.5" h="22.5" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="128.76725106408603" y="154.5"/><celldesigner:boxSize width="113.5" height="22.5"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="128.76725106408603" y="154.5"/><celldesigner:boxSize width="113.5" height="22.5"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="e24ab" species="s_id_e24ab" complexSpeciesAlias="b2683" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="41.855263157894726" y="227.92105263157893" w="91.0263157894737" h="21.552631578947423" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="41.855263157894726" y="227.92105263157893"/><celldesigner:boxSize width="91.0263157894737" height="21.552631578947423"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="41.855263157894726" y="227.92105263157893"/><celldesigner:boxSize width="91.0263157894737" height="21.552631578947423"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="b4efb" species="s_id_b4efb" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="141.05672474829655" y="539.5000000000006" w="88.92105263157896" h="23.657894736841982" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="141.05672474829655" y="539.5000000000006"/><celldesigner:boxSize width="88.92105263157896" height="23.657894736841982"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="141.05672474829655" y="539.5000000000006"/><celldesigner:boxSize width="88.92105263157896" height="23.657894736841982"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="b9202" species="s_id_b9202" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="140.51725106408603" y="334.5" w="90.0" h="25.0" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="140.51725106408603" y="334.5"/><celldesigner:boxSize width="90.0" height="25.0"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="140.51725106408603" y="334.5"/><celldesigner:boxSize width="90.0" height="25.0"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="e6b51" species="s_id_e6b51" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="88.42105263157896" y="474.2368421052631" w="191.57894736842104" h="29.973684210526358" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="88.42105263157896" y="474.2368421052631"/><celldesigner:boxSize width="191.57894736842104" height="29.973684210526358"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="88.42105263157896" y="474.2368421052631"/><celldesigner:boxSize width="191.57894736842104" height="29.973684210526358"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="d2e0b" species="s_id_d2e0b" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="263.3684210526327" y="360.5" w="90.0" h="29.5" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="263.3684210526327" y="360.5"/><celldesigner:boxSize width="90.0" height="29.5"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="263.3684210526327" y="360.5"/><celldesigner:boxSize width="90.0" height="29.5"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="cf458" species="s_id_cf458" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="140.51725106408603" y="396.5" w="90.0" h="34.5" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="140.51725106408603" y="396.5"/><celldesigner:boxSize width="90.0" height="34.5"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="140.51725106408603" y="396.5"/><celldesigner:boxSize width="90.0" height="34.5"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="bcd60" species="s_id_bcd60" complexSpeciesAlias="b2683" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="41.05263157894737" y="248.9736842105262" w="89.47368421052633" h="25.763157894736857" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="41.05263157894737" y="248.9736842105262"/><celldesigner:boxSize width="89.47368421052633" height="25.763157894736857"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="41.05263157894737" y="248.9736842105262"/><celldesigner:boxSize width="89.47368421052633" height="25.763157894736857"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="b7b4c" species="s_id_b7b4c" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="244.1052631578953" y="207.59724712583062" w="169.57894736842044" h="25.0" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="244.1052631578953" y="207.59724712583062"/><celldesigner:boxSize width="169.57894736842044" height="25.0"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="244.1052631578953" y="207.59724712583062"/><celldesigner:boxSize width="169.57894736842044" height="25.0"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="ecc95" species="s_id_ecc95" compartmentAlias="da018" >
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="292.5789473684218" y="299.44736842105226" w="90.0" h="25.0" />
+<celldesigner:font size="12"/><celldesigner:view state="usual"/>
+<celldesigner:usualView><celldesigner:innerPosition x="292.5789473684218" y="299.44736842105226"/><celldesigner:boxSize width="90.0" height="25.0"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:usualView>
+<celldesigner:briefView><celldesigner:innerPosition x="292.5789473684218" y="299.44736842105226"/><celldesigner:boxSize width="90.0" height="25.0"/><celldesigner:singleLine width="1.0"/><celldesigner:paint color="FFFFFFFF" scheme="Color"/></celldesigner:briefView>
+</celldesigner:speciesAlias>
+</celldesigner:listOfSpeciesAliases>
+<celldesigner:listOfProteins></celldesigner:listOfProteins>
+<celldesigner:listOfGenes><celldesigner:gene id="g_s_id_d2e0b" name="Linoleoyl_minus_CoA_br_desaturase_br_"><celldesigner:notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title/></head><body>
+</body></html></celldesigner:notes></celldesigner:gene><celldesigner:gene id="g_s_id_b7b4c" name="Cytosolic_space_Phospholipase_space_A2"><celldesigner:notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title/></head><body>
+</body></html></celldesigner:notes></celldesigner:gene></celldesigner:listOfGenes>
+<celldesigner:listOfRNAs></celldesigner:listOfRNAs>
+<celldesigner:listOfAntisenseRNAs></celldesigner:listOfAntisenseRNAs>
+<celldesigner:listOfLayers></celldesigner:listOfLayers>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#null">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30654597"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfCompartments>
+<compartment metaid="s_id_da018" id="s_id_da018" name="" size="1" units="volume" outside="default" >
+<notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title/></head><body>
+</body></html></notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:name></celldesigner:name>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_da018">
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</compartment>
+<compartment metaid="default" id="default" name="" size="1" units="volume" >
+<notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title/></head><body>
+</body></html></notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:name></celldesigner:name>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#default">
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</compartment>
+</listOfCompartments>
+<listOfSpecies><species  name="palmitic_space_acid" id="s_id_b2e17" metaid="s_id_b2e17" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>palmitic_space_acid</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_b2e17">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:lipidmaps:LMFA01010001"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species  name="Glycerophospholipids" id="s_id_f34d0" metaid="s_id_f34d0" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>Glycerophospholipids</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_f34d0">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A37739"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species  name="Arachidonic_space_acid" id="s_id_b4efb" metaid="s_id_b4efb" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>Arachidonic_space_acid</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_b4efb">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:lipidmaps:LMFA01030001"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species  name="linoleic_space_acid" id="s_id_b9202" metaid="s_id_b9202" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>linoleic_space_acid</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_b9202">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:lipidmaps:LMFA01030120"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species  name="bishomo_minus_gamma_minus_linolenic_space_acid" id="s_id_e6b51" metaid="s_id_e6b51" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>bishomo_minus_gamma_minus_linolenic_space_acid</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_e6b51">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:lipidmaps:LMFA01030158"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species  name="Linoleoyl_minus_CoA_br_desaturase_br_" id="s_id_d2e0b" metaid="s_id_d2e0b" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>GENE</celldesigner:class>
+<celldesigner:geneReference>g_s_id_d2e0b</celldesigner:geneReference>
+<celldesigner:name>Linoleoyl_minus_CoA_br_desaturase_br_</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_d2e0b">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:brenda:1.14.19.3"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species  name="gamma_minus__br_linolenic_space_acid" id="s_id_cf458" metaid="s_id_cf458" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>gamma_minus__br_linolenic_space_acid</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_cf458">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:lipidmaps:LMFA01030141"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species  name="Cytosolic_space_Phospholipase_space_A2" id="s_id_b7b4c" metaid="s_id_b7b4c" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>GENE</celldesigner:class>
+<celldesigner:geneReference>g_s_id_b7b4c</celldesigner:geneReference>
+<celldesigner:name>Cytosolic_space_Phospholipase_space_A2</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_b7b4c">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:brenda:3.1.1.4"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species  name="b2683" id="s_id_b2683" metaid="s_id_b2683" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>b2683</celldesigner:name>
+<celldesigner:hypothetical>true</celldesigner:hypothetical>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_b2683">
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species  name="oleic_space_acid_br_" id="s_id_ecc95" metaid="s_id_ecc95" initialConcentration="0.0" hasOnlySubstanceUnits="false" constant="false" boundaryCondition="false" compartment="s_id_da018"><annotation><celldesigner:extension><celldesigner:speciesIdentity><celldesigner:class>SIMPLE_MOLECULE</celldesigner:class>
+<celldesigner:name>oleic_space_acid_br_</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s_id_ecc95">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:lipidmaps:LMFA01030002"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+</listOfSpecies>
+<listOfReactions>
+<reaction metaid="id8ca14613" id="id8ca14613" reversible="false" >
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s_id_b9202" alias="b9202" >
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s_id_cf458" alias="cf458" >
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+</celldesigner:listOfReactantLinks>
+<celldesigner:listOfProductLinks>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0" >
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:listOfModification>
+<celldesigner:modification  type="CATALYSIS"  modifiers="s_id_d2e0b"  aliases="d2e0b"  targetLineIndex="0,2" >
+<celldesigner:connectScheme connectPolicy="direct" >
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection  index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="s_id_d2e0b" alias="d2e0b">
+<celldesigner:linkAnchor position="W"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="FF000000" type="Straight" />
+</celldesigner:modification>
+</celldesigner:listOfModification>
+<celldesigner:line width="1.0" color="FF000000" type="Straight" />
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#id8ca14613">
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference species="s_id_b9202" >
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>b9202</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="s_id_cf458" >
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>cf458</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="MSR0" species="s_id_d2e0b">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>d2e0b</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
+</reaction>
+<reaction metaid="id4fda8300" id="id4fda8300" reversible="false" >
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s_id_f34d0" alias="f34d0" >
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s_id_b9202" alias="b9202" >
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+</celldesigner:listOfReactantLinks>
+<celldesigner:listOfProductLinks>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0" >
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:listOfModification>
+</celldesigner:listOfModification>
+<celldesigner:line width="1.0" color="FF000000" type="Straight" />
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#id4fda8300">
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference species="s_id_f34d0" >
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>f34d0</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="s_id_b9202" >
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>b9202</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="id10042" id="id10042" reversible="false" >
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>UNKNOWN_POSITIVE_INFLUENCE</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s_id_cf458" alias="cf458" >
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s_id_e6b51" alias="e6b51" >
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+</celldesigner:listOfReactantLinks>
+<celldesigner:listOfProductLinks>
+</celldesigner:listOfProductLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0" >
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:listOfModification>
+</celldesigner:listOfModification>
+<celldesigner:line width="1.0" color="FF000000" type="Straight" />
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#id10042">
+<dcterms:modified rdf:parseType="Resource"></dcterms:modified>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference species="s_id_cf458" >
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>cf458</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference species="s_id_e6b51" >
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>e6b51</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+</listOfReactions>
+</model></sbml>
