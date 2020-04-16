@@ -253,7 +253,7 @@
                 <bbox y="412.0" x="227.0" h="18.5" w="22.5"/>
             </glyph>
             <start y="430.0" x="214.0"/>
-            <end y="430.0" x="287.5"/>
+            <end y="430.0" x="271.0"/>
         </arc>
         <arc target="glyph41.1" source="glyph36" id="arc8" class="consumption">
             <glyph id="glyph51" class="cardinality">
