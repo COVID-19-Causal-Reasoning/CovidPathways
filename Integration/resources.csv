@@ -1,13 +1,13 @@
-Include,Resource,Type
-No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4846.gpml,GPML
-No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4853.gpml,GPML
-No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4860.gpml,GPML
-No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4861.gpml,GPML
-No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4862.gpml,GPML
-Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4863.gpml,GPML
-Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4868.gpml,GPML
-Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4869.gpml,GPML
-Yes,https://git-r3lab.uni.lu/covid/models/raw/master/Curation/Ubiquination%20and%20Protein%20Degradation/Orf10_Cul2_pathway.xml,CellDesigner_SBML
-Yes,https://git-r3lab.uni.lu/covid/models/raw/master/Curation/Innate%20Immunity%20and%20Proinflammatory%20Response/COVID19_PAMP_signaling.xml,CellDesigner_SBML
-Yes,https://git-r3lab.uni.lu/covid/models/raw/master/Curation/Virus%20attachment%20and%20entry/Virus_entry_V04.xml,CellDesigner_SBML
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/RTC-and-transcription/RTC-and-transcription-CD.xml,CellDesigner_SBML
+Include,Resource,Type,Name
+No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4846.gpml,GPML,WP4846
+No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4853.gpml,GPML,WP4853
+No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4860.gpml,GPML,WP4860
+No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4861.gpml,GPML,WP4861
+No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4862.gpml,GPML,WP4862
+Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4863.gpml,GPML,HCoVs autophagy (WP4863)
+Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4868.gpml,GPML,HCoVs ER stress (WP4869)
+Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4869.gpml,GPML,Type I Ifn signaling (WP4868)
+Yes,https://git-r3lab.uni.lu/covid/models/raw/master/Curation/Ubiquination%20and%20Protein%20Degradation/Orf10_Cul2_pathway.xml,CellDesigner_SBML,Orf10 Cul2 pathway
+Yes,https://git-r3lab.uni.lu/covid/models/raw/master/Curation/Innate%20Immunity%20and%20Proinflammatory%20Response/COVID19_PAMP_signaling.xml,CellDesigner_SBML,PAMP signaling
+Yes,https://git-r3lab.uni.lu/covid/models/raw/master/Curation/Virus%20attachment%20and%20entry/Virus_entry_V04.xml,CellDesigner_SBML,Virus entry
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/RTC-and-transcription/RTC-and-transcription-CD.xml,CellDesigner_SBML,RTC and transcription
