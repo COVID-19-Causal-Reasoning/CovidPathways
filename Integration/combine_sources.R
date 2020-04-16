@@ -5,29 +5,156 @@
 ## Author: Marek Ostaszewski
 ##################################################
 
+options(stringsAsFactors = F)
+
 library(httr)
+library(xml2)
+
+### An 'xml2' namespace structure for parsing CellDesigner xml 
+ns_cd <- xml_ns_rename(xml_ns(read_xml("<root>
+                                       <sbml xmlns = \"http://www.sbml.org/sbml/level2/version4\"/>
+                                       <cd xmlns = \"http://www.sbml.org/2001/ns/celldesigner\"/>
+                                       <html xmlns = \"http://www.w3.org/1999/xhtml\"/>
+                                       <rdf xmlns = \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"/>
+                                       </root>")), 
+                       d1 = "sbml", d2 = "cd", d3 = "html", d4 = "rdf")
+
+ns_sbml <- xml_ns_rename(xml_ns(read_xml("<root>
+                                          <sbml xmlns = 'http://www.sbml.org/sbml/level3/version2/core'/>
+                                          </root>")), 
+                          d1 = "sbml")
+
+### Ironing out of issues in files converted from GPML to CellDesigner_SBML
+process_gpml <- function(source) {
+  message("API translation request")
+  ### We use httr::POST to execute the API call, and then write down the response
+  res <- httr::POST(url = "https://minerva-covid19-curation.lcsb.uni.lu/minerva/api/convert/GPML:CellDesigner_SBML",
+                    body = source,
+                    content_type("text/plain"))
+  ### Get resulting XML content as text
+  cont <- content(res, as = "text")
+  message("Finalizing...")
+  ### Apply final corrections using the dedicated 'finalize_gpml' (output: xml)
+  gpml_xml <- read_xml(cont)
+  notes <- xml_find_first(gpml_xml, "//sbml:model/sbml:notes/html:html/html:body", ns_cd)
+  nlines <- unlist(strsplit(xml_text(notes), "\n"))
+  nlines <- nlines[-grep("CellDesigner requires (inner|outer)Width|thickness", nlines)]
+  xml_text(notes) <- paste(nlines, collapse = "\n")
+  return(gpml_xml)
+}
+
+### Ironing out of issues in files converted from SBGN to CellDesigner_SBML
+process_sbgn <- function(source) {
+  message("API translation request")
+  ### We use httr::POST to execute the API call, and then write down the response
+  res <- httr::POST(url = "https://minerva-covid19-curation.lcsb.uni.lu/minerva/api/convert/SBGN-ML:CellDesigner_SBML",
+                    body = source,
+                    content_type("text/plain"))
+  ### Get resulting XML content as text
+  cont <- content(res, as = "text")
+  return(read_xml(cont))
+}
+
+process_cdsbml <- function(source) {
+  cdsbml_xml <- read_xml(source)
+  ### Remove all kineticLaw tags, a temporary solution for a current bug in v15.beta.2
+  ### This will change
+  xml_remove(xml_find_all(cdsbml_xml, "//sbml:kineticLaw", ns_cd))
+  return(cdsbml_xml)
+}
+
+construct_overview <- function(elements) {
+  ### Read in an SBML template 
+  root <- read_xml("<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+                    <sbml xmlns='http://www.sbml.org/sbml/level3/version2/core' level='3' version='2'>
+                      <model id='ovw' name='overview'>
+                        <listOfCompartments>
+                          <compartment constant='false' id='default' size='1' spatialDimensions='3' />
+                        </listOfCompartments>
+                        <listOfSpecies>
+                        </listOfSpecies>
+                      </model>
+                    </sbml>")
+  los <- xml_find_first(root, "//sbml:listOfSpecies", ns_sbml)
+  for(e in 1:length(elements)) {
+    element <- paste0("<species boundaryCondition='false' initialAmount='0' constant='false' hasOnlySubstanceUnits='false' ",
+                      "compartment='default' id='nel_", e, "' name='", elements[e], "' sboTerm='SBO:0000358' />")
+    xml_add_child(los, read_xml(element))
+  }
+  res <- httr::POST(url = "https://minerva-covid19-curation.lcsb.uni.lu/minerva/api/convert/SBML:CellDesigner_SBML",
+                    body = as.character(root),
+                    content_type("text/plain"))
+  return(content(res, as = "text"))
+}
 
 ### Read the list of resources to be integrated
 res <- read.csv(url("https://git-r3lab.uni.lu/covid/models/raw/master/Integration/resources.csv"),
                 header = T, stringsAsFactors = F)
+### Add "Name" column with filenames, for output and overview diagram later
+### Get last token after splitting by '/'
+# res <- cbind(res, Name = sapply(res$Resource, function(x) tail(unlist(strsplit(x, split = "/")),1)))
+# res$Name <- sapply(res$Name, function(x) unlist(strsplit(x, split = ".", fixed = T))[1])
 
-gpmls <- res[res$Type == "GPML",]
+res <- res[res$Include == "Yes",]
 
-for(r in 1:nrow(gpmls)) {
-  con <- url(gpmls[r,]$Resource)
+print(res)
+
+### Create output directory if not existing.
+if(!dir.exists("output/")) { dir.create("output/") }
+
+### Create submaps directory if not existing.
+if(!dir.exists("output/submaps/")) { dir.create("output/submaps/") }
+
+for(r in 1:nrow(res)) {
+  ### Process the 'resources' table, all should be network-accessible (raw git)
+  message(paste0("Processing: ", res[r,]$Resource))
+  con <- url(res[r,]$Resource)
   rls <- paste(readLines(con), collapse = "\n")
   close(con)
-  
-  ### We use httr::POST to execute the API call, and then write down the response
-  res <- httr::POST(url = "https://minerva-covid19-curation.lcsb.uni.lu/minerva/api/convert/GPML:CellDesigner_SBML",
-                    body = rls,
-                    content_type("text/plain"))
-  ### Get resulting XML content as text
-  cont <- content(res, as = "text")
-  ### Get resource filename to name the output, last token after splitting by '/'
-  fname <- tail(unlist(strsplit(gpmls[r,]$Resource, split = "/")),1)
+  fin_cont <- NULL
+  ### Depending on the type, process differently
+  if(res[r,]$Type == "GPML") {
+    fin_cont <- process_gpml(rls)
+  } else if (res[r,]$Type == "SBGN") {
+    fin_cont <- process_sbgn(rls)
+  } else if (res[r,]$Type == "CellDesigner_SBML") {
+    fin_cont <- process_cdsbml(rls)
+  }else {
+    warning(paste0("Resource type not handled: ", res[r,]$Type))
+  }
+
   ### Write the result to a file
-  cat(cont, file = paste0(fname,".xml"))
+  write_xml(fin_cont, file = paste0("output/submaps/",res[r,]$Name,".xml"))
+  message("Done.\n\n")
 }
 
+reconstruct_overview = F
+reconstruct_mapping = F 
 
+if(reconstruct_overview) {
+  ovw <- construct_overview(res$Name)
+  cat(ovw, file = paste0("output/overview.xml"))
+}
+
+if(reconstruct_mapping) {
+  mapping <- readLines("template_mapping.xml")
+  
+  for(n in 1:nrow(res)) {
+    mapping <- gsub(paste0(">placeholder", n,"<"), paste0(">nel_",n,"<"), mapping)
+    mapping <- gsub(paste0("\"placeholder", n,"\""), paste0("\"nel_",n,"\""), mapping)
+    mapping <- gsub(paste0(">target", n,"<"), paste0(">",res[n,]$Name,"<"), mapping)
+    mapping <- gsub(paste0("\"target", n,"\""), paste0("\"",res[n,]$Name,"\""), mapping)
+  }
+  
+  cat(mapping, file = "output/submaps/mapping.xml", sep = "\n")
+  mapn <- read_xml("output/submaps/mapping.xml")
+  
+  for(sp in xml_find_all(mapn, "//cd:species", ns_cd)) {
+    spattrs <- xml_attrs(sp)
+    if(startsWith(spattrs["name"], "placeholder")) {
+      br <- xml_find_first(mapn, paste0("//cd:baseReactant[@species='", spattrs["id"], "']"), ns_cd)
+      xml_remove(xml_parent(xml_parent(xml_parent(xml_parent(br)))))
+    }
+  }
+  write_xml(mapn, "output/submaps/mapping.xml")
+}
