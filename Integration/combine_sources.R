@@ -88,16 +88,15 @@ construct_overview <- function(elements) {
 }
 
 ### Read the list of resources to be integrated
+### The file has the following columns:
+### Include: if the resource is to be added to this build 
+### Resource: url to the xml content of the diagram
+### Type: what kind of file do we integrate
+### Name: under which name the diaram is to be shown in the build
 res <- read.csv(url("https://git-r3lab.uni.lu/covid/models/raw/master/Integration/resources.csv"),
                 header = T, stringsAsFactors = F)
-### Add "Name" column with filenames, for output and overview diagram later
-### Get last token after splitting by '/'
-# res <- cbind(res, Name = sapply(res$Resource, function(x) tail(unlist(strsplit(x, split = "/")),1)))
-# res$Name <- sapply(res$Name, function(x) unlist(strsplit(x, split = ".", fixed = T))[1])
-
+### Filter only these to be included
 res <- res[res$Include == "Yes",]
-
-print(res)
 
 ### Create output directory if not existing.
 if(!dir.exists("output/")) { dir.create("output/") }
@@ -105,6 +104,7 @@ if(!dir.exists("output/")) { dir.create("output/") }
 ### Create submaps directory if not existing.
 if(!dir.exists("output/submaps/")) { dir.create("output/submaps/") }
 
+### For all resources
 for(r in 1:nrow(res)) {
   ### Process the 'resources' table, all should be network-accessible (raw git)
   message(paste0("Processing: ", res[r,]$Resource))
@@ -113,6 +113,7 @@ for(r in 1:nrow(res)) {
   close(con)
   fin_cont <- NULL
   ### Depending on the type, process differently
+  ### see wrapper functions for MINERVA conversion API above
   if(res[r,]$Type == "GPML") {
     fin_cont <- process_gpml(rls)
   } else if (res[r,]$Type == "SBGN") {
@@ -128,17 +129,27 @@ for(r in 1:nrow(res)) {
   message("Done.\n\n")
 }
 
+### If the overview map and the mapping are to be constructed de novo
 reconstruct_overview = F
 reconstruct_mapping = F 
 
 if(reconstruct_overview) {
+  ### Create a sinple SBML file and convert it to CellDesigner, gives circular layout
   ovw <- construct_overview(res$Name)
   cat(ovw, file = paste0("output/overview.xml"))
 }
 
 if(reconstruct_mapping) {
-  mapping <- readLines("template_mapping.xml")
+  ### Use a mapping template; mapping file requires handling complexes, which are tricky
+  ### It is easier to use a preconstructed template, change names of species inside
+  ### and remove unnecessary reactions
   
+  ### Load the template, readlines
+  con <- url("https://git-r3lab.uni.lu/covid/models/-/raw/master/Integration/template_mapping.xml")
+  mapping <- paste(readLines(con), collapse = "\n")
+  close(con)
+  
+  ### Replace the names
   for(n in 1:nrow(res)) {
     mapping <- gsub(paste0(">placeholder", n,"<"), paste0(">nel_",n,"<"), mapping)
     mapping <- gsub(paste0("\"placeholder", n,"\""), paste0("\"nel_",n,"\""), mapping)
@@ -146,9 +157,11 @@ if(reconstruct_mapping) {
     mapping <- gsub(paste0("\"target", n,"\""), paste0("\"",res[n,]$Name,"\""), mapping)
   }
   
+  ### Write to file, read in as an xml structure
   cat(mapping, file = "output/submaps/mapping.xml", sep = "\n")
   mapn <- read_xml("output/submaps/mapping.xml")
   
+  ### Remove all reactions whose baseReactant species is a placeholder
   for(sp in xml_find_all(mapn, "//cd:species", ns_cd)) {
     spattrs <- xml_attrs(sp)
     if(startsWith(spattrs["name"], "placeholder")) {
@@ -156,5 +169,7 @@ if(reconstruct_mapping) {
       xml_remove(xml_parent(xml_parent(xml_parent(xml_parent(br)))))
     }
   }
+  
+  ### Write down the trimmed file
   write_xml(mapn, "output/submaps/mapping.xml")
 }
