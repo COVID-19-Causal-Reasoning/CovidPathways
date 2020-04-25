@@ -1,0 +1,7 @@
+identifier_hgnc_symbol	color
+BAD	#91003f
+CASP3	#91003f
+BAX	#91003f
+IKBKB	#91003f
+NFKBIA	#91003f
+IKBKE	#91003f
