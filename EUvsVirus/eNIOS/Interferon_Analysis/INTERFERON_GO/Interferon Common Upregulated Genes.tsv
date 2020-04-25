@@ -1,0 +1,7 @@
+Rank	Cell line	Perturbagen	Dose(um)	Duration(h)	Enrichment	Score	Perturbed Genes
+1	VCAP	mls-0391006	10.0	6	1/2	0.966	IKBKB
+2	HA1E	16beta-bromoandrosterone	11.1	24	2/19	0.266	IKBKB, IKBKE
+3	MCF7	crotamiton	10.0	6	1/5	0.242	NFKBIA
+4	SKB	BRD-K33164466	10.0	24	2/24	0.159	IKBKB, IKBKE
+5	PHH	cycloheximide	10.0	24	2/31	0.072	IKBKB, IKBKE
+6	PC3	BRD-K32485462	10.0	6	2/32	0.063	IKBKB, IKBKE

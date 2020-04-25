@@ -1,0 +1,9 @@
+Rank	Gene Symbol	Definition	Systemic Processes	Interactions	Drugs
+1	BAX	"BCL2 associated X, apoptosis regulator"	13	8	0
+2	CASP8	caspase 8	10	11	0
+3	BAD	BCL2 associated agonist of cell death	9	3	2
+4	CASP9	caspase 9	8	5	1
+5	FADD	Fas associated via death domain	8	4	0
+6	BID	BH3 interacting domain death agonist	7	7	0
+7	CASP3	caspase 3	6	8	13
+8	BCL2	"BCL2, apoptosis regulator"	6	5	20

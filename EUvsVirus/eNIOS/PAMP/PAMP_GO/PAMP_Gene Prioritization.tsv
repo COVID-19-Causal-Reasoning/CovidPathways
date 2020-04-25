@@ -1,0 +1,30 @@
+Rank	Gene Symbol	Definition	Systemic Processes	Interactions	Drugs
+1	CHUK	conserved helix-loop-helix ubiquitous kinase	9	14	5
+2	IRAK1	interleukin 1 receptor associated kinase 1	9	9	0
+3	MYD88	"MYD88, innate immune signal transduction adaptor"	9	11	0
+4	IKBKG	inhibitor of nuclear factor kappa B kinase subunit gamma	8	18	7
+5	DDX58	DExD/H-box helicase 58	8	7	0
+6	IKBKB	inhibitor of nuclear factor kappa B kinase subunit beta	8	15	9
+7	TLR3	toll like receptor 3	8	11	1
+8	TLR7	toll like receptor 7	8	1	11
+9	IKBKE	inhibitor of nuclear factor kappa B kinase subunit epsilon	7	13	0
+10	TICAM1	toll like receptor adaptor molecule 1	7	12	0
+11	TBK1	TANK binding kinase 1	7	14	0
+12	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7	19	0
+13	RIPK1	receptor interacting serine/threonine kinase 1	7	15	0
+14	TRAF6	TNF receptor associated factor 6	7	24	0
+15	TLR8	toll like receptor 8	7	0	4
+16	MAVS	mitochondrial antiviral signaling protein	7	19	0
+17	IFIH1	interferon induced with helicase C domain 1	6	1	0
+18	ITCH	itchy E3 ubiquitin protein ligase	6	8	0
+19	FADD	Fas associated via death domain	6	11	0
+20	IRAK4	interleukin 1 receptor associated kinase 4	6	4	1
+21	IRF3	interferon regulatory factor 3	6	13	0
+22	IRF7	interferon regulatory factor 7	6	8	0
+23	UBE2N	ubiquitin conjugating enzyme E2 N	6	5	0
+24	MAPK14	mitogen-activated protein kinase 14	5	11	62
+25	TRADD	TNFRSF1A associated via death domain	5	6	0
+26	TRAF2	TNF receptor associated factor 2	5	22	0
+27	TRIM25	tripartite motif containing 25	5	10	0
+28	CASP8	caspase 8	5	12	0
+29	MAP2K6	mitogen-activated protein kinase kinase 6	5	6	1

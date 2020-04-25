@@ -1,0 +1,13 @@
+Rank	Gene Symbol	Definition	Systemic Processes	Interactions	Drugs
+1	CHUK	conserved helix-loop-helix ubiquitous kinase	13	7	5
+2	IKBKB	inhibitor of nuclear factor kappa B kinase subunit beta	12	10	9
+3	IKBKG	inhibitor of nuclear factor kappa B kinase subunit gamma	12	10	7
+4	MAP3K7	mitogen-activated protein kinase kinase kinase 7	11	9	0
+5	MYD88	"MYD88, innate immune signal transduction adaptor"	11	6	0
+6	TRAF6	TNF receptor associated factor 6	11	8	0
+7	IKBKE	inhibitor of nuclear factor kappa B kinase subunit epsilon	10	8	0
+8	IRF3	interferon regulatory factor 3	10	4	0
+9	TAB1	TGF-beta activated kinase 1 (MAP3K7) binding protein 1	10	5	0
+10	NFKBIA	NFKB inhibitor alpha	9	8	1
+11	NFKB1	nuclear factor kappa B subunit 1	9	5	13
+12	TLR7	toll like receptor 7	8	1	11
