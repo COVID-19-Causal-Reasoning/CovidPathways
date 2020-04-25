@@ -1,0 +1,4 @@
+identifier_hgnc_symbol	color
+IKBKB	#addd8e 
+IKBKE	#addd8e 
+NFKBIA	#addd8e 
