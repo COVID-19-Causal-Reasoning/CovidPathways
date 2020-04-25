@@ -1,0 +1,3 @@
+identifier_hgnc_symbol	color
+IKBKB	#f03b20
+IKBKE	#f03b20
