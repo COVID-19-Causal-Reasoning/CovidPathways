@@ -1,0 +1,6 @@
+identifier_hgnc_symbol	color
+BAD	#fdae6b
+BAX	#fdae6b
+BCL2	#fdae6b
+BID	#fdae6b
+CASP3	#fdae6b
