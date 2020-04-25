@@ -25,7 +25,7 @@ ask_GET <- function(mnv_base, query) {
 }
 
 ### Base URL of the COVID19 map
-base_url <- "https://covid19map.lcsb.uni.lu/minerva/api/projects/hackathon_covid19_map/"
+base_url <- "https://covid19map.lcsb.uni.lu/minerva/api/projects/hackathon_covid19_map_v2/"
 
 ### Request identifiers of models for a given project (main map and submaps)
 models <- ask_GET(base_url, "models/")
