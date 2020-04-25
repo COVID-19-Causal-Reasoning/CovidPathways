@@ -1,0 +1,14 @@
+Term id	Term Definition	Enrichment	Corrected pvalue
+GO:0005851	eukaryotic translation initiation factor 2B complex	6/6	0.0033
+GO:0097136	Bcl-2 family protein complex	4/7	0.0059
+GO:0031968	organelle outer membrane	10/210	0.0119
+GO:0019867	outer membrane	10/212	0.0161
+GO:0005741	mitochondrial outer membrane	9/186	0.0204
+GO:1990604	IRE1-TRAF2-ASK1 complex	3/4	0.0235
+GO:0005850	eukaryotic translation initiation factor 2 complex	3/5	0.0274
+GO:0005789	endoplasmic reticulum membrane	18/1077	0.0283
+GO:0042175	nuclear outer membrane-endoplasmic reticulum membrane network	18/1100	0.0292
+GO:0031264	death-inducing signaling complex	3/9	0.0386
+GO:0044432	endoplasmic reticulum part	19/1362	0.0412
+GO:1990617	CHOP-ATF4 complex	2/2	0.0425
+GO:1990597	AIP1-IRE1 complex	2/3	0.0498

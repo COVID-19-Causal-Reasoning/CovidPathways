@@ -1,0 +1,10 @@
+Term id	Term Definition	Enrichment	Corrected pvalue
+GO:0032813	tumor necrosis factor receptor superfamily binding	9/46	0.0063
+GO:0044389	ubiquitin-like protein ligase binding	15/306	0.0091
+GO:0031625	ubiquitin protein ligase binding	14/288	0.0143
+GO:0005164	tumor necrosis factor receptor binding	7/32	0.021
+GO:0004674	protein serine/threonine kinase activity	16/448	0.0279
+GO:0004708	MAP kinase kinase activity	5/16	0.034
+GO:0004672	protein kinase activity	16/617	0.0388
+GO:0004712	protein serine/threonine/tyrosine kinase activity	6/43	0.0448
+GO:0008384	IkappaB kinase activity	3/3	0.0457

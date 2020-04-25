@@ -1,0 +1,8 @@
+Term id	Term Definition	Enrichment	Corrected pvalue
+GO:0008385	IkappaB kinase complex	4/9	0.0062
+GO:0035631	CD40 receptor complex	4/11	0.013
+GO:0033256	I-kappaB/NF-kappaB complex	2/4	0.0166
+GO:1902554	serine/threonine protein kinase complex	4/88	0.0239
+GO:0035976	transcription factor AP-1 complex	2/5	0.033
+GO:1902911	protein kinase complex	4/108	0.0413
+GO:0005768	endosome	9/902	0.0422
