@@ -1,4 +1,4 @@
-# COVID-19 Disease Map
+# COVID-19 Disease Map text mining and modeling for drug prediction
 
 Our work present a new pipeline to quickly produce high quality disease maps and models by combining existant knowledge and text-mining approaches.
 It allows to maintain computational maps and models up-to-date to quickly test hypothesis based on the current knowledge available. 
