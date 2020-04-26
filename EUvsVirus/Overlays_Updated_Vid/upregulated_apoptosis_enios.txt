@@ -1,0 +1,5 @@
+identifier_hgnc_symbol	color
+BCL2	#016450
+BAX	#016450
+BAD	#016450
+BID	#016450

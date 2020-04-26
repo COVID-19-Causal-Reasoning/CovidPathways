@@ -1,0 +1,4 @@
+identifier_hgnc_symbol	color
+BAD	#ce1256
+CASP3	#ce1256
+BAX	#ce1256

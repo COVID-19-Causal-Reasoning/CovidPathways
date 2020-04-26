@@ -1,0 +1,11 @@
+identifier_hgnc_symbol	color
+CASP3	#e6550d
+APAF1	#e6550d
+BCL2	#e6550d
+CASP7	#e6550d
+MAPK14	#e6550d
+AKT1	#e6550d
+BCL2L1	#e6550d
+CYCS	#e6550d
+TNF	#e6550d
+TNFRSF1A	#e6550d
