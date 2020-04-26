@@ -1,0 +1,13 @@
+identifier_hgnc_symbol	color
+CHUK	#ce1256
+FOS	#ce1256
+IKBKB	#ce1256
+IRAK4	#ce1256
+ITCH	#ce1256
+JUN	#ce1256
+MAPK14	#ce1256
+MAPK8	#ce1256
+MAPK9	#ce1256
+NFKBIA	#ce1256
+TLR7	#ce1256
+TLR8	#ce1256

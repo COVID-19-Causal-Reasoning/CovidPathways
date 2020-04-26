@@ -1,0 +1,5 @@
+identifier_hgnc_symbol	color
+IKBKB	#f03b20
+IKBKE	#f03b20
+ITCH	#f03b20
+TICAM1	#f03b20
