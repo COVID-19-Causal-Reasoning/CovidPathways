@@ -1,0 +1,8 @@
+identifier_hgnc_symbol	color
+ATF4	#addd8e
+DDIT3	#addd8e
+EIF2AK3	#addd8e
+HSPA5	#addd8e
+BCL2	#addd8e
+BID	#addd8e
+BAX	#addd8e
