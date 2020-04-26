@@ -1,0 +1,8 @@
+identifier_hgnc_symbol	color
+ATF4	#f03b20
+BAX	#f03b20
+CASP3	#f03b20
+BID	#f03b20
+BCL2	#f03b20
+BCL2L1	#f03b20
+MAP3K5	#f03b20
