@@ -17,3 +17,7 @@ Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ER%20Stress/ER_S
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Interferon%20pathway/Interferon2.xml,CellDesigner_SBML,Interferon 2 pathway
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp4_Nsp6/Nsp4_Nsp6_v1.xml,CellDesigner_SBML,Nsp4 and Nsp6 interactions
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp14/Nsp14.xml,CellDesigner_SBML,Nsp14 and metabolism
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/HMOX1%20pathway/HMOX1%20pathway.xml,CellDesigner_SBML,HMOX pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ETC/ETC_Covid19.xml,CellDesigner_SBML,ETC
+Yes,https://git-r3lab.uni.lu/covid/models/-/blob/master/Curation/SARS-CoV-2%20proteins/E/E_SARS_CoV_2.xml,CellDesigner_SBML,E protein interactions
+Yes,https://git-r3lab.uni.lu/covid/models/-/blob/master/Curation/SARS-CoV-2%20proteins/Orf3a/Orf3a.xml,CellDesigner_SBML,Orf3a interactions
