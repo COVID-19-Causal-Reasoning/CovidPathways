@@ -9,6 +9,9 @@ options(stringsAsFactors = F)
 
 library(httr)
 library(xml2)
+library(here)
+
+setwd(paste0(here(),"/Integration/"))
 
 ### An 'xml2' namespace structure for parsing CellDesigner xml 
 ns_cd <- xml_ns_rename(xml_ns(read_xml("<root>
@@ -130,12 +133,18 @@ for(r in 1:nrow(res)) {
 }
 
 ### If the overview map and the mapping are to be constructed de novo
-reconstruct_overview = F
-reconstruct_mapping = F 
+reconstruct_overview = T
+reconstruct_mapping = T 
 
 if(reconstruct_overview) {
   ### Create a sinple SBML file and convert it to CellDesigner, gives circular layout
   ovw <- construct_overview(res$Name)
+  
+  ovw <- gsub("w=\"90.0\" h=\"30.0\"", "w=\"190.0\" h=\"40.0\"", ovw)
+  ovw <- gsub("width=\"90.0\" height=\"30.0\"", "width=\"190.0\" height=\"40.0\"", ovw)
+  ovw <- gsub("width=\"90.0\" height=\"30.0\"", "width=\"190.0\" height=\"40.0\"", ovw)
+  ovw <- gsub("color=\"FFCC99FF\"", "color=\"FFCCFFFF\"", ovw)
+  
   cat(ovw, file = paste0("output/overview.xml"))
 }
 
