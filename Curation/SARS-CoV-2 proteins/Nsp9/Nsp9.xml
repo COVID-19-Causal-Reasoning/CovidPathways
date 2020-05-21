@@ -1586,7 +1586,7 @@ the cleavages of the polyprotein.
 </celldesigner:complexSpeciesAlias>
 </celldesigner:listOfComplexSpeciesAliases>
 <celldesigner:listOfSpeciesAliases>
-<celldesigner:speciesAlias id="a7c94" species="s_id_a7c94" compartmentAlias="b5291">
+<celldesigner:speciesAlias id="a7c94" species="s2" compartmentAlias="b5291">
 <celldesigner:activity>inactive</celldesigner:activity>
 <celldesigner:bounds x="207.0" y="847.5" w="46.0" h="25.0"/>
 <celldesigner:font size="12"/>
@@ -2840,7 +2840,7 @@ the cleavages of the polyprotein.
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:speciesAlias>
-<celldesigner:speciesAlias id="sa997" species="s77" compartmentAlias="b5291">
+<celldesigner:speciesAlias id="sa997" species="s1" compartmentAlias="b5291">
 <celldesigner:activity>inactive</celldesigner:activity>
 <celldesigner:bounds x="205.0" y="907.0" w="47.0" h="28.0"/>
 <celldesigner:font size="12"/>
@@ -3208,25 +3208,16 @@ SemanticZoomLevelTransparency: 2
 </compartment>
 </listOfCompartments>
 <listOfSpecies>
-<species metaid="s90" id="s90" name="EDN1" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>GENE</celldesigner:class>
-<celldesigner:geneReference>gn1</celldesigner:geneReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s85" id="s85" name="EDN1" compartment="c4" initialAmount="0">
+<species metaid="s_id_a7c94" id="s2" name="Nsp9" compartment="s_id_b5291" initialConcentration="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
-<body>https://www.ncbi.nlm.nih.gov/biosystems/1458233
-https://www.genecards.org/cgi-bin/carddisp.pl?gene=EDN1
+<body>supposed function based on the infromation about SARS nsp9:
+Multifunctional protein involved in the transcription and replication 
+of viral RNAs. Contains the proteinases responsible for 
+the cleavages of the polyprotein.
 </body>
 </html>
 </notes>
@@ -3235,29 +3226,55 @@ https://www.genecards.org/cgi-bin/carddisp.pl?gene=EDN1
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr45</celldesigner:proteinReference>
+<celldesigner:proteinReference>p_s_id_a7c94</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s85">
+<rdf:Description rdf:about="#s_id_a7c94">
 <bqbiol:is>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:P05305"/>
+<rdf:li rdf:resource="urn:miriam:uniprot:P0DTD1"/>
 </rdf:Bag>
 </bqbiol:is>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbiprotein:YP_009725305"/>
+</rdf:Bag>
+</bqbiol:isEncodedBy>
 </rdf:Description>
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s89" id="s89" name="Edn1" compartment="c4" initialAmount="0">
+<species metaid="s45" id="s45" name="ZNF503" compartment="c4" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>human origin
+Uniprot: https://www.uniprot.org/uniprot/Q96F45
+May function as a transcriptional repressor.
+Locaslise in nucleus.
+</body>
+</html>
+</notes>
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
-<celldesigner:class>RNA</celldesigner:class>
-<celldesigner:rnaReference>rn1</celldesigner:rnaReference>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr27</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s45">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q96F45"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
 </annotation>
 </species>
 <species metaid="s50" id="s50" name="Fibrillin" compartment="default" initialAmount="0">
@@ -3267,230 +3284,6 @@ https://www.genecards.org/cgi-bin/carddisp.pl?gene=EDN1
 <celldesigner:speciesIdentity>
 <celldesigner:class>COMPLEX</celldesigner:class>
 <celldesigner:name>Fibrillin</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s104" id="s104" name="Fibrillincomp" compartment="default" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>Fibrillincomp</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s78" id="s78" name="NspComp" compartment="s_id_b5291" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>NspComp</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s70" id="s70" name="Nuclear Pore" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>outerSurface</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>Nuclear Pore</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s114" id="s114" name="Nuclear Pore comp" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>Nuclear Pore comp</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s81" id="s81" name="RNApolymeraseII" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr44</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s81">
-<bqbiol:is>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:P30876"/>
-</rdf:Bag>
-</bqbiol:is>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-</species>
-<species metaid="s61" id="s61" name="DCAF7" compartment="c4" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>human origin
-Uniprot: https://www.uniprot.org/uniprot/P61962
-Involved in craniofacial development. Acts upstream of the EDN1 pathway and is required for formation of the upper jaw equivalent, the palatoquadrate. The activity required for EDN1 pathway function differs between the first and second arches (By similarity). Associates with DIAPH1 and controls GLI1 transcriptional activity. Could be involved in normal and disease skin development. May function as a substrate receptor for CUL4-DDB1 E3 ubiquitin-protein ligase complex.
-J. Dermatol. Sci. 44:11-20(2006) 
-Jin J., Arias E.E., Chen J., Harper J.W., Walter J.C.
-Mol. Cell 23:709-721(2006)
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr36</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-<celldesigner:listOfCatalyzedReactions>
-<celldesigner:catalyzed reaction="re10061"/>
-</celldesigner:listOfCatalyzedReactions>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s61">
-<bqbiol:is>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:P61962"/>
-</rdf:Bag>
-</bqbiol:is>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-</species>
-<species metaid="s166" id="s166" name="dcafcomp" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>dcafcomp</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s161" id="s161" name="dcafznf" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>dcafznf</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s63" id="s63" name="EIF4H" compartment="c4" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>human origin
-https://www.uniprot.org/uniprot/Q15056
-Stimulates the RNA helicase activity of EIF4A in the translation initiation complex. Binds weakly mRNA.
-Richter N.J., Rogers G.W. Jr., Hensold J.O., Merrick W.C.
-J. Biol. Chem. 274:35415-35424(1999)
-Rogers G.W. Jr., Richter N.J., Lima W.F., Merrick W.C.
-J. Biol. Chem. 276:30914-30922(2001)
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr37</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s63">
-<bqbiol:is>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:Q15056"/>
-</rdf:Bag>
-</bqbiol:is>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-</species>
-<species metaid="s167" id="s167" name="eifcomp" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>eifcomp</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s59" id="s59" name="GTF2F2" compartment="c4" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>human origin
-Uniprot: https://www.uniprot.org/uniprot/P35269
-TFIIF is a general transcription initiation factor that binds to RNA polymerase II and helps to recruit it to the initiation complex in collaboration with TFIIB. It promotes transcription elongation.
-Rossignol M., Keriel A., Staub A., Egly J.-M.
-J. Biol. Chem. 274:22387-22392(1999)
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr35</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s59">
-<bqbiol:is>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:P13984"/>
-</rdf:Bag>
-</bqbiol:is>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-</species>
-<species metaid="s101" id="s101" name="gtf2f2comp" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>gtf2f2comp</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s82" id="s82" name="gtfrnapoly" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>gtfrnapoly</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -3531,17 +3324,6 @@ Can bind NADP (in vitro)
 </bqbiol:is>
 </rdf:Description>
 </rdf:RDF>
-</annotation>
-</species>
-<species metaid="s98" id="s98" name="mat2bcomp" compartment="s_id_b5291" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>mat2bcomp</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
 </annotation>
 </species>
 <species metaid="s55" id="s55" name="MIB1" compartment="c4" initialAmount="0">
@@ -3589,17 +3371,6 @@ EMBO J. 32:3029-3040(2013)
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s163" id="s163" name="mibcomp" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>mibcomp</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s57" id="s57" name="NEK9" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -3631,6 +3402,274 @@ Pleiotropic regulator of mitotic progression, participating in the control of sp
 </rdf:RDF>
 </annotation>
 </species>
+<species metaid="s59" id="s59" name="GTF2F2" compartment="c4" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>human origin
+Uniprot: https://www.uniprot.org/uniprot/P35269
+TFIIF is a general transcription initiation factor that binds to RNA polymerase II and helps to recruit it to the initiation complex in collaboration with TFIIB. It promotes transcription elongation.
+Rossignol M., Keriel A., Staub A., Egly J.-M.
+J. Biol. Chem. 274:22387-22392(1999)
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr35</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s59">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P13984"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s61" id="s61" name="DCAF7" compartment="c4" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>human origin
+Uniprot: https://www.uniprot.org/uniprot/P61962
+Involved in craniofacial development. Acts upstream of the EDN1 pathway and is required for formation of the upper jaw equivalent, the palatoquadrate. The activity required for EDN1 pathway function differs between the first and second arches (By similarity). Associates with DIAPH1 and controls GLI1 transcriptional activity. Could be involved in normal and disease skin development. May function as a substrate receptor for CUL4-DDB1 E3 ubiquitin-protein ligase complex.
+J. Dermatol. Sci. 44:11-20(2006) 
+Jin J., Arias E.E., Chen J., Harper J.W., Walter J.C.
+Mol. Cell 23:709-721(2006)
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr36</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+<celldesigner:listOfCatalyzedReactions>
+<celldesigner:catalyzed reaction="re10061"/>
+</celldesigner:listOfCatalyzedReactions>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s61">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P61962"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s63" id="s63" name="EIF4H" compartment="c4" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>human origin
+https://www.uniprot.org/uniprot/Q15056
+Stimulates the RNA helicase activity of EIF4A in the translation initiation complex. Binds weakly mRNA.
+Richter N.J., Rogers G.W. Jr., Hensold J.O., Merrick W.C.
+J. Biol. Chem. 274:35415-35424(1999)
+Rogers G.W. Jr., Richter N.J., Lima W.F., Merrick W.C.
+J. Biol. Chem. 276:30914-30922(2001)
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr37</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s63">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q15056"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s70" id="s70" name="Nuclear Pore" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>outerSurface</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>Nuclear Pore</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s77" id="s1" name="Nsp8" compartment="s_id_b5291" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr43</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s77">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P0DTD1"/>
+</rdf:Bag>
+</bqbiol:is>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbiprotein:YP_009725304"/>
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s78" id="s78" name="NspComp" compartment="s_id_b5291" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>NspComp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s81" id="s81" name="RNApolymeraseII" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr44</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s81">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P30876"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s82" id="s82" name="gtfrnapoly" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>gtfrnapoly</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s85" id="s85" name="EDN1" compartment="c4" initialAmount="0">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>https://www.ncbi.nlm.nih.gov/biosystems/1458233
+https://www.genecards.org/cgi-bin/carddisp.pl?gene=EDN1
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>PROTEIN</celldesigner:class>
+<celldesigner:proteinReference>pr45</celldesigner:proteinReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s85">
+<bqbiol:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P05305"/>
+</rdf:Bag>
+</bqbiol:is>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
+<species metaid="s89" id="s89" name="Edn1" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>RNA</celldesigner:class>
+<celldesigner:rnaReference>rn1</celldesigner:rnaReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s90" id="s90" name="EDN1" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>GENE</celldesigner:class>
+<celldesigner:geneReference>gn1</celldesigner:geneReference>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s98" id="s98" name="mat2bcomp" compartment="s_id_b5291" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>mat2bcomp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s101" id="s101" name="gtf2f2comp" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>gtf2f2comp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s104" id="s104" name="Fibrillincomp" compartment="default" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>Fibrillincomp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
 <species metaid="s109" id="s109" name="nek9comp" compartment="c4" initialAmount="0">
 <annotation>
 <celldesigner:extension>
@@ -3642,16 +3681,27 @@ Pleiotropic regulator of mitotic progression, participating in the control of sp
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s_id_a7c94" id="s_id_a7c94" name="Nsp9" compartment="s_id_b5291" initialConcentration="0">
+<species metaid="s114" id="s114" name="Nuclear Pore comp" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>Nuclear Pore comp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s128" id="s128" name="SPART" compartment="s_id_b5291" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
-<body>supposed function based on the infromation about SARS nsp9:
-Multifunctional protein involved in the transcription and replication 
-of viral RNAs. Contains the proteinases responsible for 
-the cleavages of the polyprotein.
+<body>human origin.
+Uniprot: https://www.uniprot.org/uniprot/Q8N0X7
+endosomal trafficking, or microtubule dynamics, 
+Participates in cytokinesis.
 </body>
 </html>
 </notes>
@@ -3660,56 +3710,29 @@ the cleavages of the polyprotein.
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>p_s_id_a7c94</celldesigner:proteinReference>
+<celldesigner:proteinReference>pr32</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s_id_a7c94">
+<rdf:Description rdf:about="#s128">
 <bqbiol:is>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:P0DTD1"/>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q8N0X7"/>
 </rdf:Bag>
 </bqbiol:is>
-<bqbiol:isEncodedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:ncbiprotein:YP_009725305"/>
-</rdf:Bag>
-</bqbiol:isEncodedBy>
 </rdf:Description>
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s164" id="s164" name="nup1" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>nup1</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s165" id="s165" name="nup2" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>nup2</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s149" id="s149" name="NUP214" compartment="c4" initialAmount="0">
+<species metaid="s146" id="s146" name="NUP62" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
 <body>
-human origin
-https://www.uniprot.org/uniprot/P35658
+human origine
+Uniprot: https://www.uniprot.org/uniprot/P37198
 </body>
 </html>
 </notes>
@@ -3718,14 +3741,14 @@ https://www.uniprot.org/uniprot/P35658
 <celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr42</celldesigner:proteinReference>
+<celldesigner:proteinReference>pr40</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s149">
+<rdf:Description rdf:about="#s146">
 <bqbiol:is>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:P35658"/>
+<rdf:li rdf:resource="urn:miriam:uniprot:P37198"/>
 </rdf:Bag>
 </bqbiol:is>
 </rdf:Description>
@@ -3796,15 +3819,15 @@ Component of the nuclear pore complex, a complex required for the trafficking ac
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s146" id="s146" name="NUP62" compartment="c4" initialAmount="0">
+<species metaid="s149" id="s149" name="NUP214" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
 <body>
-human origine
-Uniprot: https://www.uniprot.org/uniprot/P37198
+human origin
+https://www.uniprot.org/uniprot/P35658
 </body>
 </html>
 </notes>
@@ -3813,14 +3836,14 @@ Uniprot: https://www.uniprot.org/uniprot/P37198
 <celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
 <celldesigner:speciesIdentity>
 <celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr40</celldesigner:proteinReference>
+<celldesigner:proteinReference>pr42</celldesigner:proteinReference>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s146">
+<rdf:Description rdf:about="#s149">
 <bqbiol:is>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:P37198"/>
+<rdf:li rdf:resource="urn:miriam:uniprot:P35658"/>
 </rdf:Bag>
 </bqbiol:is>
 </rdf:Description>
@@ -3859,38 +3882,6 @@ PLoS Genet. 14:E1007845-E1007845(2018)
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s128" id="s128" name="SPART" compartment="s_id_b5291" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>human origin.
-Uniprot: https://www.uniprot.org/uniprot/Q8N0X7
-endosomal trafficking, or microtubule dynamics, 
-Participates in cytokinesis.
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr32</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s128">
-<bqbiol:is>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:Q8N0X7"/>
-</rdf:Bag>
-</bqbiol:is>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-</species>
 <species metaid="s160" id="s160" name="spartcomp" compartment="s_id_b5291" initialAmount="0">
 <annotation>
 <celldesigner:extension>
@@ -3898,6 +3889,83 @@ Participates in cytokinesis.
 <celldesigner:speciesIdentity>
 <celldesigner:class>COMPLEX</celldesigner:class>
 <celldesigner:name>spartcomp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s161" id="s161" name="dcafznf" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>dcafznf</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s162" id="s162" name="znfcomp" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>znfcomp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s163" id="s163" name="mibcomp" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>mibcomp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s164" id="s164" name="nup1" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>nup1</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s165" id="s165" name="nup2" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>transmembrane</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>nup2</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s166" id="s166" name="dcafcomp" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>dcafcomp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s167" id="s167" name="eifcomp" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:name>eifcomp</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
@@ -3922,74 +3990,6 @@ Participates in cytokinesis.
 <celldesigner:name>spg20comp</celldesigner:name>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s45" id="s45" name="ZNF503" compartment="c4" initialAmount="0">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>human origin
-Uniprot: https://www.uniprot.org/uniprot/Q96F45
-May function as a transcriptional repressor.
-Locaslise in nucleus.
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr27</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s45">
-<bqbiol:is>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:Q96F45"/>
-</rdf:Bag>
-</bqbiol:is>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-</species>
-<species metaid="s162" id="s162" name="znfcomp" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:name>znfcomp</celldesigner:name>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
-<species metaid="s77" id="s77" name="Nsp8" compartment="s_id_b5291" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>PROTEIN</celldesigner:class>
-<celldesigner:proteinReference>pr43</celldesigner:proteinReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s77">
-<bqbiol:is>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:uniprot:P0DTD1"/>
-</rdf:Bag>
-</bqbiol:is>
-<bqbiol:isEncodedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:ncbiprotein:YP_009725304"/>
-</rdf:Bag>
-</bqbiol:isEncodedBy>
-</rdf:Description>
-</rdf:RDF>
 </annotation>
 </species>
 </listOfSpecies>
@@ -4241,7 +4241,7 @@ PMID: 32353859
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="NE"/>
 </celldesigner:baseReactant>
 <celldesigner:baseReactant species="s70" alias="csa10">
@@ -4274,7 +4274,7 @@ PMID: 32353859
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00054" species="s_id_a7c94">
+<speciesReference metaid="CDMT00054" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -4389,7 +4389,7 @@ PMID: 32353859
 <celldesigner:baseReactant species="s55" alias="sa977">
 <celldesigner:linkAnchor position="S"/>
 </celldesigner:baseReactant>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="NE"/>
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
@@ -4426,7 +4426,7 @@ PMID: 32353859
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00044" species="s_id_a7c94">
+<speciesReference metaid="CDMT00044" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -4459,7 +4459,7 @@ PMID: 32353859
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="NNE"/>
 </celldesigner:baseReactant>
 <celldesigner:baseReactant species="s45" alias="sa964">
@@ -4492,7 +4492,7 @@ PMID: 32353859
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00040" species="s_id_a7c94">
+<speciesReference metaid="CDMT00040" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -4532,7 +4532,7 @@ PMID: 32353859
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="ENE"/>
 </celldesigner:baseReactant>
 <celldesigner:baseReactant species="s61" alias="sa983"/>
@@ -4567,7 +4567,7 @@ PMID: 32353859
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00037" species="s_id_a7c94">
+<speciesReference metaid="CDMT00037" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -4607,7 +4607,7 @@ PMID: 32353859
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="NE"/>
 </celldesigner:baseReactant>
 <celldesigner:baseReactant species="s63" alias="sa985">
@@ -4646,7 +4646,7 @@ PMID: 32353859
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00034" species="s_id_a7c94">
+<speciesReference metaid="CDMT00034" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -4687,7 +4687,7 @@ PMID:32353859
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s128" alias="sa970"/>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="SW"/>
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
@@ -4724,7 +4724,7 @@ PMID:32353859
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00032" species="s_id_a7c94">
+<speciesReference metaid="CDMT00032" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -4757,7 +4757,7 @@ PMID: 32353859
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="N"/>
 </celldesigner:baseReactant>
 <celldesigner:baseReactant species="s57" alias="sa979"/>
@@ -4788,7 +4788,7 @@ PMID: 32353859
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00025" species="s_id_a7c94">
+<speciesReference metaid="CDMT00025" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -4828,7 +4828,7 @@ PMID: 32353859
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="NNW"/>
 </celldesigner:baseReactant>
 <celldesigner:baseReactant species="s50" alias="csa8"/>
@@ -4857,7 +4857,7 @@ PMID: 32353859
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00022" species="s_id_a7c94">
+<speciesReference metaid="CDMT00022" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -4898,7 +4898,7 @@ PMID: 32353859
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s59" alias="sa981"/>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="NE"/>
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
@@ -4933,7 +4933,7 @@ PMID: 32353859
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00020" species="s_id_a7c94">
+<speciesReference metaid="CDMT00020" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -4969,7 +4969,7 @@ PMID: 32353859
 <celldesigner:baseReactant species="s52" alias="sa962">
 <celldesigner:linkAnchor position="ESE"/>
 </celldesigner:baseReactant>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="NW"/>
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
@@ -5004,7 +5004,7 @@ PMID: 32353859
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00017" species="s_id_a7c94">
+<speciesReference metaid="CDMT00017" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
@@ -5246,10 +5246,10 @@ PMID:14962394
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="E"/>
 </celldesigner:baseReactant>
-<celldesigner:baseReactant species="s77" alias="sa997">
+<celldesigner:baseReactant species="s1" alias="sa997">
 <celldesigner:linkAnchor position="E"/>
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
@@ -5279,14 +5279,14 @@ PMID:14962394
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00002" species="s_id_a7c94">
+<speciesReference metaid="CDMT00002" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00003" species="s77">
+<speciesReference metaid="CDMT00003" species="s1">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa997</celldesigner:alias>
@@ -5318,7 +5318,7 @@ PMID:14962394
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s_id_a7c94" alias="a7c94">
+<celldesigner:baseReactant species="s2" alias="a7c94">
 <celldesigner:linkAnchor position="SE"/>
 </celldesigner:baseReactant>
 <celldesigner:baseReactant species="s168" alias="sa1052"/>
@@ -5347,7 +5347,7 @@ PMID:14962394
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00013" species="s_id_a7c94">
+<speciesReference metaid="CDMT00013" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
