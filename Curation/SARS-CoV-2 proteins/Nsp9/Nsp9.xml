@@ -1107,7 +1107,7 @@ the cleavages of the polyprotein.
 <celldesigner:compartmentAlias id="b5291" compartment="s_id_b5291">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="1.5" y="236.5" w="1221.5" h="718.5"/>
-<celldesigner:namePoint x="1099.0" y="245.5"/>
+<celldesigner:namePoint x="1104.0" y="245.5"/>
 <celldesigner:doubleLine thickness="2.5" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ff808080" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -1115,7 +1115,7 @@ the cleavages of the polyprotein.
 <celldesigner:compartmentAlias id="ca293" compartment="c4">
 <celldesigner:class>SQUARE</celldesigner:class>
 <celldesigner:bounds x="238.0" y="251.0" w="762.0" h="450.0"/>
-<celldesigner:namePoint x="932.5" y="263.5"/>
+<celldesigner:namePoint x="927.5" y="263.5"/>
 <celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -3181,7 +3181,15 @@ https://www.uniprot.org/uniprot/A0A024RDV9
 </unitDefinition>
 </listOfUnitDefinitions>
 <listOfCompartments>
-<compartment metaid="s_id_b5291" id="s_id_b5291" name="Human_space_cell_space_" size="1" units="volume" outside="default">
+<compartment metaid="default" id="default" size="1" units="volume"/>
+<compartment metaid="c4" id="c4" name="nucleus" size="1" units="volume" outside="s_id_b5291">
+<annotation>
+<celldesigner:extension>
+<celldesigner:name>nucleus</celldesigner:name>
+</celldesigner:extension>
+</annotation>
+</compartment>
+<compartment metaid="s_id_b5291" id="s_id_b5291" name="cytoplasm" size="1" units="volume" outside="default">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3194,15 +3202,7 @@ SemanticZoomLevelTransparency: 2
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:name>Human_space_cell_space_</celldesigner:name>
-</celldesigner:extension>
-</annotation>
-</compartment>
-<compartment metaid="default" id="default" size="1" units="volume"/>
-<compartment metaid="c4" id="c4" name="nuclei" size="1" units="volume" outside="s_id_b5291">
-<annotation>
-<celldesigner:extension>
-<celldesigner:name>nuclei</celldesigner:name>
+<celldesigner:name>cytoplasm</celldesigner:name>
 </celldesigner:extension>
 </annotation>
 </compartment>
