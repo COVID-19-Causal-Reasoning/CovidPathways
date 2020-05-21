@@ -1975,7 +1975,7 @@ the cleavages of the polyprotein.
 <celldesigner:innerPosition x="181.5" y="24.0"/>
 <celldesigner:boxSize width="101.0" height="30.0"/>
 <celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffccffff" scheme="Color"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
@@ -1994,7 +1994,7 @@ the cleavages of the polyprotein.
 <celldesigner:innerPosition x="4.0" y="11.75"/>
 <celldesigner:boxSize width="101.0" height="30.0"/>
 <celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffccffff" scheme="Color"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
@@ -2032,7 +2032,7 @@ the cleavages of the polyprotein.
 <celldesigner:innerPosition x="663.0" y="131.0"/>
 <celldesigner:boxSize width="52.0" height="29.0"/>
 <celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffccffff" scheme="Color"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
@@ -2051,7 +2051,7 @@ the cleavages of the polyprotein.
 <celldesigner:innerPosition x="648.0" y="234.5"/>
 <celldesigner:boxSize width="90.0" height="25.0"/>
 <celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffccffff" scheme="Color"/>
+<celldesigner:paint color="ff66ff66" scheme="Color"/>
 </celldesigner:usualView>
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
@@ -2070,7 +2070,7 @@ the cleavages of the polyprotein.
 <celldesigner:innerPosition x="646.0" y="326.5"/>
 <celldesigner:boxSize width="70.0" height="25.0"/>
 <celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffccffff" scheme="Color"/>
+<celldesigner:paint color="ffffff66" scheme="Color"/>
 </celldesigner:usualView>
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
@@ -2811,7 +2811,7 @@ the cleavages of the polyprotein.
 <celldesigner:innerPosition x="372.0" y="670.0"/>
 <celldesigner:boxSize width="53.0" height="27.0"/>
 <celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffccffff" scheme="Color"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
@@ -2849,7 +2849,7 @@ the cleavages of the polyprotein.
 <celldesigner:innerPosition x="28.189189189189165" y="9.144144144144093"/>
 <celldesigner:boxSize width="53.0" height="27.0"/>
 <celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffccffff" scheme="Color"/>
+<celldesigner:paint color="ffccffcc" scheme="Color"/>
 </celldesigner:usualView>
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
@@ -4902,7 +4902,7 @@ PMID: 32353859
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.11545173848838775,0.41777419787890935</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.1154517384883878,0.41777419787890935</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -5182,7 +5182,7 @@ PMID:2477704
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.34242021276595747,0.5053191489361699</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.34242021276595747,0.5053191489361695</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
