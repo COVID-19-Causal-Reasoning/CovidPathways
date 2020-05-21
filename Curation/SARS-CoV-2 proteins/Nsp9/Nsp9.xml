@@ -5035,7 +5035,7 @@ PMID: 20837776
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRANSLATION</celldesigner:reactionType>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s89" alias="sa1006">
 <celldesigner:linkAnchor position="NNW"/>
@@ -5095,7 +5095,7 @@ PMID:27880803
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRANSCRIPTION</celldesigner:reactionType>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s90" alias="sa1007">
 <celldesigner:linkAnchor position="N"/>
