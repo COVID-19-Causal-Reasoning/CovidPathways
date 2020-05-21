@@ -13,9 +13,6 @@ Authors:
   - Yusuke Hiki &lt;hiki@fun.bio.keio.ac.jp&gt;: annotation
   - Takahiro Yamada &lt;yamada@bio.keio.ac.jp&gt;: annotation
   - Akira Funahashi &lt;funa@bio.keio.ac.jp&gt;: annotation
-CellDesigner requires innerWidth to be at least: 1.0
-CellDesigner requires outerWidth to be at least: 2.0
-CellDesigner requires thickness to be at least: 2.5
 </body>
 </html>
 </notes>
