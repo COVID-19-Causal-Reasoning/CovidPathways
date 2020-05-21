@@ -1229,7 +1229,7 @@ the cleavages of the polyprotein.
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa17" species="s104">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="240.0" y="46.5" w="119.0" h="105.0"/>
+<celldesigner:bounds x="220.5" y="57.5" w="119.0" h="105.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
@@ -1481,13 +1481,13 @@ the cleavages of the polyprotein.
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa28" species="s163" compartmentAlias="ca293">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="380.0" y="666.0" w="112.0" h="56.0"/>
+<celldesigner:bounds x="404.0" y="672.0" w="112.0" h="56.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="142.0" y="415.0"/>
+<celldesigner:innerPosition x="166.0" y="421.0"/>
 <celldesigner:boxSize width="112.0" height="56.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
@@ -1565,13 +1565,13 @@ the cleavages of the polyprotein.
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa32" species="s171" compartmentAlias="b5291">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1044.5" y="848.0" w="91.0" h="84.0"/>
+<celldesigner:bounds x="1044.5" y="858.0" w="91.0" h="84.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="1043.0" y="611.5"/>
+<celldesigner:innerPosition x="1043.0" y="621.5"/>
 <celldesigner:boxSize width="91.0" height="84.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
@@ -1721,11 +1721,11 @@ the cleavages of the polyprotein.
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa977" species="s55" compartmentAlias="ca293">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="300.5" y="672.5" w="51.0" h="30.0"/>
+<celldesigner:bounds x="344.5" y="675.0" w="51.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="62.5" y="421.5"/>
+<celldesigner:innerPosition x="106.5" y="424.0"/>
 <celldesigner:boxSize width="51.0" height="30.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
@@ -2158,7 +2158,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa1019" species="s106" complexSpeciesAlias="csa17">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="242.5" y="78.0" w="44.0" h="30.0"/>
+<celldesigner:bounds x="223.0" y="89.0" w="44.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -2177,7 +2177,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa1020" species="s105" complexSpeciesAlias="csa17">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="278.5" y="49.0" w="44.0" h="29.0"/>
+<celldesigner:bounds x="259.0" y="60.0" w="44.0" h="29.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -2196,7 +2196,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa1021" species="s107" complexSpeciesAlias="csa17">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="312.5" y="77.0" w="43.0" h="27.0"/>
+<celldesigner:bounds x="293.0" y="88.0" w="43.0" h="27.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -2215,7 +2215,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa1022" species="s108" complexSpeciesAlias="csa17">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="276.0" y="104.5" w="46.0" h="25.0"/>
+<celldesigner:bounds x="256.5" y="115.5" w="46.0" h="25.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -2519,7 +2519,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa1038" species="s139" complexSpeciesAlias="csa28">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="389.0" y="678.5" w="46.0" h="25.0"/>
+<celldesigner:bounds x="413.0" y="684.5" w="46.0" h="25.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -2538,7 +2538,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa1039" species="s142" complexSpeciesAlias="csa28">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="436.0" y="675.5" w="51.0" h="30.0"/>
+<celldesigner:bounds x="460.0" y="681.5" w="51.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -2804,7 +2804,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa1053" species="s169" complexSpeciesAlias="csa32">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1079.6891891891892" y="885.1441441441441" w="46.0" h="25.0"/>
+<celldesigner:bounds x="1079.6891891891892" y="895.1441441441441" w="46.0" h="25.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -2823,7 +2823,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa1054" species="s172" complexSpeciesAlias="csa32">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1072.6891891891892" y="857.1441441441441" w="53.0" h="27.0"/>
+<celldesigner:bounds x="1072.6891891891892" y="867.1441441441441" w="53.0" h="27.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -3156,27 +3156,27 @@ https://www.uniprot.org/uniprot/A0A024RDV9
 <listOfUnitDefinitions>
 <unitDefinition metaid="substance" id="substance" name="substance">
 <listOfUnits>
-<unit metaid="CDMT00046" kind="mole"/>
+<unit metaid="CDMT00047" kind="mole"/>
 </listOfUnits>
 </unitDefinition>
 <unitDefinition metaid="volume" id="volume" name="volume">
 <listOfUnits>
-<unit metaid="CDMT00047" kind="litre"/>
+<unit metaid="CDMT00048" kind="litre"/>
 </listOfUnits>
 </unitDefinition>
 <unitDefinition metaid="area" id="area" name="area">
 <listOfUnits>
-<unit metaid="CDMT00048" kind="metre" exponent="2"/>
+<unit metaid="CDMT00049" kind="metre" exponent="2"/>
 </listOfUnits>
 </unitDefinition>
 <unitDefinition metaid="length" id="length" name="length">
 <listOfUnits>
-<unit metaid="CDMT00049" kind="metre"/>
+<unit metaid="CDMT00050" kind="metre"/>
 </listOfUnits>
 </unitDefinition>
 <unitDefinition metaid="time" id="time" name="time">
 <listOfUnits>
-<unit metaid="CDMT00050" kind="second"/>
+<unit metaid="CDMT00067" kind="second"/>
 </listOfUnits>
 </unitDefinition>
 </listOfUnitDefinitions>
@@ -3994,246 +3994,14 @@ PLoS Genet. 14:E1007845-E1007845(2018)
 </species>
 </listOfSpecies>
 <listOfReactions>
-<reaction metaid="re10079" id="re10079" reversible="false">
+<reaction metaid="re10058" id="re10058" reversible="false">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
-<body>PMID:32353859
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s164" alias="csa30">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseReactant>
-<celldesigner:baseReactant species="s165" alias="csa31">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s70" alias="csa10">
-<celldesigner:linkAnchor position="W"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">-0.1728123728123805,0.5143671143671122</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10079">
-<bqmodel:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
-</rdf:Bag>
-</bqmodel:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00064" species="s164">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa30</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00065" species="s165">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa31</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00066" species="s70">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa10</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re10078" id="re10078" reversible="false">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>PMID:9049309
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s149" alias="sa1045"/>
-<celldesigner:baseReactant species="s150" alias="sa1046"/>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s165" alias="csa31">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection arm="0" index="0" value="horizontal"/>
-<celldesigner:lineDirection arm="0" index="1" value="vertical"/>
-<celldesigner:lineDirection arm="1" index="0" value="vertical"/>
-<celldesigner:lineDirection arm="2" index="0" value="horizontal"/>
-<celldesigner:lineDirection arm="2" index="1" value="vertical"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints num0="1" num1="0" num2="1" tShapeIndex="0">0.36683703797428535,-0.4819415167263923 0.9162537165510396,0.2770069375619446 13.172846929912453,-3.091935591634922</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10078">
-<bqmodel:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:9049309"/>
-</rdf:Bag>
-</bqmodel:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00061" species="s149">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa1045</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00062" species="s150">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa1046</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00063" species="s165">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa31</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re10077" id="re10077" reversible="false">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>PMID:12196509
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s147" alias="sa1043">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseReactant>
-<celldesigner:baseReactant species="s148" alias="sa1044">
-<celldesigner:linkAnchor position="N"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s164" alias="csa30">
-<celldesigner:linkAnchor position="WNW"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:listOfReactantLinks>
-<celldesigner:reactantLink reactant="s146" alias="sa1042" targetLineIndex="-1,0">
-<celldesigner:linkAnchor position="N"/>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
-</celldesigner:reactantLink>
-</celldesigner:listOfReactantLinks>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">-23.65534246575345,4.00575342465752</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10077">
-<bqmodel:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:12196509"/>
-</rdf:Bag>
-</bqmodel:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00057" species="s147">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa1043</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00058" species="s148">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa1044</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00059" species="s146">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa1042</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00060" species="s164">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa30</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re10075" id="re10075" reversible="false">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>10.1101/2020.03.22.002386
-PMID: 32353859
+<body>10.1016/j.str.2004.01.016
+PMID:14962394
 </body>
 </html>
 </notes>
@@ -4242,87 +4010,15 @@ PMID: 32353859
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s2" alias="a7c94">
-<celldesigner:linkAnchor position="NE"/>
-</celldesigner:baseReactant>
-<celldesigner:baseReactant species="s70" alias="csa10">
-<celldesigner:linkAnchor position="SW"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s114" alias="csa21">
-<celldesigner:linkAnchor position="SW"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">1.9105526926278138,-0.9860277320299629</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10075">
-<bqmodel:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
-</rdf:Bag>
-</bqmodel:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00054" species="s2">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>a7c94</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00055" species="s70">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa10</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00056" species="s114">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa21</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re10074" id="re10074" reversible="false">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>PMID:27705803
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s45" alias="sa964">
 <celldesigner:linkAnchor position="E"/>
 </celldesigner:baseReactant>
-<celldesigner:baseReactant species="s61" alias="sa983">
+<celldesigner:baseReactant species="s1" alias="sa997">
+<celldesigner:linkAnchor position="E"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s78" alias="csa12">
 <celldesigner:linkAnchor position="W"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s161" alias="csa29">
-<celldesigner:linkAnchor position="S"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct">
@@ -4332,113 +4028,40 @@ PMID: 32353859
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.07040692595538256,0.48159641185443736</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.04526097156433018,0.11954036728777856</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10074">
-<bqmodel:isDescribedBy>
+<rdf:Description rdf:about="#re10058">
+<bqbiol:isDescribedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:27705803"/>
+<rdf:li rdf:resource="urn:miriam:pubmed:14962394"/>
 </rdf:Bag>
-</bqmodel:isDescribedBy>
+</bqbiol:isDescribedBy>
 </rdf:Description>
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00051" species="s45">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa964</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00052" species="s61">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa983</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00053" species="s161">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa29</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re10073" id="re10073" reversible="false">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>10.1038/s41586-020-2286-9
-PMID: 32353859
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s55" alias="sa977">
-<celldesigner:linkAnchor position="S"/>
-</celldesigner:baseReactant>
-<celldesigner:baseReactant species="s2" alias="a7c94">
-<celldesigner:linkAnchor position="NE"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s163" alias="csa28">
-<celldesigner:linkAnchor position="WSW"/>
-</celldesigner:baseProduct>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.5949283126690124,0.5192101637838666</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10073">
-<bqmodel:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
-</rdf:Bag>
-</bqmodel:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00043" species="s55">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa977</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00044" species="s2">
+<speciesReference metaid="CDMT00002" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00045" species="s163">
+<speciesReference metaid="CDMT00003" species="s1">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa28</celldesigner:alias>
+<celldesigner:alias>sa997</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00004" species="s78">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa12</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
@@ -4517,6 +4140,146 @@ PMID: 32353859
 </speciesReference>
 </listOfProducts>
 </reaction>
+<reaction metaid="re10066" id="re10066" reversible="false">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>10.1038/s41586-020-2286-9
+PMID: 32353859
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s2" alias="a7c94">
+<celldesigner:linkAnchor position="NNW"/>
+</celldesigner:baseReactant>
+<celldesigner:baseReactant species="s50" alias="csa8"/>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s104" alias="csa17"/>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.5842565597667642,-0.09194169096209931</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re10066">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00022" species="s2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>a7c94</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00023" species="s50">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa8</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00024" species="s104">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa17</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re10067" id="re10067" reversible="false">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>10.1038/s41586-020-2286-9
+PMID: 32353859
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s2" alias="a7c94">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseReactant>
+<celldesigner:baseReactant species="s57" alias="sa979"/>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s109" alias="csa18">
+<celldesigner:linkAnchor position="SSE"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.5362793235132077,0.08728859792720556</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re10067">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00025" species="s2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>a7c94</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00026" species="s57">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa979</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00027" species="s109">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa18</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
 <reaction metaid="re10071" id="re10071" reversible="false">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -4539,21 +4302,19 @@ PMID: 32353859
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
 <celldesigner:baseProduct species="s166" alias="csa26">
-<celldesigner:linkAnchor position="SSE"/>
+<celldesigner:linkAnchor position="S"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="square">
+<celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection arm="0" index="0" value="vertical"/>
 <celldesigner:lineDirection arm="0" index="1" value="horizontal"/>
 <celldesigner:lineDirection arm="1" index="0" value="horizontal"/>
 <celldesigner:lineDirection arm="1" index="1" value="vertical"/>
 <celldesigner:lineDirection arm="2" index="0" value="vertical"/>
-<celldesigner:lineDirection arm="2" index="1" value="horizontal"/>
-<celldesigner:lineDirection arm="2" index="2" value="vertical"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="1" num1="1" num2="2" tShapeIndex="0">0.25785549631575655,-0.43745404254105535 0.9398143074104821,0.23783055942632458 0.4999999999999991,0.0 0.4999999999999991,-3.552713678800501E-15 0.6641811159053175,0.17819331790761428</celldesigner:editPoints>
+<celldesigner:editPoints num0="1" num1="1" num2="0" tShapeIndex="0">0.37230007657904324,-0.46866856698376824 0.7845692617284294,-0.1235335185971076 0.32165592729050285,0.5637772757693638</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -4671,14 +4432,14 @@ PMID: 32353859
 </speciesReference>
 </listOfProducts>
 </reaction>
-<reaction metaid="re10069" id="re10069" reversible="false">
+<reaction metaid="re10075" id="re10075" reversible="false">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
-<body>10.1038/s41586-020-2286-9
-PMID:32353859
+<body>10.1101/2020.03.22.002386
+PMID: 32353859
 </body>
 </html>
 </notes>
@@ -4686,14 +4447,16 @@ PMID:32353859
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s128" alias="sa970"/>
 <celldesigner:baseReactant species="s2" alias="a7c94">
+<celldesigner:linkAnchor position="NE"/>
+</celldesigner:baseReactant>
+<celldesigner:baseReactant species="s70" alias="csa10">
 <celldesigner:linkAnchor position="SW"/>
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s160" alias="csa24">
-<celldesigner:linkAnchor position="N"/>
+<celldesigner:baseProduct species="s114" alias="csa21">
+<celldesigner:linkAnchor position="SW"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct">
@@ -4703,53 +4466,52 @@ PMID:32353859
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.3748093310825926,0.394150786064392</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">1.7944197862383051,-0.9199576919919057</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10069">
-<bqbiol:isDescribedBy>
+<rdf:Description rdf:about="#re10075">
+<bqmodel:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
 </rdf:Bag>
-</bqbiol:isDescribedBy>
+</bqmodel:isDescribedBy>
 </rdf:Description>
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00031" species="s128">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa970</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00032" species="s2">
+<speciesReference metaid="CDMT00054" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00033" species="s160">
+<speciesReference metaid="CDMT00055" species="s70">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa24</celldesigner:alias>
+<celldesigner:alias>csa10</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00056" species="s114">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa21</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
 </listOfProducts>
 </reaction>
-<reaction metaid="re10067" id="re10067" reversible="false">
+<reaction metaid="re10080" id="re10080" reversible="false">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
-<body>10.1038/s41586-020-2286-9
-PMID: 32353859
+<body>PMID: 32353859
 </body>
 </html>
 </notes>
@@ -4758,13 +4520,13 @@ PMID: 32353859
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s2" alias="a7c94">
-<celldesigner:linkAnchor position="N"/>
+<celldesigner:linkAnchor position="SE"/>
 </celldesigner:baseReactant>
-<celldesigner:baseReactant species="s57" alias="sa979"/>
+<celldesigner:baseReactant species="s168" alias="sa1052"/>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s109" alias="csa18">
-<celldesigner:linkAnchor position="SSE"/>
+<celldesigner:baseProduct species="s171" alias="csa32">
+<celldesigner:linkAnchor position="WSW"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct">
@@ -4774,11 +4536,11 @@ PMID: 32353859
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.5362793235132077,0.08728859792720556</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.6921875000000028,0.5492187499999992</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10067">
+<rdf:Description rdf:about="#re10080">
 <bqmodel:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
@@ -4788,39 +4550,38 @@ PMID: 32353859
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00025" species="s2">
+<speciesReference metaid="CDMT00013" species="s2">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>a7c94</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00026" species="s57">
+<speciesReference metaid="CDMT00014" species="s168">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>sa979</celldesigner:alias>
+<celldesigner:alias>sa1052</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00027" species="s109">
+<speciesReference metaid="CDMT00015" species="s171">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa18</celldesigner:alias>
+<celldesigner:alias>csa32</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
 </listOfProducts>
 </reaction>
-<reaction metaid="re10066" id="re10066" reversible="false">
+<reaction metaid="re10074" id="re10074" reversible="false">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
-<body>10.1038/s41586-020-2286-9
-PMID: 32353859
+<body>PMID:27705803
 </body>
 </html>
 </notes>
@@ -4828,13 +4589,17 @@ PMID: 32353859
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s2" alias="a7c94">
-<celldesigner:linkAnchor position="NNW"/>
+<celldesigner:baseReactant species="s45" alias="sa964">
+<celldesigner:linkAnchor position="E"/>
 </celldesigner:baseReactant>
-<celldesigner:baseReactant species="s50" alias="csa8"/>
+<celldesigner:baseReactant species="s61" alias="sa983">
+<celldesigner:linkAnchor position="W"/>
+</celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s104" alias="csa17"/>
+<celldesigner:baseProduct species="s161" alias="csa29">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseProduct>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
@@ -4843,109 +4608,40 @@ PMID: 32353859
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.5753237429936222,-0.08163293480961992</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.07040692595538256,0.48159641185443736</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10066">
+<rdf:Description rdf:about="#re10074">
 <bqmodel:isDescribedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
+<rdf:li rdf:resource="urn:miriam:pubmed:27705803"/>
 </rdf:Bag>
 </bqmodel:isDescribedBy>
 </rdf:Description>
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00022" species="s2">
+<speciesReference metaid="CDMT00051" species="s45">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>a7c94</celldesigner:alias>
+<celldesigner:alias>sa964</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00023" species="s50">
+<speciesReference metaid="CDMT00052" species="s61">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa8</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00024" species="s104">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa17</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re10065" id="re10065" reversible="false">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>10.1038/s41586-020-2286-9
-PMID: 32353859
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s59" alias="sa981"/>
-<celldesigner:baseReactant species="s2" alias="a7c94">
-<celldesigner:linkAnchor position="NE"/>
-</celldesigner:baseReactant>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s101" alias="csa16"/>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.11590296495956875,0.41778975741239854</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10065">
-<bqmodel:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
-</rdf:Bag>
-</bqmodel:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00019" species="s59">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa981</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00020" species="s2">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>a7c94</celldesigner:alias>
+<celldesigner:alias>sa983</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00021" species="s101">
+<speciesReference metaid="CDMT00053" species="s161">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa16</celldesigner:alias>
+<celldesigner:alias>csa29</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
@@ -5017,6 +4713,217 @@ PMID: 32353859
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>csa15</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re10073" id="re10073" reversible="false">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>10.1038/s41586-020-2286-9
+PMID: 32353859
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s55" alias="sa977">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseReactant>
+<celldesigner:baseReactant species="s2" alias="a7c94">
+<celldesigner:linkAnchor position="NE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s163" alias="csa28">
+<celldesigner:linkAnchor position="WSW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.5841317365269445,0.4197604790419156</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re10073">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00043" species="s55">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa977</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00044" species="s2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>a7c94</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00045" species="s163">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa28</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re10065" id="re10065" reversible="false">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>10.1038/s41586-020-2286-9
+PMID: 32353859
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s59" alias="sa981"/>
+<celldesigner:baseReactant species="s2" alias="a7c94">
+<celldesigner:linkAnchor position="NE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s101" alias="csa16"/>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="1" index="1" value="unknown"/>
+<celldesigner:lineDirection arm="1" index="2" value="unknown"/>
+<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints num0="0" num1="2" num2="0" tShapeIndex="0">0.48354074955383697,-0.13359666864961328 0.6309958358120167,0.052425936942296136 0.07412398921832886,0.24393530997304502</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re10065">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00019" species="s59">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa981</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00020" species="s2">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>a7c94</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00021" species="s101">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa16</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re10059" id="re10059" reversible="false">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>Sopta M, Burton ZF, Greenblatt J (1989). &quot;Structure and associated DNA-helicase activity of a general transcription initiation factor that binds to RNA polymerase II&quot;.
+PMID:2477704
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s81" alias="sa1000"/>
+<celldesigner:baseReactant species="s59" alias="sa981"/>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s82" alias="csa13"/>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
+<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.34242021276595747,0.5053191489361695</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re10059">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:2477704"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00005" species="s81">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1000</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00006" species="s59">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa981</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00007" species="s82">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa13</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
@@ -5164,14 +5071,14 @@ PMID:27880803
 </modifierSpeciesReference>
 </listOfModifiers>
 </reaction>
-<reaction metaid="re10059" id="re10059" reversible="false">
+<reaction metaid="re10069" id="re10069" reversible="false">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
-<body>Sopta M, Burton ZF, Greenblatt J (1989). &quot;Structure and associated DNA-helicase activity of a general transcription initiation factor that binds to RNA polymerase II&quot;.
-PMID:2477704
+<body>10.1038/s41586-020-2286-9
+PMID:32353859
 </body>
 </html>
 </notes>
@@ -5179,11 +5086,15 @@ PMID:2477704
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s81" alias="sa1000"/>
-<celldesigner:baseReactant species="s59" alias="sa981"/>
+<celldesigner:baseReactant species="s128" alias="sa970"/>
+<celldesigner:baseReactant species="s2" alias="a7c94">
+<celldesigner:linkAnchor position="SW"/>
+</celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s82" alias="csa13"/>
+<celldesigner:baseProduct species="s160" alias="csa24">
+<celldesigner:linkAnchor position="N"/>
+</celldesigner:baseProduct>
 </celldesigner:baseProducts>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
@@ -5192,53 +5103,52 @@ PMID:2477704
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.34242021276595747,0.5053191489361695</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.3748093310825926,0.394150786064392</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10059">
+<rdf:Description rdf:about="#re10069">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:2477704"/>
+<rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 </rdf:Description>
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00005" species="s81">
+<speciesReference metaid="CDMT00031" species="s128">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>sa1000</celldesigner:alias>
+<celldesigner:alias>sa970</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00006" species="s59">
+<speciesReference metaid="CDMT00032" species="s2">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>sa981</celldesigner:alias>
+<celldesigner:alias>a7c94</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00007" species="s82">
+<speciesReference metaid="CDMT00033" species="s160">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa13</celldesigner:alias>
+<celldesigner:alias>csa24</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
 </listOfProducts>
 </reaction>
-<reaction metaid="re10058" id="re10058" reversible="false">
+<reaction metaid="re10078" id="re10078" reversible="false">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title/>
 </head>
-<body>10.1016/j.str.2004.01.016
-PMID:14962394
+<body>PMID:9049309
 </body>
 </html>
 </notes>
@@ -5246,15 +5156,85 @@ PMID:14962394
 <celldesigner:extension>
 <celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s2" alias="a7c94">
-<celldesigner:linkAnchor position="E"/>
+<celldesigner:baseReactant species="s149" alias="sa1045"/>
+<celldesigner:baseReactant species="s150" alias="sa1046"/>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s165" alias="csa31">
+<celldesigner:linkAnchor position="S"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection arm="0" index="0" value="horizontal"/>
+<celldesigner:lineDirection arm="0" index="1" value="vertical"/>
+<celldesigner:lineDirection arm="1" index="0" value="vertical"/>
+<celldesigner:lineDirection arm="2" index="0" value="horizontal"/>
+<celldesigner:lineDirection arm="2" index="1" value="vertical"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints num0="1" num1="0" num2="1" tShapeIndex="0">0.36683703797428535,-0.4819415167263923 0.9162537165510396,0.2770069375619446 13.172846929912453,-3.091935591634922</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re10078">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:9049309"/>
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00061" species="s149">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1045</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00062" species="s150">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1046</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00063" species="s165">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa31</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re10079" id="re10079" reversible="false">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>PMID:32353859
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s164" alias="csa30">
+<celldesigner:linkAnchor position="N"/>
 </celldesigner:baseReactant>
-<celldesigner:baseReactant species="s1" alias="sa997">
-<celldesigner:linkAnchor position="E"/>
+<celldesigner:baseReactant species="s165" alias="csa31">
+<celldesigner:linkAnchor position="N"/>
 </celldesigner:baseReactant>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
-<celldesigner:baseProduct species="s78" alias="csa12">
+<celldesigner:baseProduct species="s70" alias="csa10">
 <celldesigner:linkAnchor position="W"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
@@ -5265,79 +5245,11 @@ PMID:14962394
 <celldesigner:lineDirection arm="2" index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.04526097156433018,0.11954036728777856</celldesigner:editPoints>
+<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">-0.1728123728123805,0.5143671143671114</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10058">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:14962394"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-<listOfReactants>
-<speciesReference metaid="CDMT00002" species="s2">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>a7c94</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-<speciesReference metaid="CDMT00003" species="s1">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>sa997</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfReactants>
-<listOfProducts>
-<speciesReference metaid="CDMT00004" species="s78">
-<annotation>
-<celldesigner:extension>
-<celldesigner:alias>csa12</celldesigner:alias>
-</celldesigner:extension>
-</annotation>
-</speciesReference>
-</listOfProducts>
-</reaction>
-<reaction metaid="re10080" id="re10080" reversible="false">
-<notes>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title/>
-</head>
-<body>PMID: 32353859
-</body>
-</html>
-</notes>
-<annotation>
-<celldesigner:extension>
-<celldesigner:reactionType>HETERODIMER_ASSOCIATION</celldesigner:reactionType>
-<celldesigner:baseReactants>
-<celldesigner:baseReactant species="s2" alias="a7c94">
-<celldesigner:linkAnchor position="SE"/>
-</celldesigner:baseReactant>
-<celldesigner:baseReactant species="s168" alias="sa1052"/>
-</celldesigner:baseReactants>
-<celldesigner:baseProducts>
-<celldesigner:baseProduct species="s171" alias="csa32"/>
-</celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="direct">
-<celldesigner:listOfLineDirection>
-<celldesigner:lineDirection arm="0" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="1" index="0" value="unknown"/>
-<celldesigner:lineDirection arm="2" index="0" value="unknown"/>
-</celldesigner:listOfLineDirection>
-</celldesigner:connectScheme>
-<celldesigner:editPoints num0="0" num1="0" num2="0" tShapeIndex="0">0.7937634408602143,0.5291397849462363</celldesigner:editPoints>
-<celldesigner:line width="1.0" color="ff000000"/>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#re10080">
+<rdf:Description rdf:about="#re10079">
 <bqmodel:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:32353859"/>
@@ -5347,26 +5259,121 @@ PMID:14962394
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00013" species="s2">
+<speciesReference metaid="CDMT00064" species="s164">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>a7c94</celldesigner:alias>
+<celldesigner:alias>csa30</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00014" species="s168">
+<speciesReference metaid="CDMT00065" species="s165">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>sa1052</celldesigner:alias>
+<celldesigner:alias>csa31</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00015" species="s171">
+<speciesReference metaid="CDMT00066" species="s70">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa32</celldesigner:alias>
+<celldesigner:alias>csa10</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfProducts>
+</reaction>
+<reaction metaid="re10081" id="re10081" reversible="false">
+<notes>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title/>
+</head>
+<body>PMID:12196509
+</body>
+</html>
+</notes>
+<annotation>
+<celldesigner:extension>
+<celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
+<celldesigner:baseReactants>
+<celldesigner:baseReactant species="s147" alias="sa1043">
+<celldesigner:linkAnchor position="INACTIVE"/>
+</celldesigner:baseReactant>
+</celldesigner:baseReactants>
+<celldesigner:baseProducts>
+<celldesigner:baseProduct species="s164" alias="csa30">
+<celldesigner:linkAnchor position="WNW"/>
+</celldesigner:baseProduct>
+</celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="s148" alias="sa1044" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="N"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+<celldesigner:reactantLink reactant="s146" alias="sa1042" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="N"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="horizontal"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:editPoints>0.10003957688709808,-0.14783766280492205</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#re10081">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:12196509"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+<listOfReactants>
+<speciesReference metaid="CDMT00028" species="s147">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1043</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00029" species="s148">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1044</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00030" species="s146">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>sa1042</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+</listOfReactants>
+<listOfProducts>
+<speciesReference metaid="CDMT00046" species="s164">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa30</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
