@@ -1592,7 +1592,7 @@ the cleavages of the polyprotein.
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="204.5" y="613.0"/>
+<celldesigner:innerPosition x="205.5" y="611.0"/>
 <celldesigner:boxSize width="46.0" height="25.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffffcccc" scheme="Color"/>
@@ -3120,7 +3120,7 @@ https://www.uniprot.org/uniprot/A0A024RDV9
 <celldesigner:gene id="gn1" name="EDN1" type="GENE"/>
 </celldesigner:listOfGenes>
 <celldesigner:listOfRNAs>
-<celldesigner:RNA id="rn1" name="Edn1" type="RNA"/>
+<celldesigner:RNA id="rn2" name="EDN1" type="RNA"/>
 </celldesigner:listOfRNAs>
 <celldesigner:listOfAntisenseRNAs/>
 <celldesigner:listOfLayers>
@@ -3615,17 +3615,6 @@ https://www.genecards.org/cgi-bin/carddisp.pl?gene=EDN1
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s89" id="s89" name="Edn1" compartment="c4" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>RNA</celldesigner:class>
-<celldesigner:rnaReference>rn1</celldesigner:rnaReference>
-</celldesigner:speciesIdentity>
-</celldesigner:extension>
-</annotation>
-</species>
 <species metaid="s90" id="s90" name="EDN1" compartment="c4" initialAmount="0">
 <annotation>
 <celldesigner:extension>
@@ -3988,6 +3977,17 @@ PLoS Genet. 14:E1007845-E1007845(2018)
 <celldesigner:speciesIdentity>
 <celldesigner:class>COMPLEX</celldesigner:class>
 <celldesigner:name>spg20comp</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s89" id="s89" name="EDN1" compartment="c4" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>RNA</celldesigner:class>
+<celldesigner:rnaReference>rn2</celldesigner:rnaReference>
 </celldesigner:speciesIdentity>
 </celldesigner:extension>
 </annotation>
