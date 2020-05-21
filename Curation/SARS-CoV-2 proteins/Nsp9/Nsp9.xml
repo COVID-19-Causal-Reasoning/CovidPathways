@@ -21,7 +21,7 @@ Authors:
 <celldesigner:modelVersion>4.0</celldesigner:modelVersion>
 <celldesigner:modelDisplay sizeX="1324" sizeY="960"/>
 <celldesigner:listOfIncludedSpecies>
-<celldesigner:species id="s46" name="fbn1">
+<celldesigner:species id="s46" name="FBN1">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -41,7 +41,7 @@ Extracellular matrix.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s47" name="fbn2">
+<celldesigner:species id="s47" name="FBN2">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -61,7 +61,7 @@ Extracellular Matrix
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s49" name="fbln5">
+<celldesigner:species id="s49" name="FBLN5">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -81,7 +81,7 @@ Extracellular Matrix
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s64" name="nup54">
+<celldesigner:species id="s64" name="NUP54">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -102,7 +102,7 @@ Component of the nuclear pore complex, a complex required for the trafficking ac
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s66" name="nup58">
+<celldesigner:species id="s66" name="NUP58">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -123,7 +123,7 @@ Component of the nuclear pore complex, a complex required for the trafficking ac
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s67" name="nup62">
+<celldesigner:species id="s67" name="NUP62">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -143,7 +143,7 @@ Uniprot: https://www.uniprot.org/uniprot/P37198
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s68" name="nup88">
+<celldesigner:species id="s68" name="NUP88">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -164,7 +164,7 @@ PLoS Genet. 14:E1007845-E1007845(2018)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s69" name="nup214">
+<celldesigner:species id="s69" name="NUP214">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -184,7 +184,7 @@ https://www.uniprot.org/uniprot/P35658
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s83" name="gtf2f2">
+<celldesigner:species id="s83" name="GTF2F2">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -224,7 +224,7 @@ J. Biol. Chem. 274:22387-22392(1999)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s99" name="mat2b">
+<celldesigner:species id="s99" name="MAT2B">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -252,7 +252,7 @@ Can bind NADP (in vitro)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s100" name="nsp9">
+<celldesigner:species id="s100" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -274,7 +274,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s102" name="nsp9">
+<celldesigner:species id="s102" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -296,7 +296,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s103" name="gtf2f2">
+<celldesigner:species id="s103" name="GTF2F2">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -319,7 +319,7 @@ J. Biol. Chem. 274:22387-22392(1999)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s105" name="fbn2">
+<celldesigner:species id="s105" name="FBN2">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -339,7 +339,7 @@ Extracellular Matrix
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s106" name="fbn1">
+<celldesigner:species id="s106" name="FBN1">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -359,7 +359,7 @@ Extracellular matrix.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s107" name="fbln5">
+<celldesigner:species id="s107" name="FBLN5">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -379,7 +379,7 @@ Extracellular Matrix
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s108" name="nsp9">
+<celldesigner:species id="s108" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -401,7 +401,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s110" name="nsp9">
+<celldesigner:species id="s110" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -423,7 +423,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s111" name="nek9">
+<celldesigner:species id="s111" name="NEK9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -512,7 +512,7 @@ Pleiotropic regulator of mitotic progression, participating in the control of sp
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s117" name="nsp9">
+<celldesigner:species id="s117" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -534,7 +534,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s118" name="nup54">
+<celldesigner:species id="s118" name="NUP54">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -555,7 +555,7 @@ Component of the nuclear pore complex, a complex required for the trafficking ac
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s119" name="nup58">
+<celldesigner:species id="s119" name="NUP58">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -576,7 +576,7 @@ Component of the nuclear pore complex, a complex required for the trafficking ac
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s120" name="nup62">
+<celldesigner:species id="s120" name="NUP62">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -596,7 +596,7 @@ Uniprot: https://www.uniprot.org/uniprot/P37198
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s121" name="nup88">
+<celldesigner:species id="s121" name="NUP88">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -617,7 +617,7 @@ PLoS Genet. 14:E1007845-E1007845(2018)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s122" name="nup214">
+<celldesigner:species id="s122" name="NUP214">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -637,7 +637,7 @@ https://www.uniprot.org/uniprot/P35658
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s126" name="spart">
+<celldesigner:species id="s126" name="SPART">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -659,7 +659,7 @@ Participates in cytokinesis.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s127" name="nsp9">
+<celldesigner:species id="s127" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -681,7 +681,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s130" name="nsp9">
+<celldesigner:species id="s130" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -703,7 +703,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s132" name="eif4h">
+<celldesigner:species id="s132" name="EIF4H">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -728,7 +728,7 @@ J. Biol. Chem. 276:30914-30922(2001)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s133" name="nsp9">
+<celldesigner:species id="s133" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -750,7 +750,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s135" name="dcaf7">
+<celldesigner:species id="s135" name="DCAF7">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -774,7 +774,7 @@ Mol. Cell 23:709-721(2006)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s80" name="nsp9">
+<celldesigner:species id="s80" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -796,7 +796,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s79" name="nsp8">
+<celldesigner:species id="s79" name="Nsp8">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -813,7 +813,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s136" name="nsp9">
+<celldesigner:species id="s136" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -835,7 +835,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s138" name="znf503">
+<celldesigner:species id="s138" name="ZNF503">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -857,7 +857,7 @@ Locaslise in nucleus.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s139" name="nsp9">
+<celldesigner:species id="s139" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -879,7 +879,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s142" name="mib1">
+<celldesigner:species id="s142" name="MIB1">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -914,7 +914,7 @@ EMBO J. 32:3029-3040(2013)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s144" name="znf503">
+<celldesigner:species id="s144" name="ZNF503">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -936,7 +936,7 @@ Locaslise in nucleus.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s145" name="dcaf7">
+<celldesigner:species id="s145" name="DCAF7">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -960,7 +960,7 @@ Mol. Cell 23:709-721(2006)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s153" name="nup62">
+<celldesigner:species id="s153" name="NUP62">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -980,7 +980,7 @@ Uniprot: https://www.uniprot.org/uniprot/P37198
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s154" name="nup58">
+<celldesigner:species id="s154" name="NUP58">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1001,7 +1001,7 @@ Component of the nuclear pore complex, a complex required for the trafficking ac
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s155" name="nup54">
+<celldesigner:species id="s155" name="NUP54">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1022,7 +1022,7 @@ Component of the nuclear pore complex, a complex required for the trafficking ac
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s156" name="nup214">
+<celldesigner:species id="s156" name="NUP214">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1042,7 +1042,7 @@ https://www.uniprot.org/uniprot/P35658
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s157" name="nup88">
+<celldesigner:species id="s157" name="NUP88">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1063,7 +1063,7 @@ PLoS Genet. 14:E1007845-E1007845(2018)
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s169" name="nsp9">
+<celldesigner:species id="s169" name="Nsp9">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -1085,7 +1085,7 @@ the cleavages of the polyprotein.
 </celldesigner:speciesIdentity>
 </celldesigner:annotation>
 </celldesigner:species>
-<celldesigner:species id="s172" name="spg20">
+<celldesigner:species id="s172" name="SPG20">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2862,7 +2862,7 @@ the cleavages of the polyprotein.
 </celldesigner:listOfSpeciesAliases>
 <celldesigner:listOfGroups/>
 <celldesigner:listOfProteins>
-<celldesigner:protein id="p_s_id_a7c94" name="nsp9" type="GENERIC">
+<celldesigner:protein id="p_s_id_a7c94" name="Nsp9" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2874,7 +2874,7 @@ UniProt:P0DTD1
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr25" name="mat2b" type="GENERIC">
+<celldesigner:protein id="pr25" name="MAT2B" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2886,7 +2886,7 @@ UniProt:Q9NZL9
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr27" name="znf503" type="GENERIC">
+<celldesigner:protein id="pr27" name="ZNF503" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2898,7 +2898,7 @@ UniProt:Q96F45
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr28" name="fbn1" type="GENERIC">
+<celldesigner:protein id="pr28" name="FBN1" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2910,7 +2910,7 @@ UniProt:P35555
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr29" name="fbn2" type="GENERIC">
+<celldesigner:protein id="pr29" name="FBN2" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2922,7 +2922,7 @@ UniProt:P35556
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr31" name="fbln5" type="GENERIC">
+<celldesigner:protein id="pr31" name="FBLN5" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2934,7 +2934,7 @@ UniProt:Q9UBX5
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr32" name="spart" type="GENERIC">
+<celldesigner:protein id="pr32" name="SPART" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2946,7 +2946,7 @@ UniProt:Q8N0X7
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr33" name="mib1" type="GENERIC">
+<celldesigner:protein id="pr33" name="MIB1" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2958,7 +2958,7 @@ UniProt:Q86YT6
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr34" name="nek9" type="GENERIC">
+<celldesigner:protein id="pr34" name="NEK9" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2970,7 +2970,7 @@ UniProt:Q8TD19
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr35" name="gtf2f2" type="GENERIC">
+<celldesigner:protein id="pr35" name="GTF2F2" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2982,7 +2982,7 @@ UniProt:P13984
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr36" name="dcaf7" type="GENERIC">
+<celldesigner:protein id="pr36" name="DCAF7" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -2994,7 +2994,7 @@ UniProt:P61962
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr37" name="eif4h" type="GENERIC">
+<celldesigner:protein id="pr37" name="EIF4H" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3006,7 +3006,7 @@ UniProt:Q15056
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr38" name="nup54" type="GENERIC">
+<celldesigner:protein id="pr38" name="NUP54" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3018,7 +3018,7 @@ UniProt:Q7Z3B4
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr39" name="nup58" type="GENERIC">
+<celldesigner:protein id="pr39" name="NUP58" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3030,7 +3030,7 @@ UniProt:Q9BVL2
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr40" name="nup62" type="GENERIC">
+<celldesigner:protein id="pr40" name="NUP62" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3042,7 +3042,7 @@ UniProt:P37198
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr41" name="nup88" type="GENERIC">
+<celldesigner:protein id="pr41" name="NUP88" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3054,7 +3054,7 @@ UniProt:Q99567
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr42" name="nup214" type="GENERIC">
+<celldesigner:protein id="pr42" name="NUP214" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3066,7 +3066,7 @@ UniProt:P35658
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr43" name="nsp8" type="GENERIC">
+<celldesigner:protein id="pr43" name="Nsp8" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3090,7 +3090,7 @@ UniProt:P30876
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr45" name="Edn1" type="GENERIC">
+<celldesigner:protein id="pr45" name="EDN1" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3102,7 +3102,7 @@ UniProt:P05305
 </html>
 </celldesigner:notes>
 </celldesigner:protein>
-<celldesigner:protein id="pr46" name="spg20" type="GENERIC">
+<celldesigner:protein id="pr46" name="SPG20" type="GENERIC">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3219,7 +3219,7 @@ SemanticZoomLevelTransparency: 2
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s85" id="s85" name="Edn1" compartment="c4" initialAmount="0">
+<species metaid="s85" id="s85" name="EDN1" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3335,7 +3335,7 @@ https://www.genecards.org/cgi-bin/carddisp.pl?gene=EDN1
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s61" id="s61" name="dcaf7" compartment="c4" initialAmount="0">
+<species metaid="s61" id="s61" name="DCAF7" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3394,7 +3394,7 @@ Mol. Cell 23:709-721(2006)
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s63" id="s63" name="eif4h" compartment="c4" initialAmount="0">
+<species metaid="s63" id="s63" name="EIF4H" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3440,7 +3440,7 @@ J. Biol. Chem. 276:30914-30922(2001)
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s59" id="s59" name="gtf2f2" compartment="c4" initialAmount="0">
+<species metaid="s59" id="s59" name="GTF2F2" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3495,7 +3495,7 @@ J. Biol. Chem. 274:22387-22392(1999)
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s52" id="s52" name="mat2b" compartment="s_id_b5291" initialAmount="0">
+<species metaid="s52" id="s52" name="MAT2B" compartment="s_id_b5291" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3544,7 +3544,7 @@ Can bind NADP (in vitro)
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s55" id="s55" name="mib1" compartment="c4" initialAmount="0">
+<species metaid="s55" id="s55" name="MIB1" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3600,7 +3600,7 @@ EMBO J. 32:3029-3040(2013)
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s57" id="s57" name="nek9" compartment="c4" initialAmount="0">
+<species metaid="s57" id="s57" name="NEK9" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3642,7 +3642,7 @@ Pleiotropic regulator of mitotic progression, participating in the control of sp
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s77" id="s77" name="nsp8" compartment="s_id_b5291" initialAmount="0">
+<species metaid="s77" id="s77" name="Nsp8" compartment="s_id_b5291" initialAmount="0">
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
@@ -3662,7 +3662,7 @@ Pleiotropic regulator of mitotic progression, participating in the control of sp
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s_id_a7c94" id="s_id_a7c94" name="nsp9" compartment="s_id_b5291" initialConcentration="0">
+<species metaid="s_id_a7c94" id="s_id_a7c94" name="Nsp9" compartment="s_id_b5291" initialConcentration="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3716,7 +3716,7 @@ the cleavages of the polyprotein.
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s149" id="s149" name="nup214" compartment="c4" initialAmount="0">
+<species metaid="s149" id="s149" name="NUP214" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3747,7 +3747,7 @@ https://www.uniprot.org/uniprot/P35658
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s147" id="s147" name="nup54" compartment="c4" initialAmount="0">
+<species metaid="s147" id="s147" name="NUP54" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3779,7 +3779,7 @@ Component of the nuclear pore complex, a complex required for the trafficking ac
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s148" id="s148" name="nup58" compartment="c4" initialAmount="0">
+<species metaid="s148" id="s148" name="NUP58" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3811,7 +3811,7 @@ Component of the nuclear pore complex, a complex required for the trafficking ac
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s146" id="s146" name="nup62" compartment="c4" initialAmount="0">
+<species metaid="s146" id="s146" name="NUP62" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3842,7 +3842,7 @@ Uniprot: https://www.uniprot.org/uniprot/P37198
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s150" id="s150" name="nup88" compartment="c4" initialAmount="0">
+<species metaid="s150" id="s150" name="NUP88" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3874,7 +3874,7 @@ PLoS Genet. 14:E1007845-E1007845(2018)
 </rdf:RDF>
 </annotation>
 </species>
-<species metaid="s128" id="s128" name="spart" compartment="s_id_b5291" initialAmount="0">
+<species metaid="s128" id="s128" name="SPART" compartment="s_id_b5291" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -3917,7 +3917,7 @@ Participates in cytokinesis.
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s168" id="s168" name="spg20" compartment="s_id_b5291" initialAmount="0">
+<species metaid="s168" id="s168" name="SPG20" compartment="s_id_b5291" initialAmount="0">
 <annotation>
 <celldesigner:extension>
 <celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
@@ -3939,7 +3939,7 @@ Participates in cytokinesis.
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s45" id="s45" name="znf503" compartment="c4" initialAmount="0">
+<species metaid="s45" id="s45" name="ZNF503" compartment="c4" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
