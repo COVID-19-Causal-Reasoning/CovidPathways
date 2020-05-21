@@ -3130,26 +3130,56 @@ https://www.uniprot.org/uniprot/A0A024RDV9
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
 <rdf:Description rdf:about="#CDMT00001">
-<dc:creator>
-<rdf:Bag>
-<rdf:li rdf:parseType="Resource">
-<vCard:N rdf:parseType="Resource">
-<vCard:Family>Akira</vCard:Family>
-<vCard:Given>Funahashi</vCard:Given>
-</vCard:N>
-<vCard:EMAIL>funa@bio.keio.ac.jp</vCard:EMAIL>
-<vCard:ORG rdf:parseType="Resource">
-<vCard:Orgname>Dept. of Biosciences and Informatics, Keio University</vCard:Orgname>
-</vCard:ORG>
-</rdf:li>
-</rdf:Bag>
-</dc:creator>
-<dcterms:created rdf:parseType="Resource">
-<dcterms:W3CDTF>2020-04-04T13:42:02Z</dcterms:W3CDTF>
-</dcterms:created>
-<dcterms:modified rdf:parseType="Resource">
-<dcterms:W3CDTF>2020-05-07T01:15:09Z</dcterms:W3CDTF>
-</dcterms:modified>
+  <dc:creator>
+    <rdf:Bag>
+      <rdf:li rdf:parseType="Resource">
+        <vCard:N rdf:parseType="Resource">
+          <vCard:Family>Hiroi</vCard:Family>
+          <vCard:Given>Noriko</vCard:Given>
+        </vCard:N>
+        <vCard:EMAIL>hiroi@rs.socu.ac.jp</vCard:EMAIL>
+        <vCard:ORG rdf:parseType="Resource">
+          <vCard:Orgname>Faculty of Pharmaceutical Sciences, Sanyo-Onoda City University/Tokyo University of Science, Yamaguchi</vCard:Orgname>
+        </vCard:ORG>
+      </rdf:li>
+      <rdf:li rdf:parseType="Resource">
+        <vCard:N rdf:parseType="Resource">
+          <vCard:Family>Hiki</vCard:Family>
+          <vCard:Given>Yusuke</vCard:Given>
+        </vCard:N>
+        <vCard:EMAIL>hiki@fun.bio.keio.ac.jp</vCard:EMAIL>
+        <vCard:ORG rdf:parseType="Resource">
+          <vCard:Orgname>Dept. of Biosciences and Informatics, Keio University</vCard:Orgname>
+        </vCard:ORG>
+      </rdf:li>
+      <rdf:li rdf:parseType="Resource">
+        <vCard:N rdf:parseType="Resource">
+          <vCard:Family>Yamada</vCard:Family>
+          <vCard:Given>Takahiro</vCard:Given>
+        </vCard:N>
+        <vCard:EMAIL>yamada@bio.keio.ac.jp</vCard:EMAIL>
+        <vCard:ORG rdf:parseType="Resource">
+          <vCard:Orgname>Dept. of Biosciences and Informatics, Keio University</vCard:Orgname>
+        </vCard:ORG>
+      </rdf:li>
+      <rdf:li rdf:parseType="Resource">
+        <vCard:N rdf:parseType="Resource">
+          <vCard:Family>Funahashi</vCard:Family>
+          <vCard:Given>Akira</vCard:Given>
+        </vCard:N>
+        <vCard:EMAIL>funa@bio.keio.ac.jp</vCard:EMAIL>
+        <vCard:ORG rdf:parseType="Resource">
+          <vCard:Orgname>Dept. of Biosciences and Informatics, Keio University</vCard:Orgname>
+        </vCard:ORG>
+      </rdf:li>
+    </rdf:Bag>
+  </dc:creator>
+  <dcterms:created rdf:parseType="Resource">
+    <dcterms:W3CDTF>2020-04-04T13:42:02Z</dcterms:W3CDTF>
+  </dcterms:created>
+  <dcterms:modified rdf:parseType="Resource">
+    <dcterms:W3CDTF>2020-05-21T20:05:16Z</dcterms:W3CDTF>
+  </dcterms:modified>
 </rdf:Description>
 </rdf:RDF>
 </annotation>
