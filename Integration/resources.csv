@@ -16,7 +16,7 @@ Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ETC/ETC_Covid19.
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/HMOX1%20pathway/HMOX1_Pathway_Updated.xml,CellDesigner_SBML,HMOX1 pathway
 Yes,https://git-r3lab.uni.lu/covid/models/raw/master/Curation/Innate%20Immunity%20and%20Proinflammatory%20Response/COVID19_PAMP_signaling.xml,CellDesigner_SBML,PAMP signaling
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Interferon%20pathway/Interferon1.xml,CellDesigner_SBML,Interferon 1 pathway
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/JNK%20Pathway/JNK_pathway.xml,CellDesigner_SBML,JNK pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/JNK%20pathway/JNK_pathway.xml,CellDesigner_SBML,JNK pathway
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/RTC-and-transcription/RTC-and-transcription-CD.xml,CellDesigner_SBML,RTC and transcription
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/E/E_SARS_CoV_2_22_05_2020.xml,CellDesigner_SBML,E protein interactions
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp4_Nsp6/Nsp4_Nsp6_v2.xml,CellDesigner_SBML,Nsp4 and Nsp6 interactions
