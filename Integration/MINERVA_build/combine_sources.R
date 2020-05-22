@@ -11,7 +11,7 @@ library(httr)
 library(xml2)
 library(here)
 
-setwd(paste0(here(),"/Integration/"))
+setwd(paste0(here(),"/Integration/MINERVA_build/"))
 
 ### An 'xml2' namespace structure for parsing CellDesigner xml 
 ns_cd <- xml_ns_rename(xml_ns(read_xml("<root>
