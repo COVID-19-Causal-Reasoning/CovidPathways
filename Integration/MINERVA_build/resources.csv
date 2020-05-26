@@ -19,7 +19,7 @@ Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Interferon%20pat
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/JNK%20pathway/JNK_pathway.xml,CellDesigner_SBML,JNK pathway
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/RTC-and-transcription/RTC-and-transcription-CD.xml,CellDesigner_SBML,RTC and transcription
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/E/E_SARS_CoV_2_22_05_2020.xml,CellDesigner_SBML,E protein interactions
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp4_Nsp6/Nsp4_Nsp6_v2.xml,CellDesigner_SBML,Nsp4 and Nsp6 interactions
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp4_Nsp6/Nsp4_Nsp6_v3.xml,CellDesigner_SBML,Nsp4 and Nsp6 interactions
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp9/Nsp9.xml,CellDesigner_SBML,Nsp9 interactions
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp14/Nsp14.xml,CellDesigner_SBML,Nsp14 and metabolism
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Orf3a/Orf3a.xml,CellDesigner_SBML,Orf3a interactions
