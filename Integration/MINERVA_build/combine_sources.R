@@ -96,7 +96,7 @@ construct_overview <- function(elements) {
 ### Resource: url to the xml content of the diagram
 ### Type: what kind of file do we integrate
 ### Name: under which name the diaram is to be shown in the build
-res <- read.csv(url("https://git-r3lab.uni.lu/covid/models/raw/master/Integration/resources.csv"),
+res <- read.csv(url("https://git-r3lab.uni.lu/covid/models/raw/master/Integration/MINERVA_build/resources.csv"),
                 header = T, stringsAsFactors = F)
 ### Filter only these to be included
 res <- res[res$Include == "Yes",]
