@@ -46,7 +46,7 @@ models <- fromJSON(models, flatten = F)
 ### Get elements of diagrams
 model_elements <- lapply(models$idObject, 
                          function(x) fromJSON(ask_GET(paste0(mnv_base,"models/",x,"/"), 
-                                                      "bioEntities/elements/?columns=id,name,type,references,bounds"), 
+                                                      "bioEntities/elements/?columns=id,name,type,references"), 
                                               flatten = F))
 
 all_hgncs <- c()
