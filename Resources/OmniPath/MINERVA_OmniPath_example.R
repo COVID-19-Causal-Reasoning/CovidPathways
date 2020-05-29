@@ -45,9 +45,18 @@ models <- fromJSON(ask_GET(mnv_base, "models/"), flatten = F)
 ### Get elements of diagrams
 model_elements <- lapply(models$idObject, 
                          function(x) fromJSON(ask_GET(paste0(mnv_base,"models/",x,"/"), 
-                                                      "bioEntities/elements/?columns=id,name,type,references"), 
+                                                      "bioEntities/elements/?columns=id,name,type,references,complexId"), 
                                               flatten = F))
 names(model_elements) <- models$name
+
+### A convenience function toextract a given annotation type from references
+extract_annos <- function(refs, type) {
+  refs <- refs[sapply(refs, length) > 0]
+  if(length(refs) == 0) { return(NULL) }
+  ret <- sapply(refs, function(x) x[x$type == type, "resource"])
+  ret <- ret[sapply(ret, function(x) ifelse(is.character(x) & length(x) > 0, TRUE, FALSE))]
+}
+
 
 ### A convenience function to parse the annotations
 extract_hgnc <- function(model) {
@@ -83,7 +92,30 @@ model_reactions <- lapply(models$idObject,
                           function(x) fromJSON(ask_GET(paste0(mnv_base,"models/",x,"/"), 
                                                        paste0("bioEntities/reactions/?columns=", columns)),
                                                flatten = F))
-for(mr in 1:length(model_reactions)) {
-  
-}
 
+
+for(mr in 1:length(model_reactions)) {
+  print(paste0("Model: ", models$name[mr]))
+  ### Get reactant ids (internal MINERVA)
+  reas <- sapply(model_reactions[[mr]]$reactants, "[[", "aliasId")
+  ### Get modifier ids (internal MINERVA)
+  mods <- sapply(model_reactions[[mr]]$modifiers, "[[", "aliasId")
+  ### Get product ids (internal MINERVA)
+  pros <- sapply(model_reactions[[mr]]$products, "[[", "aliasId")
+  if(length(reas) == 0) { next }
+  res <- c()
+  ### For each reaction
+  for(i in 1:length(reas)) {
+    ### Get participants
+    parts <- unique(c(reas[[i]], mods[[i]], pros[[i]]))
+    ### Get HGNC symbols
+    parts_hgncs <- extract_annos(model_elements[[mr]][model_elements[[mr]]$id %in% parts, "references"], "HGNC_SYMBOL")
+    ### Get OmniPath interactions for these HGNC symbols
+    ia_omnipath %>% filter(source_genesymbol %in% parts_hgncs & target_genesymbol %in% parts_hgncs) -> r_match
+    if(nrow(r_match) > 0) {
+      ### Aggregate results
+      res <- rbind(res, r_match)
+    }
+  }
+  print(res)
+}
