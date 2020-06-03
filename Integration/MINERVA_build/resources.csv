@@ -9,7 +9,7 @@ Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/maste
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4880.gpml,GPML,HCoVs Ifn induction (WP4880)
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4869.gpml,GPML,HCoVs ER stress (WP4869)
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4876.gpml,GPML,SARS-CoV-2 NLRP3 Inflammasome (WP4876)
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Apoptosis/Apoptosis_03.06.2020,CellDesigner_SBML,Apoptosis
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Apoptosis/Apoptosis_03.06.2020.xml,CellDesigner_SBML,Apoptosis
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Drug%20mechanisms/Role_of_spike_ACE2_interaction_in_pulmonary_blood_pressure_regulation_v3.xml,CellDesigner_SBML,ACE2-Spike-drugs
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ER%20Stress/ER_Stress_Cov19.xml,CellDesigner_SBML,ER stress
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ETC/ETC_Covid19.xml,CellDesigner_SBML,ETC
