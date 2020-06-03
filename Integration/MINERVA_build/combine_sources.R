@@ -9,9 +9,6 @@ options(stringsAsFactors = F)
 
 library(httr)
 library(xml2)
-library(here)
-
-setwd(paste0(here(),"/Integration/MINERVA_build/"))
 
 ### An 'xml2' namespace structure for parsing CellDesigner xml 
 ns_cd <- xml_ns_rename(xml_ns(read_xml("<root>
@@ -154,7 +151,7 @@ if(reconstruct_mapping) {
   ### and remove unnecessary reactions
   
   ### Load the template, readlines
-  con <- url("https://git-r3lab.uni.lu/covid/models/-/raw/master/Integration/template_mapping.xml")
+  con <- url("https://git-r3lab.uni.lu/covid/models/-/raw/master/Integration/MINERVA_build/template_mapping.xml")
   mapping <- paste(readLines(con), collapse = "\n")
   close(con)
   
