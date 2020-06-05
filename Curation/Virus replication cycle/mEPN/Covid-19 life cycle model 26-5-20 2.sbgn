@@ -1,0 +1,3490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="n0" compartmentOrder="1.0">
+            <label text="EXTRACELLULAR">
+                <bbox w="22159.531" h="100.0" x="210.95117" y="6979.3047"/>
+            </label>
+            <bbox w="22159.531" h="5650.0825" x="210.95117" y="6979.3047"/>
+        </glyph>
+        <glyph class="compartment" id="n1" compartmentOrder="2.0">
+            <label text="CELL MEMBRANE">
+                <bbox w="19013.22" h="100.0" x="2435.7236" y="7144.9316"/>
+            </label>
+            <bbox w="19013.22" h="5328.5386" x="2435.7236" y="7144.9316"/>
+        </glyph>
+        <glyph class="compartment" id="n2" compartmentOrder="3.0">
+            <label text="CYTOPLASM">
+                <bbox w="18694.465" h="100.0" x="2595.0996" y="7501.645"/>
+            </label>
+            <bbox w="18694.465" h="4841.2393" x="2595.0996" y="7501.645"/>
+        </glyph>
+        <glyph class="compartment" id="n3" compartmentOrder="4.0">
+            <label text="Double Membrane Vesicle">
+                <bbox w="5823.5835" h="100.0" x="10995.144" y="8466.176"/>
+            </label>
+            <bbox w="5823.5835" h="1467.0427" x="10995.144" y="8466.176"/>
+        </glyph>
+        <glyph class="compartment" id="n4" compartmentOrder="5.0">
+            <label text="Double Membrane Vesicle">
+                <bbox w="5599.7544" h="100.0" x="11140.717" y="8550.383"/>
+            </label>
+            <bbox w="5599.7544" h="1317.7938" x="11140.717" y="8550.383"/>
+        </glyph>
+        <glyph class="compartment" id="n6" compartmentOrder="6.0">
+            <label text="Endosome">
+                <bbox w="3077.8862" h="100.0" x="4158.699" y="8824.137"/>
+            </label>
+            <bbox w="3077.8862" h="1000.00006" x="4158.699" y="8824.137"/>
+        </glyph>
+        <glyph class="compartment" id="n95" compartmentOrder="7.0">
+            <label text="ER-Golgi Intermediate Complex">
+                <bbox w="2891.2854" h="100.0" x="16857.281" y="9850.797"/>
+            </label>
+            <bbox w="2891.2854" h="1053.4003" x="16857.281" y="9850.797"/>
+        </glyph>
+        <glyph class="compartment" id="n96" compartmentOrder="8.0">
+            <label text="Rough Endoplasmic Reticulum">
+                <bbox w="1039.0852" h="100.0" x="16957.918" y="11166.05"/>
+            </label>
+            <bbox w="1039.0852" h="1095.1772" x="16957.918" y="11166.05"/>
+        </glyph>
+        <glyph class="compartment" id="n155" compartmentOrder="9.0">
+            <label text="Nucleus">
+                <bbox w="1125.8186" h="100.0" x="8260.995" y="10396.044"/>
+            </label>
+            <bbox w="1125.8186" h="770.7715" x="8260.995" y="10396.044"/>
+        </glyph>
+        <glyph class="compartment" id="n137" compartmentOrder="10.0">
+            <label text="Smooth-Wall Vesicle">
+                <bbox w="932.58875" h="100.0" x="20233.197" y="9828.123"/>
+            </label>
+            <bbox w="932.58875" h="844.95605" x="20233.197" y="9828.123"/>
+        </glyph>
+        <glyph class="compartment" id="n464" compartmentOrder="11.0">
+            <label text="ER-GOLGI INTERMEDIATE &#xA;COMPLEX">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="14633.228"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="14633.228"/>
+        </glyph>
+        <glyph class="compartment" id="n461" compartmentOrder="12.0">
+            <label text="ENDOSOME">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="15082.372"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="15082.372"/>
+        </glyph>
+        <glyph class="compartment" id="n460" compartmentOrder="13.0">
+            <label text="DOUBLE MEMBRANE VISICLE">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="14184.085"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="14184.085"/>
+        </glyph>
+        <glyph class="compartment" id="n463" compartmentOrder="14.0">
+            <label text="PHAGOSOME">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="14857.799"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="14857.799"/>
+        </glyph>
+        <glyph class="compartment" id="n462" compartmentOrder="15.0">
+            <label text="SMOOTH WALL VESICLE">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="14408.655"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="14408.655"/>
+        </glyph>
+        <glyph class="compartment" id="n458" compartmentOrder="16.0">
+            <label text="NUCLEUS">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="13734.939"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="13734.939"/>
+        </glyph>
+        <glyph class="compartment" id="n457" compartmentOrder="17.0">
+            <label text="CELL &#xA;MEMBRANE">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="13285.796"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="13285.796"/>
+        </glyph>
+        <glyph class="compartment" id="n459" compartmentOrder="18.0">
+            <label text="ROUGH ENDOPLASMIC &#xA;RETICULUM">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="13959.512"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="13959.512"/>
+        </glyph>
+        <glyph class="compartment" id="n456" compartmentOrder="19.0">
+            <label text="CYTOPLASM">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="13510.368"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="13510.368"/>
+        </glyph>
+        <glyph class="compartment" id="n455" compartmentOrder="20.0">
+            <label text="EXTRACELLULAR">
+                <bbox w="640.00006" h="100.0" x="21685.49" y="13061.225"/>
+            </label>
+            <bbox w="640.00006" h="180.00002" x="21685.49" y="13061.225"/>
+        </glyph>
+        <glyph class="process" id="n90" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="9573.957" y="8359.616"/>
+        </glyph>
+        <glyph class="submap" id="n92" compartmentRef="n2">
+            <label text="Cellular Membrane&#xA;Rearrangement and&#xA;RTC Anchorring"/>
+            <bbox w="300.59094" h="150.21346" x="12238.617" y="8430.371"/>
+        </glyph>
+        <glyph class="process" id="n91" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="9613.967" y="8971.838"/>
+        </glyph>
+        <glyph class="process" id="n94" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="10915.954" y="11605.755"/>
+        </glyph>
+        <glyph class="association" id="n93" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="10140.516" y="8722.145"/>
+        </glyph>
+        <glyph class="macromolecule" id="n98" compartmentRef="n2">
+            <label text="3a"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11532.471"/>
+        </glyph>
+        <glyph class="process" id="n97" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11605.755"/>
+        </glyph>
+        <glyph class="macromolecule" id="n99" compartmentRef="n2">
+            <label text="E"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11312.618"/>
+        </glyph>
+        <glyph class="process" id="n313" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9965.934" y="8330.695"/>
+        </glyph>
+        <glyph class="submap" id="n310" compartmentRef="n2">
+            <label text="nsp14&#xA;interactions"/>
+            <bbox w="200.00002" h="100.00001" x="10280.516" y="8839.489"/>
+        </glyph>
+        <glyph class="submap" id="n311" compartmentRef="n2">
+            <label text="nsp10 CUL2&#xA;pathway"/>
+            <bbox w="200.00002" h="100.00001" x="10280.516" y="8411.107"/>
+        </glyph>
+        <glyph class="process" id="n315" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9956.648" y="8874.489"/>
+        </glyph>
+        <glyph class="process" id="n318" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9970.087" y="8448.047"/>
+        </glyph>
+        <glyph class="process" id="n301" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="19074.357" y="11010.361"/>
+        </glyph>
+        <glyph class="process" id="n302" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="19276.664" y="11010.361"/>
+        </glyph>
+        <glyph class="macromolecule" id="n300" compartmentRef="n2">
+            <label text="9c"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="19418.969" y="10883.364"/>
+        </glyph>
+        <glyph class="macromolecule" id="n305" compartmentRef="n2">
+            <label text="9b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11972.179"/>
+        </glyph>
+        <glyph class="macromolecule" id="n306" compartmentRef="n2">
+            <label text="9c"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="12045.461"/>
+        </glyph>
+        <glyph class="process" id="n303" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="19478.969" y="11010.361"/>
+        </glyph>
+        <glyph class="macromolecule" id="n304" compartmentRef="n2">
+            <label text="3b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11898.893"/>
+        </glyph>
+        <glyph class="submap" id="n309" compartmentRef="n95">
+            <label text="3a&#xA;interactions"/>
+            <bbox w="240.00002" h="100.00001" x="18365.133" y="10735.931"/>
+        </glyph>
+        <glyph class="submap" id="n307" compartmentRef="n2">
+            <label text="nsp9&#xA;interactions"/>
+            <bbox w="200.00002" h="100.00001" x="10280.516" y="8293.756"/>
+        </glyph>
+        <glyph class="submap" id="n308" compartmentRef="n2">
+            <label text="E&#xA;Interactions"/>
+            <bbox w="240.00002" h="100.00001" x="16881.332" y="11020.076"/>
+        </glyph>
+        <glyph class="source and sink" id="n210" compartmentRef="n2">
+            <bbox w="26.832817" h="26.832817" x="2656.3062" y="9775.615"/>
+        </glyph>
+        <glyph class="process" id="n331" compartmentRef="n95">
+            <bbox w="30.000002" h="30.000002" x="17460.908" y="10818.055"/>
+        </glyph>
+        <glyph class="source and sink" id="n213" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="2959.8494" y="9912.141"/>
+        </glyph>
+        <glyph class="uncertain process" id="n334" compartmentRef="n95">
+            <bbox w="40.000004" h="40.000004" x="19276.664" y="10795.931"/>
+        </glyph>
+        <glyph class="or" id="n214" compartmentRef="n6">
+            <bbox w="40.000004" h="40.000004" x="4538.7397" y="9241.656"/>
+        </glyph>
+        <glyph class="uncertain process" id="n335" compartmentRef="n95">
+            <bbox w="40.000004" h="40.000004" x="18872.05" y="10795.931"/>
+        </glyph>
+        <glyph class="uncertain process" id="n332" compartmentRef="n95">
+            <bbox w="40.000004" h="40.000004" x="18265.133" y="10795.931"/>
+        </glyph>
+        <glyph class="source and sink" id="n211" compartmentRef="n0">
+            <bbox w="40.000004" h="40.000004" x="1735.7225" y="9912.141"/>
+        </glyph>
+        <glyph class="source and sink" id="n212" compartmentRef="n0">
+            <bbox w="40.000004" h="40.000004" x="1855.7225" y="10018.357"/>
+        </glyph>
+        <glyph class="uncertain process" id="n333" compartmentRef="n95">
+            <bbox w="40.000004" h="40.000004" x="19478.969" y="10795.931"/>
+        </glyph>
+        <glyph class="process" id="n217" compartmentRef="n6">
+            <bbox w="20.000002" h="20.000002" x="4489.833" y="9206.872"/>
+        </glyph>
+        <glyph class="process" id="n338" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9970.934" y="8254.402"/>
+        </glyph>
+        <glyph class="process" id="n218" compartmentRef="n6">
+            <bbox w="20.000002" h="20.000002" x="4612.6016" y="9200.695"/>
+        </glyph>
+        <glyph class="process" id="n339" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9965.934" y="8178.1094"/>
+        </glyph>
+        <glyph class="uncertain process" id="n336" compartmentRef="n95">
+            <bbox w="40.000004" h="40.000004" x="19074.357" y="10795.931"/>
+        </glyph>
+        <glyph class="source and sink" id="n215" compartmentRef="n6">
+            <bbox w="26.832817" h="26.832817" x="4433.1445" y="9090.325"/>
+        </glyph>
+        <glyph class="uncertain process" id="n337" compartmentRef="n95">
+            <bbox w="40.000004" h="40.000004" x="18669.746" y="10795.931"/>
+        </glyph>
+        <glyph class="source and sink" id="n216" compartmentRef="n6">
+            <bbox w="26.832817" h="26.832817" x="4665.323" y="9090.325"/>
+        </glyph>
+        <glyph class="source and sink" id="n219" compartmentRef="n6">
+            <bbox w="40.000004" h="40.000004" x="4658.7397" y="9611.885"/>
+        </glyph>
+        <glyph class="process" id="n323" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9967.451" y="8623.122"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n202" compartmentRef="n0">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="1935.7224" y="11272.482"/>
+            <glyph class="unit of information" id="n202.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="1959.7224" y="11272.482"/>
+            </glyph>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n203" compartmentRef="n0">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="1855.7224" y="11198.651"/>
+            <glyph class="unit of information" id="n203.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="1895.7224" y="11198.651"/>
+            </glyph>
+        </glyph>
+        <glyph class="unspecified entity" id="n200" compartmentRef="n0">
+            <label text="SARS-CoV-2"/>
+            <clone/>
+            <bbox w="600.0" h="600.0" x="1755.7224" y="10948.844"/>
+        </glyph>
+        <glyph class="submap" id="n321" compartmentRef="n2">
+            <label text="electron transport&#xA;chain interactions"/>
+            <bbox w="280.0" h="100.00001" x="10240.516" y="8548.122"/>
+        </glyph>
+        <glyph class="process" id="n322" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9967.451" y="8546.829"/>
+        </glyph>
+        <glyph class="complex" id="n201" compartmentRef="n0">
+            <clone/>
+            <bbox w="440.00003" h="260.0" x="1835.7224" y="11128.844"/>
+            <glyph class="macromolecule" id="n201.1">
+                <label text="Nucleoprotein"/>
+                <bbox w="308.00003" h="100.75" x="1901.7224" y="11148.344"/>
+            </glyph>
+            <glyph class="macromolecule" id="n201.2">
+                <label text="gRNA complex"/>
+                <bbox w="308.00003" h="100.75" x="1901.7224" y="11268.594"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n206" compartmentRef="n0">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="2292.5664" y="11114.006"/>
+        </glyph>
+        <glyph class="macromolecule" id="n207" compartmentRef="n0">
+            <label text="M"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="2295.7227" y="11335.575"/>
+        </glyph>
+        <glyph class="submap" id="n328" compartmentRef="n95">
+            <label text="Inhibition of &#xA;apoptosis"/>
+            <bbox w="240.00002" h="100.00001" x="17104.428" y="10783.055"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n204" compartmentRef="n0">
+            <label text="SPIKE"/>
+            <bbox w="200.00002" h="60.000004" x="2292.5664" y="11228.844"/>
+            <glyph class="unit of information" id="n204.info0">
+                <label text="N:3"/>
+                <bbox w="0.0" h="0.0" x="2312.5664" y="11228.844"/>
+            </glyph>
+            <glyph class="state variable" id="n204.mod0">
+                <label text="6-HB"/>
+                <bbox w="0.0" h="0.0" x="2312.5664" y="11288.844"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n205" compartmentRef="n0">
+            <label text="E"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="2292.5664" y="11050.29"/>
+        </glyph>
+        <glyph class="source and sink" id="n208" compartmentRef="n0">
+            <bbox w="26.832817" h="26.832817" x="386.58362" y="8911.365"/>
+        </glyph>
+        <glyph class="source and sink" id="n209" compartmentRef="n2">
+            <bbox w="26.832817" h="26.832817" x="2683.5725" y="8911.365"/>
+        </glyph>
+        <glyph class="process" id="n110" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="17455.908" y="11011.35"/>
+        </glyph>
+        <glyph class="complex" id="n231" compartmentRef="n4">
+            <bbox w="360.00003" h="80.00001" x="11234.717" y="9169.356"/>
+            <glyph class="macromolecule multimer" id="n231.1">
+                <label text="nsp7"/>
+                <bbox w="69.75001" h="56.000008" x="11248.217" y="9181.356"/>
+                <glyph class="unit of information" id="n231.1.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="11255.191" y="9181.356"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n231.2">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="11331.467" y="9181.356"/>
+                <glyph class="unit of information" id="n231.2.info0">
+                    <label text="N:4"/>
+                    <bbox w="0.0" h="0.0" x="11339.117" y="9181.356"/>
+                </glyph>
+                <glyph class="state variable" id="n231.2.mod0">
+                    <label text="I"/>
+                    <bbox w="0.0" h="0.0" x="11339.117" y="9237.356"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n231.3">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="11421.467" y="9181.356"/>
+                <glyph class="unit of information" id="n231.3.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="11429.117" y="9181.356"/>
+                </glyph>
+                <glyph class="state variable" id="n231.3.mod0">
+                    <label text="II"/>
+                    <bbox w="0.0" h="0.0" x="11429.117" y="9237.356"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n232" compartmentRef="n3">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="11020.717" y="9289.535"/>
+            <glyph class="unit of information" id="n232.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="11060.717" y="9289.535"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n111" compartmentRef="n2">
+            <label text="3a"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17892.166" y="11570.392"/>
+        </glyph>
+        <glyph class="complex" id="n230" compartmentRef="n2">
+            <label text="CoV Polymerase Complex">
+                <bbox w="400.00003" h="22.370481" x="10796.898" y="9226.986"/>
+            </label>
+            <bbox w="400.00003" h="80.00001" x="10796.898" y="9169.356"/>
+            <glyph class="macromolecule" id="n230.1">
+                <label text="nsp10"/>
+                <bbox w="77.50001" h="40.340668" x="10811.898" y="9178.001"/>
+            </glyph>
+            <glyph class="macromolecule" id="n230.2">
+                <label text="nsp12"/>
+                <bbox w="85.00001" h="40.340668" x="10904.398" y="9178.001"/>
+            </glyph>
+            <glyph class="macromolecule" id="n230.3">
+                <label text="nsp14"/>
+                <bbox w="85.00001" h="40.340668" x="11004.398" y="9178.001"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="n235" compartmentRef="n4">
+            <label text="CoV Polymerase Complex">
+                <bbox w="400.00003" h="22.370481" x="14437.312" y="9770.438"/>
+            </label>
+            <bbox w="400.00003" h="80.00001" x="14437.312" y="9712.809"/>
+            <glyph class="macromolecule" id="n235.1">
+                <label text="nsp10"/>
+                <bbox w="77.50001" h="40.340668" x="14452.312" y="9721.453"/>
+            </glyph>
+            <glyph class="macromolecule" id="n235.2">
+                <label text="nsp12"/>
+                <bbox w="85.00001" h="40.340668" x="14544.812" y="9721.453"/>
+            </glyph>
+            <glyph class="macromolecule" id="n235.3">
+                <label text="nsp14"/>
+                <bbox w="85.00001" h="40.340668" x="14644.812" y="9721.453"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n114" compartmentRef="n2">
+            <label text="10"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17892.166" y="11716.96"/>
+        </glyph>
+        <glyph class="macromolecule" id="n115" compartmentRef="n2">
+            <label text="7b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17892.166" y="11643.676"/>
+        </glyph>
+        <glyph class="macromolecule" id="n236" compartmentRef="n4">
+            <label text="nsp9"/>
+            <bbox w="160.00002" h="40.000004" x="14781.13" y="9642.809"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n233" compartmentRef="n3">
+            <label text="SARS-CoV gRNA (-)"/>
+            <bbox w="400.00003" h="40.000004" x="14661.13" y="9832.987"/>
+            <glyph class="unit of information" id="n233.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="14701.13" y="9832.987"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n112" compartmentRef="n2">
+            <label text="6"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17892.166" y="11497.107"/>
+        </glyph>
+        <glyph class="complex" id="n234" compartmentRef="n4">
+            <bbox w="360.00003" h="80.00001" x="14875.131" y="9712.809"/>
+            <glyph class="macromolecule multimer" id="n234.1">
+                <label text="nsp7"/>
+                <bbox w="69.75001" h="56.000008" x="14888.631" y="9724.809"/>
+                <glyph class="unit of information" id="n234.1.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="14895.605" y="9724.809"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n234.2">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="14971.881" y="9724.809"/>
+                <glyph class="unit of information" id="n234.2.info0">
+                    <label text="N:4"/>
+                    <bbox w="0.0" h="0.0" x="14979.531" y="9724.809"/>
+                </glyph>
+                <glyph class="state variable" id="n234.2.mod0">
+                    <label text="I"/>
+                    <bbox w="0.0" h="0.0" x="14979.531" y="9780.809"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n234.3">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="15061.881" y="9724.809"/>
+                <glyph class="unit of information" id="n234.3.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="15069.531" y="9724.809"/>
+                </glyph>
+                <glyph class="state variable" id="n234.3.mod0">
+                    <label text="II"/>
+                    <bbox w="0.0" h="0.0" x="15069.531" y="9780.809"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n113" compartmentRef="n2">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17892.166" y="11437.108"/>
+        </glyph>
+        <glyph class="unspecified entity" id="n118" compartmentRef="n95">
+            <label text="SARS-CoV-2"/>
+            <bbox w="600.0" h="600.0" x="18202.943" y="10055.324"/>
+        </glyph>
+        <glyph class="macromolecule" id="n237" compartmentRef="n3">
+            <label text="Replication Translation Complex"/>
+            <bbox w="850.00006" h="242.55687" x="15772.366" y="9685.205"/>
+        </glyph>
+        <glyph class="process" id="n116" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="18062.828" y="11010.361"/>
+        </glyph>
+        <glyph class="association" id="n117" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="16247.86" y="10335.324"/>
+        </glyph>
+        <glyph class="complex" id="n238" compartmentRef="n4">
+            <clone/>
+            <bbox w="360.00003" h="80.00001" x="16234.965" y="9780.717"/>
+            <glyph class="macromolecule multimer" id="n238.1">
+                <label text="nsp7"/>
+                <bbox w="69.75001" h="56.000008" x="16248.465" y="9792.717"/>
+                <glyph class="unit of information" id="n238.1.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="16255.439" y="9792.717"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n238.2">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="16331.715" y="9792.717"/>
+                <glyph class="unit of information" id="n238.2.info0">
+                    <label text="N:4"/>
+                    <bbox w="0.0" h="0.0" x="16339.365" y="9792.717"/>
+                </glyph>
+                <glyph class="state variable" id="n238.2.mod0">
+                    <label text="I"/>
+                    <bbox w="0.0" h="0.0" x="16339.365" y="9848.717"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n238.3">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="16421.715" y="9792.717"/>
+                <glyph class="unit of information" id="n238.3.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="16429.365" y="9792.717"/>
+                </glyph>
+                <glyph class="state variable" id="n238.3.mod0">
+                    <label text="II"/>
+                    <bbox w="0.0" h="0.0" x="16429.365" y="9848.717"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="submap" id="n341" compartmentRef="n2">
+            <label text="nsp3,4,6&#xA;interactions"/>
+            <bbox w="208.92061" h="107.84158" x="10291.056" y="7964.492"/>
+        </glyph>
+        <glyph class="source and sink" id="n220" compartmentRef="n6">
+            <bbox w="40.000004" h="40.000004" x="4426.561" y="9611.885"/>
+        </glyph>
+        <glyph class="submap" id="n221" compartmentRef="n2">
+            <label text="Nucleocapsid&#xA;Release"/>
+            <bbox w="193.26964" h="107.84158" x="2969.475" y="11204.923"/>
+        </glyph>
+        <glyph class="macromolecule" id="n100" compartmentRef="n2">
+            <label text="6"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11605.755"/>
+        </glyph>
+        <glyph class="process" id="n340" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9970.934" y="8097.918"/>
+        </glyph>
+        <glyph class="macromolecule" id="n103" compartmentRef="n2">
+            <label text="10"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11825.608"/>
+        </glyph>
+        <glyph class="process" id="n224" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="16247.86" y="10640.929"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n225" compartmentRef="n2">
+            <label text="SARS-CoV gRNA (+)"/>
+            <clone/>
+            <bbox w="400.00003" h="40.000004" x="15317.449" y="10335.324"/>
+            <glyph class="unit of information" id="n225.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="15357.449" y="10335.324"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n104" compartmentRef="n2">
+            <label text="7b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11752.324"/>
+        </glyph>
+        <glyph class="macromolecule" id="n101" compartmentRef="n2">
+            <label text="M"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11385.902"/>
+        </glyph>
+        <glyph class="source and sink" id="n222" compartmentRef="n2">
+            <bbox w="26.832817" h="26.832817" x="8278.215" y="9077.935"/>
+        </glyph>
+        <glyph class="association" id="n223" compartmentRef="n4">
+            <bbox w="40.000004" h="40.000004" x="11177.118" y="8944.687"/>
+        </glyph>
+        <glyph class="macromolecule" id="n102" compartmentRef="n2">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11679.039"/>
+        </glyph>
+        <glyph class="macromolecule" id="n228" compartmentRef="n2">
+            <label text="Replication Translation Complex gRNA (+)"/>
+            <bbox w="850.00006" h="320.00003" x="10771.808" y="9080.356"/>
+        </glyph>
+        <glyph class="macromolecule" id="n107" compartmentRef="n2">
+            <label text="E"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17598.217" y="11139.334"/>
+        </glyph>
+        <glyph class="source and sink" id="n349" compartmentRef="n2">
+            <bbox w="26.832817" h="26.832817" x="8538.215" y="9077.935"/>
+        </glyph>
+        <glyph class="macromolecule" id="n229" compartmentRef="n4">
+            <label text="nsp9"/>
+            <bbox w="160.00002" h="40.000004" x="11140.717" y="9099.356"/>
+        </glyph>
+        <glyph class="macromolecule" id="n108" compartmentRef="n2">
+            <label text="M"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17395.908" y="11139.334"/>
+        </glyph>
+        <glyph class="macromolecule" id="n105" compartmentRef="n2">
+            <label text="S"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11459.187"/>
+        </glyph>
+        <glyph class="macromolecule" id="n226" compartmentRef="n2">
+            <label text="Daughter Replication Translation Complex ds-gRNA"/>
+            <bbox w="850.00006" h="378.37338" x="14412.53" y="9617.297"/>
+        </glyph>
+        <glyph class="submap" id="n106" compartmentRef="n96">
+            <label text="Post-Translational&#xA;Modification"/>
+            <bbox w="268.0418" h="115.84118" x="17307.197" y="11567.834"/>
+        </glyph>
+        <glyph class="macromolecule" id="n348" compartmentRef="n2">
+            <label text="CASP6"/>
+            <bbox w="200.00002" h="40.000004" x="8451.631" y="9157.351"/>
+        </glyph>
+        <glyph class="macromolecule" id="n227" compartmentRef="n2">
+            <label text="N"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16187.86" y="10786.215"/>
+        </glyph>
+        <glyph class="macromolecule" id="n109" compartmentRef="n2">
+            <label text="S"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17800.521" y="11139.334"/>
+        </glyph>
+        <glyph class="dissociation" id="n260" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="11761.8" y="10103.576"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n10" compartmentRef="n0">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="799.22144" y="8878.737"/>
+            <glyph class="unit of information" id="n10.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="839.22144" y="8878.737"/>
+            </glyph>
+        </glyph>
+        <glyph class="source and sink" id="n261" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15785.646" y="10194.58"/>
+        </glyph>
+        <glyph class="association" id="n12" compartmentRef="n0">
+            <bbox w="40.000004" h="40.000004" x="2209.7224" y="8904.781"/>
+        </glyph>
+        <glyph class="macromolecule" id="n11" compartmentRef="n0">
+            <label text="ACE2"/>
+            <bbox w="200.00002" h="40.000004" x="2403.7224" y="8904.781"/>
+        </glyph>
+        <glyph class="macromolecule" id="n132" compartmentRef="n2">
+            <label text="7b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="18609.746" y="10883.364"/>
+        </glyph>
+        <glyph class="complex" id="n14" compartmentRef="n0">
+            <clone/>
+            <bbox w="440.00003" h="260.0" x="1915.7224" y="9251.656"/>
+            <glyph class="macromolecule" id="n14.1">
+                <label text="Nucleoprotein"/>
+                <bbox w="308.00003" h="100.75" x="1981.7224" y="9271.156"/>
+            </glyph>
+            <glyph class="macromolecule" id="n14.2">
+                <label text="gRNA complex"/>
+                <bbox w="308.00003" h="100.75" x="1981.7224" y="9391.406"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n253" compartmentRef="n4">
+            <label text="nsp9"/>
+            <bbox w="160.00002" h="40.000004" x="11140.717" y="9656.142"/>
+        </glyph>
+        <glyph class="unspecified entity" id="n13" compartmentRef="n0">
+            <label text="SARS-CoV-2&#xA;[attached]"/>
+            <clone/>
+            <bbox w="600.0" h="600.0" x="1835.7224" y="9071.656"/>
+        </glyph>
+        <glyph class="submap" id="n133" compartmentRef="n95">
+            <label text="Membrane&#xA;Rearrangement &amp;&#xA;Nucleocapsid &#xA;Encapsulation"/>
+            <bbox w="267.51776" h="189.76137" x="17655.148" y="10260.443"/>
+        </glyph>
+        <glyph class="complex" id="n254" compartmentRef="n2">
+            <label text="CoV Polymerase Complex">
+                <bbox w="400.00003" h="22.370481" x="10796.898" y="9783.771"/>
+            </label>
+            <bbox w="400.00003" h="80.00001" x="10796.898" y="9726.142"/>
+            <glyph class="macromolecule" id="n254.1">
+                <label text="nsp10"/>
+                <bbox w="77.50001" h="40.340668" x="10811.898" y="9734.786"/>
+            </glyph>
+            <glyph class="macromolecule" id="n254.2">
+                <label text="nsp12"/>
+                <bbox w="85.00001" h="40.340668" x="10904.398" y="9734.786"/>
+            </glyph>
+            <glyph class="macromolecule" id="n254.3">
+                <label text="nsp14"/>
+                <bbox w="85.00001" h="40.340668" x="11004.398" y="9734.786"/>
+            </glyph>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n251" compartmentRef="n2">
+            <label text="SARS-CoV gRNA (-)"/>
+            <clone/>
+            <bbox w="400.00003" h="40.000004" x="15605.646" y="10094.579"/>
+            <glyph class="unit of information" id="n251.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="15645.646" y="10094.579"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n130" compartmentRef="n2">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="18002.828" y="10883.364"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n16" compartmentRef="n0">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="1935.7224" y="9321.465"/>
+            <glyph class="unit of information" id="n16.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="1975.7224" y="9321.465"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n131" compartmentRef="n2">
+            <label text="10"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="18812.05" y="10883.364"/>
+        </glyph>
+        <glyph class="macromolecule" id="n252" compartmentRef="n2">
+            <label text="Replication Translation Complex dsRNA"/>
+            <bbox w="850.00006" h="389.24414" x="10771.808" y="9634.843"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n15" compartmentRef="n0">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="2015.7224" y="9395.295"/>
+            <glyph class="unit of information" id="n15.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="2039.7224" y="9395.295"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n18" compartmentRef="n6">
+            <bbox w="40.000004" h="40.000004" x="4541.437" y="9341.656"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n257" compartmentRef="n2">
+            <label text="SARS-CoV gRNA (-)"/>
+            <bbox w="400.00003" h="40.000004" x="11020.717" y="9906.132"/>
+            <glyph class="unit of information" id="n257.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="11060.717" y="9906.132"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n258" compartmentRef="n4">
+            <bbox w="40.000004" h="40.000004" x="11185.717" y="9543.249"/>
+        </glyph>
+        <glyph class="complex" id="n17" compartmentRef="n0">
+            <bbox w="240.00002" h="80.00001" x="2383.7224" y="9321.656"/>
+            <glyph class="macromolecule" id="n17.1">
+                <label text="ACE2"/>
+                <bbox w="93.00001" h="56.000008" x="2401.7224" y="9333.656"/>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n17.2">
+                <label text="SPIKE"/>
+                <bbox w="93.00001" h="56.000008" x="2512.7224" y="9333.656"/>
+                <glyph class="unit of information" id="n17.2.info0">
+                    <label text="N:3"/>
+                    <bbox w="0.0" h="0.0" x="2522.0225" y="9333.656"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="n255" compartmentRef="n4">
+            <bbox w="360.00003" h="80.00001" x="11234.717" y="9726.142"/>
+            <glyph class="macromolecule multimer" id="n255.1">
+                <label text="nsp7"/>
+                <bbox w="69.75001" h="56.000008" x="11248.217" y="9738.142"/>
+                <glyph class="unit of information" id="n255.1.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="11255.191" y="9738.142"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n255.2">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="11331.467" y="9738.142"/>
+                <glyph class="unit of information" id="n255.2.info0">
+                    <label text="N:4"/>
+                    <bbox w="0.0" h="0.0" x="11339.117" y="9738.142"/>
+                </glyph>
+                <glyph class="state variable" id="n255.2.mod0">
+                    <label text="I"/>
+                    <bbox w="0.0" h="0.0" x="11339.117" y="9794.142"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n255.3">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="11421.467" y="9738.142"/>
+                <glyph class="unit of information" id="n255.3.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="11429.117" y="9738.142"/>
+                </glyph>
+                <glyph class="state variable" id="n255.3.mod0">
+                    <label text="II"/>
+                    <bbox w="0.0" h="0.0" x="11429.117" y="9794.142"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n256" compartmentRef="n3">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="11020.717" y="9846.32"/>
+            <glyph class="unit of information" id="n256.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="11060.717" y="9846.32"/>
+            </glyph>
+        </glyph>
+        <glyph class="submap" id="n19" compartmentRef="n2">
+            <label text="Endocytosis"/>
+            <bbox w="280.0" h="80.00001" x="2813.3958" y="9321.656"/>
+        </glyph>
+        <glyph class="source and sink" id="n377">
+            <bbox w="60.000004" h="60.000004" x="20505.9" y="13834.208"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n259" compartmentRef="n2">
+            <label text="SARS-CoV gRNA (-)"/>
+            <clone/>
+            <bbox w="400.00003" h="40.000004" x="12164.854" y="10103.576"/>
+            <glyph class="unit of information" id="n259.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="12204.854" y="10103.576"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n138" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="19927.635" y="10335.324"/>
+        </glyph>
+        <glyph class="unspecified entity" id="n139" compartmentRef="n137">
+            <label text="SARS-CoV-2"/>
+            <bbox w="600.0" h="600.0" x="20399.492" y="10055.324"/>
+        </glyph>
+        <glyph class="complex" id="n21" compartmentRef="n2">
+            <bbox w="440.00003" h="260.0" x="3466.3206" y="9234.0"/>
+            <glyph class="macromolecule" id="n21.1">
+                <label text="Nucleoprotein"/>
+                <bbox w="308.00003" h="100.75" x="3532.3206" y="9253.5"/>
+            </glyph>
+            <glyph class="macromolecule" id="n21.2">
+                <label text="gRNA complex"/>
+                <bbox w="308.00003" h="100.75" x="3532.3206" y="9373.75"/>
+            </glyph>
+        </glyph>
+        <glyph class="unspecified entity" id="n20" compartmentRef="n2">
+            <label text="SARS-CoV-2&#xA;(Endosome attached)"/>
+            <bbox w="600.0" h="600.0" x="3378.9382" y="9061.656"/>
+        </glyph>
+        <glyph class="dissociation" id="n250" compartmentRef="n4">
+            <bbox w="40.000004" h="40.000004" x="15497.449" y="9786.483"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n23" compartmentRef="n2">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="3486.3206" y="9301.656"/>
+            <glyph class="unit of information" id="n23.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="3526.3206" y="9301.656"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n22" compartmentRef="n2">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="3566.3206" y="9375.487"/>
+            <glyph class="unit of information" id="n22.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="3590.3206" y="9375.487"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n25" compartmentRef="n6">
+            <label text="CTSB"/>
+            <bbox w="200.00002" h="40.000004" x="4346.561" y="9153.836"/>
+        </glyph>
+        <glyph class="complex" id="n242" compartmentRef="n4">
+            <clone/>
+            <bbox w="360.00003" h="80.00001" x="12426.511" y="9777.042"/>
+            <glyph class="macromolecule multimer" id="n242.1">
+                <label text="nsp7"/>
+                <bbox w="69.75001" h="56.000008" x="12440.011" y="9789.042"/>
+                <glyph class="unit of information" id="n242.1.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="12446.985" y="9789.042"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n242.2">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="12523.261" y="9789.042"/>
+                <glyph class="unit of information" id="n242.2.info0">
+                    <label text="N:4"/>
+                    <bbox w="0.0" h="0.0" x="12530.911" y="9789.042"/>
+                </glyph>
+                <glyph class="state variable" id="n242.2.mod0">
+                    <label text="I"/>
+                    <bbox w="0.0" h="0.0" x="12530.911" y="9845.042"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n242.3">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="12613.261" y="9789.042"/>
+                <glyph class="unit of information" id="n242.3.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="12620.911" y="9789.042"/>
+                </glyph>
+                <glyph class="state variable" id="n242.3.mod0">
+                    <label text="II"/>
+                    <bbox w="0.0" h="0.0" x="12620.911" y="9845.042"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n121" compartmentRef="n95">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="18302.943" y="10305.133"/>
+            <glyph class="unit of information" id="n121.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="18342.943" y="10305.133"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="n122" compartmentRef="n95">
+            <bbox w="440.00003" h="260.0" x="16929.236" y="10225.324"/>
+            <glyph class="macromolecule" id="n122.1">
+                <label text="Nucleoprotein"/>
+                <bbox w="308.00003" h="100.75" x="16995.236" y="10244.824"/>
+            </glyph>
+            <glyph class="macromolecule" id="n122.2">
+                <label text="gRNA complex"/>
+                <bbox w="308.00003" h="100.75" x="16995.236" y="10365.074"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="n243" compartmentRef="n4">
+            <label text="CoV Polymerase Complex">
+                <bbox w="400.00003" h="22.370481" x="11988.694" y="9834.672"/>
+            </label>
+            <bbox w="400.00003" h="80.00001" x="11988.694" y="9777.042"/>
+            <glyph class="macromolecule" id="n243.1">
+                <label text="nsp10"/>
+                <bbox w="77.50001" h="40.340668" x="12003.694" y="9785.687"/>
+            </glyph>
+            <glyph class="macromolecule" id="n243.2">
+                <label text="nsp12"/>
+                <bbox w="85.00001" h="40.340668" x="12096.194" y="9785.687"/>
+            </glyph>
+            <glyph class="macromolecule" id="n243.3">
+                <label text="nsp14"/>
+                <bbox w="85.00001" h="40.340668" x="12196.194" y="9785.687"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="n24" compartmentRef="n2">
+            <bbox w="240.00002" h="80.00001" x="3918.6992" y="9272.271"/>
+            <glyph class="macromolecule" id="n24.1">
+                <label text="ACE2"/>
+                <bbox w="93.00001" h="56.000008" x="3936.6992" y="9284.271"/>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n24.2">
+                <label text="SPIKE"/>
+                <bbox w="93.00001" h="56.000008" x="4047.6992" y="9284.271"/>
+                <glyph class="unit of information" id="n24.2.info0">
+                    <label text="N:3"/>
+                    <bbox w="0.0" h="0.0" x="4056.9993" y="9284.271"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n240" compartmentRef="n4">
+            <label text="nsp9"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16140.964" y="9710.717"/>
+        </glyph>
+        <glyph class="unspecified entity" id="n27" compartmentRef="n6">
+            <label text="SARS-CoV-2&#xA;(endosome internal)"/>
+            <bbox w="600.0" h="600.0" x="5110.02" y="9042.149"/>
+        </glyph>
+        <glyph class="macromolecule" id="n241" compartmentRef="n3">
+            <label text="Daughter Replication Translation Complex"/>
+            <bbox w="850.00006" h="242.55687" x="11963.913" y="9681.53"/>
+        </glyph>
+        <glyph class="macromolecule" id="n26" compartmentRef="n6">
+            <label text="CTSL"/>
+            <bbox w="200.00002" h="40.000004" x="4578.7397" y="9153.836"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n120" compartmentRef="n95">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="18382.943" y="10378.963"/>
+            <glyph class="unit of information" id="n120.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="18406.943" y="10378.963"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n29" compartmentRef="n6">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="5290.02" y="9346.214"/>
+            <glyph class="unit of information" id="n29.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="5314.02" y="9346.214"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n125" compartmentRef="n2">
+            <label text="E"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17598.217" y="10883.364"/>
+        </glyph>
+        <glyph class="macromolecule" id="n126" compartmentRef="n2">
+            <label text="M"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17395.908" y="10883.364"/>
+        </glyph>
+        <glyph class="complex" id="n28" compartmentRef="n6">
+            <clone/>
+            <bbox w="440.00003" h="260.0" x="5200.007" y="9202.576"/>
+            <glyph class="macromolecule" id="n28.1">
+                <label text="Nucleoprotein"/>
+                <bbox w="308.00003" h="100.75" x="5266.007" y="9222.076"/>
+            </glyph>
+            <glyph class="macromolecule" id="n28.2">
+                <label text="gRNA complex"/>
+                <bbox w="308.00003" h="100.75" x="5266.007" y="9342.326"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n123" compartmentRef="n95">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="17029.236" y="10368.65"/>
+            <glyph class="unit of information" id="n123.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="17053.236" y="10368.65"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n244" compartmentRef="n4">
+            <label text="nsp9"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="12332.511" y="9707.043"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n124" compartmentRef="n95">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="16949.236" y="10294.82"/>
+            <glyph class="unit of information" id="n124.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="16989.236" y="10294.82"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n245" compartmentRef="n2">
+            <label text="Primary Replication Translation Complex"/>
+            <bbox w="850.00006" h="242.3832" x="10772.118" y="8620.953"/>
+        </glyph>
+        <glyph class="macromolecule" id="n129" compartmentRef="n2">
+            <label text="6"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="18205.133" y="10883.364"/>
+        </glyph>
+        <glyph class="macromolecule" id="n127" compartmentRef="n2">
+            <label text="S"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17800.521" y="10883.364"/>
+        </glyph>
+        <glyph class="macromolecule" id="n128" compartmentRef="n2">
+            <label text="3a"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="18407.44" y="10883.364"/>
+        </glyph>
+        <glyph class="association" id="n249" compartmentRef="n4">
+            <bbox w="40.000004" h="40.000004" x="12964.966" y="9782.809"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n30" compartmentRef="n6">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="5210.02" y="9272.384"/>
+            <glyph class="unit of information" id="n30.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="5250.02" y="9272.384"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n32" compartmentRef="n0">
+            <label text="TMPRSS2"/>
+            <bbox w="200.00002" h="40.000004" x="2403.7224" y="9769.031"/>
+        </glyph>
+        <glyph class="process" id="n161" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11459.187"/>
+        </glyph>
+        <glyph class="macromolecule" id="n282" compartmentRef="n4">
+            <label text="nsp9"/>
+            <bbox w="160.00002" h="40.000004" x="13523.5205" y="9668.321"/>
+        </glyph>
+        <glyph class="process" id="n162" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11312.618"/>
+        </glyph>
+        <glyph class="process" id="n31" compartmentRef="n0">
+            <bbox w="40.000004" h="40.000004" x="2235.7224" y="9769.031"/>
+        </glyph>
+        <glyph class="process" id="n283" compartmentRef="n4">
+            <bbox w="40.000004" h="40.000004" x="14188.727" y="9782.809"/>
+        </glyph>
+        <glyph class="complex" id="n280" compartmentRef="n4">
+            <bbox w="360.00003" h="80.00001" x="13617.521" y="9738.321"/>
+            <glyph class="macromolecule multimer" id="n280.1">
+                <label text="nsp7"/>
+                <bbox w="69.75001" h="56.000008" x="13631.021" y="9750.321"/>
+                <glyph class="unit of information" id="n280.1.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="13637.996" y="9750.321"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n280.2">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="13714.271" y="9750.321"/>
+                <glyph class="unit of information" id="n280.2.info0">
+                    <label text="N:4"/>
+                    <bbox w="0.0" h="0.0" x="13721.922" y="9750.321"/>
+                </glyph>
+                <glyph class="state variable" id="n280.2.mod0">
+                    <label text="I"/>
+                    <bbox w="0.0" h="0.0" x="13721.922" y="9806.321"/>
+                </glyph>
+            </glyph>
+            <glyph class="macromolecule multimer" id="n280.3">
+                <label text="nsp8"/>
+                <bbox w="76.50001" h="56.000008" x="13804.271" y="9750.321"/>
+                <glyph class="unit of information" id="n280.3.info0">
+                    <label text="N:2"/>
+                    <bbox w="0.0" h="0.0" x="13811.922" y="9750.321"/>
+                </glyph>
+                <glyph class="state variable" id="n280.3.mod0">
+                    <label text="II"/>
+                    <bbox w="0.0" h="0.0" x="13811.922" y="9806.321"/>
+                </glyph>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="n34" compartmentRef="n0">
+            <clone/>
+            <bbox w="440.00003" h="260.0" x="1835.7224" y="10335.25"/>
+            <glyph class="macromolecule" id="n34.1">
+                <label text="Nucleoprotein"/>
+                <bbox w="308.00003" h="100.75" x="1901.7224" y="10354.75"/>
+            </glyph>
+            <glyph class="macromolecule" id="n34.2">
+                <label text="gRNA complex"/>
+                <bbox w="308.00003" h="100.75" x="1901.7224" y="10475.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="unspecified entity" id="n33" compartmentRef="n0">
+            <label text="SARS-CoV-2&#xA;[attached]"/>
+            <clone/>
+            <bbox w="600.0" h="600.0" x="1755.7224" y="10155.25"/>
+        </glyph>
+        <glyph class="process" id="n160" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11532.471"/>
+        </glyph>
+        <glyph class="complex" id="n281" compartmentRef="n4">
+            <label text="CoV Polymerase Complex">
+                <bbox w="400.00003" h="22.370481" x="13179.704" y="9795.951"/>
+            </label>
+            <bbox w="400.00003" h="80.00001" x="13179.704" y="9738.321"/>
+            <glyph class="macromolecule" id="n281.1">
+                <label text="nsp10"/>
+                <bbox w="77.50001" h="40.340668" x="13194.704" y="9746.966"/>
+            </glyph>
+            <glyph class="macromolecule" id="n281.2">
+                <label text="nsp12"/>
+                <bbox w="85.00001" h="40.340668" x="13287.204" y="9746.966"/>
+            </glyph>
+            <glyph class="macromolecule" id="n281.3">
+                <label text="nsp14"/>
+                <bbox w="85.00001" h="40.340668" x="13387.204" y="9746.966"/>
+            </glyph>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n36" compartmentRef="n0">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="1855.7224" y="10405.058"/>
+            <glyph class="unit of information" id="n36.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="1895.7224" y="10405.058"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n154" compartmentRef="n2">
+            <label text="N"/>
+            <bbox w="240.00002" h="80.00001" x="16147.86" y="10455.641"/>
+            <glyph class="unit of information" id="n154.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="16171.86" y="10455.641"/>
+            </glyph>
+        </glyph>
+        <glyph class="uncertain process" id="n275" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="9977.451" y="8944.687"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n35" compartmentRef="n0">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="1935.7224" y="10478.889"/>
+            <glyph class="unit of information" id="n35.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="1959.7224" y="10478.889"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n276" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11239.334"/>
+        </glyph>
+        <glyph class="macromolecule" id="n38" compartmentRef="n0">
+            <label text="SPIKE-S2"/>
+            <bbox w="200.00002" h="80.00001" x="2292.5664" y="10425.25"/>
+            <glyph class="state variable" id="n38.mod0">
+                <label text="HR1-HR2-FP"/>
+                <bbox w="0.0" h="0.0" x="2312.5664" y="10505.25"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n273" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9066.396" y="9327.149"/>
+        </glyph>
+        <glyph class="uncertain process" id="n274" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="9969.619" y="7702.384"/>
+        </glyph>
+        <glyph class="submap" id="n153" compartmentRef="n1">
+            <label text="Virion&#xA;Release"/>
+            <bbox w="138.44835" h="107.84158" x="21310.494" y="10301.403"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n37" compartmentRef="n0">
+            <label text="SPIKE-S1"/>
+            <bbox w="200.00002" h="80.00001" x="1955.7224" y="9998.357"/>
+            <glyph class="unit of information" id="n37.info0">
+                <label text="N:3"/>
+                <bbox w="0.0" h="0.0" x="1975.7224" y="9998.357"/>
+            </glyph>
+            <glyph class="state variable" id="n37.mod0">
+                <label text="180-200kDa"/>
+                <bbox w="0.0" h="0.0" x="1975.7224" y="10078.357"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n158" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11752.324"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n279" compartmentRef="n3">
+            <label text="SARS-CoV gRNA (-)"/>
+            <bbox w="400.00003" h="40.000004" x="13403.5205" y="9858.5"/>
+            <glyph class="unit of information" id="n279.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="13443.5205" y="9858.5"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n39" compartmentRef="n2">
+            <label text="ACE2"/>
+            <bbox w="200.00002" h="40.000004" x="2699.8494" y="9912.141"/>
+            <glyph class="state variable" id="n39.mod0">
+                <label text="15 kda"/>
+                <bbox w="0.0" h="0.0" x="2719.8494" y="9952.141"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n159" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11825.608"/>
+        </glyph>
+        <glyph class="uncertain process" id="n277" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="9969.619" y="7626.091"/>
+        </glyph>
+        <glyph class="macromolecule" id="n156" compartmentRef="n6">
+            <label text="ACE2"/>
+            <bbox w="200.00002" h="40.000004" x="4346.561" y="9511.884"/>
+        </glyph>
+        <glyph class="process" id="n157" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11679.039"/>
+        </glyph>
+        <glyph class="macromolecule" id="n278" compartmentRef="n2">
+            <label text="Daughter Replication Translation Complex gRNA (-)"/>
+            <bbox w="850.00006" h="320.00003" x="13154.923" y="9642.809"/>
+        </glyph>
+        <glyph class="macromolecule" id="n41" compartmentRef="n2">
+            <label text="Nucleocapsid"/>
+            <clone/>
+            <bbox w="440.00003" h="260.0" x="7428.213" y="9212.149"/>
+        </glyph>
+        <glyph class="unspecified entity" id="n40" compartmentRef="n0">
+            <label text="Unknown energy/molecular transfer: Camostat &#xA;mesylate"/>
+            <bbox w="200.00002" h="80.00001" x="1506.9324" y="9749.031"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n43" compartmentRef="n2">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="7448.213" y="9281.957"/>
+            <glyph class="unit of information" id="n43.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="7488.213" y="9281.957"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n271" compartmentRef="n0">
+            <label text="S"/>
+            <bbox w="200.00002" h="80.00001" x="1259.2214" y="8884.781"/>
+            <glyph class="unit of information" id="n271.info0">
+                <label text="N:3"/>
+                <bbox w="0.0" h="0.0" x="1279.2214" y="8884.781"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n272" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9429.414" y="8976.838"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n42" compartmentRef="n2">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="7528.213" y="9355.788"/>
+            <glyph class="unit of information" id="n42.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="7552.213" y="9355.788"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n45" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="5390.02" y="11238.844"/>
+        </glyph>
+        <glyph class="macromolecule" id="n44" compartmentRef="n0">
+            <label text="LY6E"/>
+            <bbox w="200.00002" h="40.000004" x="2403.7224" y="10075.942"/>
+        </glyph>
+        <glyph class="macromolecule" id="n47" compartmentRef="n0">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="1209.3486" y="8752.677"/>
+        </glyph>
+        <glyph class="or" id="n264" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="9061.396" y="8707.825"/>
+        </glyph>
+        <glyph class="or" id="n265" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="9501.757" y="8442.085"/>
+        </glyph>
+        <glyph class="macromolecule" id="n46" compartmentRef="n0">
+            <label text="E"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="902.5976" y="8600.571"/>
+        </glyph>
+        <glyph class="macromolecule" id="n49" compartmentRef="n0">
+            <label text="E"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="1702.5643" y="9281.464"/>
+        </glyph>
+        <glyph class="process" id="n262" compartmentRef="n4">
+            <bbox w="40.000004" h="40.000004" x="12368.913" y="9450.101"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n141" compartmentRef="n137">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="20579.492" y="10378.963"/>
+            <glyph class="unit of information" id="n141.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="20603.492" y="10378.963"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n48" compartmentRef="n0">
+            <label text="M"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="702.59753" y="8700.571"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n142" compartmentRef="n137">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="20499.492" y="10305.133"/>
+            <glyph class="unit of information" id="n142.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="20539.492" y="10305.133"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n148" compartmentRef="n0">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="21829.482" y="10378.963"/>
+            <glyph class="unit of information" id="n148.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="21853.482" y="10378.963"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n266" compartmentRef="n2">
+            <bbox w="20.000002" h="20.000002" x="9421.757" y="8452.085"/>
+        </glyph>
+        <glyph class="process" id="n267" compartmentRef="n4">
+            <bbox w="30.000002" h="30.000002" x="11190.717" y="9426.015"/>
+        </glyph>
+        <glyph class="unspecified entity" id="n146" compartmentRef="n0">
+            <label text="SARS-CoV-2"/>
+            <clone/>
+            <bbox w="600.0" h="600.0" x="21649.482" y="10055.324"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n149" compartmentRef="n0">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="21749.482" y="10305.133"/>
+            <glyph class="unit of information" id="n149.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="21789.482" y="10305.133"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n5" compartmentRef="n0">
+            <bbox w="20.000002" h="20.000002" x="1280.4481" y="8914.781"/>
+        </glyph>
+        <glyph class="macromolecule" id="n50" compartmentRef="n0">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="1702.5643" y="9361.656"/>
+        </glyph>
+        <glyph class="unspecified entity" id="n7" compartmentRef="n0">
+            <label text="SARS-CoV-2"/>
+            <bbox w="600.0" h="600.0" x="702.59753" y="8624.781"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n180" compartmentRef="n6">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="6474.22" y="9304.137"/>
+            <glyph class="unit of information" id="n180.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="6514.22" y="9304.137"/>
+            </glyph>
+        </glyph>
+        <glyph class="complex" id="n8" compartmentRef="n0">
+            <bbox w="440.00003" h="260.0" x="779.22144" y="8814.401"/>
+            <glyph class="macromolecule" id="n8.1">
+                <label text="Nucleoprotein"/>
+                <bbox w="308.00003" h="100.75" x="845.22144" y="8833.901"/>
+            </glyph>
+            <glyph class="macromolecule" id="n8.2">
+                <label text="gRNA complex"/>
+                <bbox w="308.00003" h="100.75" x="845.22144" y="8954.151"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n52" compartmentRef="n0">
+            <label text="E"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="1618.8785" y="10365.059"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n9" compartmentRef="n0">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="879.22144" y="8952.568"/>
+            <glyph class="unit of information" id="n9.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="903.22144" y="8952.568"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n51" compartmentRef="n0">
+            <label text="M"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="1702.5643" y="9441.849"/>
+        </glyph>
+        <glyph class="macromolecule" id="n183" compartmentRef="n6">
+            <label text="M"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="6855.274" y="9513.744"/>
+        </glyph>
+        <glyph class="macromolecule" id="n54" compartmentRef="n0">
+            <label text="M"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="1618.8785" y="10525.442"/>
+        </glyph>
+        <glyph class="macromolecule" id="n53" compartmentRef="n0">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="1618.8785" y="10445.25"/>
+        </glyph>
+        <glyph class="submap" id="n184" compartmentRef="n6">
+            <label text="Membrane Fusion"/>
+            <bbox w="269.22418" h="107.84158" x="5930.5103" y="9288.229"/>
+        </glyph>
+        <glyph class="macromolecule" id="n181" compartmentRef="n6">
+            <label text="E"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="6855.274" y="9164.136"/>
+        </glyph>
+        <glyph class="macromolecule" id="n56" compartmentRef="n2">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="3778.9382" y="9149.3125"/>
+        </glyph>
+        <glyph class="macromolecule" id="n182" compartmentRef="n6">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="6819.41" y="9094.328"/>
+        </glyph>
+        <glyph class="macromolecule" id="n55" compartmentRef="n2">
+            <label text="E"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="3378.9382" y="9149.3125"/>
+        </glyph>
+        <glyph class="submap" id="n176" compartmentRef="n2">
+            <label text="Type I IFN&#xA;Pathway"/>
+            <bbox w="216.1193" h="163.86653" x="2845.3362" y="10145.304"/>
+        </glyph>
+        <glyph class="macromolecule" id="n58" compartmentRef="n6">
+            <label text="E"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="5660.5107" y="9288.229"/>
+        </glyph>
+        <glyph class="process" id="n297" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="12045.461"/>
+        </glyph>
+        <glyph class="unspecified entity" id="n177" compartmentRef="n6">
+            <label text="SARS-CoV-2&#xA;(edosome fused)"/>
+            <bbox w="600.0" h="600.0" x="6384.2065" y="9042.149"/>
+        </glyph>
+        <glyph class="macromolecule" id="n57" compartmentRef="n2">
+            <label text="M"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="3378.9382" y="9554.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="n298" compartmentRef="n2">
+            <label text="3b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="19014.357" y="10883.364"/>
+        </glyph>
+        <glyph class="process" id="n295" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11898.893"/>
+        </glyph>
+        <glyph class="submap" id="n174" compartmentRef="n2">
+            <label text="PKR Pathway"/>
+            <bbox w="300.0" h="100.00001" x="9474.989" y="10118.739"/>
+        </glyph>
+        <glyph class="submap" id="n175" compartmentRef="n2">
+            <label text="2'5'OAS&#xA;Pathway"/>
+            <bbox w="300.0" h="100.00001" x="9871.351" y="10118.739"/>
+        </glyph>
+        <glyph class="process" id="n296" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11972.179"/>
+        </glyph>
+        <glyph class="macromolecule" id="n59" compartmentRef="n6">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="5546.037" y="9144.328"/>
+        </glyph>
+        <glyph class="macromolecule" id="n299" compartmentRef="n2">
+            <label text="9b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="19216.664" y="10883.364"/>
+        </glyph>
+        <glyph class="complex" id="n178" compartmentRef="n6">
+            <clone/>
+            <bbox w="440.00003" h="260.0" x="6464.2065" y="9234.328"/>
+            <glyph class="macromolecule" id="n178.1">
+                <label text="Nucleoprotein"/>
+                <bbox w="308.00003" h="100.75" x="6530.2065" y="9253.828"/>
+            </glyph>
+            <glyph class="macromolecule" id="n178.2">
+                <label text="gRNA complex"/>
+                <bbox w="308.00003" h="100.75" x="6530.2065" y="9374.078"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n179" compartmentRef="n6">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="6554.22" y="9377.967"/>
+            <glyph class="unit of information" id="n179.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="6578.22" y="9377.967"/>
+            </glyph>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n61" compartmentRef="n2">
+            <label text="SARS-CoV gRNA (+)"/>
+            <clone/>
+            <bbox w="400.00003" h="40.000004" x="8631.214" y="9322.149"/>
+            <glyph class="unit of information" id="n61.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="8671.214" y="9322.149"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n290" compartmentRef="n2">
+            <label text="9b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11972.179"/>
+        </glyph>
+        <glyph class="macromolecule" id="n60" compartmentRef="n6">
+            <label text="M"/>
+            <clone/>
+            <bbox w="200.00002" h="40.000004" x="5547.54" y="9522.576"/>
+        </glyph>
+        <glyph class="process" id="n63" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="9153.687" y="8707.825"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n62" compartmentRef="n2">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="8295.963" y="9497.834"/>
+            <glyph class="unit of information" id="n62.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="8319.963" y="9497.834"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n65" compartmentRef="n2">
+            <label text="E"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11312.618"/>
+        </glyph>
+        <glyph class="macromolecule" id="n293" compartmentRef="n2">
+            <label text="9b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17892.166" y="11863.529"/>
+        </glyph>
+        <glyph class="submap" id="n172" compartmentRef="n2">
+            <label text="Inhibition of &#xA;IFN Signalling"/>
+            <bbox w="208.92061" h="107.84158" x="10291.056" y="7816.914"/>
+        </glyph>
+        <glyph class="macromolecule" id="n64" compartmentRef="n2">
+            <label text="3a"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11532.471"/>
+        </glyph>
+        <glyph class="macromolecule" id="n294" compartmentRef="n2">
+            <label text="9c"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17892.166" y="11936.813"/>
+        </glyph>
+        <glyph class="submap" id="n173" compartmentRef="n2">
+            <label text="Reduction of&#xA;'free' viral dsRNA&#xA;(immune evasion)"/>
+            <bbox w="259.93744" h="146.49722" x="9707.482" y="9831.147"/>
+        </glyph>
+        <glyph class="macromolecule" id="n67" compartmentRef="n2">
+            <label text="M"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11385.902"/>
+        </glyph>
+        <glyph class="macromolecule" id="n170" compartmentRef="n2">
+            <label text="CASP3"/>
+            <bbox w="200.00002" h="40.000004" x="8191.631" y="9157.351"/>
+        </glyph>
+        <glyph class="macromolecule" id="n291" compartmentRef="n2">
+            <label text="9c"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="12045.461"/>
+        </glyph>
+        <glyph class="macromolecule" id="n66" compartmentRef="n2">
+            <label text="6"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11605.755"/>
+        </glyph>
+        <glyph class="macromolecule" id="n292" compartmentRef="n2">
+            <label text="3b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="17892.166" y="11790.245"/>
+        </glyph>
+        <glyph class="submap" id="n171" compartmentRef="n2">
+            <label text="Degradation of&#xA;Cellular mRNA"/>
+            <bbox w="220.56645" h="107.84158" x="10285.232" y="7669.335"/>
+        </glyph>
+        <glyph class="macromolecule" id="n69" compartmentRef="n2">
+            <label text="10"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11825.608"/>
+        </glyph>
+        <glyph class="process" id="n165" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="17860.521" y="11010.361"/>
+        </glyph>
+        <glyph class="process" id="n286" compartmentRef="n4">
+            <bbox w="20.000002" h="20.000002" x="14500.095" y="9501.391"/>
+        </glyph>
+        <glyph class="macromolecule" id="n68" compartmentRef="n2">
+            <label text="ORF7a"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11679.039"/>
+        </glyph>
+        <glyph class="macromolecule" id="n287" compartmentRef="n2">
+            <label text="nsp16"/>
+            <bbox w="160.00002" h="40.000004" x="9757.451" y="9019.945"/>
+        </glyph>
+        <glyph class="process" id="n166" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="18265.133" y="11010.361"/>
+        </glyph>
+        <glyph class="process" id="n163" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="15190.757" y="11385.902"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n284" compartmentRef="n3">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="14661.13" y="9890.874"/>
+            <glyph class="unit of information" id="n284.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="14701.13" y="9890.874"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n164" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="17658.217" y="11010.361"/>
+        </glyph>
+        <glyph class="process" id="n169" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="18872.05" y="11010.361"/>
+        </glyph>
+        <glyph class="process" id="n167" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="18467.44" y="11010.361"/>
+        </glyph>
+        <glyph class="uncertain process" id="n288" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="9977.451" y="9019.945"/>
+        </glyph>
+        <glyph class="macromolecule" id="n289" compartmentRef="n2">
+            <label text="3b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="16921.332" y="11898.893"/>
+        </glyph>
+        <glyph class="process" id="n168" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="18669.746" y="11010.361"/>
+        </glyph>
+        <glyph class="macromolecule" id="n70" compartmentRef="n2">
+            <label text="7b"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11752.324"/>
+        </glyph>
+        <glyph class="macromolecule" id="n72" compartmentRef="n2">
+            <label text="S"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11459.187"/>
+        </glyph>
+        <glyph class="macromolecule" id="n71" compartmentRef="n2">
+            <label text="N"/>
+            <clone/>
+            <bbox w="160.00002" h="40.000004" x="11865.476" y="11239.334"/>
+        </glyph>
+        <glyph class="macromolecule" id="n74" compartmentRef="n2">
+            <label text="nsp14"/>
+            <bbox w="160.00002" h="40.000004" x="9757.451" y="8869.489"/>
+        </glyph>
+        <glyph class="macromolecule" id="n73" compartmentRef="n2">
+            <label text="nsp15"/>
+            <bbox w="160.00002" h="40.000004" x="9757.451" y="9087.097"/>
+        </glyph>
+        <glyph class="macromolecule" id="n76" compartmentRef="n2">
+            <label text="nsp12"/>
+            <bbox w="160.00002" h="40.000004" x="9757.451" y="8793.197"/>
+        </glyph>
+        <glyph class="macromolecule" id="n75" compartmentRef="n2">
+            <label text="nsp13"/>
+            <bbox w="160.00002" h="40.000004" x="9757.451" y="8944.687"/>
+        </glyph>
+        <glyph class="macromolecule" id="n78" compartmentRef="n2">
+            <label text="nsp10"/>
+            <bbox w="160.00002" h="40.000004" x="9766.736" y="8443.047"/>
+        </glyph>
+        <glyph class="macromolecule" id="n77" compartmentRef="n2">
+            <label text="nsp11"/>
+            <bbox w="160.00002" h="40.000004" x="9772.451" y="7702.384"/>
+        </glyph>
+        <glyph class="dissociation" id="n198" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="8395.963" y="9322.149"/>
+        </glyph>
+        <glyph class="source and sink" id="n199" compartmentRef="n2">
+            <bbox w="40.000004" h="40.000004" x="8395.963" y="9578.138"/>
+        </glyph>
+        <glyph class="macromolecule" id="n79" compartmentRef="n2">
+            <label text="nsp9"/>
+            <bbox w="160.00002" h="40.000004" x="9757.451" y="8325.695"/>
+        </glyph>
+        <glyph class="nucleic acid feature" id="n196" compartmentRef="n2">
+            <label text="SARS-CoV gRNA (+)"/>
+            <bbox w="400.00003" h="40.000004" x="3741.6753" y="11198.651"/>
+            <glyph class="unit of information" id="n196.info0">
+                <label text="ct:grr"/>
+                <bbox w="0.0" h="0.0" x="3781.6753" y="11198.651"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="n197" compartmentRef="n2">
+            <bbox w="30.000002" h="30.000002" x="9992.451" y="7771.7427"/>
+        </glyph>
+        <glyph class="macromolecule" id="n81" compartmentRef="n2">
+            <label text="nsp7"/>
+            <bbox w="160.00002" h="40.000004" x="9766.736" y="8541.829"/>
+        </glyph>
+        <glyph class="macromolecule" id="n80" compartmentRef="n2">
+            <label text="nsp8"/>
+            <bbox w="160.00002" h="40.000004" x="9766.736" y="8618.122"/>
+        </glyph>
+        <glyph class="macromolecule" id="n83" compartmentRef="n2">
+            <label text="nsp5"/>
+            <bbox w="160.00002" h="40.000004" x="9772.451" y="7850.835"/>
+        </glyph>
+        <glyph class="macromolecule" id="n82" compartmentRef="n2">
+            <label text="nsp6"/>
+            <bbox w="160.00002" h="40.000004" x="9757.451" y="8249.402"/>
+        </glyph>
+        <glyph class="macromolecule" id="n85" compartmentRef="n2">
+            <label text="nsp3"/>
+            <bbox w="160.00002" h="40.000004" x="9757.451" y="8092.918"/>
+        </glyph>
+        <glyph class="macromolecule" id="n84" compartmentRef="n2">
+            <label text="nsp4"/>
+            <bbox w="160.00002" h="40.000004" x="9757.451" y="8173.1094"/>
+        </glyph>
+        <glyph class="macromolecule" id="n87" compartmentRef="n2">
+            <label text="nsp1"/>
+            <bbox w="160.00002" h="40.000004" x="9772.451" y="7766.7427"/>
+        </glyph>
+        <glyph class="macromolecule" id="n194" compartmentRef="n2">
+            <label text="Nucleocapsid"/>
+            <clone/>
+            <bbox w="440.00003" h="260.0" x="3721.6753" y="11128.844"/>
+        </glyph>
+        <glyph class="macromolecule" id="n86" compartmentRef="n2">
+            <label text="nsp2"/>
+            <bbox w="160.00002" h="40.000004" x="9772.451" y="7626.091"/>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n195" compartmentRef="n2">
+            <label text="N protein"/>
+            <bbox w="240.00002" h="40.000004" x="3821.6753" y="11272.482"/>
+            <glyph class="unit of information" id="n195.info0">
+                <label text="N:?"/>
+                <bbox w="0.0" h="0.0" x="3845.6753" y="11272.482"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule" id="n89" compartmentRef="n2">
+            <label text="pp1ab"/>
+            <bbox w="160.00002" h="40.000004" x="9209.414" y="8971.838"/>
+        </glyph>
+        <glyph class="macromolecule" id="n88" compartmentRef="n2">
+            <label text="pp1a"/>
+            <bbox w="160.00002" h="40.000004" x="9209.414" y="8442.085"/>
+        </glyph>
+        <glyph class="submap" id="n193" compartmentRef="n0">
+            <label text="Membrane Fusion"/>
+            <bbox w="269.22418" h="107.84158" x="2393.5203" y="10798.126"/>
+        </glyph>
+        <glyph class="macromolecule" id="n187" compartmentRef="n6">
+            <label text="S"/>
+            <bbox w="200.00002" h="40.000004" x="4578.7397" y="9511.884"/>
+        </glyph>
+        <glyph class="submap" id="n185" compartmentRef="n2">
+            <label text="Nucleocapsid&#xA;Release"/>
+            <bbox w="200.00002" h="107.84158" x="7116.2095" y="9288.229"/>
+        </glyph>
+        <glyph class="macromolecule" id="n186" compartmentRef="n0">
+            <label text="ACE2"/>
+            <bbox w="200.00002" h="40.000004" x="1835.7225" y="9912.141"/>
+            <glyph class="state variable" id="n186.mod0">
+                <label text="100 kda"/>
+                <bbox w="0.0" h="0.0" x="1855.7225" y="9952.141"/>
+            </glyph>
+        </glyph>
+        <glyph class="macromolecule multimer" id="n189" compartmentRef="n6">
+            <label text="S"/>
+            <bbox w="200.00002" h="80.00001" x="6301.5625" y="9124.328"/>
+            <glyph class="unit of information" id="n189.info0">
+                <label text="N:2"/>
+                <bbox w="0.0" h="0.0" x="6321.5625" y="9124.328"/>
+            </glyph>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n92.tag1">
+            <label text="1"/>
+            <bbox w="13.42229" h="26.84458" x="12307.054" y="8430.371"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n92.tag2">
+            <label text="2"/>
+            <bbox w="13.42229" h="26.84458" x="12382.202" y="8430.371"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n92.tag3">
+            <label text="3"/>
+            <bbox w="13.42229" h="26.84458" x="12457.35" y="8430.371"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n310.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="10280.516" y="8882.778"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n311.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="10280.516" y="8454.396"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n309.tag1">
+            <label text="1"/>
+            <bbox w="13.42229" h="26.84458" x="18478.422" y="10809.086"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n307.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="10280.516" y="8337.045"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n308.tag1">
+            <label text="1"/>
+            <bbox w="13.42229" h="26.84458" x="16994.621" y="11093.231"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n321.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="10240.516" y="8608.078"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n321.tag2">
+            <label text="2"/>
+            <bbox w="26.84458" h="13.42229" x="10240.516" y="8574.744"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n328.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="17317.584" y="10826.344"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n341.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="10291.056" y="8011.702"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n341.tag2">
+            <label text="2"/>
+            <bbox w="13.42229" h="26.84458" x="10423.625" y="8045.4893"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n341.tag3">
+            <label text="3"/>
+            <bbox w="13.42229" h="26.84458" x="10353.985" y="8045.4893"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n221.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="2969.475" y="11252.133"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n221.tag2">
+            <label text="2"/>
+            <bbox w="26.84458" h="13.42229" x="3135.9001" y="11252.133"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n106.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="17307.197" y="11660.415"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n106.tag2">
+            <label text="2"/>
+            <bbox w="26.84458" h="13.42229" x="17307.197" y="11643.866"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n106.tag3">
+            <label text="3"/>
+            <bbox w="26.84458" h="13.42229" x="17307.197" y="11627.317"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n106.tag4">
+            <label text="4"/>
+            <bbox w="26.84458" h="13.42229" x="17307.197" y="11610.769"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n106.tag5">
+            <label text="5"/>
+            <bbox w="26.84458" h="13.42229" x="17307.197" y="11594.22"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n106.tag6">
+            <label text="6"/>
+            <bbox w="26.84458" h="13.42229" x="17307.197" y="11577.672"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n106.tag7">
+            <label text="7"/>
+            <bbox w="13.42229" h="26.84458" x="17354.094" y="11567.834"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n106.tag8">
+            <label text="8"/>
+            <bbox w="13.42229" h="26.84458" x="17407.703" y="11567.834"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n106.tag9">
+            <label text="9"/>
+            <bbox w="13.42229" h="26.84458" x="17461.31" y="11567.834"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n106.tag10">
+            <label text="10"/>
+            <bbox w="13.42229" h="26.84458" x="17514.92" y="11567.834"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n106.tag11">
+            <label text="11"/>
+            <bbox w="26.84458" h="13.42229" x="17548.395" y="11573.994"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n106.tag12">
+            <label text="12"/>
+            <bbox w="26.84458" h="13.42229" x="17548.395" y="11586.865"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n106.tag13">
+            <label text="13"/>
+            <bbox w="26.84458" h="13.42229" x="17548.395" y="11599.736"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n106.tag14">
+            <label text="14"/>
+            <bbox w="26.84458" h="13.42229" x="17548.395" y="11612.608"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n106.tag15">
+            <label text="15"/>
+            <bbox w="26.84458" h="13.42229" x="17548.395" y="11625.4795"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n106.tag16">
+            <label text="16"/>
+            <bbox w="26.84458" h="13.42229" x="17548.395" y="11638.351"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n106.tag17">
+            <label text="17"/>
+            <bbox w="26.84458" h="13.42229" x="17548.395" y="11651.222"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n106.tag18">
+            <label text="18"/>
+            <bbox w="26.84458" h="13.42229" x="17548.395" y="11664.093"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n106.tag19">
+            <label text="19"/>
+            <bbox w="13.42229" h="26.84458" x="17514.92" y="11656.83"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n106.tag20">
+            <label text="20"/>
+            <bbox w="13.42229" h="26.84458" x="17461.31" y="11656.83"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n106.tag21">
+            <label text="21"/>
+            <bbox w="13.42229" h="26.84458" x="17407.703" y="11656.83"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n106.tag22">
+            <label text="22"/>
+            <bbox w="13.42229" h="26.84458" x="17354.094" y="11656.83"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n133.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="17655.148" y="10380.24"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n133.tag2">
+            <label text="2"/>
+            <bbox w="26.84458" h="13.42229" x="17655.148" y="10316.986"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n133.tag3">
+            <label text="3"/>
+            <bbox w="26.84458" h="13.42229" x="17895.822" y="10348.613"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n133.tag4">
+            <label text="4"/>
+            <bbox w="13.42229" h="26.84458" x="17849.076" y="10423.36"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n133.tag5">
+            <label text="5"/>
+            <bbox w="13.42229" h="26.84458" x="17782.195" y="10423.36"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n133.tag6">
+            <label text="6"/>
+            <bbox w="13.42229" h="26.84458" x="17715.316" y="10423.36"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n19.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="2813.3958" y="9354.945"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n19.tag2">
+            <label text="2"/>
+            <bbox w="26.84458" h="13.42229" x="3066.5513" y="9354.945"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n153.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="21310.494" y="10348.613"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n153.tag2">
+            <label text="2"/>
+            <bbox w="26.84458" h="13.42229" x="21422.1" y="10348.613"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n184.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="5930.5103" y="9335.438"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n184.tag2">
+            <label text="2"/>
+            <bbox w="26.84458" h="13.42229" x="6172.8896" y="9335.438"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n184.tag3">
+            <label text="3"/>
+            <bbox w="13.42229" h="26.84458" x="6058.411" y="9369.226"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n176.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="2845.3362" y="10220.525"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n174.tag1">
+            <label text="1"/>
+            <bbox w="13.42229" h="26.84458" x="9618.278" y="10118.739"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n175.tag1">
+            <label text="1"/>
+            <bbox w="13.42229" h="26.84458" x="10014.64" y="10118.739"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n172.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="10291.056" y="7882.0977"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n172.tag2">
+            <label text="2"/>
+            <bbox w="26.84458" h="13.42229" x="10291.056" y="7846.1504"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n173.tag1">
+            <label text="1"/>
+            <bbox w="13.42229" h="26.84458" x="9830.74" y="9831.147"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n173.tag2">
+            <label text="2"/>
+            <bbox w="13.42229" h="26.84458" x="9874.063" y="9950.8"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n173.tag3">
+            <label text="3"/>
+            <bbox w="13.42229" h="26.84458" x="9787.417" y="9950.8"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n171.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="10285.232" y="7716.545"/>
+        </glyph>
+        <glyph class="tag" orientation="down" id="n193.tag1">
+            <label text="1"/>
+            <bbox w="13.42229" h="26.84458" x="2521.4211" y="10798.126"/>
+        </glyph>
+        <glyph class="tag" orientation="up" id="n193.tag2">
+            <label text="2"/>
+            <bbox w="13.42229" h="26.84458" x="2521.4211" y="10879.123"/>
+        </glyph>
+        <glyph class="tag" orientation="right" id="n185.tag1">
+            <label text="1"/>
+            <bbox w="26.84458" h="13.42229" x="7116.2095" y="9335.438"/>
+        </glyph>
+        <glyph class="tag" orientation="left" id="n185.tag2">
+            <label text="2"/>
+            <bbox w="26.84458" h="13.42229" x="7289.3647" y="9335.438"/>
+        </glyph>
+        <arc class="production" id="e28" source="n90" target="n76">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9699.924" y="8813.197"/>
+            <end x="9837.451" y="8813.197"/>
+        </arc>
+        <arc class="production" id="e27" source="n90" target="n78">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9723.322" y="8463.047"/>
+            <end x="9846.736" y="8463.047"/>
+        </arc>
+        <arc class="production" id="e33" source="n90" target="n77">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9660.08" y="7722.384"/>
+            <end x="9852.451" y="7722.384"/>
+        </arc>
+        <arc class="production" id="e302" source="n90" target="n79">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9690.943" y="8345.695"/>
+            <end x="9837.451" y="8345.695"/>
+        </arc>
+        <arc class="production" id="e25" source="n90" target="n81">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9721.417" y="8561.829"/>
+            <end x="9846.736" y="8561.829"/>
+        </arc>
+        <arc class="production" id="e26" source="n90" target="n80">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9711.972" y="8638.122"/>
+            <end x="9846.736" y="8638.122"/>
+        </arc>
+        <arc class="production" id="e23" source="n90" target="n83">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9701.547" y="7870.835"/>
+            <end x="9852.451" y="7870.835"/>
+        </arc>
+        <arc class="production" id="e24" source="n90" target="n82">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9703.969" y="8269.402"/>
+            <end x="9837.451" y="8269.402"/>
+        </arc>
+        <arc class="production" id="e21" source="n90" target="n85">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9705.668" y="8112.918"/>
+            <end x="9837.451" y="8112.918"/>
+        </arc>
+        <arc class="production" id="e22" source="n90" target="n84">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9707.447" y="8193.109"/>
+            <end x="9837.451" y="8193.109"/>
+        </arc>
+        <arc class="production" id="e19" source="n90" target="n87">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9678.286" y="7786.7427"/>
+            <end x="9852.451" y="7786.7427"/>
+        </arc>
+        <arc class="production" id="e20" source="n90" target="n86">
+            <start x="9593.957" y="8379.616"/>
+            <next x="9646.235" y="7646.091"/>
+            <end x="9852.451" y="7646.091"/>
+        </arc>
+        <arc class="production" id="e279" source="n91" target="n287">
+            <start x="9633.967" y="8991.838"/>
+            <next x="9699.402" y="9039.945"/>
+            <end x="9837.451" y="9039.945"/>
+        </arc>
+        <arc class="production" id="e30" source="n91" target="n74">
+            <start x="9633.967" y="8991.838"/>
+            <next x="9697.242" y="8889.489"/>
+            <end x="9837.451" y="8889.489"/>
+        </arc>
+        <arc class="production" id="e31" source="n91" target="n73">
+            <start x="9633.967" y="8991.838"/>
+            <next x="9713.334" y="9107.097"/>
+            <end x="9837.451" y="9107.097"/>
+        </arc>
+        <arc class="production" id="e29" source="n91" target="n75">
+            <start x="9633.967" y="8991.838"/>
+            <next x="9699.276" y="8964.687"/>
+            <end x="9837.451" y="8964.687"/>
+        </arc>
+        <arc class="production" id="e290" source="n94" target="n305">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11175.035" y="11992.179"/>
+            <end x="11945.476" y="11992.179"/>
+        </arc>
+        <arc class="production" id="e291" source="n94" target="n306">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11122.975" y="12065.461"/>
+            <end x="11945.476" y="12065.461"/>
+        </arc>
+        <arc class="production" id="e289" source="n94" target="n304">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11216.685" y="11918.893"/>
+            <end x="11945.476" y="11918.893"/>
+        </arc>
+        <arc class="production" id="e46" source="n94" target="n65">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11263.778" y="11332.618"/>
+            <end x="11945.476" y="11332.618"/>
+        </arc>
+        <arc class="production" id="e48" source="n94" target="n64">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11273.058" y="11552.471"/>
+            <end x="11945.476" y="11552.471"/>
+        </arc>
+        <arc class="production" id="e45" source="n94" target="n67">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11254.798" y="11405.902"/>
+            <end x="11945.476" y="11405.902"/>
+        </arc>
+        <arc class="production" id="e51" source="n94" target="n66">
+            <start x="10935.954" y="11625.755"/>
+            <end x="11945.476" y="11625.755"/>
+        </arc>
+        <arc class="production" id="e44" source="n94" target="n69">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11230.85" y="11845.608"/>
+            <end x="11945.476" y="11845.608"/>
+        </arc>
+        <arc class="production" id="e50" source="n94" target="n68">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11258.325" y="11699.039"/>
+            <end x="11945.476" y="11699.039"/>
+        </arc>
+        <arc class="production" id="e49" source="n94" target="n70">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11266.919" y="11772.324"/>
+            <end x="11945.476" y="11772.324"/>
+        </arc>
+        <arc class="production" id="e43" source="n94" target="n72">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11274.512" y="11479.187"/>
+            <end x="11945.476" y="11479.187"/>
+        </arc>
+        <arc class="production" id="e47" source="n94" target="n71">
+            <start x="10935.954" y="11625.755"/>
+            <next x="11256.474" y="11259.334"/>
+            <end x="11945.476" y="11259.334"/>
+        </arc>
+        <arc class="production" id="e186" source="n93" target="n245">
+            <start x="10160.516" y="8742.145"/>
+            <end x="11197.118" y="8742.145"/>
+        </arc>
+        <arc class="equivalence arc" id="e55" source="n98" target="n106.tag4">
+            <start x="17001.332" y="11552.471"/>
+            <next x="17215.184" y="11552.471"/>
+            <end x="17307.197" y="11617.4795"/>
+        </arc>
+        <arc class="production" id="e53" source="n97" target="n100">
+            <start x="15210.757" y="11625.755"/>
+            <end x="17001.332" y="11625.755"/>
+        </arc>
+        <arc class="equivalence arc" id="e304" source="n99" target="n308.tag1">
+            <start x="17001.332" y="11332.618"/>
+            <end x="17001.332" y="11120.076"/>
+        </arc>
+        <arc class="equivalence arc" id="e303" source="n99" target="n106.tag7">
+            <start x="17001.332" y="11332.618"/>
+            <next x="17225.67" y="11332.618"/>
+            <end x="17360.805" y="11567.834"/>
+        </arc>
+        <arc class="production" id="e292" source="n301" target="n298">
+            <start x="19094.357" y="11030.361"/>
+            <end x="19094.357" y="10903.364"/>
+        </arc>
+        <arc class="production" id="e293" source="n302" target="n299">
+            <start x="19296.664" y="11030.361"/>
+            <end x="19296.664" y="10903.364"/>
+        </arc>
+        <arc class="consumption" id="e330" source="n300" target="n333">
+            <start x="19498.969" y="10903.364"/>
+            <end x="19498.969" y="10815.931"/>
+        </arc>
+        <arc class="consumption" id="e299" source="n305" target="n296">
+            <start x="11945.476" y="11992.179"/>
+            <end x="15210.757" y="11992.179"/>
+        </arc>
+        <arc class="consumption" id="e300" source="n306" target="n297">
+            <start x="11945.476" y="12065.461"/>
+            <end x="15210.757" y="12065.461"/>
+        </arc>
+        <arc class="production" id="e294" source="n303" target="n300">
+            <start x="19498.969" y="11030.361"/>
+            <end x="19498.969" y="10903.364"/>
+        </arc>
+        <arc class="consumption" id="e298" source="n304" target="n295">
+            <start x="11945.476" y="11918.893"/>
+            <end x="15210.757" y="11918.893"/>
+        </arc>
+        <arc class="production" id="e143" source="n210" target="n32">
+            <start x="2669.7227" y="9789.031"/>
+            <end x="2503.7224" y="9789.031"/>
+        </arc>
+        <arc class="catalysis" id="e7" source="n214" target="n18">
+            <start x="4558.7397" y="9261.656"/>
+            <end x="4561.437" y="9361.656"/>
+        </arc>
+        <arc class="logic arc" id="e151" source="n217" target="n214">
+            <start x="4499.833" y="9216.872"/>
+            <end x="4558.7397" y="9261.656"/>
+        </arc>
+        <arc class="logic arc" id="e152" source="n218" target="n214">
+            <start x="4622.6016" y="9210.695"/>
+            <end x="4558.7397" y="9261.656"/>
+        </arc>
+        <arc class="production" id="e150" source="n215" target="n25">
+            <start x="4446.561" y="9103.741"/>
+            <end x="4446.561" y="9173.836"/>
+        </arc>
+        <arc class="production" id="e149" source="n216" target="n26">
+            <start x="4678.7397" y="9103.741"/>
+            <end x="4678.7397" y="9173.836"/>
+        </arc>
+        <arc class="consumption" id="e138" source="n203" target="n202">
+            <start x="2055.7224" y="11218.651"/>
+            <end x="2055.7224" y="11292.482"/>
+        </arc>
+        <arc class="consumption" id="e229" source="n203" target="n201">
+            <start x="2055.7224" y="11218.651"/>
+            <end x="2055.7224" y="11258.844"/>
+        </arc>
+        <arc class="consumption" id="e230" source="n201" target="n200">
+            <start x="2055.7224" y="11258.844"/>
+            <end x="2055.7224" y="11248.844"/>
+        </arc>
+        <arc class="consumption" id="e348" source="n206" target="n200">
+            <start x="2392.5664" y="11134.006"/>
+            <end x="2055.7224" y="11248.844"/>
+        </arc>
+        <arc class="consumption" id="e347" source="n207" target="n200">
+            <start x="2395.7227" y="11355.575"/>
+            <end x="2055.7224" y="11248.844"/>
+        </arc>
+        <arc class="consumption" id="e231" source="n204" target="n200">
+            <start x="2392.5664" y="11258.844"/>
+            <end x="2055.7224" y="11248.844"/>
+        </arc>
+        <arc class="equivalence arc" id="e155" source="n204" target="n221.tag1">
+            <start x="2392.5664" y="11258.844"/>
+            <end x="2969.475" y="11258.844"/>
+        </arc>
+        <arc class="consumption" id="e349" source="n205" target="n200">
+            <start x="2392.5664" y="11070.29"/>
+            <end x="2055.7224" y="11248.844"/>
+        </arc>
+        <arc class="production" id="e141" source="n208" target="n7">
+            <start x="400.00003" y="8924.781"/>
+            <end x="1002.59753" y="8924.781"/>
+        </arc>
+        <arc class="production" id="e142" source="n209" target="n11">
+            <start x="2696.989" y="8924.781"/>
+            <end x="2503.7224" y="8924.781"/>
+        </arc>
+        <arc class="production" id="e105" source="n110" target="n126">
+            <start x="17475.908" y="11031.35"/>
+            <end x="17475.908" y="10903.364"/>
+        </arc>
+        <arc class="consumption" id="e163" source="n231" target="n232">
+            <start x="11414.717" y="9209.356"/>
+            <end x="11220.717" y="9309.535"/>
+        </arc>
+        <arc class="consumption" id="e256" source="n232" target="n228">
+            <start x="11220.717" y="9309.535"/>
+            <end x="11196.808" y="9240.356"/>
+        </arc>
+        <arc class="consumption" id="e114" source="n111" target="n167">
+            <start x="17972.166" y="11590.392"/>
+            <next x="18487.44" y="11590.392"/>
+            <end x="18487.44" y="11030.361"/>
+        </arc>
+        <arc class="consumption" id="e162" source="n230" target="n232">
+            <start x="10996.898" y="9209.356"/>
+            <end x="11220.717" y="9309.535"/>
+        </arc>
+        <arc class="consumption" id="e165" source="n235" target="n233">
+            <start x="14637.312" y="9752.809"/>
+            <end x="14861.13" y="9852.987"/>
+        </arc>
+        <arc class="consumption" id="e116" source="n114" target="n169">
+            <start x="17972.166" y="11736.96"/>
+            <next x="18892.05" y="11736.96"/>
+            <end x="18892.05" y="11030.361"/>
+        </arc>
+        <arc class="consumption" id="e115" source="n115" target="n168">
+            <start x="17972.166" y="11663.676"/>
+            <next x="18689.746" y="11663.676"/>
+            <end x="18689.746" y="11030.361"/>
+        </arc>
+        <arc class="consumption" id="e164" source="n236" target="n233">
+            <start x="14861.13" y="9662.809"/>
+            <end x="14861.13" y="9852.987"/>
+        </arc>
+        <arc class="consumption" id="e260" source="n233" target="n226">
+            <start x="14861.13" y="9852.987"/>
+            <end x="14837.53" y="9806.483"/>
+        </arc>
+        <arc class="consumption" id="e272" source="n233" target="n284">
+            <start x="14861.13" y="9852.987"/>
+            <end x="14861.13" y="9910.874"/>
+        </arc>
+        <arc class="consumption" id="e121" source="n112" target="n166">
+            <start x="17972.166" y="11517.107"/>
+            <next x="18285.133" y="11517.107"/>
+            <end x="18285.133" y="11030.361"/>
+        </arc>
+        <arc class="consumption" id="e166" source="n234" target="n233">
+            <start x="15055.131" y="9752.809"/>
+            <end x="14861.13" y="9852.987"/>
+        </arc>
+        <arc class="consumption" id="e69" source="n113" target="n116">
+            <start x="17972.166" y="11457.108"/>
+            <next x="18082.828" y="11361.892"/>
+            <end x="18082.828" y="11030.361"/>
+        </arc>
+        <arc class="consumption" id="e86" source="n118" target="n138">
+            <start x="18502.943" y="10355.324"/>
+            <end x="19947.635" y="10355.324"/>
+        </arc>
+        <arc class="consumption" id="e276" source="n237" target="n286">
+            <start x="16197.366" y="9806.483"/>
+            <next x="16218.465" y="9511.391"/>
+            <end x="14510.095" y="9511.391"/>
+        </arc>
+        <arc class="production" id="e75" source="n116" target="n130">
+            <start x="18082.828" y="11030.361"/>
+            <end x="18082.828" y="10903.364"/>
+        </arc>
+        <arc class="production" id="e277" source="n117" target="n122">
+            <start x="16267.86" y="10355.324"/>
+            <end x="17149.236" y="10355.324"/>
+        </arc>
+        <arc class="consumption" id="e263" source="n238" target="n237">
+            <start x="16414.965" y="9820.717"/>
+            <end x="16197.366" y="9806.483"/>
+        </arc>
+        <arc class="equivalence arc" id="e156" source="n221.tag2" target="n194">
+            <start x="3162.7446" y="11258.844"/>
+            <end x="3941.6753" y="11258.844"/>
+        </arc>
+        <arc class="equivalence arc" id="e54" source="n100" target="n106.tag3">
+            <start x="17001.332" y="11625.755"/>
+            <end x="17307.197" y="11634.028"/>
+        </arc>
+        <arc class="equivalence arc" id="e60" source="n103" target="n106.tag22">
+            <start x="17001.332" y="11845.608"/>
+            <next x="17221.844" y="11845.608"/>
+            <end x="17360.805" y="11683.675"/>
+        </arc>
+        <arc class="production" id="e160" source="n224" target="n154">
+            <start x="16267.86" y="10660.929"/>
+            <end x="16267.86" y="10495.641"/>
+        </arc>
+        <arc class="consumption" id="e71" source="n225" target="n117">
+            <start x="15517.449" y="10355.324"/>
+            <end x="16267.86" y="10355.324"/>
+        </arc>
+        <arc class="equivalence arc" id="e59" source="n104" target="n106.tag1">
+            <start x="17001.332" y="11772.324"/>
+            <next x="17210.645" y="11772.324"/>
+            <end x="17307.197" y="11667.126"/>
+        </arc>
+        <arc class="equivalence arc" id="e57" source="n101" target="n106.tag6">
+            <start x="17001.332" y="11405.902"/>
+            <next x="17218.383" y="11405.902"/>
+            <end x="17307.197" y="11584.383"/>
+        </arc>
+        <arc class="production" id="e157" source="n222" target="n170">
+            <start x="8291.631" y="9091.351"/>
+            <end x="8291.631" y="9177.351"/>
+        </arc>
+        <arc class="production" id="e171" source="n223" target="n228">
+            <start x="11197.118" y="8964.687"/>
+            <end x="11196.808" y="9240.356"/>
+        </arc>
+        <arc class="equivalence arc" id="e58" source="n102" target="n106.tag2">
+            <start x="17001.332" y="11699.039"/>
+            <next x="17205.842" y="11699.039"/>
+            <end x="17307.197" y="11650.577"/>
+        </arc>
+        <arc class="consumption" id="e178" source="n228" target="n267">
+            <start x="11196.808" y="9240.356"/>
+            <end x="11205.717" y="9441.015"/>
+        </arc>
+        <arc class="consumption" id="e106" source="n107" target="n164">
+            <start x="17678.217" y="11159.334"/>
+            <end x="17678.217" y="11030.361"/>
+        </arc>
+        <arc class="production" id="e350" source="n349" target="n348">
+            <start x="8551.631" y="9091.351"/>
+            <end x="8551.631" y="9177.351"/>
+        </arc>
+        <arc class="consumption" id="e161" source="n229" target="n232">
+            <start x="11220.717" y="9119.356"/>
+            <end x="11220.717" y="9309.535"/>
+        </arc>
+        <arc class="consumption" id="e104" source="n108" target="n110">
+            <start x="17475.908" y="11159.334"/>
+            <end x="17475.908" y="11031.35"/>
+        </arc>
+        <arc class="equivalence arc" id="e56" source="n105" target="n106.tag5">
+            <start x="17001.332" y="11479.187"/>
+            <next x="17215.184" y="11479.187"/>
+            <end x="17307.197" y="11600.931"/>
+        </arc>
+        <arc class="consumption" id="e265" source="n226" target="n250">
+            <start x="14837.53" y="9806.483"/>
+            <end x="15517.449" y="9806.483"/>
+        </arc>
+        <arc class="equivalence arc" id="e64" source="n106.tag13" target="n111">
+            <start x="17575.238" y="11606.447"/>
+            <end x="17972.166" y="11590.392"/>
+        </arc>
+        <arc class="equivalence arc" id="e68" source="n106.tag15" target="n114">
+            <start x="17575.238" y="11632.19"/>
+            <end x="17972.166" y="11736.96"/>
+        </arc>
+        <arc class="equivalence arc" id="e67" source="n106.tag14" target="n115">
+            <start x="17575.238" y="11619.319"/>
+            <end x="17972.166" y="11663.676"/>
+        </arc>
+        <arc class="equivalence arc" id="e65" source="n106.tag12" target="n112">
+            <start x="17575.238" y="11593.576"/>
+            <end x="17972.166" y="11517.107"/>
+        </arc>
+        <arc class="equivalence arc" id="e66" source="n106.tag11" target="n113">
+            <start x="17575.238" y="11580.705"/>
+            <end x="17972.166" y="11457.108"/>
+        </arc>
+        <arc class="equivalence arc" id="e62" source="n106.tag9" target="n107">
+            <start x="17468.021" y="11567.834"/>
+            <end x="17678.217" y="11159.334"/>
+        </arc>
+        <arc class="equivalence arc" id="e61" source="n106.tag8" target="n108">
+            <start x="17414.414" y="11567.834"/>
+            <end x="17475.908" y="11159.334"/>
+        </arc>
+        <arc class="equivalence arc" id="e63" source="n106.tag10" target="n109">
+            <start x="17521.63" y="11567.834"/>
+            <end x="17880.521" y="11159.334"/>
+        </arc>
+        <arc class="equivalence arc" id="e284" source="n106.tag17" target="n293">
+            <start x="17575.238" y="11657.933"/>
+            <end x="17972.166" y="11883.529"/>
+        </arc>
+        <arc class="equivalence arc" id="e285" source="n106.tag18" target="n294">
+            <start x="17575.238" y="11670.804"/>
+            <end x="17972.166" y="11956.813"/>
+        </arc>
+        <arc class="equivalence arc" id="e283" source="n106.tag16" target="n292">
+            <start x="17575.238" y="11645.062"/>
+            <end x="17972.166" y="11810.245"/>
+        </arc>
+        <arc class="catalysis" id="e351" source="n348" target="n198">
+            <start x="8551.631" y="9177.351"/>
+            <end x="8415.963" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e185" source="n227" target="n224">
+            <start x="16267.86" y="10806.215"/>
+            <end x="16267.86" y="10660.929"/>
+        </arc>
+        <arc class="consumption" id="e108" source="n109" target="n165">
+            <start x="17880.521" y="11159.334"/>
+            <end x="17880.521" y="11030.361"/>
+        </arc>
+        <arc class="production" id="e184" source="n260" target="n228">
+            <start x="11781.8" y="10123.576"/>
+            <next x="11781.8" y="9492.341"/>
+            <end x="11196.808" y="9240.356"/>
+        </arc>
+        <arc class="production" id="e181" source="n260" target="n259">
+            <start x="11781.8" y="10123.576"/>
+            <end x="12364.854" y="10123.576"/>
+        </arc>
+        <arc class="consumption" id="e0" source="n10" target="n9">
+            <start x="999.22144" y="8898.737"/>
+            <end x="999.22144" y="8972.568"/>
+        </arc>
+        <arc class="production" id="e2" source="n12" target="n17">
+            <start x="2229.7224" y="8924.781"/>
+            <end x="2503.7224" y="9361.656"/>
+        </arc>
+        <arc class="consumption" id="e1" source="n11" target="n12">
+            <start x="2503.7224" y="8924.781"/>
+            <end x="2229.7224" y="8924.781"/>
+        </arc>
+        <arc class="consumption" id="e333" source="n132" target="n337">
+            <start x="18689.746" y="10903.364"/>
+            <end x="18689.746" y="10815.931"/>
+        </arc>
+        <arc class="consumption" id="e218" source="n14" target="n13">
+            <start x="2135.7224" y="9381.656"/>
+            <end x="2135.7224" y="9371.656"/>
+        </arc>
+        <arc class="consumption" id="e175" source="n253" target="n256">
+            <start x="11220.717" y="9676.142"/>
+            <end x="11220.717" y="9866.32"/>
+        </arc>
+        <arc class="equivalence arc" id="e80" source="n133.tag3" target="n118">
+            <start x="17922.666" y="10355.324"/>
+            <end x="18502.943" y="10355.324"/>
+        </arc>
+        <arc class="consumption" id="e176" source="n254" target="n256">
+            <start x="10996.898" y="9766.142"/>
+            <end x="11220.717" y="9866.32"/>
+        </arc>
+        <arc class="consumption" id="e174" source="n251" target="n261">
+            <start x="15805.646" y="10114.579"/>
+            <end x="15805.646" y="10214.58"/>
+        </arc>
+        <arc class="equivalence arc" id="e79" source="n130" target="n133.tag4">
+            <start x="18082.828" y="10903.364"/>
+            <next x="18082.828" y="10655.951"/>
+            <end x="17855.787" y="10450.205"/>
+        </arc>
+        <arc class="consumption" id="e219" source="n16" target="n14">
+            <start x="2135.7224" y="9341.465"/>
+            <end x="2135.7224" y="9381.656"/>
+        </arc>
+        <arc class="consumption" id="e3" source="n16" target="n15">
+            <start x="2135.7224" y="9341.465"/>
+            <end x="2135.7224" y="9415.295"/>
+        </arc>
+        <arc class="consumption" id="e334" source="n131" target="n335">
+            <start x="18892.05" y="10903.364"/>
+            <end x="18892.05" y="10815.931"/>
+        </arc>
+        <arc class="consumption" id="e206" source="n252" target="n260">
+            <start x="11196.808" y="9829.465"/>
+            <next x="11196.808" y="10123.576"/>
+            <end x="11781.8" y="10123.576"/>
+        </arc>
+        <arc class="production" id="e134" source="n18" target="n27">
+            <start x="4561.437" y="9361.656"/>
+            <end x="5410.02" y="9342.149"/>
+        </arc>
+        <arc class="production" id="e89" source="n18" target="n156">
+            <start x="4561.437" y="9361.656"/>
+            <end x="4446.561" y="9531.884"/>
+        </arc>
+        <arc class="production" id="e133" source="n18" target="n187">
+            <start x="4561.437" y="9361.656"/>
+            <end x="4678.7397" y="9531.884"/>
+        </arc>
+        <arc class="consumption" id="e255" source="n257" target="n252">
+            <start x="11220.717" y="9926.132"/>
+            <end x="11196.808" y="9829.465"/>
+        </arc>
+        <arc class="production" id="e179" source="n258" target="n252">
+            <start x="11205.717" y="9563.249"/>
+            <end x="11196.808" y="9829.465"/>
+        </arc>
+        <arc class="consumption" id="e220" source="n17" target="n13">
+            <start x="2503.7224" y="9361.656"/>
+            <end x="2135.7224" y="9371.656"/>
+        </arc>
+        <arc class="equivalence arc" id="e4" source="n17" target="n19.tag1">
+            <start x="2503.7224" y="9361.656"/>
+            <end x="2813.3958" y="9361.656"/>
+        </arc>
+        <arc class="consumption" id="e9" source="n17" target="n31">
+            <start x="2503.7224" y="9361.656"/>
+            <end x="2255.7224" y="9789.031"/>
+        </arc>
+        <arc class="consumption" id="e177" source="n255" target="n256">
+            <start x="11414.717" y="9766.142"/>
+            <end x="11220.717" y="9866.32"/>
+        </arc>
+        <arc class="consumption" id="e180" source="n256" target="n257">
+            <start x="11220.717" y="9866.32"/>
+            <end x="11220.717" y="9926.132"/>
+        </arc>
+        <arc class="equivalence arc" id="e6" source="n19.tag2" target="n20">
+            <start x="3093.3958" y="9361.656"/>
+            <end x="3678.9382" y="9361.656"/>
+        </arc>
+        <arc class="production" id="e352" source="n377" target="n377">
+            <start x="20535.9" y="13864.208"/>
+            <next x="20535.9" y="13864.208"/>
+            <end x="20535.9" y="13864.208"/>
+        </arc>
+        <arc class="consumption" id="e182" source="n259" target="n249">
+            <start x="12364.854" y="10123.576"/>
+            <next x="12984.966" y="10123.576"/>
+            <end x="12984.966" y="9802.809"/>
+        </arc>
+        <arc class="production" id="e87" source="n138" target="n139">
+            <start x="19947.635" y="10355.324"/>
+            <end x="20699.492" y="10355.324"/>
+        </arc>
+        <arc class="equivalence arc" id="e85" source="n139" target="n153.tag1">
+            <start x="20699.492" y="10355.324"/>
+            <end x="21310.494" y="10355.324"/>
+        </arc>
+        <arc class="consumption" id="e236" source="n21" target="n20">
+            <start x="3686.3206" y="9364.0"/>
+            <end x="3678.9382" y="9361.656"/>
+        </arc>
+        <arc class="consumption" id="e88" source="n20" target="n18">
+            <start x="3678.9382" y="9361.656"/>
+            <end x="4561.437" y="9361.656"/>
+        </arc>
+        <arc class="production" id="e173" source="n250" target="n237">
+            <start x="15517.449" y="9806.483"/>
+            <end x="16197.366" y="9806.483"/>
+        </arc>
+        <arc class="production" id="e169" source="n250" target="n225">
+            <start x="15517.449" y="9806.483"/>
+            <end x="15517.449" y="10355.324"/>
+        </arc>
+        <arc class="production" id="e172" source="n250" target="n251">
+            <start x="15517.449" y="9806.483"/>
+            <end x="15805.646" y="10114.579"/>
+        </arc>
+        <arc class="consumption" id="e5" source="n23" target="n22">
+            <start x="3686.3206" y="9321.656"/>
+            <end x="3686.3206" y="9395.487"/>
+        </arc>
+        <arc class="consumption" id="e237" source="n22" target="n21">
+            <start x="3686.3206" y="9395.487"/>
+            <end x="3686.3206" y="9364.0"/>
+        </arc>
+        <arc class="consumption" id="e147" source="n25" target="n217">
+            <start x="4446.561" y="9173.836"/>
+            <end x="4499.833" y="9216.872"/>
+        </arc>
+        <arc class="consumption" id="e259" source="n242" target="n241">
+            <start x="12606.511" y="9817.042"/>
+            <end x="12388.913" y="9802.809"/>
+        </arc>
+        <arc class="consumption" id="e72" source="n121" target="n120">
+            <start x="18502.943" y="10325.133"/>
+            <end x="18502.943" y="10398.963"/>
+        </arc>
+        <arc class="equivalence arc" id="e81" source="n122" target="n133.tag2">
+            <start x="17149.236" y="10355.324"/>
+            <end x="17655.148" y="10323.697"/>
+        </arc>
+        <arc class="consumption" id="e257" source="n243" target="n241">
+            <start x="12188.694" y="9817.042"/>
+            <end x="12388.913" y="9802.809"/>
+        </arc>
+        <arc class="consumption" id="e238" source="n24" target="n20">
+            <start x="4038.6992" y="9312.271"/>
+            <end x="3678.9382" y="9361.656"/>
+        </arc>
+        <arc class="consumption" id="e262" source="n240" target="n237">
+            <start x="16220.964" y="9730.717"/>
+            <end x="16197.366" y="9806.483"/>
+        </arc>
+        <arc class="equivalence arc" id="e119" source="n27" target="n184.tag1">
+            <start x="5410.02" y="9342.149"/>
+            <end x="5930.5103" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e167" source="n241" target="n249">
+            <start x="12388.913" y="9802.809"/>
+            <end x="12984.966" y="9802.809"/>
+        </arc>
+        <arc class="consumption" id="e148" source="n26" target="n218">
+            <start x="4678.7397" y="9173.836"/>
+            <end x="4622.6016" y="9210.695"/>
+        </arc>
+        <arc class="consumption" id="e240" source="n29" target="n28">
+            <start x="5410.02" y="9366.214"/>
+            <end x="5420.007" y="9332.576"/>
+        </arc>
+        <arc class="equivalence arc" id="e77" source="n125" target="n133.tag6">
+            <start x="17678.217" y="10903.364"/>
+            <next x="17678.217" y="10666.701"/>
+            <end x="17722.027" y="10450.205"/>
+        </arc>
+        <arc class="consumption" id="e76" source="n126" target="n331">
+            <start x="17475.908" y="10903.364"/>
+            <end x="17475.908" y="10833.055"/>
+        </arc>
+        <arc class="consumption" id="e239" source="n28" target="n27">
+            <start x="5420.007" y="9332.576"/>
+            <end x="5410.02" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e258" source="n244" target="n241">
+            <start x="12412.511" y="9727.043"/>
+            <end x="12388.913" y="9802.809"/>
+        </arc>
+        <arc class="consumption" id="e74" source="n124" target="n123">
+            <start x="17149.236" y="10314.82"/>
+            <end x="17149.236" y="10388.65"/>
+        </arc>
+        <arc class="consumption" id="e170" source="n245" target="n223">
+            <start x="11197.118" y="8742.145"/>
+            <end x="11197.118" y="8964.687"/>
+        </arc>
+        <arc class="consumption" id="e329" source="n129" target="n332">
+            <start x="18285.133" y="10903.364"/>
+            <end x="18285.133" y="10815.931"/>
+        </arc>
+        <arc class="equivalence arc" id="e78" source="n127" target="n133.tag5">
+            <start x="17880.521" y="10903.364"/>
+            <next x="17880.521" y="10670.455"/>
+            <end x="17788.906" y="10450.205"/>
+        </arc>
+        <arc class="equivalence arc" id="e305" source="n128" target="n309.tag1">
+            <start x="18487.44" y="10903.364"/>
+            <end x="18485.133" y="10835.931"/>
+        </arc>
+        <arc class="production" id="e270" source="n249" target="n278">
+            <start x="12984.966" y="9802.809"/>
+            <end x="13579.923" y="9802.809"/>
+        </arc>
+        <arc class="consumption" id="e8" source="n30" target="n29">
+            <start x="5410.02" y="9292.384"/>
+            <end x="5410.02" y="9366.214"/>
+        </arc>
+        <arc class="catalysis" id="e10" source="n32" target="n31">
+            <start x="2503.7224" y="9789.031"/>
+            <end x="2255.7224" y="9789.031"/>
+        </arc>
+        <arc class="production" id="e92" source="n161" target="n105">
+            <start x="15210.757" y="11479.187"/>
+            <end x="17001.332" y="11479.187"/>
+        </arc>
+        <arc class="consumption" id="e266" source="n282" target="n279">
+            <start x="13603.5205" y="9688.321"/>
+            <end x="13603.5205" y="9878.5"/>
+        </arc>
+        <arc class="production" id="e91" source="n162" target="n99">
+            <start x="15210.757" y="11332.618"/>
+            <end x="17001.332" y="11332.618"/>
+        </arc>
+        <arc class="production" id="e14" source="n31" target="n38">
+            <start x="2255.7224" y="9789.031"/>
+            <next x="2255.7224" y="10023.408"/>
+            <end x="2392.5664" y="10465.25"/>
+        </arc>
+        <arc class="production" id="e13" source="n31" target="n37">
+            <start x="2255.7224" y="9789.031"/>
+            <end x="2055.7224" y="10038.357"/>
+        </arc>
+        <arc class="production" id="e12" source="n31" target="n39">
+            <start x="2255.7224" y="9789.031"/>
+            <next x="2356.2466" y="9932.141"/>
+            <end x="2799.8494" y="9932.141"/>
+        </arc>
+        <arc class="production" id="e131" source="n31" target="n186">
+            <start x="2255.7224" y="9789.031"/>
+            <end x="1935.7225" y="9932.141"/>
+        </arc>
+        <arc class="production" id="e271" source="n283" target="n226">
+            <start x="14208.727" y="9802.809"/>
+            <end x="14837.53" y="9806.483"/>
+        </arc>
+        <arc class="consumption" id="e268" source="n280" target="n279">
+            <start x="13797.521" y="9778.321"/>
+            <end x="13603.5205" y="9878.5"/>
+        </arc>
+        <arc class="consumption" id="e226" source="n34" target="n33">
+            <start x="2055.7224" y="10465.25"/>
+            <end x="2055.7224" y="10455.25"/>
+        </arc>
+        <arc class="production" id="e93" source="n160" target="n98">
+            <start x="15210.757" y="11552.471"/>
+            <end x="17001.332" y="11552.471"/>
+        </arc>
+        <arc class="consumption" id="e267" source="n281" target="n279">
+            <start x="13379.704" y="9778.321"/>
+            <end x="13603.5205" y="9878.5"/>
+        </arc>
+        <arc class="consumption" id="e11" source="n36" target="n35">
+            <start x="2055.7224" y="10425.058"/>
+            <end x="2055.7224" y="10498.889"/>
+        </arc>
+        <arc class="consumption" id="e273" source="n154" target="n117">
+            <start x="16267.86" y="10495.641"/>
+            <end x="16267.86" y="10355.324"/>
+        </arc>
+        <arc class="consumption" id="e227" source="n35" target="n34">
+            <start x="2055.7224" y="10498.889"/>
+            <end x="2055.7224" y="10465.25"/>
+        </arc>
+        <arc class="production" id="e73" source="n276" target="n227">
+            <start x="15210.757" y="11259.334"/>
+            <next x="16267.86" y="11259.334"/>
+            <end x="16267.86" y="10806.215"/>
+        </arc>
+        <arc class="consumption" id="e228" source="n38" target="n33">
+            <start x="2392.5664" y="10465.25"/>
+            <end x="2055.7224" y="10455.25"/>
+        </arc>
+        <arc class="equivalence arc" id="e139" source="n38" target="n193.tag1">
+            <start x="2392.5664" y="10465.25"/>
+            <end x="2528.1323" y="10798.126"/>
+        </arc>
+        <arc class="logic arc" id="e191" source="n273" target="n264">
+            <start x="9081.396" y="9342.149"/>
+            <end x="9081.396" y="8727.825"/>
+        </arc>
+        <arc class="equivalence arc" id="e84" source="n153.tag2" target="n146">
+            <start x="21448.943" y="10355.324"/>
+            <end x="21949.482" y="10355.324"/>
+        </arc>
+        <arc class="consumption" id="e145" source="n37" target="n212">
+            <start x="2055.7224" y="10038.357"/>
+            <end x="1875.7225" y="10038.357"/>
+        </arc>
+        <arc class="production" id="e95" source="n158" target="n104">
+            <start x="15210.757" y="11772.324"/>
+            <end x="17001.332" y="11772.324"/>
+        </arc>
+        <arc class="consumption" id="e269" source="n279" target="n278">
+            <start x="13603.5205" y="9878.5"/>
+            <end x="13579.923" y="9802.809"/>
+        </arc>
+        <arc class="consumption" id="e146" source="n39" target="n213">
+            <start x="2799.8494" y="9932.141"/>
+            <end x="2979.8494" y="9932.141"/>
+        </arc>
+        <arc class="production" id="e96" source="n159" target="n103">
+            <start x="15210.757" y="11845.608"/>
+            <end x="17001.332" y="11845.608"/>
+        </arc>
+        <arc class="consumption" id="e154" source="n156" target="n220">
+            <start x="4446.561" y="9531.884"/>
+            <end x="4446.561" y="9631.885"/>
+        </arc>
+        <arc class="production" id="e94" source="n157" target="n102">
+            <start x="15210.757" y="11699.039"/>
+            <end x="17001.332" y="11699.039"/>
+        </arc>
+        <arc class="consumption" id="e168" source="n278" target="n283">
+            <start x="13579.923" y="9802.809"/>
+            <end x="14208.727" y="9802.809"/>
+        </arc>
+        <arc class="consumption" id="e158" source="n41" target="n198">
+            <start x="7648.213" y="9342.149"/>
+            <end x="8415.963" y="9342.149"/>
+        </arc>
+        <arc class="inhibition" id="e15" source="n40" target="n31">
+            <start x="1606.9324" y="9789.031"/>
+            <end x="2255.7224" y="9789.031"/>
+        </arc>
+        <arc class="consumption" id="e16" source="n43" target="n42">
+            <start x="7648.213" y="9301.957"/>
+            <end x="7648.213" y="9375.788"/>
+        </arc>
+        <arc class="consumption" id="e132" source="n271" target="n12">
+            <start x="1359.2214" y="8924.781"/>
+            <end x="2229.7224" y="8924.781"/>
+        </arc>
+        <arc class="logic arc" id="e200" source="n272" target="n265">
+            <start x="9444.414" y="8991.838"/>
+            <next x="9521.757" y="8888.205"/>
+            <end x="9521.757" y="8462.085"/>
+        </arc>
+        <arc class="consumption" id="e250" source="n42" target="n41">
+            <start x="7648.213" y="9375.788"/>
+            <end x="7648.213" y="9342.149"/>
+        </arc>
+        <arc class="production" id="e17" source="n45" target="n41">
+            <start x="5410.02" y="11258.844"/>
+            <next x="6846.263" y="11258.844"/>
+            <end x="7648.213" y="9342.149"/>
+        </arc>
+        <arc class="equivalence arc" id="e130" source="n44" target="n184.tag3">
+            <start x="2503.7224" y="10095.942"/>
+            <next x="5763.2363" y="10095.942"/>
+            <end x="6065.122" y="9396.07"/>
+        </arc>
+        <arc class="consumption" id="e213" source="n47" target="n7">
+            <start x="1309.3486" y="8772.677"/>
+            <end x="1002.59753" y="8924.781"/>
+        </arc>
+        <arc class="stimulation" id="e197" source="n264" target="n63">
+            <start x="9081.396" y="8727.825"/>
+            <end x="9173.687" y="8727.825"/>
+        </arc>
+        <arc class="stimulation" id="e198" source="n265" target="n90">
+            <start x="9521.757" y="8462.085"/>
+            <end x="9593.957" y="8379.616"/>
+        </arc>
+        <arc class="consumption" id="e214" source="n46" target="n7">
+            <start x="1002.5976" y="8620.571"/>
+            <end x="1002.59753" y="8924.781"/>
+        </arc>
+        <arc class="consumption" id="e215" source="n49" target="n13">
+            <start x="1802.5643" y="9301.464"/>
+            <end x="2135.7224" y="9371.656"/>
+        </arc>
+        <arc class="production" id="e183" source="n262" target="n241">
+            <start x="12388.913" y="9470.101"/>
+            <end x="12388.913" y="9802.809"/>
+        </arc>
+        <arc class="consumption" id="e212" source="n48" target="n7">
+            <start x="802.59753" y="8720.571"/>
+            <end x="1002.59753" y="8924.781"/>
+        </arc>
+        <arc class="consumption" id="e82" source="n142" target="n141">
+            <start x="20699.492" y="10325.133"/>
+            <end x="20699.492" y="10398.963"/>
+        </arc>
+        <arc class="logic arc" id="e199" source="n266" target="n265">
+            <start x="9431.757" y="8462.085"/>
+            <end x="9521.757" y="8462.085"/>
+        </arc>
+        <arc class="logic arc" id="e202" source="n267" target="n264">
+            <start x="11205.717" y="9441.015"/>
+            <next x="9191.578" y="9441.015"/>
+            <next x="9191.578" y="8935.436"/>
+            <end x="9081.396" y="8727.825"/>
+        </arc>
+        <arc class="consumption" id="e83" source="n149" target="n148">
+            <start x="21949.482" y="10325.133"/>
+            <end x="21949.482" y="10398.963"/>
+        </arc>
+        <arc class="production" id="e222" source="n5" target="n271">
+            <start x="1290.4481" y="8924.781"/>
+            <end x="1359.2214" y="8924.781"/>
+        </arc>
+        <arc class="consumption" id="e216" source="n50" target="n13">
+            <start x="1802.5643" y="9381.656"/>
+            <end x="2135.7224" y="9371.656"/>
+        </arc>
+        <arc class="consumption" id="e221" source="n7" target="n5">
+            <start x="1002.59753" y="8924.781"/>
+            <end x="1290.4481" y="8924.781"/>
+        </arc>
+        <arc class="consumption" id="e127" source="n180" target="n179">
+            <start x="6674.22" y="9324.137"/>
+            <end x="6674.22" y="9397.967"/>
+        </arc>
+        <arc class="consumption" id="e211" source="n8" target="n7">
+            <start x="999.22144" y="8944.401"/>
+            <end x="1002.59753" y="8924.781"/>
+        </arc>
+        <arc class="consumption" id="e223" source="n52" target="n33">
+            <start x="1718.8785" y="10385.059"/>
+            <end x="2055.7224" y="10455.25"/>
+        </arc>
+        <arc class="consumption" id="e210" source="n9" target="n8">
+            <start x="999.22144" y="8972.568"/>
+            <end x="999.22144" y="8944.401"/>
+        </arc>
+        <arc class="consumption" id="e217" source="n51" target="n13">
+            <start x="1802.5643" y="9461.849"/>
+            <end x="2135.7224" y="9371.656"/>
+        </arc>
+        <arc class="consumption" id="e243" source="n183" target="n177">
+            <start x="6955.274" y="9533.744"/>
+            <end x="6684.2065" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e225" source="n54" target="n33">
+            <start x="1718.8785" y="10545.442"/>
+            <end x="2055.7224" y="10455.25"/>
+        </arc>
+        <arc class="consumption" id="e224" source="n53" target="n33">
+            <start x="1718.8785" y="10465.25"/>
+            <end x="2055.7224" y="10455.25"/>
+        </arc>
+        <arc class="equivalence arc" id="e189" source="n184.tag2" target="n177">
+            <start x="6199.7344" y="9342.149"/>
+            <end x="6684.2065" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e244" source="n181" target="n177">
+            <start x="6955.274" y="9184.136"/>
+            <end x="6684.2065" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e234" source="n56" target="n20">
+            <start x="3878.9382" y="9169.3125"/>
+            <end x="3678.9382" y="9361.656"/>
+        </arc>
+        <arc class="consumption" id="e245" source="n182" target="n177">
+            <start x="6919.41" y="9114.328"/>
+            <end x="6684.2065" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e233" source="n55" target="n20">
+            <start x="3478.9382" y="9169.3125"/>
+            <end x="3678.9382" y="9361.656"/>
+        </arc>
+        <arc class="equivalence arc" id="e126" source="n176.tag1" target="n44">
+            <start x="2845.3362" y="10227.236"/>
+            <next x="2724.048" y="10227.237"/>
+            <end x="2503.7224" y="10095.942"/>
+        </arc>
+        <arc class="consumption" id="e248" source="n58" target="n27">
+            <start x="5760.5107" y="9308.229"/>
+            <end x="5410.02" y="9342.149"/>
+        </arc>
+        <arc class="production" id="e288" source="n297" target="n291">
+            <start x="15210.757" y="12065.461"/>
+            <end x="17001.332" y="12065.461"/>
+        </arc>
+        <arc class="equivalence arc" id="e128" source="n177" target="n185.tag1">
+            <start x="6684.2065" y="9342.149"/>
+            <end x="7116.2095" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e232" source="n57" target="n20">
+            <start x="3478.9382" y="9574.0"/>
+            <end x="3678.9382" y="9361.656"/>
+        </arc>
+        <arc class="consumption" id="e332" source="n298" target="n336">
+            <start x="19094.357" y="10903.364"/>
+            <end x="19094.357" y="10815.931"/>
+        </arc>
+        <arc class="production" id="e286" source="n295" target="n289">
+            <start x="15210.757" y="11918.893"/>
+            <end x="17001.332" y="11918.893"/>
+        </arc>
+        <arc class="production" id="e287" source="n296" target="n290">
+            <start x="15210.757" y="11992.179"/>
+            <end x="17001.332" y="11992.179"/>
+        </arc>
+        <arc class="consumption" id="e247" source="n59" target="n27">
+            <start x="5646.037" y="9164.328"/>
+            <end x="5410.02" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e331" source="n299" target="n334">
+            <start x="19296.664" y="10903.364"/>
+            <end x="19296.664" y="10815.931"/>
+        </arc>
+        <arc class="consumption" id="e242" source="n178" target="n177">
+            <start x="6684.2065" y="9364.328"/>
+            <end x="6684.2065" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e241" source="n179" target="n178">
+            <start x="6674.22" y="9397.967"/>
+            <end x="6684.2065" y="9364.328"/>
+        </arc>
+        <arc class="consumption" id="e194" source="n61" target="n273">
+            <start x="8831.214" y="9342.149"/>
+            <end x="9081.396" y="9342.149"/>
+        </arc>
+        <arc class="equivalence arc" id="e281" source="n290" target="n106.tag20">
+            <start x="17001.332" y="11992.179"/>
+            <next x="17256.691" y="11992.179"/>
+            <end x="17468.021" y="11683.675"/>
+        </arc>
+        <arc class="consumption" id="e249" source="n60" target="n27">
+            <start x="5647.54" y="9542.576"/>
+            <end x="5410.02" y="9342.149"/>
+        </arc>
+        <arc class="production" id="e193" source="n63" target="n89">
+            <start x="9173.687" y="8727.825"/>
+            <end x="9289.414" y="8991.838"/>
+        </arc>
+        <arc class="production" id="e192" source="n63" target="n88">
+            <start x="9173.687" y="8727.825"/>
+            <end x="9289.414" y="8462.085"/>
+        </arc>
+        <arc class="consumption" id="e137" source="n62" target="n199">
+            <start x="8415.963" y="9517.834"/>
+            <end x="8415.963" y="9598.138"/>
+        </arc>
+        <arc class="consumption" id="e102" source="n65" target="n162">
+            <start x="11945.476" y="11332.618"/>
+            <end x="15210.757" y="11332.618"/>
+        </arc>
+        <arc class="consumption" id="e296" source="n293" target="n302">
+            <start x="17972.166" y="11883.529"/>
+            <next x="19296.664" y="11883.529"/>
+            <end x="19296.664" y="11030.361"/>
+        </arc>
+        <arc class="consumption" id="e100" source="n64" target="n160">
+            <start x="11945.476" y="11552.471"/>
+            <end x="15210.757" y="11552.471"/>
+        </arc>
+        <arc class="consumption" id="e297" source="n294" target="n303">
+            <start x="17972.166" y="11956.813"/>
+            <next x="19498.969" y="11956.813"/>
+            <end x="19498.969" y="11030.361"/>
+        </arc>
+        <arc class="equivalence arc" id="e124" source="n173.tag3" target="n174.tag1">
+            <start x="9794.128" y="9977.645"/>
+            <end x="9624.989" y="10118.739"/>
+        </arc>
+        <arc class="equivalence arc" id="e125" source="n173.tag2" target="n175.tag1">
+            <start x="9880.774" y="9977.645"/>
+            <end x="10021.351" y="10118.739"/>
+        </arc>
+        <arc class="consumption" id="e103" source="n67" target="n163">
+            <start x="11945.476" y="11405.902"/>
+            <end x="15210.757" y="11405.902"/>
+        </arc>
+        <arc class="catalysis" id="e120" source="n170" target="n198">
+            <start x="8291.631" y="9177.351"/>
+            <end x="8415.963" y="9342.149"/>
+        </arc>
+        <arc class="equivalence arc" id="e282" source="n291" target="n106.tag19">
+            <start x="17001.332" y="12065.461"/>
+            <next x="17301.008" y="12065.461"/>
+            <end x="17521.63" y="11683.675"/>
+        </arc>
+        <arc class="consumption" id="e52" source="n66" target="n97">
+            <start x="11945.476" y="11625.755"/>
+            <end x="15210.757" y="11625.755"/>
+        </arc>
+        <arc class="consumption" id="e295" source="n292" target="n301">
+            <start x="17972.166" y="11810.245"/>
+            <next x="19094.357" y="11810.245"/>
+            <end x="19094.357" y="11030.361"/>
+        </arc>
+        <arc class="consumption" id="e97" source="n69" target="n159">
+            <start x="11945.476" y="11845.608"/>
+            <end x="15210.757" y="11845.608"/>
+        </arc>
+        <arc class="production" id="e109" source="n165" target="n127">
+            <start x="17880.521" y="11030.361"/>
+            <end x="17880.521" y="10903.364"/>
+        </arc>
+        <arc class="production" id="e275" source="n286" target="n241">
+            <start x="14510.095" y="9511.391"/>
+            <next x="12681.245" y="9512.119"/>
+            <end x="12388.913" y="9802.809"/>
+        </arc>
+        <arc class="consumption" id="e99" source="n68" target="n157">
+            <start x="11945.476" y="11699.039"/>
+            <end x="15210.757" y="11699.039"/>
+        </arc>
+        <arc class="consumption" id="e278" source="n287" target="n288">
+            <start x="9837.451" y="9039.945"/>
+            <end x="9997.451" y="9039.945"/>
+        </arc>
+        <arc class="production" id="e110" source="n166" target="n129">
+            <start x="18285.133" y="11030.361"/>
+            <end x="18285.133" y="10903.364"/>
+        </arc>
+        <arc class="production" id="e90" source="n163" target="n101">
+            <start x="15210.757" y="11405.902"/>
+            <end x="17001.332" y="11405.902"/>
+        </arc>
+        <arc class="production" id="e107" source="n164" target="n125">
+            <start x="17678.217" y="11030.361"/>
+            <end x="17678.217" y="10903.364"/>
+        </arc>
+        <arc class="production" id="e113" source="n169" target="n131">
+            <start x="18892.05" y="11030.361"/>
+            <end x="18892.05" y="10903.364"/>
+        </arc>
+        <arc class="production" id="e111" source="n167" target="n128">
+            <start x="18487.44" y="11030.361"/>
+            <end x="18487.44" y="10903.364"/>
+        </arc>
+        <arc class="equivalence arc" id="e280" source="n289" target="n106.tag21">
+            <start x="17001.332" y="11918.893"/>
+            <next x="17232.521" y="11918.893"/>
+            <end x="17414.414" y="11683.675"/>
+        </arc>
+        <arc class="production" id="e112" source="n168" target="n132">
+            <start x="18689.746" y="11030.361"/>
+            <end x="18689.746" y="10903.364"/>
+        </arc>
+        <arc class="consumption" id="e98" source="n70" target="n158">
+            <start x="11945.476" y="11772.324"/>
+            <end x="15210.757" y="11772.324"/>
+        </arc>
+        <arc class="consumption" id="e101" source="n72" target="n161">
+            <start x="11945.476" y="11479.187"/>
+            <end x="15210.757" y="11479.187"/>
+        </arc>
+        <arc class="consumption" id="e70" source="n71" target="n276">
+            <start x="11945.476" y="11259.334"/>
+            <end x="15210.757" y="11259.334"/>
+        </arc>
+        <arc class="consumption" id="e306" source="n74" target="n315">
+            <start x="9837.451" y="8889.489"/>
+            <end x="9971.648" y="8889.489"/>
+        </arc>
+        <arc class="equivalence arc" id="e123" source="n73" target="n173.tag1">
+            <start x="9837.451" y="9107.097"/>
+            <end x="9837.451" y="9831.147"/>
+        </arc>
+        <arc class="consumption" id="e41" source="n76" target="n93">
+            <start x="9837.451" y="8813.197"/>
+            <next x="9966.65" y="8813.197"/>
+            <end x="10160.516" y="8742.145"/>
+        </arc>
+        <arc class="consumption" id="e188" source="n75" target="n275">
+            <start x="9837.451" y="8964.687"/>
+            <end x="9997.451" y="8964.687"/>
+        </arc>
+        <arc class="consumption" id="e37" source="n78" target="n318">
+            <start x="9846.736" y="8463.047"/>
+            <end x="9985.087" y="8463.047"/>
+        </arc>
+        <arc class="consumption" id="e187" source="n77" target="n274">
+            <start x="9852.451" y="7722.384"/>
+            <end x="9989.619" y="7722.384"/>
+        </arc>
+        <arc class="production" id="e190" source="n198" target="n61">
+            <start x="8415.963" y="9342.149"/>
+            <end x="8831.214" y="9342.149"/>
+        </arc>
+        <arc class="production" id="e32" source="n198" target="n62">
+            <start x="8415.963" y="9342.149"/>
+            <end x="8415.963" y="9517.834"/>
+        </arc>
+        <arc class="consumption" id="e301" source="n79" target="n313">
+            <start x="9837.451" y="8345.695"/>
+            <end x="9980.934" y="8345.695"/>
+        </arc>
+        <arc class="consumption" id="e135" source="n196" target="n195">
+            <start x="3941.6753" y="11218.651"/>
+            <end x="3941.6753" y="11292.482"/>
+        </arc>
+        <arc class="equivalence arc" id="e254" source="n197" target="n172.tag2">
+            <start x="10007.451" y="7786.7427"/>
+            <next x="10054.15" y="7826.1904"/>
+            <next x="10244.423" y="7826.1904"/>
+            <end x="10291.056" y="7852.8613"/>
+        </arc>
+        <arc class="equivalence arc" id="e122" source="n197" target="n171.tag1">
+            <start x="10007.451" y="7786.7427"/>
+            <next x="10052.306" y="7723.256"/>
+            <end x="10285.232" y="7723.256"/>
+        </arc>
+        <arc class="consumption" id="e40" source="n81" target="n322">
+            <start x="9846.736" y="8561.829"/>
+            <end x="9982.451" y="8561.829"/>
+        </arc>
+        <arc class="consumption" id="e39" source="n80" target="n323">
+            <start x="9846.736" y="8638.122"/>
+            <end x="9982.451" y="8638.122"/>
+        </arc>
+        <arc class="equivalence arc" id="e253" source="n83" target="n172.tag1">
+            <start x="9852.451" y="7870.835"/>
+            <end x="10291.056" y="7888.8086"/>
+        </arc>
+        <arc class="consumption" id="e35" source="n82" target="n338">
+            <start x="9837.451" y="8269.402"/>
+            <end x="9985.934" y="8269.402"/>
+        </arc>
+        <arc class="consumption" id="e36" source="n85" target="n340">
+            <start x="9837.451" y="8112.918"/>
+            <end x="9985.934" y="8112.918"/>
+        </arc>
+        <arc class="consumption" id="e34" source="n84" target="n339">
+            <start x="9837.451" y="8193.109"/>
+            <end x="9980.934" y="8193.109"/>
+        </arc>
+        <arc class="consumption" id="e252" source="n87" target="n197">
+            <start x="9852.451" y="7786.7427"/>
+            <end x="10007.451" y="7786.7427"/>
+        </arc>
+        <arc class="consumption" id="e136" source="n194" target="n45">
+            <start x="3941.6753" y="11258.844"/>
+            <end x="5410.02" y="11258.844"/>
+        </arc>
+        <arc class="consumption" id="e264" source="n86" target="n277">
+            <start x="9852.451" y="7646.091"/>
+            <end x="9989.619" y="7646.091"/>
+        </arc>
+        <arc class="consumption" id="e159" source="n89" target="n272">
+            <start x="9289.414" y="8991.838"/>
+            <end x="9444.414" y="8991.838"/>
+        </arc>
+        <arc class="consumption" id="e18" source="n88" target="n266">
+            <start x="9289.414" y="8462.085"/>
+            <end x="9431.757" y="8462.085"/>
+        </arc>
+        <arc class="equivalence arc" id="e140" source="n193.tag2" target="n204">
+            <start x="2528.1323" y="10905.968"/>
+            <next x="2528.1323" y="11190.243"/>
+            <end x="2392.5664" y="11258.844"/>
+        </arc>
+        <arc class="consumption" id="e153" source="n187" target="n219">
+            <start x="4678.7397" y="9531.884"/>
+            <end x="4678.7397" y="9631.885"/>
+        </arc>
+        <arc class="equivalence arc" id="e129" source="n185.tag2" target="n41">
+            <start x="7316.2095" y="9342.149"/>
+            <end x="7648.213" y="9342.149"/>
+        </arc>
+        <arc class="consumption" id="e144" source="n186" target="n211">
+            <start x="1935.7225" y="9932.141"/>
+            <end x="1755.7225" y="9932.141"/>
+        </arc>
+        <arc class="consumption" id="e246" source="n189" target="n177">
+            <start x="6401.5625" y="9164.328"/>
+            <end x="6684.2065" y="9342.149"/>
+        </arc>
+        <arc class="equivalence arc" id="e309.e308" source="n313" target="n307.tag1">
+            <start x="9980.934" y="8345.695"/>
+            <end x="10280.516" y="8343.756"/>
+        </arc>
+        <arc class="consumption" id="e42.e312" source="n315" target="n93">
+            <start x="9971.648" y="8889.489"/>
+            <next x="10007.451" y="8832.1455"/>
+            <end x="10160.516" y="8742.145"/>
+        </arc>
+        <arc class="equivalence arc" id="e311.e313" source="n315" target="n310.tag1">
+            <start x="9971.648" y="8889.489"/>
+            <end x="10280.516" y="8889.489"/>
+        </arc>
+        <arc class="consumption" id="e38.e310" source="n313" target="n93">
+            <start x="9980.934" y="8345.695"/>
+            <next x="10019.686" y="8390.881"/>
+            <next x="10160.516" y="8390.881"/>
+            <end x="10160.516" y="8742.145"/>
+        </arc>
+        <arc class="consumption" id="e314.e315" source="n318" target="n93">
+            <start x="9985.087" y="8463.047"/>
+            <next x="10019.686" y="8512.4375"/>
+            <next x="10111.829" y="8512.4375"/>
+            <end x="10160.516" y="8742.145"/>
+        </arc>
+        <arc class="equivalence arc" id="e328.e327" source="n331" target="n133.tag1">
+            <start x="17475.908" y="10833.055"/>
+            <next x="17475.908" y="10648.063"/>
+            <end x="17655.148" y="10386.951"/>
+        </arc>
+        <arc class="equivalence arc" id="e307.e316" source="n318" target="n311.tag1">
+            <start x="9985.087" y="8463.047"/>
+            <next x="10049.284" y="8465.186"/>
+            <end x="10280.516" y="8461.107"/>
+        </arc>
+        <arc class="equivalence arc" id="e319.e321" source="n322" target="n321.tag2">
+            <start x="9982.451" y="8561.829"/>
+            <next x="10047.451" y="8563.496"/>
+            <next x="10217.743" y="8561.829"/>
+            <end x="10240.516" y="8581.455"/>
+        </arc>
+        <arc class="equivalence arc" id="e320.e324" source="n323" target="n321.tag1">
+            <start x="9982.451" y="8638.122"/>
+            <next x="10223.663" y="8637.336"/>
+            <end x="10240.516" y="8614.789"/>
+        </arc>
+        <arc class="consumption" id="e317.e322" source="n322" target="n93">
+            <start x="9982.451" y="8561.829"/>
+            <next x="10007.451" y="8608.122"/>
+            <next x="10092.883" y="8607.502"/>
+            <end x="10160.516" y="8742.145"/>
+        </arc>
+        <arc class="consumption" id="e318.e323" source="n323" target="n93">
+            <start x="9982.451" y="8638.122"/>
+            <next x="10014.903" y="8688.122"/>
+            <next x="10068.632" y="8689.401"/>
+            <end x="10160.516" y="8742.145"/>
+        </arc>
+        <arc class="equivalence arc" id="e325.e326" source="n331" target="n328.tag1">
+            <start x="17475.908" y="10833.055"/>
+            <end x="17344.428" y="10833.055"/>
+        </arc>
+        <arc class="equivalence arc" id="e335.e341" source="n338" target="n92.tag1">
+            <start x="9985.934" y="8269.402"/>
+            <next x="10049.284" y="8265.695"/>
+            <next x="12250.765" y="8269.402"/>
+            <end x="12313.765" y="8430.371"/>
+        </arc>
+        <arc class="equivalence arc" id="e337.e344" source="n340" target="n92.tag3">
+            <start x="9985.934" y="8112.918"/>
+            <next x="12388.913" y="8112.918"/>
+            <end x="12464.061" y="8430.371"/>
+        </arc>
+        <arc class="equivalence arc" id="e339.e345" source="n339" target="n341.tag3">
+            <start x="9980.934" y="8193.109"/>
+            <next x="10029.284" y="8164.5117"/>
+            <next x="10307.44" y="8164.339"/>
+            <end x="10360.696" y="8072.334"/>
+        </arc>
+        <arc class="equivalence arc" id="e336.e342" source="n339" target="n92.tag2">
+            <start x="9980.934" y="8193.109"/>
+            <next x="12303.342" y="8193.109"/>
+            <end x="12388.913" y="8430.371"/>
+        </arc>
+        <arc class="equivalence arc" id="e338.e343" source="n340" target="n341.tag1">
+            <start x="9985.934" y="8112.918"/>
+            <next x="10029.284" y="8084.5117"/>
+            <next x="10247.762" y="8084.5117"/>
+            <end x="10291.056" y="8018.413"/>
+        </arc>
+        <arc class="equivalence arc" id="e340.e346" source="n338" target="n341.tag2">
+            <start x="9985.934" y="8269.402"/>
+            <next x="10038.839" y="8236.216"/>
+            <next x="10372.804" y="8236.773"/>
+            <end x="10430.336" y="8072.334"/>
+        </arc>
+        <arc class="consumption" id="e207.e208" source="n267" target="n262">
+            <start x="11205.717" y="9441.015"/>
+            <next x="11290.717" y="9470.101"/>
+            <end x="12388.913" y="9470.101"/>
+        </arc>
+        <arc class="consumption" id="e195.e196" source="n273" target="n223">
+            <start x="9081.396" y="9342.149"/>
+            <next x="10211.272" y="9343.889"/>
+            <next x="10374.164" y="8964.687"/>
+            <end x="11197.118" y="8964.687"/>
+        </arc>
+        <arc class="consumption" id="e201.e203" source="n267" target="n258">
+            <start x="11205.717" y="9441.015"/>
+            <end x="11205.717" y="9563.249"/>
+        </arc>
+        <arc class="consumption" id="e205.e204" source="n267" target="n94">
+            <start x="11205.717" y="9441.015"/>
+            <next x="11141.133" y="9470.101"/>
+            <next x="10700.481" y="9470.101"/>
+            <next x="10700.481" y="11462.059"/>
+            <end x="10935.954" y="11625.755"/>
+        </arc>
+        <arc class="consumption" id="e251.e274" source="n272" target="n91">
+            <start x="9444.414" y="8991.838"/>
+            <end x="9633.967" y="8991.838"/>
+        </arc>
+    </map>
+</sbgn>
