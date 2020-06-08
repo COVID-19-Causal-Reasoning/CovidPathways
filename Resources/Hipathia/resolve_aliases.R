@@ -96,5 +96,5 @@ colnames(t.xy) <- c("targets.x", "targets.y")
 translated_sif <- data.frame(translated_sif, s.xy, t.xy)
 
 write.table(translated_sif, file = "translated_sif.txt",
-            sep = "\t", quote = F, col.names = F, row.names = F)
+            sep = "\t", quote = F, col.names = T, row.names = F)
 message("Done.")
