@@ -52,7 +52,7 @@ this_refs <- models[models$name == diag_name]
 
 ### Get elements of the chosen diagram
 model_elements <- fromJSON(ask_GET(paste0(mnv_base,"models/",models$idObject[models$name == diag_name],"/"), 
-                                   "bioEntities/elements/?columns=id,name,type,references,elementId,complexId"),
+                                   "bioEntities/elements/?columns=id,name,type,references,elementId,complexId,bounds"),
                            flatten = F)
 
 message("Fetching entrez ids...")
@@ -86,6 +86,15 @@ translated_sif <- raw_sif
 ### Retrieve Entrez for the entire columns of sources and targets
 translated_sif[,1] <- sapply(raw_sif[,1], group_elements, model_elements, entrez)
 translated_sif[,3] <- sapply(raw_sif[,3], group_elements, model_elements, entrez)
+### Collect x.y information
+colnames(translated_sif) <- c("source", "sign", "target")
+s.xy <- t(sapply(raw_sif[,1], function(x) unlist(model_elements$bounds[model_elements$elementId == x, c(3,4)])))
+colnames(s.xy) <- c("source.x", "source.y")
+t.xy <- t(sapply(raw_sif[,3], function(x) unlist(model_elements[model_elements$elementId == x,1][,c(3,4)])))
+colnames(t.xy) <- c("targets.x", "targets.y")
+### Combine into a single data frame
+translated_sif <- data.frame(translated_sif, s.xy, t.xy)
+
 write.table(translated_sif, file = "translated_sif.txt",
             sep = "\t", quote = F, col.names = F, row.names = F)
 message("Done.")
