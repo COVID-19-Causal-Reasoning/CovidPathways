@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <sbgn xmlns="http://sbgn.org/libsbgn/0.3">
-  <map id="IL6-AMP-cellmodelC.sbgn" language="activity flow">
+  <map id="IL6-AMP-cellmodelANDC.sbgn" language="activity flow">
     <glyph id="nwtN_4fb08269-3595-4f06-9210-7d6a439d88ee" class="biological activity">
       <label text="SARS_CoV2"/>
       <bbox x="125.79106820047997" y="-35.54789659909564" w="73.58837890625" h="25"/>
@@ -103,6 +103,11 @@
       <label text="IL6-AMP"/>
       <bbox x="397.9999999999999" y="337" w="60" h="30"/>
     </glyph>
+    <glyph id="nwtN_df7dfd0c-7f17-4723-9bb0-2f6d0bdeb5a2" class="and" compartmentRef="nwtN_a1d16e15-5e7f-4da5-b45d-ae4b0a0f8e74">
+      <bbox x="411.64882589519726" y="282.1607204892606" w="21.42857142857143" h="21.42857142857143"/>
+      <port id="nwtN_df7dfd0c-7f17-4723-9bb0-2f6d0bdeb5a2.1" x="407.363111609483" y="292.8750062035463"/>
+      <port id="nwtN_df7dfd0c-7f17-4723-9bb0-2f6d0bdeb5a2.2" x="437.363111609483" y="292.8750062035463"/>
+    </glyph>
     <glyph id="nwtN_20b011b8-d72a-49ab-979a-275adb620b95" class="compartment" compartmentRef="nwtN_ba8b9d12-cdf2-4353-b101-d3ff935bc8e4">
       <label text="Cell Membrane"/>
       <bbox x="296.63837926540367" y="-15.598212194677476" w="627.9866207345964" h="69.22321219467747"/>
@@ -204,17 +209,17 @@
       <start x="333.10385176153494" y="149.62499999999997"/>
       <end x="333.8608500450232" y="263.51905441629765"/>
     </arc>
-    <arc id="nwtE_d8973b07-21e9-4df1-9376-ef8ee15854c9" class="positive influence" source="nwtN_06347d12-c2a1-47d1-89c2-b71c6a222f37" target="nwtN_72669a7a-c2ca-4b8c-9073-60d844cb7314">
-      <start x="355.05180800645064" y="297.8939853933789"/>
-      <end x="404.423705157633" y="334.51335203449713"/>
+    <arc id="nwtE_94c637ff-b04b-4946-b01c-fb6f5b7c67ac" class="positive influence" source="nwtN_df7dfd0c-7f17-4723-9bb0-2f6d0bdeb5a2.2" target="nwtN_72669a7a-c2ca-4b8c-9073-60d844cb7314">
+      <start x="437.988111609483" y="292.8750062035463"/>
+      <end x="426.2137479299574" y="333.2641061444747"/>
     </arc>
     <arc id="nwtE_c57bd8b9-fae4-48b0-a3ab-cd34ff2d7154" class="negative influence" source="nwtN_4fb08269-3595-4f06-9210-7d6a439d88ee" target="nwtN_2262df82-a1b2-4001-9c22-ea738e4f23ab">
       <start x="200.00444710672994" y="-13.738883658512975"/>
       <end x="310.66795802927595" y="13.79159122039329"/>
     </arc>
-    <arc id="nwtE_0bd7e68e-ee47-4055-b173-b6abf352a638" class="positive influence" source="nwtN_76e68f4e-6318-403b-bcce-4e3c0aa68d87" target="nwtN_72669a7a-c2ca-4b8c-9073-60d844cb7314">
-      <start x="519.3750000000002" y="309.3084016393442"/>
-      <end x="461.45622915314516" y="336.36881096943216"/>
+    <arc id="nwtE_b746acb3-0e28-449f-90c5-ad367a441ba2" class="logic arc" source="nwtN_06347d12-c2a1-47d1-89c2-b71c6a222f37" target="nwtN_df7dfd0c-7f17-4723-9bb0-2f6d0bdeb5a2.1">
+      <start x="364.6104717001036" y="285.9442293537792"/>
+      <end x="406.738111609483" y="292.8750062035463"/>
     </arc>
     <arc id="nwtE_58ff4874-8208-49a7-a486-08e19f5ee06b" class="positive influence" source="nwtN_72669a7a-c2ca-4b8c-9073-60d844cb7314" target="nwtN_a67c1260-780c-4ec6-a0b1-ff23cb0a957d">
       <start x="427.9013508075113" y="367.625"/>
@@ -235,6 +240,10 @@
     <arc id="nwtE_f7fbd377-fe55-486e-8651-b874f679ada1" class="negative influence" source="nwtN_6ea56ed0-cf8b-4466-86b8-2bd7aa99e46a" target="nwtN_ba8484a1-bad5-44d1-8f74-ed8eacc26fb7">
       <start x="474.1746413771754" y="-48.84859133925288"/>
       <end x="538.0344389319522" y="2.8059875857071717"/>
+    </arc>
+    <arc id="nwtE_34c1db2e-165c-4027-97f3-6aebfdac932b" class="logic arc" source="nwtN_76e68f4e-6318-403b-bcce-4e3c0aa68d87" target="nwtN_df7dfd0c-7f17-4723-9bb0-2f6d0bdeb5a2.1">
+      <start x="519.3750000000002" y="294.4901322349909"/>
+      <end x="406.738111609483" y="292.8750062035463"/>
     </arc>
   </map>
 </sbgn>
