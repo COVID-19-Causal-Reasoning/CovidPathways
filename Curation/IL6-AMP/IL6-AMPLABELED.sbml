@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created by minerva version 14.0.13 on 2020-06-10 at 21:33:25 CEST with JSBML version 1.4. -->
+<sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" layout:required="false" level="3" multi:required="true" render:required="false" version="2" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" xmlns:render="http://www.sbml.org/sbml/level3/version1/render/version1">
+  <model areaUnits="area_unit" extentUnits="mole" lengthUnits="metre" substanceUnits="mole" timeUnits="second" volumeUnits="litre">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+     <p/>
+  </body>
+    </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#unknown">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+    </annotation>
+      <layout:listOfLayouts xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <layout:layout layout:id="minerva_layout">
+        <render:listOfRenderInformation xmlns:render="http://www.sbml.org/sbml/level3/version1/render/version1">
+          <render:renderInformation render:id="minerva_definitions">
+            <render:listOfColorDefinitions>
+              <render:colorDefinition render:id="color_FF8080FF" render:value="#8080FFFF"/>
+              <render:colorDefinition render:id="color_FFFFFFFF" render:value="#FFFFFFFF"/>
+              <render:colorDefinition render:id="color_FF000000" render:value="#000000FF"/>
+            </render:listOfColorDefinitions>
+            <render:listOfStyles>
+              <render:style render:idList="SbmlCompartmentExporter_0">
+                <render:g render:font-size="12" render:stroke="color_FF8080FF" render:stroke-width="1.0">
+                  <render:rectangle render:height="100%" render:rx="0%" render:ry="0%" render:width="100%" render:x="0%" render:y="0%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_SbmlCompartmentExporter_0">
+                <render:g render:text-anchor="start" render:vtext-anchor="top"/>
+              </render:style>
+              <render:style render:idList="SbmlCompartmentExporter_1">
+                <render:g render:font-size="12" render:stroke="color_FF8080FF" render:stroke-width="1.0">
+                  <render:rectangle render:height="100%" render:rx="0%" render:ry="0%" render:width="100%" render:x="0%" render:y="0%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_SbmlCompartmentExporter_1">
+                <render:g render:text-anchor="start" render:vtext-anchor="top"/>
+              </render:style>
+              <render:style render:idList="SbmlCompartmentExporter_2">
+                <render:g render:font-size="12" render:stroke="color_FF8080FF" render:stroke-width="1.0">
+                  <render:rectangle render:height="100%" render:rx="0%" render:ry="0%" render:width="100%" render:x="0%" render:y="0%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_SbmlCompartmentExporter_2">
+                <render:g render:text-anchor="start" render:vtext-anchor="top"/>
+              </render:style>
+              <render:style render:idList="SbmlCompartmentExporter_3">
+                <render:g render:font-size="12" render:stroke="color_FF8080FF" render:stroke-width="1.0">
+                  <render:rectangle render:height="100%" render:rx="0%" render:ry="0%" render:width="100%" render:x="0%" render:y="0%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_SbmlCompartmentExporter_3">
+                <render:g render:text-anchor="start" render:vtext-anchor="top"/>
+              </render:style>
+              <render:style render:idList="SbmlSpeciesExporter_1">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke-width="1.0">
+                  <render:rectangle render:height="100%" render:rx="0%" render:ry="0%" render:stroke="color_FF000000" render:width="100%" render:x="0%" render:y="0%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_SbmlSpeciesExporter_1">
+                <render:g render:text-anchor="middle" render:vtext-anchor="middle"/>
+              </render:style>
+            </render:listOfStyles>
+          </render:renderInformation>
+        </render:listOfRenderInformation>
+        <layout:dimensions layout:height="374.27801513671875" layout:width="1074.7820358276367"/>
+        <layout:listOfCompartmentGlyphs>
+          <layout:compartmentGlyph layout:compartment="comp_4" layout:id="SbmlCompartmentExporter_0">
+            <layout:boundingBox>
+              <layout:position layout:x="287.375" layout:y="96.75" layout:z="2"/>
+              <layout:dimensions layout:height="285.875" layout:width="644.990966796875"/>
+            </layout:boundingBox>
+          </layout:compartmentGlyph>
+          <layout:compartmentGlyph layout:compartment="comp_5" layout:id="SbmlCompartmentExporter_1">
+            <layout:boundingBox>
+              <layout:position layout:x="270.75" layout:y="-32.22321319580078" layout:z="1"/>
+              <layout:dimensions layout:height="431.47320556640625" layout:width="678.240966796875"/>
+            </layout:boundingBox>
+          </layout:compartmentGlyph>
+          <layout:compartmentGlyph layout:compartment="comp_6" layout:id="SbmlCompartmentExporter_2">
+            <layout:boundingBox>
+              <layout:position layout:x="296.63836669921875" layout:y="-15.598212242126465" layout:z="3"/>
+              <layout:dimensions layout:height="69.22321319580078" layout:width="627.9866333007812"/>
+            </layout:boundingBox>
+          </layout:compartmentGlyph>
+          <layout:compartmentGlyph layout:compartment="comp_7" layout:id="SbmlCompartmentExporter_3">
+            <layout:boundingBox>
+              <layout:position layout:x="342.6555480957031" layout:y="-135.92633056640625" layout:z="4"/>
+              <layout:dimensions layout:height="68" layout:width="241.095703125"/>
+            </layout:boundingBox>
+          </layout:compartmentGlyph>
+          <layout:compartmentGlyph layout:compartment="default" layout:id="default_compartment">
+            <layout:boundingBox>
+              <layout:position layout:x="0" layout:y="0" layout:z="0"/>
+              <layout:dimensions layout:height="374.27801513671875" layout:width="1074.7820358276367"/>
+            </layout:boundingBox>
+          </layout:compartmentGlyph>
+        </layout:listOfCompartmentGlyphs>
+        <layout:listOfSpeciesGlyphs>
+          <layout:speciesGlyph layout:id="SbmlSpeciesExporter_1" layout:species="species_0">
+            <layout:boundingBox>
+              <layout:position layout:x="397.09588623046875" layout:y="480.204345703125" layout:z="5"/>
+              <layout:dimensions layout:height="30" layout:width="60"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+        </layout:listOfSpeciesGlyphs>
+        <layout:listOfTextGlyphs>
+          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_0" layout:originOfText="SbmlCompartmentExporter_0" layout:text="Cytosol">
+            <layout:boundingBox>
+              <layout:position layout:x="293.375" layout:y="102.75" layout:z="3"/>
+              <layout:dimensions layout:height="279.875" layout:width="638.990966796875"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_1" layout:originOfText="SbmlCompartmentExporter_1" layout:text="CELL ">
+            <layout:boundingBox>
+              <layout:position layout:x="276.75" layout:y="-26.22321319580078" layout:z="2"/>
+              <layout:dimensions layout:height="425.47320556640625" layout:width="672.240966796875"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_2" layout:originOfText="SbmlCompartmentExporter_2" layout:text="Cell Membrane">
+            <layout:boundingBox>
+              <layout:position layout:x="302.63836669921875" layout:y="-9.598212242126465" layout:z="4"/>
+              <layout:dimensions layout:height="63.22321319580078" layout:width="621.9866333007812"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_3" layout:originOfText="SbmlCompartmentExporter_3" layout:text="Bloodstream/Extracellular Space">
+            <layout:boundingBox>
+              <layout:position layout:x="348.6555480957031" layout:y="-129.92633056640625" layout:z="5"/>
+              <layout:dimensions layout:height="62" layout:width="235.095703125"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_1" layout:originOfText="SbmlSpeciesExporter_1" layout:text="CRS">
+            <layout:boundingBox>
+              <layout:position layout:x="397.09588623046875" layout:y="480.204345703125" layout:z="6"/>
+              <layout:dimensions layout:height="30" layout:width="60"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+        </layout:listOfTextGlyphs>
+      </layout:layout>
+    </layout:listOfLayouts>
+    <multi:listOfSpeciesTypes xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1">
+      <multi:speciesType multi:id="minerva_species_type_Phenotype" multi:name="Phenotype" sboTerm="SBO:0000358">
+        <multi:listOfSpeciesFeatureTypes>
+          <multi:speciesFeatureType multi:id="minerva_position_to_compartment_Phenotype" multi:name="Position to compartment" multi:occur="1">
+            <multi:listOfPossibleSpeciesFeatureValues>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Phenotype_37" multi:name="NULL"/>
+            </multi:listOfPossibleSpeciesFeatureValues>
+          </multi:speciesFeatureType>
+          <multi:speciesFeatureType multi:id="minerva_activity_Phenotype" multi:name="Activity" multi:occur="1">
+            <multi:listOfPossibleSpeciesFeatureValues>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Phenotype_38" multi:name="false"/>
+            </multi:listOfPossibleSpeciesFeatureValues>
+          </multi:speciesFeatureType>
+        </multi:listOfSpeciesFeatureTypes>
+      </multi:speciesType>
+    </multi:listOfSpeciesTypes>
+    <listOfUnitDefinitions>
+      <unitDefinition id="area_unit" name="area">
+        <listOfUnits>
+          <unit exponent="2" kind="metre" multiplier="1" scale="0"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment constant="false" id="comp_4" multi:isType="false" name="Cytosol" size="1" spatialDimensions="3">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+     <p/>
+  </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#comp_4">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+            </compartment>
+      <compartment constant="false" id="comp_5" multi:isType="false" name="CELL " size="1" spatialDimensions="3">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+     <p/>
+  </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#comp_5">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+            </compartment>
+      <compartment constant="false" id="comp_6" multi:isType="false" name="Cell Membrane" size="1" spatialDimensions="3">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+     <p/>
+  </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#comp_6">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+            </compartment>
+      <compartment constant="false" id="comp_7" multi:isType="false" name="Bloodstream/Extracellular Space" size="1" spatialDimensions="3">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+     <p/>
+  </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#comp_7">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+            </compartment>
+      <compartment constant="false" id="default" multi:isType="false" size="1" spatialDimensions="3">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+     <p/>
+  </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#default">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+            </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species boundaryCondition="false" compartment="default" constant="false" hasOnlySubstanceUnits="false" id="species_0" initialConcentration="0" multi:speciesType="minerva_species_type_Phenotype" name="CRS" sboTerm="SBO:0000358">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+     <p/>
+  </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_0">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures>
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Phenotype">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Phenotype_37"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Phenotype">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Phenotype_38"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+    </listOfSpecies>
+  </model>
+</sbml>
