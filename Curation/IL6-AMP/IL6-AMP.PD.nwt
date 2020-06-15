@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+  <map language="process description">
+    <extension>
+      <renderInformation 
+        xmlns="http://www.sbml.org/sbml/level3/version1/render/version1" id="renderInformation" program-name="sbgnviz" program-version="6.0.1" background-color="#00000000">
+        <listOfColorDefinitions>
+          <colorDefinition id="color_1" value="#ffffff7f"/>
+          <colorDefinition id="color_2" value="#555555"/>
+          <colorDefinition id="color_3" value="#ffffffff"/>
+        </listOfColorDefinitions>
+        <listOfBackgroundImages/>
+        <listOfStyles>
+          <style id="nodeffffff0.55555553.2514normalnormalHelvetica0001" idList="nwtN_64b932f1-658a-4b8e-963a-287bf1c47617 nwtN_0516912c-18a7-4583-946e-6261f1c3b06b nwtN_94871383-e480-4856-a700-83f045a296c4 nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+            <g font-size="14" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="3.25" fill="color_1" background-image-opacity="1" background-opacity="0.5"/>
+          </style>
+          <style id="nodeffffff15555551.2511normalnormalHelvetica0001" idList="nwtN_d53b45e7-730a-41dd-bde4-8e62a8107c24 nwtN_8f13adbf-1ea9-48e1-ad9f-ed87997532c5 nwtN_b3bf17ec-4451-4396-8196-3e3a5fcb9956 nwtN_fab7390c-6076-4dd9-bece-98acb0d1c703 nwtN_3dfa6828-72d1-4046-bb2e-0690ed7f6c98 nwtN_65ad61dc-dbb2-4037-849f-c1538b190989 nwtN_376ded3b-7c52-44c8-8b37-21b779f3a60e nwtN_fb7ad937-2223-485e-a773-ad736f68dd94 nwtN_8f7ca437-9c4c-44af-bcdb-db46d7b67481 nwtN_e1155044-0b4b-41ae-a634-55558612c8b2 nwtN_441432e9-abdf-4855-a65f-1bba9eb4c559 nwtN_97a904e3-8a6f-4654-8f47-784f4bf1073d cea694ee-b707-86c1-45d7-97cff4f4a2d6">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_3" background-image-opacity="1" background-opacity="1"/>
+          </style>
+          <style id="nodeffffff15555551.251" idList="nwtN_4032ebf0-3b9d-4437-9633-e8676259e684 nwtN_005265bc-f129-4131-8a79-2f738956c87b nwtN_246121b7-2153-4ab0-b153-6a106344a4ee nwtN_54967617-aab5-4112-b8e2-bd5b72f9901f nwtN_3afd8bc4-7ab6-4f05-ac18-d0edb86071c0 nwtN_bda4717d-4d36-43de-8908-98358da57791">
+            <g stroke="color_2" stroke-width="1.25" fill="color_3" background-image-opacity="1" background-opacity="1"/>
+          </style>
+          <style id="nodeffffff0.55555551.2511normalnormalHelvetica0001" idList="nwtN_bc4d6a2d-bdc0-4e52-9cc1-f3de9ffbd96f nwtN_d8b17f1d-4a62-470a-a85d-53f2ba927591 nwtN_35b1d818-53ac-4a49-b9be-11ef2f459c25">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_1" background-image-opacity="1" background-opacity="0.5"/>
+          </style>
+          <style id="edge5555551.25" idList="nwtE_d77ee709-2a3a-40ed-81c9-b31b2e2fe895 nwtE_32b445de-156e-4dcd-977e-d27ae11551ac nwtE_db989680-8364-49b3-aa3b-a244d81115f4 nwtE_7060298c-45dc-44bb-855d-d1824801bdee nwtE_ef87544f-0a5e-4076-bbbf-98d037b7f89b nwtE_b476fb03-c786-4c85-8705-4160533aa633 nwtE_5c1099c8-b986-4425-a095-9fb8e075b348 nwtE_e9de0675-6194-4691-9c3f-4e80df078e79">
+            <g stroke="color_2" stroke-width="1.25"/>
+          </style>
+        </listOfStyles>
+      </renderInformation>
+      <mapProperties>
+        <compoundPadding>0</compoundPadding>
+        <extraCompartmentPadding>14</extraCompartmentPadding>
+        <extraComplexPadding>10</extraComplexPadding>
+        <arrowScale>1.25</arrowScale>
+        <showComplexName>true</showComplexName>
+        <dynamicLabelSize>regular</dynamicLabelSize>
+        <inferNestingOnLoad>false</inferNestingOnLoad>
+        <fitLabelsToNodes>false</fitLabelsToNodes>
+        <fitLabelsToInfoboxes>false</fitLabelsToInfoboxes>
+        <recalculateLayoutOnComplexityManagement>true</recalculateLayoutOnComplexityManagement>
+        <rearrangeOnComplexityManagement>true</rearrangeOnComplexityManagement>
+        <animateOnDrawingChanges>true</animateOnDrawingChanges>
+        <adjustNodeLabelFontSizeAutomatically>false</adjustNodeLabelFontSizeAutomatically>
+        <enablePorts>true</enablePorts>
+        <enableSIFTopologyGrouping>false</enableSIFTopologyGrouping>
+        <allowCompoundNodeResize>true</allowCompoundNodeResize>
+        <mapColorScheme>black_white</mapColorScheme>
+        <mapColorSchemeStyle>solid</mapColorSchemeStyle>
+        <mapName>Pathway #0</mapName>
+        <mapDescription/>
+      </mapProperties>
+    </extension>
+    <glyph id="nwtN_64b932f1-658a-4b8e-963a-287bf1c47617" class="compartment">
+      <extension>
+        <extraInfo>
+          <w>507.55874794407885</w>
+          <h>360.8684210526317</h>
+          <minW>0</minW>
+          <minH>0</minH>
+          <WLBias>0</WLBias>
+          <WRBias>0</WRBias>
+          <HTBias>0</HTBias>
+          <HBBias>0</HBBias>
+        </extraInfo>
+      </extension>
+      <label text="Cell"/>
+      <bbox x="184.1123046875" y="89.75" w="535.5587479440788" h="388.8684210526317"/>
+    </glyph>
+    <glyph id="nwtN_94871383-e480-4856-a700-83f045a296c4" class="compartment" compartmentRef="nwtN_64b932f1-658a-4b8e-963a-287bf1c47617">
+      <extension>
+        <extraInfo>
+          <w>357.8837890625</w>
+          <h>35.25</h>
+          <minW>0</minW>
+          <minH>0</minH>
+          <WLBias>0</WLBias>
+          <WRBias>0</WRBias>
+          <HTBias>0</HTBias>
+          <HBBias>0</HBBias>
+        </extraInfo>
+      </extension>
+      <label text="Cell Membrane"/>
+      <bbox x="288.17578125" y="106.375" w="385.8837890625" h="63.25"/>
+    </glyph>
+    <glyph id="nwtN_fab7390c-6076-4dd9-bece-98acb0d1c703" class="macromolecule" compartmentRef="nwtN_94871383-e480-4856-a700-83f045a296c4">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_fab7390c-6076-4dd9-bece-98acb0d1c703">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:13357"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="ACE-2"/>
+      <bbox x="303.80078125" y="124.5" w="42.3984375" h="25"/>
+    </glyph>
+    <glyph id="nwtN_3dfa6828-72d1-4046-bb2e-0690ed7f6c98" class="macromolecule" compartmentRef="nwtN_94871383-e480-4856-a700-83f045a296c4">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_3dfa6828-72d1-4046-bb2e-0690ed7f6c98">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:336"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="AT1R"/>
+      <bbox x="395" y="122" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_65ad61dc-dbb2-4037-849f-c1538b190989" class="macromolecule" compartmentRef="nwtN_94871383-e480-4856-a700-83f045a296c4">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_65ad61dc-dbb2-4037-849f-c1538b190989">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:195"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="ADAM17"/>
+      <bbox x="494" y="124" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_376ded3b-7c52-44c8-8b37-21b779f3a60e" class="macromolecule" compartmentRef="nwtN_94871383-e480-4856-a700-83f045a296c4">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_376ded3b-7c52-44c8-8b37-21b779f3a60e">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:6019"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="IL-6R\alpha"/>
+      <bbox x="591.5654296875" y="124.5" w="66.869140625" h="25"/>
+    </glyph>
+    <glyph id="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24" class="compartment" compartmentRef="nwtN_64b932f1-658a-4b8e-963a-287bf1c47617">
+      <extension>
+        <extraInfo>
+          <w>474.30874794407885</w>
+          <h>242.11842105263173</h>
+          <minW>0</minW>
+          <minH>0</minH>
+          <WLBias>0</WLBias>
+          <WRBias>0</WRBias>
+          <HTBias>0</HTBias>
+          <HBBias>0</HBBias>
+        </extraInfo>
+      </extension>
+      <label text="Cytosol"/>
+      <bbox x="200.7373046875" y="191.87499999999997" w="502.30874794407885" h="270.11842105263173"/>
+    </glyph>
+    <glyph id="nwtN_bc4d6a2d-bdc0-4e52-9cc1-f3de9ffbd96f" class="complex" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <extension>
+        <extraInfo>
+          <w>64.60791015625</w>
+          <h>25</h>
+          <minW>0</minW>
+          <minH>0</minH>
+          <WLBias>0</WLBias>
+          <WRBias>0</WRBias>
+          <HTBias>0</HTBias>
+          <HBBias>0</HBBias>
+        </extraInfo>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_bc4d6a2d-bdc0-4e52-9cc1-f3de9ffbd96f">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:11364"/>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:6018"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="IL-6/STAT3"/>
+      <bbox x="472.5907817639802" y="353.44736842105266" w="64.60791015625" h="25"/>
+    </glyph>
+    <glyph id="nwtN_d8b17f1d-4a62-470a-a85d-53f2ba927591" class="complex" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <extension>
+        <extraInfo>
+          <w>69.275390625</w>
+          <h>25</h>
+          <minW>0</minW>
+          <minH>0</minH>
+          <WLBias>0</WLBias>
+          <WRBias>0</WRBias>
+          <HTBias>0</HTBias>
+          <HBBias>0</HBBias>
+        </extraInfo>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_d8b17f1d-4a62-470a-a85d-53f2ba927591">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:3623"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="FCN1(PRR)"/>
+      <bbox x="216.3623046875" y="207.5" w="69.275390625" h="25"/>
+    </glyph>
+    <glyph id="nwtN_fb7ad937-2223-485e-a773-ad736f68dd94" class="macromolecule" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_fb7ad937-2223-485e-a773-ad736f68dd94">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:3229"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="EGF"/>
+      <bbox x="330.90437397203954" y="214.76315789473688" w="32.6123046875" h="25"/>
+    </glyph>
+    <glyph id="nwtN_35b1d818-53ac-4a49-b9be-11ef2f459c25" class="complex" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <extension>
+        <extraInfo>
+          <w>66.224609375</w>
+          <h>25</h>
+          <minW>0</minW>
+          <minH>0</minH>
+          <WLBias>0</WLBias>
+          <WRBias>0</WRBias>
+          <HTBias>0</HTBias>
+          <HBBias>0</HBBias>
+        </extraInfo>
+      </extension>
+      <label text="EGF EGFR"/>
+      <bbox x="362.0982216282897" y="282.28947368421063" w="66.224609375" h="25"/>
+    </glyph>
+    <glyph id="nwtN_8f7ca437-9c4c-44af-bcdb-db46d7b67481" class="macromolecule" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_8f7ca437-9c4c-44af-bcdb-db46d7b67481">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:1254"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="NF-\kappaB"/>
+      <bbox x="254" y="373" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_e1155044-0b4b-41ae-a634-55558612c8b2" class="macromolecule" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_e1155044-0b4b-41ae-a634-55558612c8b2">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:6018"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="IL-6"/>
+      <bbox x="627.4210526315788" y="256.1578947368421" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_441432e9-abdf-4855-a65f-1bba9eb4c559" class="macromolecule" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_441432e9-abdf-4855-a65f-1bba9eb4c559">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:11364"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="STAT3"/>
+      <bbox x="625.1052631578948" y="328.9473684210526" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_97a904e3-8a6f-4654-8f47-784f4bf1073d" class="macromolecule" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_97a904e3-8a6f-4654-8f47-784f4bf1073d">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:11892"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="TNF\alpha"/>
+      <bbox x="474" y="255" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_246121b7-2153-4ab0-b153-6a106344a4ee" class="and" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <bbox x="369.96992481203006" y="381.02255639097746" w="21.42857142857143" h="21.42857142857143"/>
+      <port id="nwtN_246121b7-2153-4ab0-b153-6a106344a4ee.1" x="365.6842105263158" y="391.7368421052632"/>
+      <port id="nwtN_246121b7-2153-4ab0-b153-6a106344a4ee.2" x="395.6842105263158" y="391.7368421052632"/>
+    </glyph>
+    <glyph id="nwtN_54967617-aab5-4112-b8e2-bd5b72f9901f" class="process" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <bbox x="583.015037593985" y="309.3308270676692" w="14.285714285714286" h="14.285714285714286"/>
+      <port id="nwtN_54967617-aab5-4112-b8e2-bd5b72f9901f.1" x="580.1578947368421" y="316.47368421052636"/>
+      <port id="nwtN_54967617-aab5-4112-b8e2-bd5b72f9901f.2" x="600.1578947368421" y="316.47368421052636"/>
+    </glyph>
+    <glyph id="nwtN_3afd8bc4-7ab6-4f05-ac18-d0edb86071c0" class="process" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <bbox x="388.0150375939849" y="235.27819548872176" w="14.285714285714286" h="14.285714285714286"/>
+      <port id="nwtN_3afd8bc4-7ab6-4f05-ac18-d0edb86071c0.1" x="395.1578947368421" y="232.4210526315789"/>
+      <port id="nwtN_3afd8bc4-7ab6-4f05-ac18-d0edb86071c0.2" x="395.1578947368421" y="252.4210526315789"/>
+    </glyph>
+    <glyph id="cea694ee-b707-86c1-45d7-97cff4f4a2d6" class="macromolecule" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#cea694ee-b707-86c1-45d7-97cff4f4a2d6">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:3236"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="EGFR"/>
+      <bbox x="425.56402909128286" y="210.97368421052624" w="40.55615234375" h="25"/>
+    </glyph>
+    <glyph id="nwtN_bda4717d-4d36-43de-8908-98358da57791" class="uncertain process" compartmentRef="nwtN_5cccd654-1b0c-4b1a-9619-76c2680aec24">
+      <bbox x="375.64661654135364" y="429.22556390977456" w="14.285714285714286" h="14.285714285714286"/>
+      <port id="nwtN_bda4717d-4d36-43de-8908-98358da57791.1" x="372.7894736842108" y="436.36842105263173"/>
+      <port id="nwtN_bda4717d-4d36-43de-8908-98358da57791.2" x="392.7894736842108" y="436.36842105263173"/>
+    </glyph>
+    <glyph id="nwtN_4032ebf0-3b9d-4437-9633-e8676259e684" class="process">
+      <bbox x="167.22556390977493" y="182.9097744360904" w="14.285714285714286" h="14.285714285714286"/>
+      <port id="nwtN_4032ebf0-3b9d-4437-9633-e8676259e684.1" x="164.36842105263207" y="190.05263157894754"/>
+      <port id="nwtN_4032ebf0-3b9d-4437-9633-e8676259e684.2" x="184.36842105263207" y="190.05263157894754"/>
+    </glyph>
+    <glyph id="nwtN_8f13adbf-1ea9-48e1-ad9f-ed87997532c5" class="phenotype">
+      <label text="CRS"/>
+      <bbox x="351.7368421052632" y="493.0526315789474" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_b3bf17ec-4451-4396-8196-3e3a5fcb9956" class="unspecified entity">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#nwtN_b3bf17ec-4451-4396-8196-3e3a5fcb9956">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mesh:C000656484"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="SARS_CoV2"/>
+      <bbox x="89.205810546875" y="117.5" w="73.58837890625" h="25"/>
+    </glyph>
+    <glyph id="nwtN_0516912c-18a7-4583-946e-6261f1c3b06b" class="compartment">
+      <extension>
+        <extraInfo>
+          <w>209.2060546875</w>
+          <h>40</h>
+          <minW>209.2060546875</minW>
+          <minH>40</minH>
+          <WLBias>0.5</WLBias>
+          <WRBias>0.5</WRBias>
+          <HTBias>0.5</HTBias>
+          <HBBias>0.5</HBBias>
+        </extraInfo>
+      </extension>
+      <label text="Bloodstream/extracellular space"/>
+      <bbox x="199.39697265625" y="-7" w="237.2060546875" h="68"/>
+    </glyph>
+    <glyph id="nwtN_d53b45e7-730a-41dd-bde4-8e62a8107c24" class="simple chemical" compartmentRef="nwtN_0516912c-18a7-4583-946e-6261f1c3b06b">
+      <label text="Angiotensin II"/>
+      <bbox x="279.67236328125" y="14.5" w="76.6552734375" h="25"/>
+    </glyph>
+    <glyph id="nwtN_005265bc-f129-4131-8a79-2f738956c87b" class="process">
+      <bbox x="208.2781954887223" y="122.9097744360904" w="14.285714285714286" h="14.285714285714286"/>
+      <port id="nwtN_005265bc-f129-4131-8a79-2f738956c87b.1" x="205.42105263157944" y="130.05263157894754"/>
+      <port id="nwtN_005265bc-f129-4131-8a79-2f738956c87b.2" x="225.42105263157944" y="130.05263157894754"/>
+    </glyph>
+    <arc id="nwtE_d77ee709-2a3a-40ed-81c9-b31b2e2fe895" class="logic arc" source="nwtN_bc4d6a2d-bdc0-4e52-9cc1-f3de9ffbd96f" target="nwtN_246121b7-2153-4ab0-b153-6a106344a4ee.2">
+      <start x="472.25100564405614" y="372.72509227149504"/>
+      <end x="396.3092105263158" y="391.7368421052632"/>
+    </arc>
+    <arc id="nwtE_32b445de-156e-4dcd-977e-d27ae11551ac" class="production" source="nwtN_54967617-aab5-4112-b8e2-bd5b72f9901f.2" target="nwtN_bc4d6a2d-bdc0-4e52-9cc1-f3de9ffbd96f">
+      <start x="600.7828947368421" y="316.47368421052636"/>
+      <end x="529.1943400192557" y="351.8475986762863"/>
+    </arc>
+    <arc id="nwtE_db989680-8364-49b3-aa3b-a244d81115f4" class="consumption" source="nwtN_fb7ad937-2223-485e-a773-ad736f68dd94" target="nwtN_3afd8bc4-7ab6-4f05-ac18-d0edb86071c0.1">
+      <start x="364.14167865953954" y="232.61570660494542"/>
+      <end x="395.1578947368421" y="231.7960526315789"/>
+    </arc>
+    <arc id="nwtE_7060298c-45dc-44bb-855d-d1824801bdee" class="production" source="nwtN_3afd8bc4-7ab6-4f05-ac18-d0edb86071c0.2" target="nwtN_35b1d818-53ac-4a49-b9be-11ef2f459c25">
+      <start x="395.1578947368421" y="253.0460526315789"/>
+      <end x="395.1941946590843" y="278.5394752624524"/>
+    </arc>
+    <arc id="nwtE_ef87544f-0a5e-4076-bbbf-98d037b7f89b" class="logic arc" source="nwtN_8f7ca437-9c4c-44af-bcdb-db46d7b67481" target="nwtN_246121b7-2153-4ab0-b153-6a106344a4ee.2">
+      <start x="314.625" y="389.1836554164399"/>
+      <end x="396.3092105263158" y="391.7368421052632"/>
+    </arc>
+    <arc id="nwtE_b476fb03-c786-4c85-8705-4160533aa633" class="consumption" source="nwtN_e1155044-0b4b-41ae-a634-55558612c8b2" target="nwtN_54967617-aab5-4112-b8e2-bd5b72f9901f.1">
+      <start x="634.2676094699299" y="286.7565759279061"/>
+      <end x="579.5328947368421" y="316.47368421052636"/>
+    </arc>
+    <arc id="nwtE_5c1099c8-b986-4425-a095-9fb8e075b348" class="consumption" source="nwtN_441432e9-abdf-4855-a65f-1bba9eb4c559" target="nwtN_54967617-aab5-4112-b8e2-bd5b72f9901f.1">
+      <start x="626.0446194617751" y="331.6542922384153"/>
+      <end x="579.5328947368421" y="316.47368421052636"/>
+    </arc>
+    <arc id="nwtE_e9de0675-6194-4691-9c3f-4e80df078e79" class="consumption" source="cea694ee-b707-86c1-45d7-97cff4f4a2d6" target="nwtN_3afd8bc4-7ab6-4f05-ac18-d0edb86071c0.1">
+      <start x="425.1051387651973" y="231.22582121910963"/>
+      <end x="395.1578947368421" y="231.7960526315789"/>
+    </arc>
+  </map>
+</sbgn>
