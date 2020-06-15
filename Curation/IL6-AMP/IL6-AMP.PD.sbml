@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<!-- Created by minerva version 14.0.13 on 2020-06-15 at 08:20:38 CEST with JSBML version 1.4. -->
+<!-- Created by minerva version 14.0.13 on 2020-06-15 at 19:41:26 CEST with JSBML version 1.4. -->
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" layout:required="false" level="3" multi:required="true" render:required="false" version="2" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" xmlns:render="http://www.sbml.org/sbml/level3/version1/render/version1">
   <model areaUnits="area_unit" extentUnits="mole" lengthUnits="metre" substanceUnits="mole" timeUnits="second" volumeUnits="litre">
     <notes>
@@ -183,7 +183,7 @@
               </render:style>
               <render:style render:idList="SbmlSpeciesExporter_27">
                 <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke-width="1.0">
-                  <render:rectangle render:height="100%" render:rx="0%" render:ry="0%" render:stroke="color_FF000000" render:width="100%" render:x="0%" render:y="0%"/>
+                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%" render:stroke="color_FF000000"/>
                 </render:g>
               </render:style>
               <render:style render:idList="text_SbmlSpeciesExporter_27">
@@ -199,265 +199,341 @@
               </render:style>
               <render:style render:idList="SbmlSpeciesExporter_31">
                 <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke-width="1.0">
-                  <render:ellipse render:cx="50%" render:cy="50%" render:rx="50%" render:ry="50%" render:stroke="color_FF000000"/>
+                  <render:rectangle render:height="100%" render:rx="0%" render:ry="0%" render:stroke="color_FF000000" render:width="100%" render:x="0%" render:y="0%"/>
                 </render:g>
               </render:style>
               <render:style render:idList="text_SbmlSpeciesExporter_31">
                 <render:g render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
-              <render:style render:idList="node_3">
-                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
+              <render:style render:idList="SbmlSpeciesExporter_33">
+                <render:g render:fill="color_FFFFFFFF" render:font-size="12" render:stroke-width="1.0">
+                  <render:rectangle render:height="100%" render:rx="0%" render:ry="0%" render:stroke="color_FF000000" render:width="100%" render:x="0%" render:y="0%"/>
+                </render:g>
+              </render:style>
+              <render:style render:idList="text_SbmlSpeciesExporter_33">
+                <render:g render:text-anchor="middle" render:vtext-anchor="middle"/>
               </render:style>
               <render:style render:idList="node_4">
                 <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
               </render:style>
               <render:style render:idList="node_5">
+                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
+              </render:style>
+              <render:style render:idList="node_6">
                 <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
               </render:style>
-              <render:style render:idList="SbmlReactionExporter_0_2">
+              <render:style render:idList="SbmlReactionExporter_0_3">
                 <render:g render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
-              </render:style>
-              <render:style render:idList="node_7">
-                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
               </render:style>
               <render:style render:idList="node_8">
                 <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
               </render:style>
               <render:style render:idList="node_9">
+                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
+              </render:style>
+              <render:style render:idList="node_10">
                 <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
               </render:style>
-              <render:style render:idList="SbmlReactionExporter_1_6">
+              <render:style render:idList="SbmlReactionExporter_1_7">
+                <render:g render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
+              </render:style>
+              <render:style render:idList="node_12">
+                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
+              </render:style>
+              <render:style render:idList="node_13">
+                <render:g render:endHead="line_ending_NONE" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
+              </render:style>
+              <render:style render:idList="node_14">
+                <render:g render:endHead="line_ending_FULL" render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
+              </render:style>
+              <render:style render:idList="SbmlReactionExporter_2_11">
                 <render:g render:fill="color_FF000000" render:stroke="color_FF000000" render:stroke-width="1.0"/>
               </render:style>
             </render:listOfStyles>
           </render:renderInformation>
         </render:listOfRenderInformation>
-        <layout:dimensions layout:height="516.0526123046875" layout:width="808.8768920898438"/>
+        <layout:dimensions layout:height="724.5795936584473" layout:width="788.4516830444336"/>
         <layout:listOfCompartmentGlyphs>
           <layout:compartmentGlyph layout:compartment="comp_4" layout:id="SbmlCompartmentExporter_0">
             <layout:boundingBox>
-              <layout:position layout:x="184.1123046875" layout:y="89.75" layout:z="3"/>
-              <layout:dimensions layout:height="388.868408203125" layout:width="535.5587768554688"/>
+              <layout:position layout:x="35.90219497680664" layout:y="26.657245635986328" layout:z="4"/>
+              <layout:dimensions layout:height="637.41162109375" layout:width="835.2139892578125"/>
             </layout:boundingBox>
           </layout:compartmentGlyph>
           <layout:compartmentGlyph layout:compartment="comp_5" layout:id="SbmlCompartmentExporter_1">
             <layout:boundingBox>
-              <layout:position layout:x="200.7373046875" layout:y="191.875" layout:z="4"/>
-              <layout:dimensions layout:height="270.118408203125" layout:width="502.3087463378906"/>
+              <layout:position layout:x="56.849708557128906" layout:y="43.28224563598633" layout:z="5"/>
+              <layout:dimensions layout:height="604.16162109375" layout:width="797.6414794921875"/>
             </layout:boundingBox>
           </layout:compartmentGlyph>
           <layout:compartmentGlyph layout:compartment="comp_6" layout:id="SbmlCompartmentExporter_2">
             <layout:boundingBox>
-              <layout:position layout:x="288.17578125" layout:y="106.375" layout:z="5"/>
-              <layout:dimensions layout:height="63.25" layout:width="385.8837890625"/>
+              <layout:position layout:x="49.9271125793457" layout:y="-46.429561614990234" layout:z="7"/>
+              <layout:dimensions layout:height="68" layout:width="725.2529296875"/>
             </layout:boundingBox>
           </layout:compartmentGlyph>
           <layout:compartmentGlyph layout:compartment="comp_7" layout:id="SbmlCompartmentExporter_3">
             <layout:boundingBox>
-              <layout:position layout:x="199.39697265625" layout:y="-7" layout:z="6"/>
-              <layout:dimensions layout:height="68" layout:width="237.2060546875"/>
+              <layout:position layout:x="52.52719497680664" layout:y="161.9322967529297" layout:z="6"/>
+              <layout:dimensions layout:height="408.52935791015625" layout:width="777.9747924804688"/>
             </layout:boundingBox>
           </layout:compartmentGlyph>
           <layout:compartmentGlyph layout:compartment="default" layout:id="default_compartment">
             <layout:boundingBox>
               <layout:position layout:x="0" layout:y="0" layout:z="0"/>
-              <layout:dimensions layout:height="516.0526123046875" layout:width="808.8768920898438"/>
+              <layout:dimensions layout:height="724.5795936584473" layout:width="788.4516830444336"/>
             </layout:boundingBox>
           </layout:compartmentGlyph>
         </layout:listOfCompartmentGlyphs>
         <layout:listOfSpeciesGlyphs>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_1" layout:species="species_0">
             <layout:boundingBox>
-              <layout:position layout:x="330.9043884277344" layout:y="214.76315307617188" layout:z="22"/>
-              <layout:dimensions layout:height="25" layout:width="32.6123046875"/>
+              <layout:position layout:x="754.876953125" layout:y="234.91790771484375" layout:z="17"/>
+              <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_3" layout:species="species_2">
             <layout:boundingBox>
-              <layout:position layout:x="625.1052856445312" layout:y="328.9473571777344" layout:z="10"/>
+              <layout:position layout:x="359.3225402832031" layout:y="99.29615783691406" layout:z="11"/>
               <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_5" layout:species="species_4">
             <layout:boundingBox>
-              <layout:position layout:x="627.4210815429688" layout:y="256.15789794921875" layout:z="15"/>
-              <layout:dimensions layout:height="30" layout:width="60"/>
+              <layout:position layout:x="320.0785217285156" layout:y="303.9547119140625" layout:z="20"/>
+              <layout:dimensions layout:height="25" layout:width="66.224609375"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_7" layout:species="species_6">
             <layout:boundingBox>
-              <layout:position layout:x="474" layout:y="255" layout:z="14"/>
-              <layout:dimensions layout:height="30" layout:width="60"/>
+              <layout:position layout:x="469.3547668457031" layout:y="232.638916015625" layout:z="23"/>
+              <layout:dimensions layout:height="25" layout:width="40.55615234375"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_9" layout:species="species_8">
             <layout:boundingBox>
-              <layout:position layout:x="303.80078125" layout:y="124.5" layout:z="20"/>
-              <layout:dimensions layout:height="25" layout:width="42.3984375"/>
+              <layout:position layout:x="256.55682373046875" layout:y="415.02862548828125" layout:z="15"/>
+              <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_11" layout:species="species_10">
             <layout:boundingBox>
-              <layout:position layout:x="494" layout:y="124" layout:z="11"/>
-              <layout:dimensions layout:height="30" layout:width="60"/>
+              <layout:position layout:x="161.93289184570312" layout:y="97.50563049316406" layout:z="22"/>
+              <layout:dimensions layout:height="25" layout:width="42.3984375"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_13" layout:species="species_12">
             <layout:boundingBox>
-              <layout:position layout:x="395" layout:y="122" layout:z="9"/>
-              <layout:dimensions layout:height="30" layout:width="60"/>
+              <layout:position layout:x="68.15219116210938" layout:y="177.67897033691406" layout:z="18"/>
+              <layout:dimensions layout:height="25" layout:width="69.275390625"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_15" layout:species="species_14">
             <layout:boundingBox>
-              <layout:position layout:x="216.3623046875" layout:y="207.5" layout:z="16"/>
-              <layout:dimensions layout:height="25" layout:width="69.275390625"/>
+              <layout:position layout:x="-82.6645278930664" layout:y="94.86672973632812" layout:z="9"/>
+              <layout:dimensions layout:height="28.217891693115234" layout:width="71.443115234375"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_17" layout:species="species_16">
             <layout:boundingBox>
-              <layout:position layout:x="254" layout:y="373" layout:z="13"/>
+              <layout:position layout:x="745.052734375" layout:y="322.7242126464844" layout:z="12"/>
               <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_19" layout:species="species_18">
             <layout:boundingBox>
-              <layout:position layout:x="89.205810546875" layout:y="117.5" layout:z="8"/>
-              <layout:dimensions layout:height="25" layout:width="73.58837890625"/>
+              <layout:position layout:x="555.887939453125" layout:y="101.79615783691406" layout:z="19"/>
+              <layout:dimensions layout:height="25" layout:width="66.869140625"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_21" layout:species="species_20">
             <layout:boundingBox>
-              <layout:position layout:x="351.7368469238281" layout:y="493.0526428222656" layout:z="12"/>
+              <layout:position layout:x="390.95849609375" layout:y="741.0091552734375" layout:z="14"/>
               <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_23" layout:species="species_22">
             <layout:boundingBox>
-              <layout:position layout:x="591.5654296875" layout:y="124.5" layout:z="17"/>
-              <layout:dimensions layout:height="25" layout:width="66.869140625"/>
+              <layout:position layout:x="458.3225402832031" layout:y="101.29615783691406" layout:z="13"/>
+              <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_25" layout:species="species_24">
             <layout:boundingBox>
-              <layout:position layout:x="425.56402587890625" layout:y="210.9736785888672" layout:z="21"/>
-              <layout:dimensions layout:height="25" layout:width="40.55615234375"/>
+              <layout:position layout:x="372.9856262207031" layout:y="349.6040954589844" layout:z="16"/>
+              <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_27" layout:species="species_26">
             <layout:boundingBox>
-              <layout:position layout:x="472.5907897949219" layout:y="353.4473571777344" layout:z="19"/>
-              <layout:dimensions layout:height="25" layout:width="64.60791015625"/>
+              <layout:position layout:x="246.0465850830078" layout:y="-24.9295597076416" layout:z="10"/>
+              <layout:dimensions layout:height="25" layout:width="76.6552734375"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_29" layout:species="species_28">
             <layout:boundingBox>
-              <layout:position layout:x="362.0982360839844" layout:y="282.2894592285156" layout:z="18"/>
-              <layout:dimensions layout:height="25" layout:width="66.224609375"/>
+              <layout:position layout:x="462.75" layout:y="380.47576904296875" layout:z="21"/>
+              <layout:dimensions layout:height="25" layout:width="64.60791015625"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
           <layout:speciesGlyph layout:id="SbmlSpeciesExporter_31" layout:species="species_30">
             <layout:boundingBox>
-              <layout:position layout:x="279.67236328125" layout:y="14.5" layout:z="7"/>
-              <layout:dimensions layout:height="25" layout:width="76.6552734375"/>
+              <layout:position layout:x="344.6614685058594" layout:y="234.2831268310547" layout:z="24"/>
+              <layout:dimensions layout:height="25" layout:width="32.6123046875"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="SbmlSpeciesExporter_33" layout:species="species_32">
+            <layout:boundingBox>
+              <layout:position layout:x="120.18382263183594" layout:y="235.2782745361328" layout:z="8"/>
+              <layout:dimensions layout:height="44" layout:width="125.51991271972656"/>
             </layout:boundingBox>
           </layout:speciesGlyph>
         </layout:listOfSpeciesGlyphs>
         <layout:listOfReactionGlyphs>
-          <layout:reactionGlyph layout:id="SbmlReactionExporter_0_2" layout:reaction="SbmlReactionExporter_0">
+          <layout:reactionGlyph layout:id="SbmlReactionExporter_0_3" layout:reaction="SbmlReactionExporter_0">
             <layout:boundingBox>
-              <layout:position layout:x="395.15789794921875" layout:y="231.79605102539062" layout:z="1"/>
-              <layout:dimensions layout:depth="0" layout:height="25.249995948308822" layout:width="0.005693286658413399"/>
+              <layout:position layout:x="388.0746733086995" layout:y="270.6233825683594" layout:z="1"/>
+              <layout:dimensions layout:depth="0" layout:height="22.821831579347815" layout:width="3.6782258612223586"/>
             </layout:boundingBox>
             <layout:curve>
               <layout:listOfCurveSegments>
                 <layout:curveSegment xsi:type="LineSegment">
-                  <layout:start layout:x="395.15789794921875" layout:y="231.79605102539062"/>
-                  <layout:end layout:x="395.15789794921875" layout:y="238.42105102539062"/>
+                  <layout:start layout:x="391.7528991699219" layout:y="270.6233825683594"/>
+                  <layout:end layout:x="391.7528991699219" layout:y="277.2483825683594"/>
                 </layout:curveSegment>
                 <layout:curveSegment xsi:type="LineSegment">
-                  <layout:start layout:x="395.15789794921875" layout:y="238.42105102539062"/>
-                  <layout:end layout:x="395.16359123587716" layout:y="257.04604697369945"/>
+                  <layout:start layout:x="391.7528991699219" layout:y="277.2483825683594"/>
+                  <layout:end layout:x="388.0746733086995" layout:y="293.4452141477072"/>
                 </layout:curveSegment>
               </layout:listOfCurveSegments>
             </layout:curve>
             <layout:listOfSpeciesReferenceGlyphs>
-              <layout:speciesReferenceGlyph layout:id="node_3" layout:role="substrate" layout:speciesGlyph="SbmlSpeciesExporter_1">
+              <layout:speciesReferenceGlyph layout:id="node_4" layout:role="substrate" layout:speciesGlyph="SbmlSpeciesExporter_7">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="395.15789794921875" layout:y="231.79605102539062"/>
-                      <layout:end layout:x="364.1416931152344" layout:y="232.61570739746094"/>
+                      <layout:start layout:x="391.7528991699219" layout:y="270.6233825683594"/>
+                      <layout:end layout:x="468.87542724609375" layout:y="252.79664611816406"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_4" layout:role="sidesubstrate" layout:speciesGlyph="SbmlSpeciesExporter_25">
+              <layout:speciesReferenceGlyph layout:id="node_5" layout:role="sidesubstrate" layout:speciesGlyph="SbmlSpeciesExporter_31">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="395.15789794921875" layout:y="231.79605102539062"/>
-                      <layout:end layout:x="425.1051330566406" layout:y="231.22581481933594"/>
+                      <layout:start layout:x="391.7528991699219" layout:y="270.6233825683594"/>
+                      <layout:end layout:x="372.5400085449219" layout:y="259.7388610839844"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_5" layout:role="product" layout:speciesGlyph="SbmlSpeciesExporter_29">
+              <layout:speciesReferenceGlyph layout:id="node_6" layout:role="product" layout:speciesGlyph="SbmlSpeciesExporter_5">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="395.16359123587716" layout:y="257.04604697369945"/>
-                      <layout:end layout:x="395.1941833496094" layout:y="278.53948974609375"/>
+                      <layout:start layout:x="388.0746733086995" layout:y="293.4452141477072"/>
+                      <layout:end layout:x="369.87469482421875" layout:y="301.2226867675781"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
             </layout:listOfSpeciesReferenceGlyphs>
           </layout:reactionGlyph>
-          <layout:reactionGlyph layout:id="SbmlReactionExporter_1_6" layout:reaction="SbmlReactionExporter_1">
+          <layout:reactionGlyph layout:id="SbmlReactionExporter_1_7" layout:reaction="SbmlReactionExporter_1">
             <layout:boundingBox>
-              <layout:position layout:x="579.5328979492188" layout:y="316.47369384765625" layout:z="2"/>
-              <layout:dimensions layout:depth="0" layout:height="1.7719880580857534" layout:width="17.663907652889975"/>
+              <layout:position layout:x="590.7157846131113" layout:y="349.93784718232996" layout:z="2"/>
+              <layout:dimensions layout:depth="0" layout:height="1.6433892226669968" layout:width="24.896825250169968"/>
             </layout:boundingBox>
             <layout:curve>
               <layout:listOfCurveSegments>
                 <layout:curveSegment xsi:type="LineSegment">
-                  <layout:start layout:x="579.5328979492188" layout:y="316.47369384765625"/>
-                  <layout:end layout:x="586.1578979492188" layout:y="316.47369384765625"/>
+                  <layout:start layout:x="615.6126098632812" layout:y="349.9378662109375"/>
+                  <layout:end layout:x="608.9876098632648" layout:y="349.93784718232996"/>
                 </layout:curveSegment>
                 <layout:curveSegment xsi:type="LineSegment">
-                  <layout:start layout:x="586.1578979492188" layout:y="316.47369384765625"/>
-                  <layout:end layout:x="597.1968056021087" layout:y="318.245681905742"/>
+                  <layout:start layout:x="608.9876098632648" layout:y="349.93784718232996"/>
+                  <layout:end layout:x="590.7157846131113" layout:y="351.58123640499696"/>
                 </layout:curveSegment>
               </layout:listOfCurveSegments>
             </layout:curve>
             <layout:listOfSpeciesReferenceGlyphs>
-              <layout:speciesReferenceGlyph layout:id="node_7" layout:role="substrate" layout:speciesGlyph="SbmlSpeciesExporter_5">
+              <layout:speciesReferenceGlyph layout:id="node_8" layout:role="substrate" layout:speciesGlyph="SbmlSpeciesExporter_17">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="579.5328979492188" layout:y="316.47369384765625"/>
-                      <layout:end layout:x="634.2676391601562" layout:y="286.7565612792969"/>
+                      <layout:start layout:x="615.6126098632812" layout:y="349.9378662109375"/>
+                      <layout:end layout:x="744.427734375" layout:y="339.9236145019531"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_8" layout:role="sidesubstrate" layout:speciesGlyph="SbmlSpeciesExporter_3">
+              <layout:speciesReferenceGlyph layout:id="node_9" layout:role="sidesubstrate" layout:speciesGlyph="SbmlSpeciesExporter_1">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="579.5328979492188" layout:y="316.47369384765625"/>
-                      <layout:end layout:x="626.0446166992188" layout:y="331.654296875"/>
+                      <layout:start layout:x="615.6126098632812" layout:y="349.9378662109375"/>
+                      <layout:end layout:x="758.523193359375" layout:y="264.5708312988281"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
               </layout:speciesReferenceGlyph>
-              <layout:speciesReferenceGlyph layout:id="node_9" layout:role="product" layout:speciesGlyph="SbmlSpeciesExporter_27">
+              <layout:speciesReferenceGlyph layout:id="node_10" layout:role="product" layout:speciesGlyph="SbmlSpeciesExporter_29">
                 <layout:curve>
                   <layout:listOfCurveSegments>
                     <layout:curveSegment xsi:type="LineSegment">
-                      <layout:start layout:x="597.1968056021087" layout:y="318.245681905742"/>
-                      <layout:end layout:x="529.1943359375" layout:y="351.84759521484375"/>
+                      <layout:start layout:x="590.7157846131113" layout:y="351.58123640499696"/>
+                      <layout:end layout:x="524.0288696289062" layout:y="381.63238525390625"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="SbmlReactionExporter_2_11" layout:reaction="SbmlReactionExporter_2">
+            <layout:boundingBox>
+              <layout:position layout:x="183.93527358527163" layout:y="176.9322967529297" layout:z="3"/>
+              <layout:dimensions layout:depth="0" layout:height="25.24917716360494" layout:width="0.08112961297055676"/>
+            </layout:boundingBox>
+            <layout:curve>
+              <layout:listOfCurveSegments>
+                <layout:curveSegment xsi:type="LineSegment">
+                  <layout:start layout:x="184.0164031982422" layout:y="176.9322967529297"/>
+                  <layout:end layout:x="184.0164031982422" layout:y="183.5572967529297"/>
+                </layout:curveSegment>
+                <layout:curveSegment xsi:type="LineSegment">
+                  <layout:start layout:x="184.0164031982422" layout:y="183.5572967529297"/>
+                  <layout:end layout:x="183.93527358527163" layout:y="202.18147391653463"/>
+                </layout:curveSegment>
+              </layout:listOfCurveSegments>
+            </layout:curve>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="node_12" layout:role="substrate" layout:speciesGlyph="SbmlSpeciesExporter_11">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="184.0164031982422" layout:y="176.9322967529297"/>
+                      <layout:end layout:x="183.28176879882812" layout:y="123.13063049316406"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_13" layout:role="sidesubstrate" layout:speciesGlyph="SbmlSpeciesExporter_15">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="184.0164031982422" layout:y="176.9322967529297"/>
+                      <layout:end layout:x="-19.102962493896484" layout:y="118.44795227050781"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="node_14" layout:role="product" layout:speciesGlyph="SbmlSpeciesExporter_33">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="183.93527358527163" layout:y="202.18147391653463"/>
+                      <layout:end layout:x="183.3399200439453" layout:y="231.5286407470703"/>
                     </layout:curveSegment>
                   </layout:listOfCurveSegments>
                 </layout:curve>
@@ -468,122 +544,128 @@
         <layout:listOfTextGlyphs>
           <layout:textGlyph layout:id="text_SbmlCompartmentExporter_0" layout:originOfText="SbmlCompartmentExporter_0" layout:text="Cell">
             <layout:boundingBox>
-              <layout:position layout:x="190.1123046875" layout:y="95.75" layout:z="4"/>
-              <layout:dimensions layout:height="382.868408203125" layout:width="529.5587768554688"/>
+              <layout:position layout:x="41.90219497680664" layout:y="32.65724563598633" layout:z="5"/>
+              <layout:dimensions layout:height="631.41162109375" layout:width="829.2139892578125"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_1" layout:originOfText="SbmlCompartmentExporter_1" layout:text="Cytosol">
+          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_1" layout:originOfText="SbmlCompartmentExporter_1" layout:text="Cell Membrane">
             <layout:boundingBox>
-              <layout:position layout:x="206.7373046875" layout:y="197.875" layout:z="5"/>
-              <layout:dimensions layout:height="264.118408203125" layout:width="496.3087463378906"/>
+              <layout:position layout:x="62.849708557128906" layout:y="49.28224563598633" layout:z="6"/>
+              <layout:dimensions layout:height="598.16162109375" layout:width="791.6414794921875"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_2" layout:originOfText="SbmlCompartmentExporter_2" layout:text="Cell Membrane">
+          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_2" layout:originOfText="SbmlCompartmentExporter_2" layout:text="Bloodstream/extracellular space">
             <layout:boundingBox>
-              <layout:position layout:x="294.17578125" layout:y="112.375" layout:z="6"/>
-              <layout:dimensions layout:height="57.25" layout:width="379.8837890625"/>
+              <layout:position layout:x="55.9271125793457" layout:y="-40.429561614990234" layout:z="8"/>
+              <layout:dimensions layout:height="62" layout:width="719.2529296875"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_3" layout:originOfText="SbmlCompartmentExporter_3" layout:text="Bloodstream/extracellular space">
+          <layout:textGlyph layout:id="text_SbmlCompartmentExporter_3" layout:originOfText="SbmlCompartmentExporter_3" layout:text="Cytosol">
             <layout:boundingBox>
-              <layout:position layout:x="205.39697265625" layout:y="-1" layout:z="7"/>
-              <layout:dimensions layout:height="62" layout:width="231.2060546875"/>
+              <layout:position layout:x="58.52719497680664" layout:y="167.9322967529297" layout:z="7"/>
+              <layout:dimensions layout:height="402.52935791015625" layout:width="771.9747924804688"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_1" layout:originOfText="SbmlSpeciesExporter_1" layout:text="EGF">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_1" layout:originOfText="SbmlSpeciesExporter_1" layout:text="IL-6">
             <layout:boundingBox>
-              <layout:position layout:x="330.9043884277344" layout:y="214.76315307617188" layout:z="23"/>
-              <layout:dimensions layout:height="25" layout:width="32.6123046875"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_3" layout:originOfText="SbmlSpeciesExporter_3" layout:text="STAT3">
-            <layout:boundingBox>
-              <layout:position layout:x="625.1052856445312" layout:y="328.9473571777344" layout:z="11"/>
+              <layout:position layout:x="754.876953125" layout:y="234.91790771484375" layout:z="18"/>
               <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_5" layout:originOfText="SbmlSpeciesExporter_5" layout:text="IL-6">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_3" layout:originOfText="SbmlSpeciesExporter_3" layout:text="AT1R">
             <layout:boundingBox>
-              <layout:position layout:x="627.4210815429688" layout:y="256.15789794921875" layout:z="16"/>
+              <layout:position layout:x="359.3225402832031" layout:y="99.29615783691406" layout:z="12"/>
               <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_7" layout:originOfText="SbmlSpeciesExporter_7" layout:text="TNF\alpha">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_5" layout:originOfText="SbmlSpeciesExporter_5" layout:text="EGF EGFR">
             <layout:boundingBox>
-              <layout:position layout:x="474" layout:y="255" layout:z="15"/>
+              <layout:position layout:x="320.0785217285156" layout:y="303.9547119140625" layout:z="21"/>
+              <layout:dimensions layout:height="25" layout:width="66.224609375"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_7" layout:originOfText="SbmlSpeciesExporter_7" layout:text="EGFR">
+            <layout:boundingBox>
+              <layout:position layout:x="469.3547668457031" layout:y="232.638916015625" layout:z="24"/>
+              <layout:dimensions layout:height="25" layout:width="40.55615234375"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_9" layout:originOfText="SbmlSpeciesExporter_9" layout:text="NF-\kappaB">
+            <layout:boundingBox>
+              <layout:position layout:x="256.55682373046875" layout:y="415.02862548828125" layout:z="16"/>
               <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_9" layout:originOfText="SbmlSpeciesExporter_9" layout:text="ACE-2">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_11" layout:originOfText="SbmlSpeciesExporter_11" layout:text="ACE-2">
             <layout:boundingBox>
-              <layout:position layout:x="303.80078125" layout:y="124.5" layout:z="21"/>
+              <layout:position layout:x="161.93289184570312" layout:y="97.50563049316406" layout:z="23"/>
               <layout:dimensions layout:height="25" layout:width="42.3984375"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_11" layout:originOfText="SbmlSpeciesExporter_11" layout:text="ADAM17">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_13" layout:originOfText="SbmlSpeciesExporter_13" layout:text="FCN1(PRR)">
             <layout:boundingBox>
-              <layout:position layout:x="494" layout:y="124" layout:z="12"/>
-              <layout:dimensions layout:height="30" layout:width="60"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_13" layout:originOfText="SbmlSpeciesExporter_13" layout:text="AT1R">
-            <layout:boundingBox>
-              <layout:position layout:x="395" layout:y="122" layout:z="10"/>
-              <layout:dimensions layout:height="30" layout:width="60"/>
-            </layout:boundingBox>
-          </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_15" layout:originOfText="SbmlSpeciesExporter_15" layout:text="FCN1(PRR)">
-            <layout:boundingBox>
-              <layout:position layout:x="216.3623046875" layout:y="207.5" layout:z="17"/>
+              <layout:position layout:x="68.15219116210938" layout:y="177.67897033691406" layout:z="19"/>
               <layout:dimensions layout:height="25" layout:width="69.275390625"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_17" layout:originOfText="SbmlSpeciesExporter_17" layout:text="NF-\kappaB">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_15" layout:originOfText="SbmlSpeciesExporter_15" layout:text="SARS_CoV2">
             <layout:boundingBox>
-              <layout:position layout:x="254" layout:y="373" layout:z="14"/>
+              <layout:position layout:x="-82.6645278930664" layout:y="94.86672973632812" layout:z="10"/>
+              <layout:dimensions layout:height="28.217891693115234" layout:width="71.443115234375"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_17" layout:originOfText="SbmlSpeciesExporter_17" layout:text="STAT3">
+            <layout:boundingBox>
+              <layout:position layout:x="745.052734375" layout:y="322.7242126464844" layout:z="13"/>
               <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_19" layout:originOfText="SbmlSpeciesExporter_19" layout:text="SARS_CoV2">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_19" layout:originOfText="SbmlSpeciesExporter_19" layout:text="IL-6R\alpha">
             <layout:boundingBox>
-              <layout:position layout:x="89.205810546875" layout:y="117.5" layout:z="9"/>
-              <layout:dimensions layout:height="25" layout:width="73.58837890625"/>
+              <layout:position layout:x="555.887939453125" layout:y="101.79615783691406" layout:z="20"/>
+              <layout:dimensions layout:height="25" layout:width="66.869140625"/>
             </layout:boundingBox>
           </layout:textGlyph>
           <layout:textGlyph layout:id="text_SbmlSpeciesExporter_21" layout:originOfText="SbmlSpeciesExporter_21" layout:text="CRS">
             <layout:boundingBox>
-              <layout:position layout:x="351.7368469238281" layout:y="493.0526428222656" layout:z="13"/>
+              <layout:position layout:x="390.95849609375" layout:y="741.0091552734375" layout:z="15"/>
               <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_23" layout:originOfText="SbmlSpeciesExporter_23" layout:text="IL-6R\alpha">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_23" layout:originOfText="SbmlSpeciesExporter_23" layout:text="ADAM17">
             <layout:boundingBox>
-              <layout:position layout:x="591.5654296875" layout:y="124.5" layout:z="18"/>
-              <layout:dimensions layout:height="25" layout:width="66.869140625"/>
+              <layout:position layout:x="458.3225402832031" layout:y="101.29615783691406" layout:z="14"/>
+              <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_25" layout:originOfText="SbmlSpeciesExporter_25" layout:text="EGFR">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_25" layout:originOfText="SbmlSpeciesExporter_25" layout:text="TNF\alpha">
             <layout:boundingBox>
-              <layout:position layout:x="425.56402587890625" layout:y="210.9736785888672" layout:z="22"/>
-              <layout:dimensions layout:height="25" layout:width="40.55615234375"/>
+              <layout:position layout:x="372.9856262207031" layout:y="349.6040954589844" layout:z="17"/>
+              <layout:dimensions layout:height="30" layout:width="60"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_27" layout:originOfText="SbmlSpeciesExporter_27" layout:text="IL-6/STAT3">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_27" layout:originOfText="SbmlSpeciesExporter_27" layout:text="Angiotensin II">
             <layout:boundingBox>
-              <layout:position layout:x="472.5907897949219" layout:y="353.4473571777344" layout:z="20"/>
+              <layout:position layout:x="246.0465850830078" layout:y="-24.9295597076416" layout:z="11"/>
+              <layout:dimensions layout:height="25" layout:width="76.6552734375"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_29" layout:originOfText="SbmlSpeciesExporter_29" layout:text="IL-6/STAT3">
+            <layout:boundingBox>
+              <layout:position layout:x="462.75" layout:y="380.47576904296875" layout:z="22"/>
               <layout:dimensions layout:height="25" layout:width="64.60791015625"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_29" layout:originOfText="SbmlSpeciesExporter_29" layout:text="EGF EGFR">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_31" layout:originOfText="SbmlSpeciesExporter_31" layout:text="EGF">
             <layout:boundingBox>
-              <layout:position layout:x="362.0982360839844" layout:y="282.2894592285156" layout:z="19"/>
-              <layout:dimensions layout:height="25" layout:width="66.224609375"/>
+              <layout:position layout:x="344.6614685058594" layout:y="234.2831268310547" layout:z="25"/>
+              <layout:dimensions layout:height="25" layout:width="32.6123046875"/>
             </layout:boundingBox>
           </layout:textGlyph>
-          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_31" layout:originOfText="SbmlSpeciesExporter_31" layout:text="Angiotensin II">
+          <layout:textGlyph layout:id="text_SbmlSpeciesExporter_33" layout:originOfText="SbmlSpeciesExporter_33" layout:text="SARS-CoV-2:ACE-2">
             <layout:boundingBox>
-              <layout:position layout:x="279.67236328125" layout:y="14.5" layout:z="8"/>
-              <layout:dimensions layout:height="25" layout:width="76.6552734375"/>
+              <layout:position layout:x="120.18382263183594" layout:y="235.2782745361328" layout:z="9"/>
+              <layout:dimensions layout:height="44" layout:width="125.51991271972656"/>
             </layout:boundingBox>
           </layout:textGlyph>
         </layout:listOfTextGlyphs>
@@ -594,12 +676,12 @@
         <multi:listOfSpeciesFeatureTypes>
           <multi:speciesFeatureType multi:id="minerva_position_to_compartment_GenericProtein" multi:name="Position to compartment" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_GenericProtein_53" multi:name="NULL"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_GenericProtein_63" multi:name="NULL"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
           <multi:speciesFeatureType multi:id="minerva_activity_GenericProtein" multi:name="Activity" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_GenericProtein_54" multi:name="false"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_GenericProtein_64" multi:name="false"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
         </multi:listOfSpeciesFeatureTypes>
@@ -608,12 +690,12 @@
         <multi:listOfSpeciesFeatureTypes>
           <multi:speciesFeatureType multi:id="minerva_position_to_compartment_Complex" multi:name="Position to compartment" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Complex_55" multi:name="NULL"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Complex_65" multi:name="NULL"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
           <multi:speciesFeatureType multi:id="minerva_activity_Complex" multi:name="Activity" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Complex_56" multi:name="false"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Complex_66" multi:name="false"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
         </multi:listOfSpeciesFeatureTypes>
@@ -622,12 +704,12 @@
         <multi:listOfSpeciesFeatureTypes>
           <multi:speciesFeatureType multi:id="minerva_position_to_compartment_Unknown" multi:name="Position to compartment" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Unknown_57" multi:name="NULL"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Unknown_67" multi:name="NULL"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
           <multi:speciesFeatureType multi:id="minerva_activity_Unknown" multi:name="Activity" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Unknown_58" multi:name="false"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Unknown_68" multi:name="false"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
         </multi:listOfSpeciesFeatureTypes>
@@ -636,12 +718,12 @@
         <multi:listOfSpeciesFeatureTypes>
           <multi:speciesFeatureType multi:id="minerva_position_to_compartment_Phenotype" multi:name="Position to compartment" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Phenotype_59" multi:name="NULL"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_Phenotype_69" multi:name="NULL"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
           <multi:speciesFeatureType multi:id="minerva_activity_Phenotype" multi:name="Activity" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Phenotype_60" multi:name="false"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_Phenotype_70" multi:name="false"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
         </multi:listOfSpeciesFeatureTypes>
@@ -650,12 +732,12 @@
         <multi:listOfSpeciesFeatureTypes>
           <multi:speciesFeatureType multi:id="minerva_position_to_compartment_SimpleMolecule" multi:name="Position to compartment" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_SimpleMolecule_61" multi:name="NULL"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_position_to_compartment_SimpleMolecule_71" multi:name="NULL"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
           <multi:speciesFeatureType multi:id="minerva_activity_SimpleMolecule" multi:name="Activity" multi:occur="1">
             <multi:listOfPossibleSpeciesFeatureValues>
-              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_SimpleMolecule_62" multi:name="false"/>
+              <multi:possibleSpeciesFeatureValue multi:id="minerva_activity_SimpleMolecule_72" multi:name="false"/>
             </multi:listOfPossibleSpeciesFeatureValues>
           </multi:speciesFeatureType>
         </multi:listOfSpeciesFeatureTypes>
@@ -683,7 +765,7 @@
 </rdf:RDF>
         </annotation>
             </compartment>
-      <compartment constant="false" id="comp_5" multi:isType="false" name="Cytosol" size="1" spatialDimensions="3">
+      <compartment constant="false" id="comp_5" multi:isType="false" name="Cell Membrane" size="1" spatialDimensions="3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -697,7 +779,7 @@
 </rdf:RDF>
         </annotation>
             </compartment>
-      <compartment constant="false" id="comp_6" multi:isType="false" name="Cell Membrane" size="1" spatialDimensions="3">
+      <compartment constant="false" id="comp_6" multi:isType="false" name="Bloodstream/extracellular space" size="1" spatialDimensions="3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -711,7 +793,7 @@
 </rdf:RDF>
         </annotation>
             </compartment>
-      <compartment constant="false" id="comp_7" multi:isType="false" name="Bloodstream/extracellular space" size="1" spatialDimensions="3">
+      <compartment constant="false" id="comp_7" multi:isType="false" name="Cytosol" size="1" spatialDimensions="3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -741,7 +823,7 @@
             </compartment>
     </listOfCompartments>
     <listOfSpecies>
-      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_0" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="EGF" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_0" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="IL-6" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -757,17 +839,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_2" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="STAT3" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_2" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="AT1R" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -783,17 +865,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_4" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="IL-6" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_4" initialConcentration="0" multi:speciesType="minerva_species_type_Complex" name="EGF EGFR" sboTerm="SBO:0000297">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -807,19 +889,19 @@
 </rdf:RDF>
         </annotation>
               <multi:listOfSpeciesFeatures>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Complex">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Complex_65"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Complex">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Complex_66"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_6" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="TNF\alpha" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_6" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="EGFR" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -835,17 +917,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_6" constant="false" hasOnlySubstanceUnits="false" id="species_8" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="ACE-2" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_8" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="NF-\kappaB" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -861,17 +943,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_6" constant="false" hasOnlySubstanceUnits="false" id="species_10" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="ADAM17" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_10" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="ACE-2" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -887,17 +969,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_6" constant="false" hasOnlySubstanceUnits="false" id="species_12" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="AT1R" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_12" initialConcentration="0" multi:speciesType="minerva_species_type_Complex" name="FCN1(PRR)" sboTerm="SBO:0000297">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -911,19 +993,19 @@
 </rdf:RDF>
         </annotation>
               <multi:listOfSpeciesFeatures>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Complex">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Complex_65"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Complex">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Complex_66"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_14" initialConcentration="0" multi:speciesType="minerva_species_type_Complex" name="FCN1(PRR)" sboTerm="SBO:0000297">
+      <species boundaryCondition="false" compartment="default" constant="false" hasOnlySubstanceUnits="false" id="species_14" initialConcentration="0" multi:speciesType="minerva_species_type_Unknown" name="SARS_CoV2" sboTerm="SBO:0000285">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -937,19 +1019,19 @@
 </rdf:RDF>
         </annotation>
               <multi:listOfSpeciesFeatures>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Complex">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Unknown">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Complex_55"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Unknown_67"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Complex">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Unknown">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Complex_56"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Unknown_68"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_16" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="NF-\kappaB" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_16" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="STAT3" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -965,17 +1047,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="default" constant="false" hasOnlySubstanceUnits="false" id="species_18" initialConcentration="0" multi:speciesType="minerva_species_type_Unknown" name="SARS_CoV2" sboTerm="SBO:0000285">
+      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_18" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="IL-6R\alpha" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -989,14 +1071,14 @@
 </rdf:RDF>
         </annotation>
               <multi:listOfSpeciesFeatures>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Unknown">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Unknown_57"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Unknown">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Unknown_58"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
@@ -1017,17 +1099,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Phenotype">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Phenotype_59"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Phenotype_69"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Phenotype">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Phenotype_60"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Phenotype_70"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_6" constant="false" hasOnlySubstanceUnits="false" id="species_22" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="IL-6R\alpha" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_22" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="ADAM17" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -1043,17 +1125,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_24" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="EGFR" sboTerm="SBO:0000252">
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_24" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="TNF\alpha" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -1069,17 +1151,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_53"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_54"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_26" initialConcentration="0" multi:speciesType="minerva_species_type_Complex" name="IL-6/STAT3" sboTerm="SBO:0000297">
+      <species boundaryCondition="false" compartment="comp_6" constant="false" hasOnlySubstanceUnits="false" id="species_26" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="Angiotensin II" sboTerm="SBO:0000247">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -1093,19 +1175,19 @@
 </rdf:RDF>
         </annotation>
               <multi:listOfSpeciesFeatures>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Complex">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Complex_55"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_71"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Complex">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Complex_56"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_72"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_5" constant="false" hasOnlySubstanceUnits="false" id="species_28" initialConcentration="0" multi:speciesType="minerva_species_type_Complex" name="EGF EGFR" sboTerm="SBO:0000297">
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_28" initialConcentration="0" multi:speciesType="minerva_species_type_Complex" name="IL-6/STAT3" sboTerm="SBO:0000297">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -1121,17 +1203,17 @@
               <multi:listOfSpeciesFeatures>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Complex">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Complex_55"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Complex_65"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
           <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Complex">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_Complex_56"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Complex_66"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
       </species>
-      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_30" initialConcentration="0" multi:speciesType="minerva_species_type_SimpleMolecule" name="Angiotensin II" sboTerm="SBO:0000247">
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_30" initialConcentration="0" multi:speciesType="minerva_species_type_GenericProtein" name="EGF" sboTerm="SBO:0000252">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
      <p/>
@@ -1145,14 +1227,40 @@
 </rdf:RDF>
         </annotation>
               <multi:listOfSpeciesFeatures>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_SimpleMolecule">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_SimpleMolecule_61"/>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_GenericProtein_63"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
-          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_SimpleMolecule">
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_GenericProtein">
             <multi:listOfSpeciesFeatureValues>
-              <multi:speciesFeatureValue multi:value="minerva_activity_SimpleMolecule_62"/>
+              <multi:speciesFeatureValue multi:value="minerva_activity_GenericProtein_64"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+        </multi:listOfSpeciesFeatures>
+      </species>
+      <species boundaryCondition="false" compartment="comp_7" constant="false" hasOnlySubstanceUnits="false" id="species_32" initialConcentration="0" multi:speciesType="minerva_species_type_Complex" name="SARS-CoV-2:ACE-2" sboTerm="SBO:0000297">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+     <p/>
+  </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#species_32">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <multi:listOfSpeciesFeatures>
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_position_to_compartment_Complex">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_position_to_compartment_Complex_65"/>
+            </multi:listOfSpeciesFeatureValues>
+          </multi:speciesFeature>
+          <multi:speciesFeature xmlns:multi="http://www.sbml.org/sbml/level3/version1/multi/version1" multi:occur="1" multi:speciesFeatureType="minerva_activity_Complex">
+            <multi:listOfSpeciesFeatureValues>
+              <multi:speciesFeatureValue multi:value="minerva_activity_Complex_66"/>
             </multi:listOfSpeciesFeatureValues>
           </multi:speciesFeature>
         </multi:listOfSpeciesFeatures>
@@ -1173,11 +1281,11 @@
 </rdf:RDF>
         </annotation>
               <listOfReactants>
-          <speciesReference constant="false" species="species_0"/>
-          <speciesReference constant="false" species="species_24"/>
+          <speciesReference constant="false" species="species_6"/>
+          <speciesReference constant="false" species="species_30"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="false" species="species_28"/>
+          <speciesReference constant="false" species="species_4"/>
         </listOfProducts>
       </reaction>
       <reaction id="SbmlReactionExporter_1" reversible="false" sboTerm="SBO:0000176">
@@ -1194,11 +1302,32 @@
 </rdf:RDF>
         </annotation>
               <listOfReactants>
-          <speciesReference constant="false" species="species_4"/>
-          <speciesReference constant="false" species="species_2"/>
+          <speciesReference constant="false" species="species_16"/>
+          <speciesReference constant="false" species="species_0"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="false" species="species_26"/>
+          <speciesReference constant="false" species="species_28"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="SbmlReactionExporter_2" reversible="false" sboTerm="SBO:0000176">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+     <p/>
+  </body>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#SbmlReactionExporter_2">
+<dcterms:modified rdf:parseType="Resource"/>
+</rdf:Description>
+</rdf:RDF>
+        </annotation>
+              <listOfReactants>
+          <speciesReference constant="false" species="species_10"/>
+          <speciesReference constant="false" species="species_14"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="false" species="species_32"/>
         </listOfProducts>
       </reaction>
     </listOfReactions>
