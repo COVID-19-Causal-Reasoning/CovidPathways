@@ -1,0 +1,950 @@
+﻿<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3">
+  <map id="IL6_amp_pd_BOB2EXPORT.nwt" language="process description">
+    <extension>
+      <renderInformation 
+        xmlns="http://www.sbml.org/sbml/level3/version1/render/version1" id="renderInformation" program-name="sbgnviz" program-version="5.0.0" background-color="#00000000">
+        <listOfColorDefinitions>
+          <colorDefinition id="color_1" value="#d3eecdff"/>
+          <colorDefinition id="color_2" value="#555555"/>
+          <colorDefinition id="color_3" value="#ffffff"/>
+          <colorDefinition id="color_4" value="#ffffffff"/>
+          <colorDefinition id="color_5" value="#b1e0abff"/>
+          <colorDefinition id="color_6" value="#d2edccff"/>
+          <colorDefinition id="color_7" value="#c0e6b9ff"/>
+          <colorDefinition id="color_8" value="#3fa85bff"/>
+          <colorDefinition id="color_9" value="#157f3bff"/>
+          <colorDefinition id="color_10" value="#c9eac2ff"/>
+          <colorDefinition id="color_11" value="#ffffff7f"/>
+        </listOfColorDefinitions>
+        <listOfBackgroundImages/>
+        <listOfStyles>
+          <style id="noded3eecd15555551.2511normalnormalHelvetica000" id-list="id_0 id_4 id_19 id_24 id_28 id_65id_62 id_68id_66">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_1"/>
+          </style>
+          <style id="infoboxffffff5555551.259normalnormalArial0f0f0fstadium" id-list="id_1 id_3 id_5 id_7 id_9 id_11 id_13 id_15 id_18 id_21 id_23 id_25 id_27 id_29 id_31 id_33 id_35 id_37 id_39 id_41 id_43 id_45 id_47 id_49 id_51 id_53 id_56 id_57 id_59 id_60 id_63 id_67">
+            <g font-size="9" font-family="Arial" font-weight="normal" font-style="normal" font-color="#0f0f0f" stroke="color_2" stroke-width="1.25" fill="color_3" shape-name="stadium"/>
+          </style>
+          <style id="nodeffffff15555551.2511normalnormalHelvetica000" id-list="id_2 id_10 id_16 id_26 id_34 id_65id_64 id_68id_64 id_179 id_187">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_4"/>
+          </style>
+          <style id="nodeb1e0ab15555551.2511normalnormalHelvetica000" id-list="id_6 id_30">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_5"/>
+          </style>
+          <style id="noded2edcc15555551.2511normalnormalHelvetica000" id-list="id_8 id_17 id_32 id_40 id_50id_46 id_54id_46 id_58id_55 id_61id_55">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_6"/>
+          </style>
+          <style id="nodec0e6b915555551.2511normalnormalHelvetica000" id-list="id_12 id_36">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_7"/>
+          </style>
+          <style id="node3fa85b15555551.2511normalnormalHelvetica000" id-list="id_14 id_38 id_50id_48 id_54id_52 id_58id_48 id_61id_52">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_8"/>
+          </style>
+          <style id="node157f3b15555551.2511normalnormalHelvetica000" id-list="id_20 id_42">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_9"/>
+          </style>
+          <style id="nodec9eac215555551.2511normalnormalHelvetica000" id-list="id_22 id_44">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_10"/>
+          </style>
+          <style id="nodeffffff0.55555551.2511normalnormalHelvetica000" id-list="id_50 id_54 id_58 id_61 id_65 id_68">
+            <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_11"/>
+          </style>
+          <style id="nodeffffff15555551.25" id-list="id_69 id_73 id_77 id_81 id_85 id_89 id_93 id_97 id_101 id_105 id_109 id_113 id_117 id_121 id_125 id_129 id_133 id_137 id_141 id_145 id_149 id_153 id_157 id_161 id_165 id_169 id_173 id_177 id_182 id_186 id_191 id_195 id_199 id_203 id_207 id_211 id_215 id_219">
+            <g stroke="color_2" stroke-width="1.25" fill="color_4"/>
+          </style>
+          <style id="edge5555551.25" id-list="id_70 id_71 id_72 id_74 id_75 id_76 id_78 id_79 id_80 id_82 id_83 id_84 id_86 id_87 id_88 id_90 id_91 id_92 id_94 id_95 id_96 id_98 id_99 id_100 id_102 id_103 id_104 id_106 id_107 id_108 id_110 id_111 id_112 id_114 id_115 id_116 id_118 id_119 id_120 id_122 id_123 id_124 id_126 id_127 id_128 id_130 id_131 id_132 id_134 id_135 id_136 id_138 id_139 id_140 id_142 id_143 id_144 id_146 id_147 id_148 id_150 id_151 id_152 id_154 id_155 id_156 id_158 id_159 id_160 id_162 id_163 id_164 id_166 id_167 id_168 id_170 id_171 id_172 id_174 id_175 id_176 id_178 id_180 id_181 id_183 id_184 id_185 id_188 id_189 id_190 id_192 id_193 id_194 id_196 id_197 id_198 id_200 id_201 id_202 id_204 id_205 id_206 id_208 id_209 id_210 id_212 id_213 id_214 id_216 id_217 id_218 id_220 id_221 id_222">
+            <g stroke="color_2" stroke-width="1.25"/>
+          </style>
+        </listOfStyles>
+      </renderInformation>
+      <mapProperties>
+        <compoundPadding>10</compoundPadding>
+        <extraCompartmentPadding>14</extraCompartmentPadding>
+        <extraComplexPadding>10</extraComplexPadding>
+        <arrowScale>1.25</arrowScale>
+        <showComplexName>true</showComplexName>
+        <dynamicLabelSize>regular</dynamicLabelSize>
+        <inferNestingOnLoad>false</inferNestingOnLoad>
+        <fitLabelsToNodes>false</fitLabelsToNodes>
+        <fitLabelsToInfoboxes>false</fitLabelsToInfoboxes>
+        <recalculateLayoutOnComplexityManagement>true</recalculateLayoutOnComplexityManagement>
+        <rearrangeOnComplexityManagement>true</rearrangeOnComplexityManagement>
+        <animateOnDrawingChanges>true</animateOnDrawingChanges>
+        <adjustNodeLabelFontSizeAutomatically>false</adjustNodeLabelFontSizeAutomatically>
+        <enablePorts>false</enablePorts>
+        <enableSIFTopologyGrouping>false</enableSIFTopologyGrouping>
+        <allowCompoundNodeResize>true</allowCompoundNodeResize>
+        <mapColorScheme>black_white</mapColorScheme>
+        <mapColorSchemeStyle>solid</mapColorSchemeStyle>
+        <mapName>#1</mapName>
+        <mapDescription/>
+      </mapProperties>
+    </extension>
+    <glyph id="id_0" class="macromolecule">
+      <label text="ACE2"/>
+      <bbox x="225.59383895574018" y="164.0894804570691" w="60" h="30"/>
+      <glyph id="id_1" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="252.9938389557402" y="158.0894804570691" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_2" class="macromolecule">
+      <label text="Angiotensin_II"/>
+      <bbox x="335.5158074567044" y="158.6834052902825" w="60" h="30"/>
+      <glyph id="id_3" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="362.9158074567044" y="152.6834052902825" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_4" class="macromolecule">
+      <label text="AGTR1"/>
+      <bbox x="456.07065554931614" y="129.67958420148355" w="60" h="30"/>
+      <glyph id="id_5" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="483.4706555493161" y="123.67958420148355" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_6" class="macromolecule">
+      <label text="ADAM17"/>
+      <bbox x="556.3113053989279" y="126.14821058960257" w="60" h="30"/>
+      <glyph id="id_7" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="583.7113053989278" y="120.14821058960257" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_8" class="macromolecule">
+      <label text="EGF"/>
+      <bbox x="699.3687012945561" y="31.86906576547284" w="60" h="30"/>
+      <glyph id="id_9" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="726.7687012945561" y="25.86906576547284" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_10" class="macromolecule">
+      <label text="TNF_alpha"/>
+      <bbox x="600.0317957799383" y="64.3536411743764" w="60" h="30"/>
+      <glyph id="id_11" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="627.4317957799383" y="58.353641174376406" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_12" class="macromolecule">
+      <label text="IL6R"/>
+      <bbox x="705.14400318215" y="262.880018455724" w="60" h="30"/>
+      <glyph id="id_13" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="732.5440031821499" y="256.880018455724" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_14" class="macromolecule">
+      <label text="STAT3"/>
+      <bbox x="899.2554675343911" y="292.1509796295809" w="60" h="30"/>
+      <glyph id="id_15" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="926.655467534391" y="286.1509796295809" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_16" class="macromolecule">
+      <label text="SARS_COV_2"/>
+      <bbox x="126.37937654167058" y="221.85998376292818" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_17" class="macromolecule">
+      <label text="IL6"/>
+      <bbox x="973.8340891675984" y="219.96588800687394" w="60" h="30"/>
+      <glyph id="id_18" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="1001.2340891675984" y="213.96588800687394" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_19" class="macromolecule">
+      <label text="TNF"/>
+      <bbox x="1209.308390771108" y="61.97922081599316" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_20" class="macromolecule">
+      <label text="NFKB1"/>
+      <bbox x="1088.2758903308336" y="62.48102200311132" w="60" h="30"/>
+      <glyph id="id_21" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="1115.6758903308337" y="56.48102200311132" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_22" class="macromolecule">
+      <label text="EGFR"/>
+      <bbox x="953.9696476487206" y="83.36563505176306" w="60" h="30"/>
+      <glyph id="id_23" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="981.3696476487206" y="77.36563505176306" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_24" class="macromolecule">
+      <label text="ACE2"/>
+      <bbox x="188.87076044660876" y="127.62812777295764" w="60" h="30"/>
+      <glyph id="id_25" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="216.27076044660876" y="121.62812777295764" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_26" class="macromolecule">
+      <label text="Angiotensin_II"/>
+      <bbox x="345.82693724135777" y="201.7928919907114" w="60" h="30"/>
+      <glyph id="id_27" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="373.22693724135775" y="195.7928919907114" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_28" class="macromolecule">
+      <label text="AGTR1"/>
+      <bbox x="496.55409944308735" y="184.63135766915718" w="60" h="30"/>
+      <glyph id="id_29" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="523.9540994430873" y="178.63135766915718" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_30" class="macromolecule">
+      <label text="ADAM17"/>
+      <bbox x="669.0803522349678" y="165.74514878223874" w="60" h="30"/>
+      <glyph id="id_31" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="696.4803522349678" y="159.74514878223874" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_32" class="macromolecule">
+      <label text="EGF"/>
+      <bbox x="794.4124387049286" y="64.95441168366193" w="60" h="30"/>
+      <glyph id="id_33" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="821.8124387049286" y="58.95441168366193" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_34" class="macromolecule">
+      <label text="TNF_alpha"/>
+      <bbox x="711.6676624911057" y="123.77835540378564" w="60" h="30"/>
+      <glyph id="id_35" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="739.0676624911057" y="117.77835540378564" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_36" class="macromolecule">
+      <label text="IL6R"/>
+      <bbox x="826.5394452914874" y="260.6972675841172" w="60" h="30"/>
+      <glyph id="id_37" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="853.9394452914873" y="254.69726758411718" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_38" class="macromolecule">
+      <label text="STAT3"/>
+      <bbox x="929.4313918701607" y="333.54369476538113" w="60" h="30"/>
+      <glyph id="id_39" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="956.8313918701607" y="327.54369476538113" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_40" class="macromolecule">
+      <label text="IL6"/>
+      <bbox x="1008.9154680411441" y="261.43604955970454" w="60" h="30"/>
+      <glyph id="id_41" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="1036.3154680411442" y="255.43604955970454" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_42" class="macromolecule">
+      <label text="NFKB1"/>
+      <bbox x="1083.8801757286622" y="134.71321207277913" w="60" h="30"/>
+      <glyph id="id_43" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="1111.2801757286622" y="128.71321207277913" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_44" class="macromolecule">
+      <label text="EGFR"/>
+      <bbox x="958.620216015129" y="30.625" w="60" h="30"/>
+      <glyph id="id_45" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="986.020216015129" y="24.625" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_50" class="complex">
+      <bbox x="789.6937016978891" y="108.69599753376801" w="144.5" h="65"/>
+      <glyph id="id_50id_46" class="macromolecule">
+        <label text="IL6"/>
+        <bbox x="791.3187016978891" y="129.33156091404967" w="60" h="30"/>
+        <glyph id="id_47" class="state variable">
+          <state value="i" variable="act"/>
+          <bbox x="818.7187016978891" y="123.33156091404967" w="28" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="id_50id_48" class="macromolecule">
+        <label text="STAT3"/>
+        <bbox x="872.5687016978891" y="129.33156091404967" w="60" h="30"/>
+        <glyph id="id_49" class="state variable">
+          <state value="i" variable="act"/>
+          <bbox x="899.9687016978891" y="123.33156091404967" w="28" h="12"/>
+        </glyph>
+      </glyph>
+    </glyph>
+    <glyph id="id_54" class="complex">
+      <bbox x="897.1235626992757" y="142.70978081660311" w="144.4999999999999" h="65"/>
+      <glyph id="id_54id_46" class="macromolecule">
+        <label text="IL6"/>
+        <bbox x="898.7485626992758" y="163.3453441968848" w="60" h="30"/>
+        <glyph id="id_51" class="state variable">
+          <state value="i" variable="act"/>
+          <bbox x="926.1485626992758" y="157.3453441968848" w="28" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="id_54id_52" class="macromolecule">
+        <label text="STAT3"/>
+        <bbox x="979.9985626992758" y="163.3453441968848" w="60" h="30"/>
+        <glyph id="id_53" class="state variable">
+          <state value="a" variable="act"/>
+          <bbox x="1007.3985626992758" y="157.3453441968848" w="28" h="12"/>
+        </glyph>
+      </glyph>
+    </glyph>
+    <glyph id="id_58" class="complex">
+      <bbox x="1055.8101582541526" y="257.78259508614343" w="144.5" h="65"/>
+      <glyph id="id_58id_55" class="macromolecule">
+        <label text="IL6"/>
+        <bbox x="1057.4351582541526" y="278.4181584664251" w="60" h="30"/>
+        <glyph id="id_56" class="state variable">
+          <state value="a" variable="act"/>
+          <bbox x="1084.8351582541527" y="272.4181584664251" w="28" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="id_58id_48" class="macromolecule">
+        <label text="STAT3"/>
+        <bbox x="1138.6851582541526" y="278.4181584664251" w="60" h="30"/>
+        <glyph id="id_57" class="state variable">
+          <state value="i" variable="act"/>
+          <bbox x="1166.0851582541527" y="272.4181584664251" w="28" h="12"/>
+        </glyph>
+      </glyph>
+    </glyph>
+    <glyph id="id_61" class="complex">
+      <bbox x="1089.419256119154" y="214.00195425904747" w="144.5" h="65"/>
+      <glyph id="id_61id_55" class="macromolecule">
+        <label text="IL6"/>
+        <bbox x="1091.044256119154" y="234.63751763932916" w="60" h="30"/>
+        <glyph id="id_59" class="state variable">
+          <state value="a" variable="act"/>
+          <bbox x="1118.444256119154" y="228.63751763932916" w="28" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="id_61id_52" class="macromolecule">
+        <label text="STAT3"/>
+        <bbox x="1172.294256119154" y="234.63751763932916" w="60" h="30"/>
+        <glyph id="id_60" class="state variable">
+          <state value="a" variable="act"/>
+          <bbox x="1199.694256119154" y="228.63751763932916" w="28" h="12"/>
+        </glyph>
+      </glyph>
+    </glyph>
+    <glyph id="id_65" class="complex">
+      <bbox x="34" y="246.25193843545304" w="144.5" h="65"/>
+      <glyph id="id_65id_62" class="macromolecule">
+        <label text="ACE2"/>
+        <bbox x="35.625" y="266.88750181573477" w="60" h="30"/>
+        <glyph id="id_63" class="state variable">
+          <state value="i" variable="act"/>
+          <bbox x="63.025" y="260.88750181573477" w="28" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="id_65id_64" class="macromolecule">
+        <label text="SARS_COV_2"/>
+        <bbox x="116.875" y="266.88750181573477" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_68" class="complex">
+      <bbox x="252.59150960444447" y="237.53031876060072" w="144.5" h="65"/>
+      <glyph id="id_68id_66" class="macromolecule">
+        <label text="ACE2"/>
+        <bbox x="254.21650960444447" y="258.16588214088245" w="60" h="30"/>
+        <glyph id="id_67" class="state variable">
+          <state value="a" variable="act"/>
+          <bbox x="281.61650960444445" y="252.16588214088245" w="28" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="id_68id_64" class="macromolecule">
+        <label text="SARS_COV_2"/>
+        <bbox x="335.46650960444447" y="258.16588214088245" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_69" class="process">
+      <bbox x="306.7304770074919" y="183.22965305844025" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_73" class="process">
+      <bbox x="302.38854210919163" y="146.63131257940074" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_77" class="process">
+      <bbox x="435.1284377139077" y="174.46936233190934" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_81" class="process">
+      <bbox x="452.0186522948394" y="202.1353140311206" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_85" class="process">
+      <bbox x="607.6555196553965" y="187.387064915367" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_89" class="process">
+      <bbox x="731.6006310306749" y="98.57208544293218" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_93" class="process">
+      <bbox x="667.0978515741803" y="122.89083682965092" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_97" class="process">
+      <bbox x="769.350070256063" y="225.21130125250846" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_101" class="process">
+      <bbox x="871.0011666288096" y="332.4678215261757" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_105" class="process">
+      <bbox x="161.41152970426708" y="167.43666023568386" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_109" class="process">
+      <bbox x="919.1721522796646" y="231.78607815929263" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_113" class="process">
+      <bbox x="972.8176881217571" y="282.723256264809" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_117" class="process">
+      <bbox x="995.9250707477536" y="307.98838461671505" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_121" class="process">
+      <bbox x="1037.8267848982416" y="347.1614083697464" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_125" class="process">
+      <bbox x="1173.2423950934399" y="109.0424605250585" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_129" class="process">
+      <bbox x="1076.2941472286739" y="218.2114889725997" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_133" class="process">
+      <bbox x="1049.9134844041146" y="113.89059963106376" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_137" class="process">
+      <bbox x="1049.5647681716528" y="83.98015575096997" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_141" class="process">
+      <bbox x="200.8034881027815" y="222.82277614436265" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_145" class="process">
+      <bbox x="242.4455088700659" y="211.07441460184134" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_149" class="process">
+      <bbox x="905.5003458207887" y="64.573276709417" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_153" class="process">
+      <bbox x="279.77667871460415" y="231.6090622189614" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_157" class="process">
+      <bbox x="313.519385651693" y="216.61213759222062" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_161" class="process">
+      <bbox x="845.9569757211596" y="221.00468768109604" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_165" class="process">
+      <bbox x="986.0910224413169" y="261.6216229578999" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_169" class="process">
+      <bbox x="218.41793393035283" y="276.51412763059943" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_173" class="process">
+      <bbox x="180.44162647193303" y="198.15979241146346" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_177" class="process">
+      <bbox x="206.2950686189145" y="247.18353211612754" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_179" class="source and sink">
+      <bbox x="154.45861410955195" y="197.48364557526264" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_182" class="process">
+      <bbox x="276.7409928859028" y="205.7705614289155" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_186" class="process">
+      <bbox x="236.8883736423199" y="339.6188889488153" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_187" class="source and sink">
+      <bbox x="196.05006301861073" y="357.7847994880259" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_191" class="process">
+      <bbox x="899.5985632338712" y="251.99840795768728" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_195" class="process">
+      <bbox x="945.7813575794344" y="267.5293148533355" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_199" class="process">
+      <bbox x="1004.5997345880197" y="334.156379610717" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_203" class="process">
+      <bbox x="1029.5508454207688" y="318.740874500911" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_207" class="process">
+      <bbox x="1058.20863306504" y="185.0364109013703" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_211" class="process">
+      <bbox x="1107.6080085534031" y="195.09658006003207" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_215" class="process">
+      <bbox x="230.15940228935057" y="237.38341942943495" w="10" h="10"/>
+    </glyph>
+    <glyph id="id_219" class="process">
+      <bbox x="218.9185507933202" y="201.61816116322296" w="10" h="10"/>
+    </glyph>
+    <arc id="id_70" class="consumption" source="id_26" target="id_69">
+      <start x="347.15056627675915" y="204.01387061287406"/>
+      <end x="317.3554770074919" y="190.7363159600701"/>
+    </arc>
+    <arc id="id_71" class="production" source="id_69" target="id_2">
+      <start x="317.3554770074919" y="186.70837127003236"/>
+      <end x="331.9109977854929" y="182.77182928241183"/>
+    </arc>
+    <arc id="id_72" class="catalysis" source="id_0" target="id_69">
+      <start x="286.2188389557402" y="184.07584579050675"/>
+      <end x="303.0210936685993" y="186.81159045740603"/>
+    </arc>
+    <arc id="id_74" class="consumption" source="id_26" target="id_73">
+      <start x="359.41619438335886" y="201.1678919907114"/>
+      <end x="313.01354210919163" y="156.98698878251426"/>
+    </arc>
+    <arc id="id_75" class="production" source="id_73" target="id_2">
+      <start x="313.01354210919163" y="153.76530289800803"/>
+      <end x="332.8950582934442" y="161.30787410803995"/>
+    </arc>
+    <arc id="id_76" class="catalysis" source="id_24" target="id_73">
+      <start x="249.49576044660876" y="145.74301078876044"/>
+      <end x="298.65458185925314" y="150.7429774139075"/>
+    </arc>
+    <arc id="id_78" class="consumption" source="id_4" target="id_77">
+      <start x="465.4368029565497" y="160.30458420148355"/>
+      <end x="445.7534377139077" y="175.20982695891692"/>
+    </arc>
+    <arc id="id_79" class="production" source="id_77" target="id_28">
+      <start x="445.7534377139077" y="180.78160248723958"/>
+      <end x="492.88581455649836" y="191.7769798221739"/>
+    </arc>
+    <arc id="id_80" class="catalysis" source="id_2" target="id_77">
+      <start x="396.1408074567044" y="176.05827042757895"/>
+      <end x="431.3877916069239" y="178.79155479829555"/>
+    </arc>
+    <arc id="id_82" class="consumption" source="id_4" target="id_81">
+      <start x="478.80250654057954" y="160.30458420148355"/>
+      <end x="459.6351859379846" y="201.5103140311206"/>
+    </arc>
+    <arc id="id_83" class="production" source="id_81" target="id_28">
+      <start x="462.6436522948394" y="206.52828903499088"/>
+      <end x="492.8221385466244" y="203.27156094606804"/>
+    </arc>
+    <arc id="id_84" class="catalysis" source="id_26" target="id_81">
+      <start x="406.45193724135777" y="213.1501148327508"/>
+      <end x="448.2905276025059" y="208.1735054845431"/>
+    </arc>
+    <arc id="id_86" class="consumption" source="id_6" target="id_85">
+      <start x="594.3448251404171" y="156.77321058960257"/>
+      <end x="609.7634525484604" y="186.762064915367"/>
+    </arc>
+    <arc id="id_87" class="production" source="id_85" target="id_30">
+      <start x="618.2805196553965" y="191.62934544638736"/>
+      <end x="665.3583246557557" y="185.2876975520587"/>
+    </arc>
+    <arc id="id_88" class="catalysis" source="id_28" target="id_85">
+      <start x="557.1790994430874" y="197.05467002523946"/>
+      <end x="603.9165221978673" y="193.12233566700925"/>
+    </arc>
+    <arc id="id_90" class="consumption" source="id_8" target="id_89">
+      <start x="731.3615211261915" y="62.49406576547284"/>
+      <end x="735.8832158912861" y="97.94708544293218"/>
+    </arc>
+    <arc id="id_91" class="production" source="id_89" target="id_32">
+      <start x="742.2256310306749" y="102.05919761594754"/>
+      <end x="790.8023667942487" y="88.99410388948348"/>
+    </arc>
+    <arc id="id_92" class="catalysis" source="id_30" target="id_89">
+      <start x="706.6769711952045" y="165.12014878223874"/>
+      <end x="732.4994561814506" y="112.00752986294991"/>
+    </arc>
+    <arc id="id_94" class="consumption" source="id_10" target="id_93">
+      <start x="643.5736189716456" y="94.9786411743764"/>
+      <end x="667.2227952251657" y="122.26583682965092"/>
+    </arc>
+    <arc id="id_95" class="production" source="id_93" target="id_34">
+      <start x="677.7228515741803" y="128.77113664895958"/>
+      <end x="707.9552416424723" y="133.5024375404061"/>
+    </arc>
+    <arc id="id_96" class="catalysis" source="id_30" target="id_93">
+      <start x="691.1036790507062" y="165.12014878223874"/>
+      <end x="676.3903428531664" y="136.2991261859822"/>
+    </arc>
+    <arc id="id_98" class="consumption" source="id_12" target="id_97">
+      <start x="747.9950894704248" y="262.255018455724"/>
+      <end x="769.7236791922841" y="235.83630125250846"/>
+    </arc>
+    <arc id="id_99" class="production" source="id_97" target="id_36">
+      <start x="779.975070256063" y="233.32433819317168"/>
+      <end x="827.3895525562748" y="259.56487773503505"/>
+    </arc>
+    <arc id="id_100" class="catalysis" source="id_30" target="id_97">
+      <start x="722.7313160006345" y="196.2882145789435"/>
+      <end x="766.1135415076171" y="224.79837560846397"/>
+    </arc>
+    <arc id="id_102" class="consumption" source="id_14" target="id_101">
+      <start x="903.2258128429673" y="321.96925557131135"/>
+      <end x="881.6261666288096" y="334.2655968650973"/>
+    </arc>
+    <arc id="id_103" class="production" source="id_101" target="id_38">
+      <start x="881.6261666288096" y="338.2145747177235"/>
+      <end x="925.7085709305683" y="344.0667838027793"/>
+    </arc>
+    <arc id="id_104" class="catalysis" source="id_36" target="id_101">
+      <start x="861.4623313025292" y="291.3222675841172"/>
+      <end x="873.2898566767948" y="328.8622560295926"/>
+    </arc>
+    <arc id="id_106" class="consumption" source="id_24" target="id_105">
+      <start x="192.81485822094334" y="157.4336862294692"/>
+      <end x="172.03652970426708" y="169.24040682651025"/>
+    </arc>
+    <arc id="id_107" class="production" source="id_105" target="id_0">
+      <start x="172.03652970426708" y="172.856273879459"/>
+      <end x="221.85249792485163" y="176.57244453603252"/>
+    </arc>
+    <arc id="id_108" class="catalysis" source="id_16" target="id_105">
+      <start x="158.8125387038071" y="221.23498376292818"/>
+      <end x="165.05475399450077" y="181.14944592460964"/>
+    </arc>
+    <arc id="id_110" class="consumption" source="id_17" target="id_109">
+      <start x="973.2090891675984" y="235.6656365391779"/>
+      <end x="929.7971522796646" y="236.65755291866537"/>
+    </arc>
+    <arc id="id_111" class="consumption" source="id_14" target="id_109">
+      <start x="928.1266831661128" y="291.5259796295809"/>
+      <end x="924.5785146522447" y="242.41107815929263"/>
+    </arc>
+    <arc id="id_112" class="production" source="id_109" target="id_50">
+      <start x="920.5103179948526" y="231.16107815929263"/>
+      <end x="888.4677166823146" y="181.9399451521006"/>
+    </arc>
+    <arc id="id_114" class="consumption" source="id_17" target="id_113">
+      <start x="996.128885519952" y="250.59088800687394"/>
+      <end x="980.5915614349099" y="282.098256264809"/>
+    </arc>
+    <arc id="id_115" class="consumption" source="id_38" target="id_113">
+      <start x="964.154900710507" y="332.91869476538113"/>
+      <end x="976.1172249392324" y="293.348256264809"/>
+    </arc>
+    <arc id="id_116" class="production" source="id_113" target="id_54">
+      <start x="977.395532417187" y="282.098256264809"/>
+      <end x="972.468713480236" y="216.4510170581829"/>
+    </arc>
+    <arc id="id_118" class="consumption" source="id_40" target="id_117">
+      <start x="1022.6757406260996" y="292.06104955970454"/>
+      <end x="1006.5500707477536" y="307.5763094781522"/>
+    </arc>
+    <arc id="id_119" class="consumption" source="id_14" target="id_117">
+      <start x="959.8804675343911" y="309.6453499025511"/>
+      <end x="995.3000707477536" y="312.53023497474095"/>
+    </arc>
+    <arc id="id_120" class="production" source="id_117" target="id_58">
+      <start x="1006.5500707477536" y="311.98378338023076"/>
+      <end x="1047.10883504299" y="304.7401594226718"/>
+    </arc>
+    <arc id="id_122" class="consumption" source="id_38" target="id_121">
+      <start x="990.0563918701607" y="349.8722151441553"/>
+      <end x="1037.2017848982416" y="351.9173944226246"/>
+    </arc>
+    <arc id="id_123" class="consumption" source="id_40" target="id_121">
+      <start x="1039.7225203529788" y="292.06104955970454"/>
+      <end x="1042.5362460659812" y="346.5364083697464"/>
+    </arc>
+    <arc id="id_124" class="production" source="id_121" target="id_61">
+      <start x="1048.4517848982416" y="347.1603811842052"/>
+      <end x="1116.4519982944307" y="286.7033294834149"/>
+    </arc>
+    <arc id="id_126" class="consumption" source="id_20" target="id_125">
+      <start x="1143.2634263041255" y="92.71586458596836"/>
+      <end x="1172.6173950934399" y="110.61291110409248"/>
+    </arc>
+    <arc id="id_127" class="production" source="id_125" target="id_42">
+      <start x="1172.6173950934399" y="117.15994123713185"/>
+      <end x="1143.0102249254862" y="133.56879135938408"/>
+    </arc>
+    <arc id="id_128" class="catalysis" source="id_19" target="id_125">
+      <start x="1214.2469958524084" y="92.18991994580361"/>
+      <end x="1186.5388494762117" y="109.00703165647712"/>
+    </arc>
+    <arc id="id_130" class="consumption" source="id_17" target="id_129">
+      <start x="1034.4590891675984" y="230.3186094037413"/>
+      <end x="1075.6691472286739" y="224.06507075684857"/>
+    </arc>
+    <arc id="id_131" class="production" source="id_129" target="id_40">
+      <start x="1076.815386524962" y="228.8364889725997"/>
+      <end x="1053.3030082138002" y="258.36633813169294"/>
+    </arc>
+    <arc id="id_132" class="catalysis" source="id_42" target="id_129">
+      <start x="1106.9527113473364" y="165.33821207277913"/>
+      <end x="1085.0546241163768" y="214.72967684971803"/>
+    </arc>
+    <arc id="id_134" class="consumption" source="id_20" target="id_133">
+      <start x="1094.5174882793817" y="93.00797966320283"/>
+      <end x="1060.5384844041146" y="115.21446279960216"/>
+    </arc>
+    <arc id="id_135" class="production" source="id_133" target="id_42">
+      <start x="1060.5384844041146" y="121.83085608924617"/>
+      <end x="1083.9843672723325" y="134.08630649299118"/>
+    </arc>
+    <arc id="id_136" class="catalysis" source="id_22" target="id_133">
+      <start x="1014.4852906004695" y="107.19420310424597"/>
+      <end x="1046.286592167725" y="116.39472873262551"/>
+    </arc>
+    <arc id="id_138" class="consumption" source="id_20" target="id_137">
+      <start x="1087.6508903308336" y="83.00848658218912"/>
+      <end x="1060.1897681716528" y="87.96490715481282"/>
+    </arc>
+    <arc id="id_139" class="production" source="id_137" target="id_42">
+      <start x="1060.0584677763666" y="94.60515575096997"/>
+      <end x="1096.4364369809061" y="131.85256487395196"/>
+    </arc>
+    <arc id="id_140" class="catalysis" source="id_44" target="id_137">
+      <start x="1012.2633952790441" y="61.169175916186504"/>
+      <end x="1046.328555056142" y="83.56526868685604"/>
+    </arc>
+    <arc id="id_142" class="consumption" source="id_0" target="id_141">
+      <start x="239.6299230927643" y="194.7144804570691"/>
+      <end x="211.4284881027815" y="222.3171955741318"/>
+    </arc>
+    <arc id="id_143" class="consumption" source="id_16" target="id_141">
+      <start x="187.00437654167058" y="231.260197047969"/>
+      <end x="200.1784881027815" y="228.85130839813067"/>
+    </arc>
+    <arc id="id_144" class="production" source="id_141" target="id_65">
+      <start x="200.1784881027815" y="230.70039041330335"/>
+      <end x="177.5922441930292" y="242.2549677922329"/>
+    </arc>
+    <arc id="id_146" class="consumption" source="id_16" target="id_145">
+      <start x="187.00437654167058" y="229.86992017636035"/>
+      <end x="241.8205088700659" y="217.35830383202727"/>
+    </arc>
+    <arc id="id_147" class="consumption" source="id_24" target="id_145">
+      <start x="224.94976679796775" y="158.25312777295764"/>
+      <end x="245.25706658357666" y="210.44941460184134"/>
+    </arc>
+    <arc id="id_148" class="production" source="id_145" target="id_68">
+      <start x="253.0705088700659" y="219.99583118684853"/>
+      <end x="267.59030386061545" y="230.11817161117662"/>
+    </arc>
+    <arc id="id_150" class="consumption" source="id_22" target="id_149">
+      <start x="954.4391942238584" y="86.79275527931173"/>
+      <end x="916.1253458207887" y="71.7776942232108"/>
+    </arc>
+    <arc id="id_151" class="production" source="id_149" target="id_44">
+      <start x="916.1253458207887" y="67.8488875603394"/>
+      <end x="955.2150041238745" y="55.865637316963024"/>
+    </arc>
+    <arc id="id_152" class="catalysis" source="id_32" target="id_149">
+      <start x="855.0374387049286" y="76.26141612554736"/>
+      <end x="901.7728218843711" y="70.62570796265875"/>
+    </arc>
+    <arc id="id_154" class="consumption" source="id_26" target="id_153">
+      <start x="345.20193724135777" y="223.45811428727234"/>
+      <end x="290.40167871460415" y="235.38483771551145"/>
+    </arc>
+    <arc id="id_155" class="production" source="id_153" target="id_2">
+      <start x="290.40167871460415" y="232.2251058184107"/>
+      <end x="343.00274151032403" y="191.22941409946554"/>
+    </arc>
+    <arc id="id_156" class="catalysis" source="id_65" target="id_153">
+      <start x="184.125" y="260.36882332353326"/>
+      <end x="276.11026969611703" y="238.65484834536693"/>
+    </arc>
+    <arc id="id_158" class="consumption" source="id_26" target="id_157">
+      <start x="345.20193724135777" y="219.36828375762886"/>
+      <end x="324.144385651693" y="221.13910645135823"/>
+    </arc>
+    <arc id="id_159" class="production" source="id_157" target="id_2">
+      <start x="324.03496805825085" y="215.98713759222062"/>
+      <end x="348.00684477366735" y="191.53970909148853"/>
+    </arc>
+    <arc id="id_160" class="catalysis" source="id_68" target="id_157">
+      <start x="319.86340076428723" y="231.90531876060072"/>
+      <end x="319.6584678579938" y="230.33583378080064"/>
+    </arc>
+    <arc id="id_162" class="consumption" source="id_50" target="id_161">
+      <start x="857.0047157621889" y="179.320997533768"/>
+      <end x="851.6856785641318" y="220.37968768109604"/>
+    </arc>
+    <arc id="id_163" class="production" source="id_161" target="id_54">
+      <start x="856.5819757211596" y="223.5918386165847"/>
+      <end x="893.9771777744337" y="207.55113136477053"/>
+    </arc>
+    <arc id="id_164" class="catalysis" source="id_36" target="id_161">
+      <start x="854.7841311740356" y="260.0722675841172"/>
+      <end x="851.937757117869" y="234.73515316942286"/>
+    </arc>
+    <arc id="id_166" class="consumption" source="id_58" target="id_165">
+      <start x="1050.1851582541526" y="276.82994246077516"/>
+      <end x="996.7160224413169" y="267.5933233883037"/>
+    </arc>
+    <arc id="id_167" class="production" source="id_165" target="id_61">
+      <start x="996.7160224413169" y="265.958155327881"/>
+      <end x="1080.6907696459712" y="256.05335061511505"/>
+    </arc>
+    <arc id="id_168" class="catalysis" source="id_36" target="id_165">
+      <start x="887.1644452914874" y="273.6315792988851"/>
+      <end x="982.3481070941228" y="267.2113417435807"/>
+    </arc>
+    <arc id="id_170" class="consumption" source="id_68" target="id_169">
+      <start x="246.96650960444447" y="278.8478112401091"/>
+      <end x="229.04293393035283" y="280.8772300999768"/>
+    </arc>
+    <arc id="id_171" class="production" source="id_169" target="id_65">
+      <start x="217.79293393035283" y="281.38152040862747"/>
+      <end x="187.24913198276377" y="280.6614619686752"/>
+    </arc>
+    <arc id="id_172" class="catalysis" source="id_16" target="id_169">
+      <start x="179.76436708871267" y="252.4366425233096"/>
+      <end x="215.19209245993298" y="276.0349239788395"/>
+    </arc>
+    <arc id="id_174" class="consumption" source="id_24" target="id_173">
+      <start x="210.24171940711884" y="158.25312777295764"/>
+      <end x="188.54808124614942" y="197.53479241146346"/>
+    </arc>
+    <arc id="id_175" class="production" source="id_173" target="id_0">
+      <start x="191.06662647193303" y="201.22976768452102"/>
+      <end x="222.52287902586153" y="190.43663964078263"/>
+    </arc>
+    <arc id="id_176" class="catalysis" source="id_65" target="id_173">
+      <start x="146.19040278052555" y="240.62693843545304"/>
+      <end x="177.5561423772861" y="210.68685924552648"/>
+    </arc>
+    <arc id="id_178" class="consumption" source="id_68" target="id_177">
+      <start x="246.96650960444447" y="257.7902300543817"/>
+      <end x="216.9200686189145" y="253.06764767275652"/>
+    </arc>
+    <arc id="id_180" class="production" source="id_177" target="id_179">
+      <start x="205.6700686189145" y="246.79038043477806"/>
+      <end x="165.774593484527" y="208.53929620379873"/>
+    </arc>
+    <arc id="id_181" class="catalysis" source="id_65" target="id_177">
+      <start x="184.125" y="259.0554912883385"/>
+      <end x="202.64046904834265" y="254.37248701848657"/>
+    </arc>
+    <arc id="id_183" class="consumption" source="id_24" target="id_182">
+      <start x="233.28684935273313" y="158.25312777295764"/>
+      <end x="276.55120087969806" y="205.1455614289155"/>
+    </arc>
+    <arc id="id_184" class="production" source="id_182" target="id_0">
+      <start x="277.09854583720943" y="205.1455614289155"/>
+      <end x="270.4786864272296" y="197.12463867189308"/>
+    </arc>
+    <arc id="id_185" class="catalysis" source="id_68" target="id_182">
+      <start x="297.1126211667626" y="231.90531876060072"/>
+      <end x="287.6702469660145" y="218.92281074508588"/>
+    </arc>
+    <arc id="id_188" class="consumption" source="id_187" target="id_186">
+      <start x="206.18952641574268" y="360.49863654773907"/>
+      <end x="236.2633736423199" y="347.1210308156666"/>
+    </arc>
+    <arc id="id_189" class="production" source="id_186" target="id_65">
+      <start x="236.2633736423199" y="341.8873492916481"/>
+      <end x="178.8196918917251" y="313.99229244623604"/>
+    </arc>
+    <arc id="id_190" class="catalysis" source="id_68" target="id_186">
+      <start x="282.4410680813583" y="308.1553187606007"/>
+      <end x="249.83713222051932" y="337.471642129962"/>
+    </arc>
+    <arc id="id_192" class="consumption" source="id_50" target="id_191">
+      <start x="875.986730596046" y="179.320997533768"/>
+      <end x="902.5266409374219" y="251.37340795768728"/>
+    </arc>
+    <arc id="id_193" class="production" source="id_191" target="id_17">
+      <start x="910.2235632338712" y="255.74953137284314"/>
+      <end x="970.158375635106" y="242.44265424841146"/>
+    </arc>
+    <arc id="id_194" class="production" source="id_191" target="id_14">
+      <start x="907.3640263410832" y="262.6234079576873"/>
+      <end x="920.1948751505793" y="288.7215773258474"/>
+    </arc>
+    <arc id="id_196" class="consumption" source="id_54" target="id_195">
+      <start x="962.0900524851145" y="213.33478081660311"/>
+      <end x="951.8559738405402" y="266.9043148533355"/>
+    </arc>
+    <arc id="id_197" class="production" source="id_195" target="id_17">
+      <start x="956.4063575794344" y="268.54659295219807"/>
+      <end x="979.2156797443196" y="252.3966930524314"/>
+    </arc>
+    <arc id="id_198" class="production" source="id_195" target="id_38">
+      <start x="951.421452821172" y="278.1543148533355"/>
+      <end x="957.3000213709178" y="329.81373354008605"/>
+    </arc>
+    <arc id="id_200" class="consumption" source="id_58" target="id_199">
+      <start x="1054.6949218477412" y="320.5512421562152"/>
+      <end x="1015.2247345880197" y="336.8356464118763"/>
+    </arc>
+    <arc id="id_201" class="production" source="id_199" target="id_40">
+      <start x="1012.2288821154594" y="333.531379610717"/>
+      <end x="1030.2890495051056" y="294.89207142945077"/>
+    </arc>
+    <arc id="id_202" class="production" source="id_199" target="id_14">
+      <start x="1003.9747345880197" y="336.9156425737642"/>
+      <end x="961.597449077462" y="320.0345131214924"/>
+    </arc>
+    <arc id="id_204" class="consumption" source="id_61" target="id_203">
+      <start x="1098.9238242475003" y="284.62695425904747"/>
+      <end x="1040.1758454207688" y="320.3230460056244"/>
+    </arc>
+    <arc id="id_205" class="production" source="id_203" target="id_38">
+      <start x="1028.9258454207688" y="325.5981279471658"/>
+      <end x="992.6350155138097" y="337.58057575376966"/>
+    </arc>
+    <arc id="id_206" class="production" source="id_203" target="id_40">
+      <start x="1035.0698411526023" y="318.115874500911"/>
+      <end x="1037.1867017680847" y="295.1728323297822"/>
+    </arc>
+    <arc id="id_208" class="consumption" source="id_50" target="id_207">
+      <start x="939.8187016978891" y="160.09371193024037"/>
+      <end x="1057.58363306504" y="188.67140745379203"/>
+    </arc>
+    <arc id="id_209" class="production" source="id_207" target="id_58">
+      <start x="1066.8475728626524" y="195.6614109013703"/>
+      <end x="1101.6988246077806" y="249.5337753727388"/>
+    </arc>
+    <arc id="id_210" class="catalysis" source="id_42" target="id_207">
+      <start x="1094.245253968494" y="165.33821207277913"/>
+      <end x="1071.2788783349233" y="183.6143031954089"/>
+    </arc>
+    <arc id="id_212" class="consumption" source="id_54" target="id_211">
+      <start x="1047.2485626992757" y="188.74046109064687"/>
+      <end x="1106.9830085534031" y="199.11924360364046"/>
+    </arc>
+    <arc id="id_213" class="production" source="id_211" target="id_61">
+      <start x="1118.2330085534031" y="205.41707725121407"/>
+      <end x="1119.0919810831322" y="206.22955030574317"/>
+    </arc>
+    <arc id="id_214" class="catalysis" source="id_42" target="id_211">
+      <start x="1113.4856484688241" y="165.33821207277913"/>
+      <end x="1112.8289186778636" y="191.3475757552096"/>
+    </arc>
+    <arc id="id_216" class="consumption" source="id_65" target="id_215">
+      <start x="184.125" y="256.78148191873987"/>
+      <end x="229.53440228935057" y="243.97037054219913"/>
+    </arc>
+    <arc id="id_217" class="production" source="id_215" target="id_0">
+      <start x="236.9754325145926" y="236.75841942943495"/>
+      <end x="249.58920185881743" y="197.68833591702645"/>
+    </arc>
+    <arc id="id_218" class="production" source="id_215" target="id_16">
+      <start x="229.53440228935057" y="241.98903867962903"/>
+      <end x="190.12172394480297" y="239.2257317218721"/>
+    </arc>
+    <arc id="id_220" class="consumption" source="id_68" target="id_219">
+      <start x="264.1640630317509" y="231.90531876060072"/>
+      <end x="229.5435507933202" y="210.152474769236"/>
+    </arc>
+    <arc id="id_221" class="production" source="id_219" target="id_16">
+      <start x="218.2935507933202" y="209.13685130132734"/>
+      <end x="187.86977938233437" y="222.75961628209024"/>
+    </arc>
+    <arc id="id_222" class="production" source="id_219" target="id_24">
+      <start x="223.47482824473076" y="200.99316116322296"/>
+      <end x="220.34907218451713" y="161.36844996791683"/>
+    </arc>
+  </map>
+</sbgn>
