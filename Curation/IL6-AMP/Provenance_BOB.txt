@@ -4,6 +4,114 @@ No supporting evidence found for AGTR1 activates ADAM17. from the mechanism you 
 No supporting evidence found for Active AGTR1 activates ADAM17. from the mechanism you added.
 Supporting evidence for the mechanism you added (max 50):
 •	ADAM17 activates EGF (10)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-2b325d74-fa7f-43e2-8a96-27a704127509.html
+________________________________________
+Supporting evidence for the mechanism you added (max 50):
+•	ADAM17 activates TNF (108)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-4901cfb3-bf92-4c61-b2c6-e26efbe75f51.html
+________________________________________
+Supporting evidence for the mechanism you added (max 50):
+•	ADAM17 activates IL6R (7)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-19ccb865-c5c2-4484-a942-fc08758bfd31.html
+________________________________________
+Supporting evidence for the mechanism you added (max 50):
+•	IL6R activates STAT3 (47)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-fba75f27-4912-466e-bd7b-fe880fb34dba.html
+________________________________________
+No supporting evidence found for SARS-COV-2 inhibits ACE2. from the mechanism you added.
+Supporting evidence for the mechanism you added (max 50):
+•	STAT3 binds IL6 (290)
+•	IL6 binds STAT3 (290)
+•	IL6 binds STAT1 and STAT3 (5)
+•	IL6 binds SOCS3 and STAT3 (5)
+•	IL6 binds IL6ST and STAT3 (4)
+•	HDAC1 binds IL6 and STAT3 (4)
+•	AHR binds IL6 and STAT3 (4)
+•	IL6 binds STAT3 and cytokine (3)
+•	IL6 binds STAT3 and TNF (3)
+•	IL6 binds MMP2 and STAT3 (3)
+•	IL6 binds JAK1 and STAT3 (3)
+•	IL6 binds IL6R and STAT3 (3)
+•	IL17A binds IL6 and STAT3 (3)
+•	EP300 binds IL6 and STAT3 (3)
+•	CDH1 binds IL6 and STAT3 (3)
+•	IL6 binds STAT3 and TWIST1 (2)
+•	IL6 binds STAT3, TNF, , and TNFRSF1B (2)
+•	IL6 binds SH2D4A and STAT3 (2)
+•	IL6 binds PIAS3 and STAT3 (2)
+•	IL10 binds IL6 and STAT3 (2)
+•	ERK binds IL6 and STAT3 (2)
+•	CEBPB binds IL6 and STAT3 (2)
+•	AP1 binds ATF2, CCL5, CREB, CSF2, CXCL8, FGF2, IL6, NFkappaB, SETD2, STAT1, STAT3, STAT5, , and TFAP2A (2)
+•	ANO7 binds AR, IL6, , and STAT3 (2)
+•	IL6 binds STAT3 and camB (1)
+•	IL6 binds STAT3 and XPNPEP2 (1)
+•	IL6 binds STAT3 and WWOX (1)
+•	IL6 binds STAT3 and VTCN1 (1)
+•	IL6 binds STAT3 and VIM (1)
+•	IL6 binds STAT3 and UBE2N (1)
+•	IL6 binds STAT3 and TNFRSF1B (1)
+•	IL6 binds STAT3 and TGFB1 (1)
+•	IL6 binds STAT3, TERT, , and TNF (1)
+•	IL6 binds STAT3 and STIL (1)
+•	IL6 binds STAT3 and STAT5 (1)
+•	IL6 binds SPP1 and STAT3 (1)
+•	IL6 binds REG3G and STAT3 (1)
+•	IL6 binds RBM8A, STAT3, , and TNF (1)
+•	IL6 binds RAC1, RAC2, , and STAT3 (1)
+•	IL6 binds PTPN13 and STAT3 (1)
+•	IL6 binds PTEN and STAT3 (1)
+•	IL6 binds PKC and STAT3 (1)
+•	IL6 binds NR3C1 and STAT3 (1)
+•	IL6 binds NFkappaB and STAT3 (1)
+•	IL6 binds MUC1 and STAT3 (1)
+•	IL6 binds MAPK8, SAA, , and STAT3 (1)
+•	IL6 binds MAPK3 and STAT3 (1)
+•	IL6 binds LGI1 and STAT3 (1)
+•	IL6 binds JUNB and STAT3 (1)
+•	IL6 binds JAK2 and STAT3 (1)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-ad2e473f-869f-41d5-aa41-99b9abd097e7.html
+________________________________________
+Supporting evidence for the mechanism you added (max 50):
+•	TNF activates NFKB1 (167)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-e06c5d64-15e0-4846-8e47-de2cd808250d.html
+________________________________________
+Supporting evidence for the mechanism you added (max 50):
+•	NFKB1 activates IL6 (24)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-ac0b650f-a4cc-46a3-aa6c-1b72bf397aa7.html
+________________________________________
+Supporting evidence for the mechanism you added (max 50):
+•	NFKB1 activates IL6 (24)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-ecf30ba3-d79e-4f9a-974b-c5d7f98889ee.html
+________________________________________
+Supporting evidence for the mechanism you added (max 50):
+•	EGF activates EGFR (2605)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-c74c18e3-05e0-4bf3-9605-7a09298ee27a.html
+________________________________________
+Supporting evidence for the mechanism you added (max 50):
+•	EGFR activates NFKB1 (5)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-3bb539f4-be72-47c9-afc9-d8d42e0330c0.html
+________________________________________
+No supporting evidence found for ACE2 binds SARS-COV-2. from the mechanism you added.
+Supporting evidence for the mechanism you added (max 50):
+•	EGF activates EGFR (2605)
+Here is the full list. https://s3.amazonaws.com/indrabot-results/cwc-ed85e73b-df66-4299-919c-70d55def75f0.html
+
+
+
+
+
+
+
+
+
+
+No supporting evidence found for ACE2 inhibits Angiotensin II. from the mechanism you added.
+No supporting evidence found for Angiotensin II activates AGTR1. from the mechanism you added.
+No supporting evidence found for AGTR1 activates ADAM17. from the mechanism you added.
+No supporting evidence found for Active AGTR1 activates ADAM17. from the mechanism you added.
+Supporting evidence for the mechanism you added (max 50):
+•	ADAM17 activates EGF (10)
 Here is the full list.
 ________________________________________
 Supporting evidence for the mechanism you added (max 50):
