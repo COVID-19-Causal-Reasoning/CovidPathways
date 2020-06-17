@@ -1,0 +1,35 @@
+ACE2 inhibits Angiotensin II
+
+Angiotensin II activates AGTR1
+
+Angiotensin II activates AGTR1
+
+AGTR1 activates ADAM17
+
+Active AGTR1 activates ADAM17
+
+Active ADAM17 activates EGF
+
+active ADAM17 activates TNF-alpha
+
+Active ADAM17 activates soluble IL6R
+
+Active IL6R activates STAT3
+
+SARS-CoV-2 inactivates ACE2
+
+STAT3 binds IL6
+
+TNF activates NFkb1
+
+NFKB1 activates IL6
+
+active NFKB1 activates IL6
+
+EGF activates EGFR
+
+EGFR activates NFKB1
+
+SARS-CoV-2 binds ACE2
+
+active EGF activates EGFR
