@@ -93,23 +93,43 @@ construct_overview <- function(elements) {
 ### Resource: url to the xml content of the diagram
 ### Type: what kind of file do we integrate
 ### Name: under which name the diaram is to be shown in the build
-res <- read.csv(url("https://git-r3lab.uni.lu/covid/models/raw/master/Integration/MINERVA_build/resources.csv"),
-                header = T, stringsAsFactors = F)
+# res <- read.csv(url("https://git-r3lab.uni.lu/covid/models/raw/master/Integration/MINERVA_build/resources.csv"),
+#                 header = T, stringsAsFactors = F)
+
+wps <- readLines("https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/pathways.txt")
+
+res <- data.frame(Include = "Yes", 
+                  Resource = paste0("https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/", wps, ".gpml"),
+                  Type = "GPML",
+                  Name = wps)
 ### Filter only these to be included
 res <- res[res$Include == "Yes",]
 
+### Define the output dir
+outdir <- "_notgit/output/"
+### Just to simplify later writes
+outdir_submaps <- paste0(outdir,"submaps/")
+
 ### Create output directory if not existing.
-if(!dir.exists("output/")) { dir.create("output/") }
+if(!dir.exists(outdir)) { dir.create(outdir) }
 
 ### Create submaps directory if not existing.
-if(!dir.exists("output/submaps/")) { dir.create("output/submaps/") }
+if(!dir.exists(outdir_submaps)) { dir.create(outdir_submaps) }
 
 ### For all resources
 for(r in 1:nrow(res)) {
   ### Process the 'resources' table, all should be network-accessible (raw git)
   message(paste0("Processing: ", res[r,]$Resource))
   con <- url(res[r,]$Resource)
-  rls <- paste(readLines(con), collapse = "\n")
+  conread <-try(readLines(con), silent = T)
+  ### Try retrieving a resource, end gracefully
+  if(class(conread) == "try-error") {
+    message(paste0("Cannot read from ", res[r,]$Resource))
+    close(con)
+    message(conread)
+    next
+  }
+  rls <- paste(conread, collapse = "\n")
   close(con)
   fin_cont <- NULL
   ### Depending on the type, process differently
@@ -125,7 +145,7 @@ for(r in 1:nrow(res)) {
   }
 
   ### Write the result to a file
-  write_xml(fin_cont, file = paste0("output/submaps/",res[r,]$Name,".xml"))
+  write_xml(fin_cont, file = paste0(outdir_submaps,res[r,]$Name,".xml"))
   message("Done.\n\n")
 }
 
@@ -142,7 +162,7 @@ if(reconstruct_overview) {
   ovw <- gsub("width=\"90.0\" height=\"30.0\"", "width=\"190.0\" height=\"40.0\"", ovw)
   ovw <- gsub("color=\"FFCC99FF\"", "color=\"FFCCFFFF\"", ovw)
   
-  cat(ovw, file = paste0("output/overview.xml"))
+  cat(ovw, file = paste0(outdir,"overview.xml"))
 }
 
 if(reconstruct_mapping) {
@@ -164,8 +184,8 @@ if(reconstruct_mapping) {
   }
   
   ### Write to file, read in as an xml structure
-  cat(mapping, file = "output/submaps/mapping.xml", sep = "\n")
-  mapn <- read_xml("output/submaps/mapping.xml")
+  cat(mapping, file = paste0(outdir_submaps, "mapping.xml"), sep = "\n")
+  mapn <- read_xml(paste0(outdir_submaps, "mapping.xml"))
   
   ### Remove all reactions whose baseReactant species is a placeholder
   for(sp in xml_find_all(mapn, "//cd:species", ns_cd)) {
@@ -177,5 +197,5 @@ if(reconstruct_mapping) {
   }
   
   ### Write down the trimmed file
-  write_xml(mapn, "output/submaps/mapping.xml")
+  write_xml(mapn, paste0(outdir_submaps, "mapping.xml"))
 }
