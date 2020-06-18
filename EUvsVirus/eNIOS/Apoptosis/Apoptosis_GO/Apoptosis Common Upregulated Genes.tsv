@@ -1,7 +1,0 @@
-Rank	Cell line	Perturbagen	Dose(um)	Duration(h)	Enrichment	Score	Perturbed Genes
-1	PC3	psoromic_acid	10.0	24	1/6	0.667	BCL2
-2	A549	BMS-777607	10	24	1/6	0.667	BAX
-3	HCC515	BRD-K73285375	10.0	6	2/26	0.561	BAD, BAX
-4	VCAP	latanoprost	10.0	24	2/26	0.561	BAX, BID
-5	A549	KIN001-220	0.37	24	1/7	0.456	BAX
-6	VCAP	s1475	10.0	6	1/7	0.456	BAX
