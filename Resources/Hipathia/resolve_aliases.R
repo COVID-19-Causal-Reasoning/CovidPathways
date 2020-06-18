@@ -80,20 +80,57 @@ group_elements <- function(feid, felements, fentrez) {
   }
 }
 
+### A workaround function to get information about hypothetical complexes; 
+### currently MINERVA API does not support this, we need to get the entire CD file and parse it
+get_groups <- function(fname) {
+  message(paste0("Getting groups for", fname, "..."))
+  library(xml2)
+  cd_map <- read_xml(ask_GET(mnv_base, 
+                             paste0("models/",
+                                    models$idObject[models$name == fname],
+                                    ":downloadModel?handlerClass=lcsb.mapviewer.converter.model.celldesigner.CellDesignerXmlParser")))
+  ### CellDesigner namespace
+  ns_cd <- xml_ns_rename(xml_ns(read_xml("<root>
+                                            <sbml xmlns = \"http://www.sbml.org/sbml/level2/version4\"/>
+                                            <cd xmlns = \"http://www.sbml.org/2001/ns/celldesigner\"/>
+                                          </root>")), 
+                         d1 = "sbml", d2 = "cd")
+  ### Get complex ids
+  cids <- xml_attr(xml_find_all(cd_map, "//cd:complexSpeciesAlias", ns_cd), "species")
+  ### For each check, which is hypothetical
+  hypocs <- sapply(xml_attr(xml_find_all(cd_map, "//cd:complexSpeciesAlias", ns_cd), "species"), 
+                   function(x) xml_text(xml_find_first(xml_find_first(cd_map, 
+                                                                      paste0("//sbml:species[@id='", x, "']"), ns_cd),
+                                                      ".//cd:hypothetical", ns_cd)))
+  names(hypocs) <- gsub("s_id_", "",names(hypocs))
+  return(hypocs)
+}
+
+cgroups <- get_groups(diag_name)
+
 message("Translating...")
 ### Create a copy
 translated_sif <- raw_sif
-### Retrieve Entrez for the entire columns of sources and targets
-translated_sif[,1] <- sapply(raw_sif[,1], group_elements, model_elements, entrez)
-translated_sif[,3] <- sapply(raw_sif[,3], group_elements, model_elements, entrez)
+### Retrieve Entrez and type for the entire columns of sources and targets
+s.entrez <- sapply(raw_sif[,1], group_elements, model_elements, entrez)
+s.type <- sapply(raw_sif[,1], function(x) { ifelse(x %in% names(cgroups),
+                                                   ifelse(is.na(cgroups[x]), "complex", "group"),
+                                                   "node") })
+t.entrez <- sapply(raw_sif[,3], group_elements, model_elements, entrez)
+t.type <- sapply(raw_sif[,3], function(x) { ifelse(x %in% names(cgroups),
+                                                   ifelse(is.na(cgroups[x]), "complex", "group"),
+                                                   "node") })
 ### Collect x.y information
-colnames(translated_sif) <- c("source", "sign", "target")
 s.xy <- t(sapply(raw_sif[,1], function(x) unlist(model_elements$bounds[model_elements$elementId == x, c(3,4)])))
 colnames(s.xy) <- c("source.x", "source.y")
 t.xy <- t(sapply(raw_sif[,3], function(x) unlist(model_elements[model_elements$elementId == x,1][,c(3,4)])))
 colnames(t.xy) <- c("targets.x", "targets.y")
+
 ### Combine into a single data frame
-translated_sif <- data.frame(translated_sif, s.xy, t.xy)
+translated_sif <- data.frame(source = s.entrez, source.type = s.type,
+                             sign = raw_sif[,2], 
+                             target = t.entrez, target.type = t.type,
+                             s.xy, t.xy)
 
 write.table(translated_sif, file = "translated_sif.txt",
             sep = "\t", quote = F, col.names = T, row.names = F)

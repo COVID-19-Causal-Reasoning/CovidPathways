@@ -93,15 +93,22 @@ construct_overview <- function(elements) {
 ### Resource: url to the xml content of the diagram
 ### Type: what kind of file do we integrate
 ### Name: under which name the diaram is to be shown in the build
-# res <- read.csv(url("https://git-r3lab.uni.lu/covid/models/raw/master/Integration/MINERVA_build/resources.csv"),
-#                 header = T, stringsAsFactors = F)
 
-wps <- readLines("https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/pathways.txt")
+regular_build = T
 
-res <- data.frame(Include = "Yes", 
-                  Resource = paste0("https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/", wps, ".gpml"),
-                  Type = "GPML",
-                  Name = wps)
+if(regular_build) {
+  ### Regular build
+  res <- read.csv(url("https://git-r3lab.uni.lu/covid/models/raw/master/Integration/MINERVA_build/resources.csv"),
+                  header = T, stringsAsFactors = F)
+} else {
+  ### WikiPathways testbuild
+  wps <- readLines("https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/pathways.txt")
+  res <- data.frame(Include = "Yes", 
+                    Resource = paste0("https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/", wps, ".gpml"),
+                    Type = "GPML",
+                    Name = wps)
+}
+
 ### Filter only these to be included
 res <- res[res$Include == "Yes",]
 
