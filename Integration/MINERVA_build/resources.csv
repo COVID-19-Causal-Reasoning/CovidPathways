@@ -14,8 +14,8 @@ Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Coagulation%20pa
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ER%20Stress/ER_Stress_stable.xml,CellDesigner_SBML,ER stress
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ETC/ETC_stable.xml,CellDesigner_SBML,ETC
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/HMOX1%20pathway/HMOX1_Pathway_stable.xml,CellDesigner_SBML,HMOX1 pathway
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Interferon%20pathway/Interferon1.xml,CellDesigner_SBML,Interferon 1 pathway
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/JNK%20pathway/JNK_pathway_V3.xml,CellDesigner_SBML,JNK pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Interferon%20pathway/Interferon1_stable.xml,CellDesigner_SBML,Interferon 1 pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/JNK%20pathway/JNK_pathway_stable.xml,CellDesigner_SBML,JNK pathway
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/PAMP%20signalling/PAMP_signaling_stable.xml,CellDesigner_SBML,PAMP signaling
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Pyrimidine%20deprivation/Pyrimidine_deprivation_stable.xml,CellDesigner_SBML,Pyrimidine deprivation
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Renin-angiotensin%20pathway/Renin_angiotensin_stable.xml,CellDesigner_SBML,Renin-angiotensin pathway
