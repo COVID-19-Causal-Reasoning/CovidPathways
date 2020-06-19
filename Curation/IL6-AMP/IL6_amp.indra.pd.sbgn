@@ -1,6 +1,21 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <sbgn xmlns="http://sbgn.org/libsbgn/0.3">
   <map id="IL6_amp.indra.PD.sbgn" language="process description">
+    <glyph id="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6" class="complex">
+      <bbox x="231.992672420443" y="-252.04125038740543" w="90.04550781249998" h="109.94456005775385"/>
+      <glyph id="661e6442-5247-c02e-e073-9859f0b05ea8" class="macromolecule">
+        <label text="IL6R"/>
+        <bbox x="243.617672420443" y="-233.79125038740543" w="60" h="30"/>
+        <glyph id="661e6442-5247-c02e-e073-9859f0b05ea8_0" class="state variable">
+          <state value="soluble" variable=""/>
+          <bbox x="279.017672420443" y="-239.79125038740543" w="30.7705078125" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="4caeb2fa-a68e-ffe0-5175-ba0b00a4533f" class="macromolecule">
+        <label text="IL6"/>
+        <bbox x="243.96404021149465" y="-183.72169032965158" w="60" h="30"/>
+      </glyph>
+    </glyph>
     <glyph id="id_4" class="macromolecule">
       <label text="AGTR1"/>
       <bbox x="187.41082323194948" y="-608.313428646387" w="60" h="30"/>
@@ -27,30 +42,26 @@
     </glyph>
     <glyph id="id_12" class="macromolecule">
       <label text="IL6R"/>
-      <bbox x="87.01884779778673" y="-326.45181895529834" w="60" h="30"/>
+      <bbox x="108.22645371008142" y="-394.96869959501964" w="60" h="30"/>
       <glyph id="id_13" class="state variable">
         <state value="Membrane" variable=""/>
-        <bbox x="115.78481459466173" y="-332.45181895529834" w="45.26806640625" h="12"/>
+        <bbox x="136.9924205069564" y="-400.96869959501964" w="45.26806640625" h="12"/>
       </glyph>
     </glyph>
-    <glyph id="id_14" class="macromolecule">
-      <label text="STAT3"/>
-      <bbox x="467.27294782964765" y="245.77250146563506" w="60" h="30"/>
-      <glyph id="id_15" class="state variable">
-        <state value="i" variable="act"/>
-        <bbox x="494.6729478296476" y="239.77250146563506" w="28" h="12"/>
-      </glyph>
+    <glyph id="4cbe95a5-ef8b-0394-78b4-6828d2d599de" class="macromolecule">
+      <label text="IL6"/>
+      <bbox x="320.4291087125083" y="-334.2028961348682" w="60" h="30"/>
     </glyph>
     <glyph id="id_16" class="macromolecule">
       <label text="SARS_COV_2"/>
-      <bbox x="-309.00308373281337" y="-605.9315477831851" w="82.14453125" h="25"/>
+      <bbox x="-186.00308373281337" y="-605.9315477831851" w="82.14453125" h="25"/>
     </glyph>
-    <glyph id="id_17" class="macromolecule">
-      <label text="IL6"/>
-      <bbox x="961.0457252364366" y="125.61057341215991" w="60" h="30"/>
-      <glyph id="id_18" class="state variable">
-        <state value="i" variable="act"/>
-        <bbox x="988.4457252364366" y="119.61057341215991" w="28" h="12"/>
+    <glyph id="e35d665d-564b-727a-d7f0-b0f28574e625" class="macromolecule">
+      <label text="IL6R"/>
+      <bbox x="181.66350847780728" y="-334.1366683105822" w="60" h="30"/>
+      <glyph id="e35d665d-564b-727a-d7f0-b0f28574e625_0" class="state variable">
+        <state value="soluble" variable=""/>
+        <bbox x="217.06350847780726" y="-340.1366683105822" w="30.7705078125" h="12"/>
       </glyph>
     </glyph>
     <glyph id="id_19" class="macromolecule">
@@ -109,29 +120,9 @@
       <label text="EGF"/>
       <bbox x="404.0565926412859" y="-433.5426973717483" w="60" h="30"/>
     </glyph>
-    <glyph id="id_36" class="macromolecule">
-      <label text="IL6R"/>
-      <bbox x="231.60827202777142" y="-328.50724015894684" w="60" h="30"/>
-      <glyph id="id_37" class="state variable">
-        <state value="soluble" variable=""/>
-        <bbox x="267.0082720277714" y="-334.50724015894684" w="30.7705078125" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_38" class="macromolecule">
-      <label text="STAT3"/>
-      <bbox x="814.4182299847664" y="-43.28139505235977" w="60" h="30"/>
-      <glyph id="id_39" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="841.8182299847664" y="-49.28139505235977" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_40" class="macromolecule">
-      <label text="IL6"/>
-      <bbox x="962.0102450295595" y="-1.880915773419943" w="60" h="30"/>
-      <glyph id="id_41" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="989.4102450295596" y="-7.880915773419943" w="28" h="12"/>
-      </glyph>
+    <glyph id="nwtN_932fe1e7-52a1-4392-93a1-e2789e87a72d" class="macromolecule">
+      <label text="IL6ST"/>
+      <bbox x="333.65122727020804" y="-127.21121222529803" w="60" h="30"/>
     </glyph>
     <glyph id="id_42" class="macromolecule">
       <label text="NFKB1"/>
@@ -142,22 +133,26 @@
       </glyph>
     </glyph>
     <glyph id="id_50" class="complex">
-      <bbox x="468.85554382443377" y="-204.12679390972215" w="87.25" h="100.50000000000011"/>
+      <bbox x="646.67316262752" y="-65.46167832933386" w="87.25" h="100.50000000000011"/>
       <glyph id="nwtSV_83aac3ae-10b1-491d-9d5b-0496ae5a08f9" class="state variable">
         <state value="a" variable="act"/>
-        <bbox x="474.3840723529623" y="-210.12679390972215" w="28.1474609375" h="12"/>
+        <bbox x="652.2016911560486" y="-71.46167832933386" w="28.1474609375" h="12"/>
       </glyph>
       <glyph id="id_50id_46" class="macromolecule">
         <label text="IL6"/>
-        <bbox x="482.48054382443377" y="-190.50179390972215" w="60" h="30"/>
+        <bbox x="660.29816262752" y="-51.836678329333864" w="60" h="30"/>
       </glyph>
       <glyph id="id_50id_48" class="macromolecule">
         <label text="STAT3"/>
-        <bbox x="482.48054382443377" y="-147.25179390972204" w="60" h="30"/>
+        <bbox x="660.29816262752" y="-8.586678329333758" w="60" h="30"/>
       </glyph>
     </glyph>
     <glyph id="nwtN_41ec362d-3eee-49d1-a0b8-216d10ba668d" class="source and sink">
-      <bbox x="178.60795632404333" y="-761.78154253775" w="22" h="22"/>
+      <bbox x="119.87920148999652" y="-738.9425823245095" w="22" h="22"/>
+    </glyph>
+    <glyph id="8a97a0e4-e5a8-b4c2-2577-22b3483d60ed" class="macromolecule">
+      <label text="STAT3"/>
+      <bbox x="358.1063962552874" y="-75.6361169115014" w="60" h="30"/>
     </glyph>
     <glyph id="id_65" class="complex">
       <bbox x="-74.71385284042046" y="-485.2564835370841" w="105.39453125" h="100.62500000000011"/>
@@ -183,26 +178,21 @@
     <glyph id="id_85" class="process">
       <bbox x="414.719551285111" y="-682.7948405718756" w="10" h="10"/>
     </glyph>
+    <glyph id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb" class="process">
+      <bbox x="360.49239431411735" y="-207.0935678215749" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.1" x="359.0638228855459" y="-203.52213925014632"/>
+      <port id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.2" x="369.0638228855459" y="-203.52213925014632"/>
+    </glyph>
     <glyph id="id_93" class="process">
       <bbox x="794.4523927414997" y="-425.0863539626556" w="10" h="10"/>
     </glyph>
     <glyph id="id_97" class="process">
       <bbox x="208.8897271121449" y="-387.03966857953367" w="10" h="10"/>
     </glyph>
-    <glyph id="id_101" class="process">
-      <bbox x="260.45806202311445" y="-0.9900716684214785" w="10" h="10"/>
-    </glyph>
-    <glyph id="id_109" class="process">
-      <bbox x="633.6834366978617" y="222.06053981670982" w="10" h="10"/>
-    </glyph>
-    <glyph id="id_113" class="process">
-      <bbox x="884.6958970483254" y="46.028876974907206" w="10" h="10"/>
-    </glyph>
-    <glyph id="id_117" class="process">
-      <bbox x="484.8559421047241" y="64.6661842673738" w="10" h="10"/>
-    </glyph>
-    <glyph id="id_129" class="process">
-      <bbox x="1169.0833880720877" y="-55.069057121286946" w="10" h="10"/>
+    <glyph id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f" class="process">
+      <bbox x="452.73638351035726" y="-66.10369294068656" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.1" x="451.3078120817858" y="-62.53226436925799"/>
+      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.2" x="461.3078120817858" y="-62.53226436925799"/>
     </glyph>
     <glyph id="id_133" class="process">
       <bbox x="681.2883221472622" y="-237.17155625652344" w="10" h="10"/>
@@ -225,83 +215,95 @@
     <glyph id="id_141" class="process">
       <bbox x="-23.592849121199407" y="-594.8788056029227" w="10" h="10"/>
     </glyph>
+    <glyph id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd" class="process">
+      <bbox x="282.57638365211926" y="-321.92553364368075" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1" x="281.1478122235478" y="-318.3541050722522"/>
+      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.2" x="291.1478122235478" y="-318.3541050722522"/>
+    </glyph>
     <glyph id="id_149" class="process">
       <bbox x="514.9059898708721" y="-426.93535650288925" w="10" h="10"/>
     </glyph>
-    <glyph id="id_161" class="process">
-      <bbox x="382.4254959445986" y="-237.04125466409408" w="10" h="10"/>
+    <glyph id="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2" class="complex">
+      <bbox x="408.43776289317606" y="-267.4428171732367" w="91.3304943223942" h="126.69429851448942"/>
+      <glyph id="c5e55552-1743-bf20-915d-f0ce2275b6af" class="macromolecule">
+        <label text="IL6R"/>
+        <bbox x="421.3477494030703" y="-249.19281717323668" w="60" h="30"/>
+        <glyph id="c5e55552-1743-bf20-915d-f0ce2275b6af_0" class="state variable">
+          <state value="soluble" variable=""/>
+          <bbox x="456.74774940307026" y="-255.19281717323668" w="30.7705078125" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="548ff045-6b1d-2792-50f9-c79acd0b62fc" class="macromolecule">
+        <label text="IL6"/>
+        <bbox x="420.06276289317606" y="-217.06815442588598" w="60" h="30"/>
+      </glyph>
+      <glyph id="bc6f6fa1-d0d8-4e30-88c5-433de438a6d8" class="macromolecule">
+        <label text="IL6ST"/>
+        <bbox x="420.70525614812317" y="-182.37351865874726" w="60" h="30"/>
+      </glyph>
     </glyph>
-    <glyph id="id_191" class="process">
-      <bbox x="742.7273301122176" y="73.50063344641805" w="10" h="10"/>
-    </glyph>
-    <glyph id="id_195" class="process">
-      <bbox x="823.2688747900944" y="58.46237434595379" w="10" h="10"/>
-    </glyph>
-    <glyph id="id_203" class="process">
-      <bbox x="916.1701222852121" y="-12.89287884958527" w="10" h="10"/>
+    <glyph id="82fc284a-1aa2-185e-b4a6-eb288ded76c6" class="macromolecule">
+      <label text="STAT3"/>
+      <bbox x="426.52279224069594" y="-13.911850608474914" w="60" h="30"/>
+      <glyph id="82fc284a-1aa2-185e-b4a6-eb288ded76c6_0" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="453.9227922406959" y="-19.911850608474914" w="28" h="12"/>
+      </glyph>
     </glyph>
     <glyph id="id_207" class="process">
-      <bbox x="608.2210682554534" y="-156.7755176685936" w="10" h="10"/>
+      <bbox x="686.5260747008491" y="-104.57218003832976" w="10" h="10"/>
     </glyph>
-    <arc id="id_205" class="production" source="id_203" target="id_38">
-      <start x="915.5451222852121" y="-9.387114368778334"/>
-      <end x="878.0634833639202" y="-19.343807025447393"/>
-    </arc>
-    <arc id="id_193" class="production" source="id_191" target="id_17">
-      <start x="753.3523301122176" y="79.93648219155274"/>
-      <end x="957.3928159173838" y="132.0202645026677"/>
+    <arc id="nwtE_d42a47f9-341e-4dd5-b053-a4e8cf1e03fc" class="consumption" source="4cbe95a5-ef8b-0394-78b4-6828d2d599de" target="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1">
+      <start x="319.8041087125083" y="-318.79851371397103"/>
+      <end x="291.7728122235478" y="-318.4283793944578"/>
     </arc>
     <arc id="id_135" class="production" source="id_133" target="id_42">
       <start x="686.5797664781796" y="-226.54655625652344"/>
       <end x="689.5076085134624" y="-170.0379551229098"/>
     </arc>
-    <arc id="id_130" class="consumption" source="id_17" target="id_129">
-      <start x="1010.6030469889655" y="120.23671795409287"/>
-      <end x="1168.6838241513367" y="-44.44405712128696"/>
+    <arc id="nwtE_c07c9f40-12c0-4503-9352-9d656bbde57e" class="production" source="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.2" target="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6">
+      <start x="285.7242675674689" y="-312.7291050722522"/>
+      <end x="281.4363635167904" y="-255.78242911047815"/>
     </arc>
-    <arc id="id_99" class="production" source="id_97" target="id_36">
-      <start x="217.80636659707767" y="-376.41466857953367"/>
-      <end x="248.94303670935116" y="-331.6968000967916"/>
+    <arc id="id_76" class="catalysis" source="id_24" target="id_73">
+      <start x="109.55248562878387" y="-605.3178904286451"/>
+      <end x="180.90403638969184" y="-661.3070926316752"/>
+    </arc>
+    <arc id="id_88" class="catalysis" source="id_28" target="id_85">
+      <start x="353.43572416586807" y="-616.0990763365135"/>
+      <end x="411.8070941019238" y="-670.4300713044325"/>
     </arc>
     <arc id="id_98" class="consumption" source="id_12" target="id_97">
-      <start x="146.02794265577282" y="-332.590159394283"/>
-      <end x="208.2647271121449" y="-377.9408448984992"/>
+      <start x="168.85145371008142" y="-380.806932231529"/>
+      <end x="208.2647271121449" y="-381.8857074830319"/>
     </arc>
-    <arc id="id_198" class="production" source="id_195" target="id_38">
-      <start x="829.2590251138253" y="57.837374345953805"/>
-      <end x="841.1260581158358" y="-9.578712925308892"/>
+    <arc id="nwtE_788d3b38-cab1-4a9a-9188-f6ed8fc830f5" class="consumption" source="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6" target="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.1">
+      <start x="322.663180232943" y="-200.45298060024362"/>
+      <end x="358.4388228855459" y="-203.10514047187695"/>
     </arc>
-    <arc id="id_104" class="catalysis" source="id_36" target="id_101">
-      <start x="261.79771995262917" y="-297.88224015894684"/>
-      <end x="265.3519739699147" y="-4.739841994440155"/>
+    <arc id="nwtE_b01b0178-0377-43a4-aee6-c948255e0d29" class="production" source="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.2" target="82fc284a-1aa2-185e-b4a6-eb288ded76c6">
+      <start x="456.3268195563115" y="-56.90726436925799"/>
+      <end x="456.4480974443256" y="-21.016745659946032"/>
     </arc>
-    <arc id="id_103" class="production" source="id_101" target="id_38">
-      <start x="271.0830620231145" y="3.6961957052492345"/>
-      <end x="810.6730793235618" y="-26.39926976474783"/>
+    <arc id="nwtE_0a08c745-8d67-46fb-9962-10a565b9fa32" class="consumption" source="8a97a0e4-e5a8-b4c2-2577-22b3483d60ed" target="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.1">
+      <start x="418.7313962552874" y="-61.4875584129729"/>
+      <end x="450.6828120817858" y="-62.375877154701996"/>
     </arc>
-    <arc id="id_115" class="consumption" source="id_38" target="id_113">
-      <start x="853.3384307328471" y="-12.656395052359777"/>
-      <end x="886.4846247790164" y="45.403876974907206"/>
-    </arc>
-    <arc id="id_114" class="consumption" source="id_17" target="id_113">
-      <start x="973.3681066109793" y="124.98557341215991"/>
-      <end x="895.3208970483254" y="56.00073584697439"/>
-    </arc>
-    <arc id="id_112" class="production" source="id_109" target="id_50">
-      <start x="636.8198984999416" y="221.43553981670982"/>
-      <end x="530.3179815041708" y="-100.03535021916207"/>
+    <arc id="nwtE_0a2de145-3e8d-461a-ad6c-683248e333d3" class="consumption" source="nwtN_932fe1e7-52a1-4392-93a1-e2789e87a72d" target="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.1">
+      <start x="363.7218300633206" y="-127.83621222529803"/>
+      <end x="364.0384058800254" y="-197.89713925014632"/>
     </arc>
     <arc id="id_143" class="consumption" source="id_16" target="id_141">
-      <start x="-226.23355248281337" y="-592.8374159107325"/>
-      <end x="-24.217849121199407" y="-589.9589545463235"/>
+      <start x="-103.23355248281337" y="-592.258981565952"/>
+      <end x="-24.217849121199407" y="-590.0369858786092"/>
     </arc>
     <arc id="id_210" class="catalysis" source="id_42" target="id_207">
-      <start x="659.9978265698415" y="-149.80432270755244"/>
-      <end x="621.9682972269534" y="-151.40690525736565"/>
+      <start x="690.9111958666957" y="-132.88877056462388"/>
+      <end x="691.3645977142623" y="-108.32164797039808"/>
     </arc>
-    <arc id="id_102" class="consumption" source="id_14" target="id_101">
-      <start x="483.1661115157898" y="245.14750146563503"/>
-      <end x="270.5365230961033" y="9.63492833157855"/>
+    <arc id="nwtE_aaf31623-f4c2-4d79-b6b4-11e06fa45d6b" class="catalysis" source="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2" target="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f">
+      <start x="455.0993545957345" y="-140.12351865874723"/>
+      <end x="456.1715396995607" y="-71.28188542246801"/>
     </arc>
     <arc id="nwtE_ab954f79-1604-4d2c-90f5-9de3e466f829" class="consumption" source="id_32" target="id_149">
       <start x="464.6815926412859" y="-419.75295847134964"/>
@@ -311,13 +313,21 @@
       <start x="520.2878566242408" y="-578.7602253113498"/>
       <end x="519.9272959977615" y="-430.68534723860387"/>
     </arc>
-    <arc id="id_131" class="production" source="id_129" target="id_40">
-      <start x="1168.4583880720877" y="-48.11691146629196"/>
-      <end x="1025.0378735101006" y="1.656907971810817"/>
+    <arc id="nwtE_00872d78-de08-4c21-a969-5631187d3cf0" class="production" source="id_97" target="e35d665d-564b-727a-d7f0-b0f28574e625">
+      <start x="213.6906510781782" y="-376.41466857953367"/>
+      <end x="212.327026058406" y="-337.88471304756024"/>
     </arc>
-    <arc id="id_164" class="catalysis" source="id_36" target="id_161">
-      <start x="285.5426539555514" y="-298.00985474337176"/>
-      <end x="379.17736081078107" y="-237.3818784376353"/>
+    <arc id="id_87" class="production" source="id_85" target="id_30">
+      <start x="425.344551285111" y="-673.1313270227587"/>
+      <end x="499.07373492370294" y="-612.00474091362"/>
+    </arc>
+    <arc id="id_86" class="consumption" source="id_6" target="id_85">
+      <start x="423.30047334898035" y="-616.638670468707"/>
+      <end x="420.04891603400364" y="-672.1698405718756"/>
+    </arc>
+    <arc id="nwtE_e1015158-f801-4b9a-9bfe-3a231440cf74" class="production" source="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.2" target="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2">
+      <start x="369.6888228855459" y="-203.55796919094013"/>
+      <end x="404.6878262880201" y="-203.78090469667399"/>
     </arc>
     <arc id="id_96" class="catalysis" source="id_30" target="id_93">
       <start x="544.9119891558416" y="-579.0325906653113"/>
@@ -327,13 +337,17 @@
       <start x="520.0308351170333" y="-416.31035650288925"/>
       <end x="521.166399419406" y="-365.14662061984257"/>
     </arc>
-    <arc id="id_111" class="consumption" source="id_14" target="id_109">
-      <start x="527.8979478296476" y="253.47156619724421"/>
-      <end x="633.0584366978617" y="228.40152792723057"/>
+    <arc id="id_134" class="consumption" source="id_20" target="id_133">
+      <start x="744.9775983145433" y="-234.04082536742314"/>
+      <end x="691.9133221472622" y="-232.350714007913"/>
     </arc>
     <arc id="nwtE_fa9704ac-8a71-49c9-afdc-9c5870a7f6a5" class="production" source="id_93" target="id_19">
       <start x="805.0773927414997" y="-419.9541710118766"/>
       <end x="847.9808226529087" y="-418.9459751071244"/>
+    </arc>
+    <arc id="id_74" class="consumption" source="id_26" target="id_73">
+      <start x="224.21787530306165" y="-669.1370292861299"/>
+      <end x="194.61249812401124" y="-667.8875453414905"/>
     </arc>
     <arc id="id_100" class="catalysis" source="id_30" target="id_97">
       <start x="497.77744350288623" y="-578.7602253113498"/>
@@ -347,101 +361,45 @@
       <start x="55.331471739405714" y="-587.7034236800334"/>
       <end x="-12.967849121199407" y="-589.713277896022"/>
     </arc>
-    <arc id="id_162" class="consumption" source="id_50" target="id_161">
-      <start x="468.23054382443377" y="-181.53483288552167"/>
-      <end x="393.0504959445986" y="-228.52540225191618"/>
+    <arc id="nwtE_2b1025a2-d1d0-4805-9529-093c62a97760" class="stimulation" source="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4" target="id_133">
+      <start x="569.6857232399113" y="-303.52239003117194"/>
+      <end x="677.9977698390355" y="-237.24466633457868"/>
     </arc>
     <arc id="id_150" class="consumption" source="id_22" target="id_149">
       <start x="571.5953423125502" y="-420.2637077005404"/>
       <end x="525.5309898708721" y="-421.753442354829"/>
     </arc>
     <arc id="nwtE_51d05797-0fbd-4d27-89a1-38ff1c9f1b9a" class="production" source="id_73" target="nwtN_41ec362d-3eee-49d1-a0b8-216d10ba668d">
-      <start x="189.0294807857904" y="-673.275144306331"/>
-      <end x="189.49787152147715" y="-736.031953345632"/>
+      <start x="183.56626821010758" y="-673.275144306331"/>
+      <end x="141.1148858467454" y="-717.3221649245669"/>
     </arc>
-    <arc id="id_197" class="production" source="id_195" target="id_17">
-      <start x="833.8938747900944" y="66.12834692471714"/>
-      <end x="960.0737644025058" y="125.93139149326362"/>
+    <arc id="id_84" class="catalysis" source="id_26" target="id_81">
+      <start x="265.0220686448043" y="-657.7206160765013"/>
+      <end x="266.4627377153897" y="-598.7770939028026"/>
     </arc>
-    <arc id="id_118" class="consumption" source="id_40" target="id_117">
-      <start x="961.3852450295595" y="16.5677352262082"/>
-      <end x="495.4809421047241" y="69.03275857356454"/>
+    <arc id="id_83" class="production" source="id_81" target="id_28">
+      <start x="272.30157818094193" y="-590.5687733665809"/>
+      <end x="298.45681023997963" y="-593.0831465642163"/>
     </arc>
     <arc id="nwtE_f015e274-5ef6-41bd-a5a3-0c9e7c3b32d2" class="stimulation" source="id_19" target="id_133">
       <start x="865.3101646712223" y="-402.527897669893"/>
       <end x="694.177141235537" y="-239.6785193119985"/>
+    </arc>
+    <arc id="id_82" class="consumption" source="id_4" target="id_81">
+      <start x="248.03582323194948" y="-591.2711291121271"/>
+      <end x="261.05157818094193" y="-590.403143144115"/>
     </arc>
     <arc id="id_94" class="consumption" source="id_10" target="id_93">
       <start x="741.8936780636715" y="-418.2855531168449"/>
       <end x="793.8273927414997" y="-419.91036836578496"/>
     </arc>
     <arc id="id_208" class="consumption" source="id_50" target="id_207">
-      <start x="556.7305438244338" y="-152.95381406427168"/>
-      <end x="607.5960682554534" y="-151.89284561504917"/>
+      <start x="691.0386753730003" y="-66.08667832933386"/>
+      <end x="691.4441998272703" y="-93.94718003832976"/>
     </arc>
-    <arc id="id_110" class="consumption" source="id_17" target="id_109">
-      <start x="960.4207252364366" y="148.12423281118356"/>
-      <end x="644.3084366978617" y="225.68047992709324"/>
-    </arc>
-    <arc id="id_192" class="consumption" source="id_50" target="id_191">
-      <start x="554.1138912999613" y="-112.75125790876655"/>
-      <end x="742.1023301122176" y="72.944242859729"/>
-    </arc>
-    <arc id="id_194" class="production" source="id_191" target="id_14">
-      <start x="742.1023301122176" y="82.59431010028209"/>
-      <end x="524.2734448541698" y="241.12249181016628"/>
-    </arc>
-    <arc id="id_206" class="production" source="id_203" target="id_40">
-      <start x="926.7951222852121" y="-6.224441702320998"/>
-      <end x="958.53654259892" y="3.1904142547134997"/>
-    </arc>
-    <arc id="id_74" class="consumption" source="id_26" target="id_73">
-      <start x="224.21787530306165" y="-669.1370292861299"/>
-      <end x="194.61249812401124" y="-667.8875453414905"/>
-    </arc>
-    <arc id="nwtE_2b1025a2-d1d0-4805-9529-093c62a97760" class="stimulation" source="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4" target="id_133">
-      <start x="569.6857232399113" y="-303.52239003117194"/>
-      <end x="677.9977698390355" y="-237.24466633457868"/>
-    </arc>
-    <arc id="id_76" class="catalysis" source="id_24" target="id_73">
-      <start x="109.55248562878387" y="-605.3178904286451"/>
-      <end x="180.90403638969184" y="-661.3070926316752"/>
-    </arc>
-    <arc id="id_132" class="catalysis" source="id_42" target="id_129">
-      <start x="721.2478265698415" y="-142.27775135380313"/>
-      <end x="1165.3962267988995" y="-51.83798135270244"/>
-    </arc>
-    <arc id="id_134" class="consumption" source="id_20" target="id_133">
-      <start x="744.9775983145433" y="-234.04082536742314"/>
-      <end x="691.9133221472622" y="-232.350714007913"/>
-    </arc>
-    <arc id="id_119" class="consumption" source="id_14" target="id_117">
-      <start x="496.5523197662173" y="242.20482329745914"/>
-      <end x="490.0742533453693" y="75.29118426737381"/>
-    </arc>
-    <arc id="id_82" class="consumption" source="id_4" target="id_81">
-      <start x="248.03582323194948" y="-591.2711291121271"/>
-      <end x="261.05157818094193" y="-590.403143144115"/>
-    </arc>
-    <arc id="id_83" class="production" source="id_81" target="id_28">
-      <start x="272.30157818094193" y="-590.5687733665809"/>
-      <end x="298.45681023997963" y="-593.0831465642163"/>
-    </arc>
-    <arc id="id_84" class="catalysis" source="id_26" target="id_81">
-      <start x="265.0220686448043" y="-657.7206160765013"/>
-      <end x="266.4627377153897" y="-598.7770939028026"/>
-    </arc>
-    <arc id="id_86" class="consumption" source="id_6" target="id_85">
-      <start x="423.30047334898035" y="-616.638670468707"/>
-      <end x="420.04891603400364" y="-672.1698405718756"/>
-    </arc>
-    <arc id="id_87" class="production" source="id_85" target="id_30">
-      <start x="425.344551285111" y="-673.1313270227587"/>
-      <end x="499.07373492370294" y="-612.00474091362"/>
-    </arc>
-    <arc id="id_88" class="catalysis" source="id_28" target="id_85">
-      <start x="353.43572416586807" y="-616.0990763365135"/>
-      <end x="411.8070941019238" y="-670.4300713044325"/>
+    <arc id="nwtE_fd68f1a4-f560-49f7-bde1-21288773cccf" class="consumption" source="e35d665d-564b-727a-d7f0-b0f28574e625" target="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1">
+      <start x="242.28850847780728" y="-318.81490925573934"/>
+      <end x="280.5228122235478" y="-318.4132036741621"/>
     </arc>
   </map>
 </sbgn>
