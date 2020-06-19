@@ -7,7 +7,6 @@ No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4863.gpml,GPML,HCoVs autophagy (WP4863)
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4868.gpml,GPML,HCoVs Type I Ifn signaling (WP4868)
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4880.gpml,GPML,HCoVs Ifn induction (WP4880)
-Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4869.gpml,GPML,HCoVs ER stress (WP4869)
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4876.gpml,GPML,SARS-CoV-2 NLRP3 Inflammasome (WP4876)
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Apoptosis/Apoptosis_stable.xml,CellDesigner_SBML,Apoptosis
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Coagulation%20pathway/Coagulation-pathway_stable.xml,CellDesigner_SBML,Coagulation pathway
