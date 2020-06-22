@@ -4878,13 +4878,13 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa44" species="s1109" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1091.125" y="475.5" w="377.75" h="353.0"/>
+<celldesigner:bounds x="1051.125" y="473.5" w="377.75" h="353.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="1046.125" y="270.5"/>
+<celldesigner:innerPosition x="1006.125" y="268.5"/>
 <celldesigner:boxSize width="377.75" height="353.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
@@ -4913,27 +4913,6 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="2.0"/>
-<celldesigner:paint color="fff7f7f7" scheme="Color"/>
-</celldesigner:briefView>
-<celldesigner:info state="empty" angle="-1.5707963267948966"/>
-</celldesigner:complexSpeciesAlias>
-<celldesigner:complexSpeciesAlias id="csa66" species="s1048" compartmentAlias="ca2">
-<celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="845.0" y="345.0" w="120.0" h="50.0"/>
-<celldesigner:font size="12"/>
-<celldesigner:view state="usual"/>
-<celldesigner:backupSize w="0.0" h="0.0"/>
-<celldesigner:backupView state="none"/>
-<celldesigner:usualView>
-<celldesigner:innerPosition x="800.0" y="140.0"/>
-<celldesigner:boxSize width="120.0" height="50.0"/>
-<celldesigner:singleLine width="2.0"/>
-<celldesigner:paint color="fff7f7f7" scheme="Color"/>
-</celldesigner:usualView>
-<celldesigner:briefView>
-<celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="105.0" height="40.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:briefView>
@@ -5170,16 +5149,16 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:complexSpeciesAlias>
-<celldesigner:complexSpeciesAlias id="csa43" species="s1108" complexSpeciesAlias="csa44">
+<celldesigner:complexSpeciesAlias id="csa98" species="s1198" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1285.0" y="732.0" w="170.0" h="70.0"/>
+<celldesigner:bounds x="252.875" y="810.25" w="224.25" h="49.5"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="193.875" y="256.5"/>
-<celldesigner:boxSize width="170.0" height="70.0"/>
+<celldesigner:innerPosition x="207.875" y="605.25"/>
+<celldesigner:boxSize width="224.25" height="49.5"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:usualView>
@@ -5193,7 +5172,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa41" species="s1106" complexSpeciesAlias="csa44">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1103.875" y="684.5" w="175.0" h="64.0"/>
+<celldesigner:bounds x="1063.875" y="682.5" w="175.0" h="64.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
@@ -5212,30 +5191,9 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:complexSpeciesAlias>
-<celldesigner:complexSpeciesAlias id="csa40" species="s1107" complexSpeciesAlias="csa44">
-<celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1103.875" y="758.0" w="175.0" h="43.5"/>
-<celldesigner:font size="12"/>
-<celldesigner:view state="usual"/>
-<celldesigner:backupSize w="0.0" h="0.0"/>
-<celldesigner:backupView state="none"/>
-<celldesigner:usualView>
-<celldesigner:innerPosition x="12.75" y="282.5"/>
-<celldesigner:boxSize width="175.0" height="43.5"/>
-<celldesigner:singleLine width="2.0"/>
-<celldesigner:paint color="fff7f7f7" scheme="Color"/>
-</celldesigner:usualView>
-<celldesigner:briefView>
-<celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="2.0"/>
-<celldesigner:paint color="fff7f7f7" scheme="Color"/>
-</celldesigner:briefView>
-<celldesigner:info state="empty" angle="-1.5707963267948966"/>
-</celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa42" species="s1104" complexSpeciesAlias="csa44">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1286.625" y="485.5" w="170.0" h="226.0"/>
+<celldesigner:bounds x="1246.625" y="483.5" w="170.0" h="226.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
@@ -5254,15 +5212,36 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:complexSpeciesAlias>
-<celldesigner:complexSpeciesAlias id="csa35" species="s287" compartmentAlias="ca2">
+<celldesigner:complexSpeciesAlias id="csa39" species="s1105" complexSpeciesAlias="csa44">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1846.3333333333335" y="175.0" w="251.33333333333326" h="170.0"/>
+<celldesigner:bounds x="1059.75" y="485.25" w="180.5" h="189.5"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="1801.3333333333335" y="-30.0"/>
+<celldesigner:innerPosition x="8.625" y="11.75"/>
+<celldesigner:boxSize width="180.5" height="189.5"/>
+<celldesigner:singleLine width="2.0"/>
+<celldesigner:paint color="fff7f7f7" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="2.0"/>
+<celldesigner:paint color="fff7f7f7" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:complexSpeciesAlias>
+<celldesigner:complexSpeciesAlias id="csa35" species="s287" compartmentAlias="ca2">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="1848.3333333333333" y="175.0" w="251.33333333333326" h="170.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:backupSize w="0.0" h="0.0"/>
+<celldesigner:backupView state="none"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="1803.3333333333333" y="-30.0"/>
 <celldesigner:boxSize width="251.33333333333326" height="170.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
@@ -5382,13 +5361,13 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa53" species="s1115" compartmentAlias="ca3">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1831.625" y="1172.1417714522818" w="90.75" h="131.71645709543623"/>
+<celldesigner:bounds x="1845.625" y="1173.1417714522818" w="90.75" h="131.71645709543623"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="251.625" y="512.1417714522818"/>
+<celldesigner:innerPosition x="265.625" y="513.1417714522818"/>
 <celldesigner:boxSize width="90.75" height="131.71645709543623"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
@@ -5424,13 +5403,13 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa54" species="s1113" compartmentAlias="ca3">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2149.5" y="715.0" w="91.0" h="90.0"/>
+<celldesigner:bounds x="2069.5" y="715.0" w="91.0" h="90.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="569.5" y="55.0"/>
+<celldesigner:innerPosition x="489.5" y="55.0"/>
 <celldesigner:boxSize width="91.0" height="90.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
@@ -5488,13 +5467,13 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:complexSpeciesAlias>
 <celldesigner:complexSpeciesAlias id="csa56" species="s1114" compartmentAlias="ca3">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2149.5" y="1021.0" w="89.0" h="88.0"/>
+<celldesigner:bounds x="2065.5" y="1071.0" w="89.0" h="88.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="569.5" y="361.0"/>
+<celldesigner:innerPosition x="485.5" y="411.0"/>
 <celldesigner:boxSize width="89.0" height="88.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
@@ -5591,16 +5570,16 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:complexSpeciesAlias>
-<celldesigner:complexSpeciesAlias id="csa39" species="s1105" complexSpeciesAlias="csa44">
+<celldesigner:complexSpeciesAlias id="csa103" species="s1198" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1099.75" y="487.25" w="180.5" h="189.5"/>
+<celldesigner:bounds x="1607.875" y="470.25" w="224.25" h="49.5"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:backupSize w="0.0" h="0.0"/>
 <celldesigner:backupView state="none"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="8.625" y="11.75"/>
-<celldesigner:boxSize width="180.5" height="189.5"/>
+<celldesigner:innerPosition x="1562.875" y="265.25"/>
+<celldesigner:boxSize width="224.25" height="49.5"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:usualView>
@@ -5649,48 +5628,6 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="2.0"/>
-<celldesigner:paint color="fff7f7f7" scheme="Color"/>
-</celldesigner:briefView>
-<celldesigner:info state="empty" angle="-1.5707963267948966"/>
-</celldesigner:complexSpeciesAlias>
-<celldesigner:complexSpeciesAlias id="csa87" species="s1048" compartmentAlias="ca2">
-<celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="304.0" y="613.0" w="120.0" h="50.0"/>
-<celldesigner:font size="12"/>
-<celldesigner:view state="usual"/>
-<celldesigner:backupSize w="0.0" h="0.0"/>
-<celldesigner:backupView state="none"/>
-<celldesigner:usualView>
-<celldesigner:innerPosition x="259.0" y="408.0"/>
-<celldesigner:boxSize width="120.0" height="50.0"/>
-<celldesigner:singleLine width="2.0"/>
-<celldesigner:paint color="fff7f7f7" scheme="Color"/>
-</celldesigner:usualView>
-<celldesigner:briefView>
-<celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="105.0" height="40.0"/>
-<celldesigner:singleLine width="2.0"/>
-<celldesigner:paint color="fff7f7f7" scheme="Color"/>
-</celldesigner:briefView>
-<celldesigner:info state="empty" angle="-1.5707963267948966"/>
-</celldesigner:complexSpeciesAlias>
-<celldesigner:complexSpeciesAlias id="csa89" species="s1048" compartmentAlias="ca2">
-<celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1911.0" y="405.0" w="120.0" h="50.0"/>
-<celldesigner:font size="12"/>
-<celldesigner:view state="usual"/>
-<celldesigner:backupSize w="0.0" h="0.0"/>
-<celldesigner:backupView state="none"/>
-<celldesigner:usualView>
-<celldesigner:innerPosition x="1866.0" y="200.0"/>
-<celldesigner:boxSize width="120.0" height="50.0"/>
-<celldesigner:singleLine width="2.0"/>
-<celldesigner:paint color="fff7f7f7" scheme="Color"/>
-</celldesigner:usualView>
-<celldesigner:briefView>
-<celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="105.0" height="40.0"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:briefView>
@@ -5854,6 +5791,48 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 <celldesigner:usualView>
 <celldesigner:innerPosition x="810.0" y="1121.0"/>
 <celldesigner:boxSize width="110.0" height="120.0"/>
+<celldesigner:singleLine width="2.0"/>
+<celldesigner:paint color="fff7f7f7" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="2.0"/>
+<celldesigner:paint color="fff7f7f7" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:complexSpeciesAlias>
+<celldesigner:complexSpeciesAlias id="csa43" species="s1108" complexSpeciesAlias="csa44">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="1245.0" y="730.0" w="170.0" h="70.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:backupSize w="0.0" h="0.0"/>
+<celldesigner:backupView state="none"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="193.875" y="256.5"/>
+<celldesigner:boxSize width="170.0" height="70.0"/>
+<celldesigner:singleLine width="2.0"/>
+<celldesigner:paint color="fff7f7f7" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="2.0"/>
+<celldesigner:paint color="fff7f7f7" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:complexSpeciesAlias>
+<celldesigner:complexSpeciesAlias id="csa40" species="s1107" complexSpeciesAlias="csa44">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="1063.875" y="756.0" w="175.0" h="43.5"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:backupSize w="0.0" h="0.0"/>
+<celldesigner:backupView state="none"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="12.75" y="282.5"/>
+<celldesigner:boxSize width="175.0" height="43.5"/>
 <celldesigner:singleLine width="2.0"/>
 <celldesigner:paint color="fff7f7f7" scheme="Color"/>
 </celldesigner:usualView>
@@ -7465,7 +7444,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa234" species="s268" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1852.6666666666667" y="180.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1854.6666666666665" y="180.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7484,7 +7463,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa235" species="s269" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1932.6666666666667" y="180.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1934.6666666666665" y="180.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7503,7 +7482,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa236" species="s270" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2012.6666666666667" y="180.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2014.6666666666665" y="180.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7522,7 +7501,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa237" species="s271" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1852.6666666666667" y="205.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1854.6666666666665" y="205.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7541,7 +7520,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa238" species="s272" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1932.6666666666667" y="205.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1934.6666666666665" y="205.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7560,7 +7539,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa239" species="s273" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2012.6666666666667" y="205.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2014.6666666666665" y="205.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7579,7 +7558,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa240" species="s274" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1852.6666666666667" y="225.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1854.6666666666665" y="225.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7598,7 +7577,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa241" species="s275" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1932.6666666666667" y="225.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1934.6666666666665" y="225.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7617,7 +7596,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa242" species="s276" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2012.6666666666667" y="225.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2014.6666666666665" y="225.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7636,7 +7615,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa243" species="s277" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1852.6666666666667" y="245.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1854.6666666666665" y="245.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7655,7 +7634,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa244" species="s278" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1932.6666666666667" y="245.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1934.6666666666665" y="245.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7674,7 +7653,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa245" species="s279" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2012.6666666666667" y="245.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2014.6666666666665" y="245.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7693,7 +7672,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa246" species="s280" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1852.6666666666667" y="265.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1854.6666666666665" y="265.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7712,7 +7691,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa247" species="s281" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1932.6666666666667" y="265.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1934.6666666666665" y="265.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7731,7 +7710,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa248" species="s282" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2012.6666666666667" y="265.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2014.6666666666665" y="265.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7750,7 +7729,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa249" species="s283" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1852.6666666666667" y="285.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1854.6666666666665" y="285.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7769,7 +7748,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa250" species="s284" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1932.6666666666667" y="285.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1934.6666666666665" y="285.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7788,7 +7767,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa251" species="s285" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2012.6666666666667" y="285.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2014.6666666666665" y="285.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7807,7 +7786,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa252" species="s286" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1932.6666666666667" y="305.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1934.6666666666665" y="305.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7865,7 +7844,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa259" species="s1086" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1110.0" y="617.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1070.0" y="615.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7884,7 +7863,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa260" species="s1087" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1110.0" y="597.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1070.0" y="595.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7903,7 +7882,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa261" species="s1088" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1190.0" y="597.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1150.0" y="595.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7922,7 +7901,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa262" species="s1089" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1109.75" y="575.75" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1069.75" y="573.75" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7941,7 +7920,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa263" species="s1090" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1109.75" y="555.75" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1069.75" y="553.75" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7960,7 +7939,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa264" species="s1091" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1189.75" y="575.75" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1149.75" y="573.75" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7979,7 +7958,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa265" species="s1052" complexSpeciesAlias="csa43">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1370.0" y="737.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1330.0" y="735.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -7998,7 +7977,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa266" species="s1092" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1190.0" y="497.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1150.0" y="495.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8017,7 +7996,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa267" species="s1093" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1109.75" y="495.75" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1069.75" y="493.75" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8036,7 +8015,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa268" species="s1094" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1189.75" y="555.75" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1149.75" y="553.75" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8055,7 +8034,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa270" species="s1062" complexSpeciesAlias="csa40">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1108.875" y="761.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1068.875" y="759.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8074,7 +8053,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa271" species="s1063" complexSpeciesAlias="csa40">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1188.875" y="761.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1148.875" y="759.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8093,7 +8072,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa272" species="s1095" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1189.75" y="535.75" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1149.75" y="533.75" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8112,7 +8091,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa274" species="s1057" complexSpeciesAlias="csa41">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1108.875" y="688.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1068.875" y="686.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8131,7 +8110,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa275" species="s1065" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="651.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="649.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8150,7 +8129,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa276" species="s1066" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="491.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="489.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8169,7 +8148,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa277" species="s1067" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="491.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="489.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8188,7 +8167,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa278" species="s1096" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1109.75" y="515.75" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1069.75" y="513.75" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8207,7 +8186,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa279" species="s1068" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="511.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="509.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8226,7 +8205,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa280" species="s1069" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="511.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="509.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8245,7 +8224,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa281" species="s1070" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="531.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="529.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8264,7 +8243,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa282" species="s1071" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="531.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="529.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8283,7 +8262,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa283" species="s1097" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1189.75" y="515.75" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1149.75" y="513.75" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8302,7 +8281,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa284" species="s1072" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="551.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="549.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8321,7 +8300,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa285" species="s1073" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="551.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="549.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8340,7 +8319,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa287" species="s1074" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="571.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="569.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8359,7 +8338,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa288" species="s1075" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="571.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="569.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8378,7 +8357,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa289" species="s1076" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="591.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="589.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8397,7 +8376,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa290" species="s1077" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="591.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="589.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8416,7 +8395,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa291" species="s1078" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="611.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="609.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8435,7 +8414,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa292" species="s1079" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="611.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="609.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8454,7 +8433,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa293" species="s1080" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="631.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="629.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8473,7 +8452,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa294" species="s1081" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="631.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="629.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8492,7 +8471,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa295" species="s1082" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="651.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="649.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8511,7 +8490,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa296" species="s1098" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1109.75" y="535.75" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1069.75" y="533.75" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8530,7 +8509,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa297" species="s1053" complexSpeciesAlias="csa43">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1290.0" y="757.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1250.0" y="755.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8549,7 +8528,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa298" species="s1054" complexSpeciesAlias="csa43">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1370.0" y="757.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1330.0" y="755.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8568,7 +8547,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa299" species="s1058" complexSpeciesAlias="csa41">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1148.875" y="708.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1108.875" y="706.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8587,7 +8566,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa300" species="s1083" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1291.625" y="671.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1251.625" y="669.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8606,7 +8585,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa301" species="s1084" complexSpeciesAlias="csa42">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1371.625" y="671.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1331.625" y="669.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8625,7 +8604,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa303" species="s1055" complexSpeciesAlias="csa43">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1290.0" y="737.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1250.0" y="735.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8644,7 +8623,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa304" species="s1099" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1190.0" y="617.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1150.0" y="615.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8663,7 +8642,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa305" species="s1100" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1110.0" y="637.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1070.0" y="635.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -8682,7 +8661,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa306" species="s1101" complexSpeciesAlias="csa39">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1190.0" y="637.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1150.0" y="635.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10088,7 +10067,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa421" species="s457" complexSpeciesAlias="csa53">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1837.375" y="1178.858228547718" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1851.375" y="1179.858228547718" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10107,7 +10086,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa422" species="s458" complexSpeciesAlias="csa53">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1837.375" y="1258.858228547718" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1851.375" y="1259.858228547718" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10126,7 +10105,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa423" species="s459" complexSpeciesAlias="csa53">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1837.375" y="1218.858228547718" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1851.375" y="1219.858228547718" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10145,7 +10124,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa424" species="s460" complexSpeciesAlias="csa53">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1837.375" y="1198.858228547718" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1851.375" y="1199.858228547718" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10164,7 +10143,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa425" species="s461" complexSpeciesAlias="csa53">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1837.375" y="1238.858228547718" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1851.375" y="1239.858228547718" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10183,7 +10162,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa426" species="s463" complexSpeciesAlias="csa54">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2155.5" y="720.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2075.5" y="720.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10202,7 +10181,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa427" species="s464" complexSpeciesAlias="csa54">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2155.5" y="740.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2075.5" y="740.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10221,7 +10200,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa428" species="s465" complexSpeciesAlias="csa54">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2155.5" y="760.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2075.5" y="760.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10582,7 +10561,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa447" species="s486" complexSpeciesAlias="csa56">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2153.5" y="1024.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2069.5" y="1074.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10601,7 +10580,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa448" species="s487" complexSpeciesAlias="csa56">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2153.5" y="1044.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2069.5" y="1094.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10620,7 +10599,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa449" species="s488" complexSpeciesAlias="csa56">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="2153.5" y="1064.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="2069.5" y="1114.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -10848,11 +10827,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa461" species="s503" compartmentAlias="ca3">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1800.0" y="804.0" w="100.0" h="32.0"/>
+<celldesigner:bounds x="1800.0" y="771.0" w="100.0" h="32.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="220.0" y="144.0"/>
+<celldesigner:innerPosition x="220.0" y="111.0"/>
 <celldesigner:boxSize width="100.0" height="32.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffcc99ff" scheme="Color"/>
@@ -11133,7 +11112,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa478" species="s1059" complexSpeciesAlias="csa41">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1188.875" y="688.5" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1148.875" y="686.5" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -11152,11 +11131,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa494" species="s559" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1471.0" y="1410.0" w="80.0" h="40.0"/>
+<celldesigner:bounds x="1470.0" y="1400.0" w="80.0" h="40.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="1426.0" y="1205.0"/>
+<celldesigner:innerPosition x="1425.0" y="1195.0"/>
 <celldesigner:boxSize width="80.0" height="40.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffffcccc" scheme="Color"/>
@@ -11190,11 +11169,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa498" species="s563" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="760.0" y="760.0" w="80.0" h="40.0"/>
+<celldesigner:bounds x="680.0" y="765.0" w="80.0" h="40.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="715.0" y="555.0"/>
+<celldesigner:innerPosition x="635.0" y="560.0"/>
 <celldesigner:boxSize width="80.0" height="40.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffffcccc" scheme="Color"/>
@@ -11209,11 +11188,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa499" species="s564" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="994.0" y="970.0" w="80.0" h="40.0"/>
+<celldesigner:bounds x="954.0" y="968.0" w="80.0" h="40.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="949.0" y="765.0"/>
+<celldesigner:innerPosition x="909.0" y="763.0"/>
 <celldesigner:boxSize width="80.0" height="40.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffffcccc" scheme="Color"/>
@@ -11418,7 +11397,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa651" species="s1041" complexSpeciesAlias="csa35">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1852.5" y="309.5" w="25.0" h="25.0"/>
+<celldesigner:bounds x="1854.4999999999998" y="309.5" w="25.0" h="25.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
@@ -11646,11 +11625,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa667" species="s1140" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1080.0" y="892.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1040.0" y="890.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="1035.0" y="687.0"/>
+<celldesigner:innerPosition x="995.0" y="685.0"/>
 <celldesigner:boxSize width="80.0" height="20.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
@@ -11665,11 +11644,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa668" species="s1141" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1080.0" y="864.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1040.0" y="862.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="1035.0" y="659.0"/>
+<celldesigner:innerPosition x="995.0" y="657.0"/>
 <celldesigner:boxSize width="80.0" height="20.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
@@ -11684,11 +11663,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa669" species="s1142" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1080.0" y="921.0" w="80.0" h="20.0"/>
+<celldesigner:bounds x="1040.0" y="919.0" w="80.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="1035.0" y="716.0"/>
+<celldesigner:innerPosition x="995.0" y="714.0"/>
 <celldesigner:boxSize width="80.0" height="20.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
@@ -11703,11 +11682,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa670" species="s1139" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="965.0" y="916.0" w="30.0" h="30.0"/>
+<celldesigner:bounds x="925.0" y="914.0" w="30.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="920.0" y="711.0"/>
+<celldesigner:innerPosition x="880.0" y="709.0"/>
 <celldesigner:boxSize width="30.0" height="30.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffffcccc" scheme="Color"/>
@@ -11722,11 +11701,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa671" species="s1139" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="945.0" y="887.0" w="30.0" h="30.0"/>
+<celldesigner:bounds x="905.0" y="885.0" w="30.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="900.0" y="682.0"/>
+<celldesigner:innerPosition x="860.0" y="680.0"/>
 <celldesigner:boxSize width="30.0" height="30.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffffcccc" scheme="Color"/>
@@ -11741,11 +11720,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa672" species="s1139" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="970.0" y="859.0" w="30.0" h="30.0"/>
+<celldesigner:bounds x="930.0" y="857.0" w="30.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="925.0" y="654.0"/>
+<celldesigner:innerPosition x="885.0" y="652.0"/>
 <celldesigner:boxSize width="30.0" height="30.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffffcccc" scheme="Color"/>
@@ -12064,11 +12043,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa692" species="s1165" compartmentAlias="ca3">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1845.0" y="1050.0" w="60.0" h="20.0"/>
+<celldesigner:bounds x="1860.0" y="1051.0" w="60.0" h="20.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="265.0" y="390.0"/>
+<celldesigner:innerPosition x="280.0" y="391.0"/>
 <celldesigner:boxSize width="60.0" height="20.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffccffcc" scheme="Color"/>
@@ -12387,11 +12366,11 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 </celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa714" species="s1195" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1265.0" y="975.0" w="30.0" h="30.0"/>
+<celldesigner:bounds x="1225.0" y="973.0" w="30.0" h="30.0"/>
 <celldesigner:font size="12"/>
 <celldesigner:view state="usual"/>
 <celldesigner:usualView>
-<celldesigner:innerPosition x="1220.0" y="770.0"/>
+<celldesigner:innerPosition x="1180.0" y="768.0"/>
 <celldesigner:boxSize width="30.0" height="30.0"/>
 <celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="ffffcccc" scheme="Color"/>
@@ -12399,7 +12378,7 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="0.0"/>
+<celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -12419,6 +12398,44 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
 <celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa716" species="s1196" compartmentAlias="ca2">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="1480.0" y="495.0" w="30.0" h="30.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="1435.0" y="290.0"/>
+<celldesigner:boxSize width="30.0" height="30.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffffcccc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
+<celldesigner:paint color="3fff0000" scheme="Color"/>
+</celldesigner:briefView>
+<celldesigner:info state="empty" angle="-1.5707963267948966"/>
+</celldesigner:speciesAlias>
+<celldesigner:speciesAlias id="sa717" species="s1197" compartmentAlias="ca2">
+<celldesigner:activity>inactive</celldesigner:activity>
+<celldesigner:bounds x="1959.166666666667" y="495.0" w="30.0" h="30.0"/>
+<celldesigner:font size="12"/>
+<celldesigner:view state="usual"/>
+<celldesigner:usualView>
+<celldesigner:innerPosition x="1914.166666666667" y="290.0"/>
+<celldesigner:boxSize width="30.0" height="30.0"/>
+<celldesigner:singleLine width="1.0"/>
+<celldesigner:paint color="ffffcccc" scheme="Color"/>
+</celldesigner:usualView>
+<celldesigner:briefView>
+<celldesigner:innerPosition x="0.0" y="0.0"/>
+<celldesigner:boxSize width="80.0" height="60.0"/>
+<celldesigner:singleLine width="0.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -13882,39 +13899,15 @@ Mutations in COX15 produce a defect in the mitochondrial heme biosynthetic pathw
 <celldesigner:hypothetical>true</celldesigner:hypothetical>
 <celldesigner:name>OXPHOS factors</celldesigner:name>
 </celldesigner:speciesIdentity>
-</celldesigner:extension>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s1109">
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:23149385"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-<bqbiol:isDescribedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:30030361"/>
-</rdf:Bag>
-</bqbiol:isDescribedBy>
-</rdf:Description>
-</rdf:RDF>
-</annotation>
-</species>
-<species metaid="s1048" id="s1048" name="OXPHOS factors" compartment="c2" initialAmount="0">
-<annotation>
-<celldesigner:extension>
-<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
-<celldesigner:speciesIdentity>
-<celldesigner:class>COMPLEX</celldesigner:class>
-<celldesigner:hypothetical>true</celldesigner:hypothetical>
-<celldesigner:name>OXPHOS factors</celldesigner:name>
-</celldesigner:speciesIdentity>
 <celldesigner:listOfCatalyzedReactions>
 <celldesigner:catalyzed reaction="re34"/>
+<celldesigner:catalyzed reaction="re43"/>
+<celldesigner:catalyzed reaction="re44"/>
 <celldesigner:catalyzed reaction="re105"/>
 </celldesigner:listOfCatalyzedReactions>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-<rdf:Description rdf:about="#s1048">
+<rdf:Description rdf:about="#s1109">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:23149385"/>
@@ -14723,6 +14716,54 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 </species>
+<species metaid="s1196" id="s1196" name="s1196" compartment="c2" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>DEGRADED</celldesigner:class>
+<celldesigner:name>s1196</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s1197" id="s1197" name="s1197" compartment="c2" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>DEGRADED</celldesigner:class>
+<celldesigner:name>s1197</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+</annotation>
+</species>
+<species metaid="s1198" id="s1198" name="mtDNA encoded OXPHOS units" compartment="c2" initialAmount="0">
+<annotation>
+<celldesigner:extension>
+<celldesigner:positionToCompartment>inside</celldesigner:positionToCompartment>
+<celldesigner:speciesIdentity>
+<celldesigner:class>COMPLEX</celldesigner:class>
+<celldesigner:hypothetical>true</celldesigner:hypothetical>
+<celldesigner:name>mtDNA encoded OXPHOS units</celldesigner:name>
+</celldesigner:speciesIdentity>
+</celldesigner:extension>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+<rdf:Description rdf:about="#s1198">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:23149385"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30030361"/>
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF>
+</annotation>
+</species>
 </listOfSpecies>
 <listOfReactions>
 <reaction metaid="re9" id="re9" reversible="false" sboTerm="SBO:0000176">
@@ -14800,7 +14841,7 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s267" aliases="csa34" targetLineIndex="-1,3" editPoints="0.968689929694639,0.1649520609114452">
+<celldesigner:modification type="CATALYSIS" modifiers="s267" aliases="csa34" targetLineIndex="-1,3" editPoints="0.9686899296946372,0.1649520609114461">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -15036,13 +15077,16 @@ Uniprot Q9Y6M9
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s1048" aliases="csa66" targetLineIndex="-1,7" editPoints="0.5268780504821153,-0.49927704774231363">
-<celldesigner:connectScheme connectPolicy="square">
+<celldesigner:modification type="CATALYSIS" modifiers="s1109" aliases="csa44" targetLineIndex="-1,7" editPoints="0.8081267542504968,-0.23731864512923295">
+<celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
-<celldesigner:lineDirection index="1" value="vertical"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
+<celldesigner:linkTarget species="s1109" alias="csa44">
+<celldesigner:linkAnchor position="NW"/>
+</celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
 </celldesigner:listOfModification>
@@ -15088,10 +15132,10 @@ Uniprot Q9Y6M9
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>
-<modifierSpeciesReference metaid="CDMT00038" species="s1048">
+<modifierSpeciesReference metaid="CDMT00038" species="s1109">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa66</celldesigner:alias>
+<celldesigner:alias>csa44</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>
@@ -15192,7 +15236,7 @@ Uniprot Q9Y6M9
 <celldesigner:lineDirection index="1" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.7916589581626454,-0.18209688928826218</celldesigner:editPoints>
+<celldesigner:editPoints>0.791658958162645,-0.1820968892882604</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -15361,23 +15405,43 @@ Uniprot Q9Y6M9
 <celldesigner:extension>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s1109" alias="csa44">
-<celldesigner:linkAnchor position="ENE"/>
-</celldesigner:baseReactant>
+<celldesigner:baseReactant species="s1196" alias="sa716"/>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
 <celldesigner:baseProduct species="s267" alias="csa34">
 <celldesigner:linkAnchor position="S"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="square" rectangleIndex="1">
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="s1198" alias="csa103" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="INACTIVE"/>
+<celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
-<celldesigner:lineDirection index="0" value="horizontal"/>
-<celldesigner:lineDirection index="1" value="vertical"/>
+<celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.01906649795704851,0.13675878989191936</celldesigner:editPoints>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="vertical"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="CATALYSIS" modifiers="s1109" aliases="csa44" targetLineIndex="-1,2">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="s1109" alias="csa44">
+<celldesigner:linkAnchor position="NE"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
 <rdf:Description rdf:about="#re43">
@@ -15400,10 +15464,17 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00017" sboTerm="SBO:0000010" species="s1109">
+<speciesReference metaid="CDMT00017" sboTerm="SBO:0000010" species="s1196">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa44</celldesigner:alias>
+<celldesigner:alias>sa716</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00003" species="s1198">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa103</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
@@ -15417,25 +15488,60 @@ Uniprot Q9Y6M9
 </annotation>
 </speciesReference>
 </listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00004" species="s1109">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa44</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
 </reaction>
 <reaction metaid="re44" id="re44" reversible="false" sboTerm="SBO:0000176">
 <annotation>
 <celldesigner:extension>
 <celldesigner:reactionType>STATE_TRANSITION</celldesigner:reactionType>
 <celldesigner:baseReactants>
-<celldesigner:baseReactant species="s1048" alias="csa89"/>
+<celldesigner:baseReactant species="s1197" alias="sa717"/>
 </celldesigner:baseReactants>
 <celldesigner:baseProducts>
 <celldesigner:baseProduct species="s287" alias="csa35">
 <celldesigner:linkAnchor position="S"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
+<celldesigner:listOfReactantLinks>
+<celldesigner:reactantLink reactant="s1198" alias="csa103" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="INACTIVE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
+</celldesigner:listOfReactantLinks>
 <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
+<celldesigner:listOfModification>
+<celldesigner:modification type="CATALYSIS" modifiers="s1109" aliases="csa44" targetLineIndex="-1,3" editPoints="0.9940462773799661,0.24907035993399607 1.0433455739743938,0.05267345774405219">
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+<celldesigner:lineDirection index="1" value="unknown"/>
+<celldesigner:lineDirection index="2" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:linkTarget species="s1109" alias="csa44">
+<celldesigner:linkAnchor position="ENE"/>
+</celldesigner:linkTarget>
+<celldesigner:line width="1.0" color="ff000000"/>
+</celldesigner:modification>
+</celldesigner:listOfModification>
 </celldesigner:extension>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
 <rdf:Description rdf:about="#re44">
@@ -15458,10 +15564,17 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00024" sboTerm="SBO:0000010" species="s1048">
+<speciesReference metaid="CDMT00024" sboTerm="SBO:0000010" species="s1197">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa89</celldesigner:alias>
+<celldesigner:alias>sa717</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00005" species="s1198">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa103</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
@@ -15475,6 +15588,15 @@ Uniprot Q9Y6M9
 </annotation>
 </speciesReference>
 </listOfProducts>
+<listOfModifiers>
+<modifierSpeciesReference metaid="CDMT00006" species="s1109">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa44</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</modifierSpeciesReference>
+</listOfModifiers>
 </reaction>
 <reaction metaid="re56" id="re56" reversible="false" sboTerm="SBO:0000176">
 <annotation>
@@ -15699,7 +15821,7 @@ Uniprot Q9Y6M9
 <celldesigner:lineDirection index="1" value="vertical"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.5263254067481457,0.3841583518122995</celldesigner:editPoints>
+<celldesigner:editPoints>0.5263254067481457,0.38415835181229774</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -16161,7 +16283,7 @@ Uniprot Q9Y6M9
 <celldesigner:lineDirection index="1" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.05838364003145191,0.23446746172576916</celldesigner:editPoints>
+<celldesigner:editPoints>0.058383640031450135,0.23446746172576916</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 </celldesigner:listOfProductLinks>
@@ -16475,7 +16597,7 @@ Uniprot Q9Y6M9
 <celldesigner:lineDirection index="1" value="vertical"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.44174790446366474,0.06914796324474892</celldesigner:editPoints>
+<celldesigner:editPoints>0.4417479044636612,0.06914796324474892</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:productLink>
 </celldesigner:listOfProductLinks>
@@ -16525,14 +16647,14 @@ Uniprot Q9Y6M9
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00003" species="s26">
+<speciesReference metaid="CDMT00007" species="s26">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa377</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00004" species="s406">
+<speciesReference metaid="CDMT00008" species="s406">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa375</celldesigner:alias>
@@ -16645,7 +16767,7 @@ Uniprot Q9Y6M9
 <celldesigner:editPoints>0.005343055325488066,6.65747900270297E-5 0.9716496449221674,0.0011561750600512788</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s410" aliases="sa379" targetLineIndex="-1,7" editPoints="0.48688597911438114,0.2722549310796083 0.725084384438134,-0.1537262011603744">
+<celldesigner:modification type="CATALYSIS" modifiers="s410" aliases="sa379" targetLineIndex="-1,7" editPoints="0.48688597911489717,0.27225493107989607 0.725084384438134,-0.1537262011603744">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -17062,7 +17184,7 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s398" aliases="sa360" targetLineIndex="-1,6" editPoints="0.5583943515800733,0.6273349739537002 1.116340421724745,0.13070407181937593">
+<celldesigner:modification type="CATALYSIS" modifiers="s398" aliases="sa360" targetLineIndex="-1,6" editPoints="0.5583943515801097,0.627334973953741 1.116340421724746,0.13070407181937682">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -17075,7 +17197,7 @@ Uniprot Q9Y6M9
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s1192" aliases="csa20" targetLineIndex="-1,7" editPoints="-0.004287485717947792,0.037543430012256275 0.9828386148422951,0.15027391458928668">
+<celldesigner:modification type="CATALYSIS" modifiers="s1192" aliases="csa20" targetLineIndex="-1,7" editPoints="-0.004287485717947792,0.03754343001225625 0.9828386148422951,0.15027391458928668">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -17274,14 +17396,14 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00005" species="s503">
+<modifierSpeciesReference metaid="CDMT00009" species="s503">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa461</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>
-<modifierSpeciesReference metaid="CDMT00006" species="s505">
+<modifierSpeciesReference metaid="CDMT00010" species="s505">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa463</celldesigner:alias>
@@ -17330,11 +17452,11 @@ Uniprot Q9Y6M9
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
 <celldesigner:linkTarget species="s1114" alias="csa56">
-<celldesigner:linkAnchor position="W"/>
+<celldesigner:linkAnchor position="WNW"/>
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s1118" aliases="sa653" targetLineIndex="-1,2" editPoints="-0.03434614151175397,-0.19968686925438384 0.9369199232289568,-0.3667446323897874">
+<celldesigner:modification type="INHIBITION" modifiers="s1118" aliases="sa653" targetLineIndex="-1,2" editPoints="-0.0647202802636454,-0.37628069920724005 0.9065457844770656,-0.5433384623426427">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -17407,7 +17529,7 @@ Uniprot Q9Y6M9
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>
-<modifierSpeciesReference metaid="CDMT00007" species="s1118">
+<modifierSpeciesReference metaid="CDMT00011" species="s1118">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa653</celldesigner:alias>
@@ -17490,14 +17612,14 @@ Uniprot Q9Y6M9
 <celldesigner:linkAnchor position="NE"/>
 </celldesigner:baseProduct>
 </celldesigner:baseProducts>
-<celldesigner:connectScheme connectPolicy="square" rectangleIndex="1">
+<celldesigner:connectScheme connectPolicy="direct" rectangleIndex="1">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
 <celldesigner:lineDirection index="1" value="horizontal"/>
 <celldesigner:lineDirection index="2" value="vertical"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.6925299880087838,-0.339380998099732 0.8861814140078186,0.05577789552101908</celldesigner:editPoints>
+<celldesigner:editPoints>0.6925299880087838,-0.339380998099732 0.8366883517849415,-0.045216061063594104</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
 <celldesigner:modification type="CATALYSIS" modifiers="s1115" aliases="csa53" targetLineIndex="-1,2">
@@ -17682,12 +17804,11 @@ Uniprot Q9Y6M9
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="TRIGGER" modifiers="s1123" aliases="csa90" targetLineIndex="-1,7" editPoints="0.20799070674340925,0.07920389142239515 0.3346377291277989,-0.25337324866026734">
-<celldesigner:connectScheme connectPolicy="square">
+<celldesigner:modification type="TRIGGER" modifiers="s1123" aliases="csa90" targetLineIndex="-1,7" editPoints="0.20799070674340925,0.07920389142239515">
+<celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
 <celldesigner:lineDirection index="1" value="vertical"/>
-<celldesigner:lineDirection index="2" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
 <celldesigner:linkTarget species="s1123" alias="csa90">
@@ -17795,6 +17916,15 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
+<celldesigner:reactantLink reactant="s1198" alias="csa98" targetLineIndex="-1,0">
+<celldesigner:linkAnchor position="INACTIVE"/>
+<celldesigner:connectScheme connectPolicy="direct">
+<celldesigner:listOfLineDirection>
+<celldesigner:lineDirection index="0" value="unknown"/>
+</celldesigner:listOfLineDirection>
+</celldesigner:connectScheme>
+<celldesigner:line width="1.0" color="ff000000" type="Straight"/>
+</celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
 <celldesigner:connectScheme connectPolicy="direct" rectangleIndex="0">
 <celldesigner:listOfLineDirection>
@@ -17803,14 +17933,14 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s1048" aliases="csa87" targetLineIndex="-1,3">
+<celldesigner:modification type="CATALYSIS" modifiers="s1109" aliases="csa44" targetLineIndex="-1,3">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:linkTarget species="s1048" alias="csa87">
-<celldesigner:linkAnchor position="WSW"/>
+<celldesigner:linkTarget species="s1109" alias="csa44">
+<celldesigner:linkAnchor position="W"/>
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
@@ -17851,10 +17981,17 @@ Uniprot Q9Y6M9
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00008" species="s1129">
+<speciesReference metaid="CDMT00012" species="s1129">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa661</celldesigner:alias>
+</celldesigner:extension>
+</annotation>
+</speciesReference>
+<speciesReference metaid="CDMT00013" species="s1198">
+<annotation>
+<celldesigner:extension>
+<celldesigner:alias>csa98</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
@@ -17869,10 +18006,10 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00073" species="s1048">
+<modifierSpeciesReference metaid="CDMT00073" species="s1109">
 <annotation>
 <celldesigner:extension>
-<celldesigner:alias>csa87</celldesigner:alias>
+<celldesigner:alias>csa44</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>
@@ -18415,10 +18552,10 @@ Uniprot Q9Y6M9
 <celldesigner:lineDirection index="4" value="unknown"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.05354940137867459,0.0322650864675252 0.38660055629459444,-0.01584230257588591 0.4202442858870503,0.21707582537187226 1.0188656427621399,0.13060829604547008</celldesigner:editPoints>
+<celldesigner:editPoints>0.05329714332302249,0.03215859664602602 0.38493446954620314,-0.015532611771024635 0.418287144713688,0.21639676016285672 1.01436730622601,0.13067726790997833</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s292" aliases="sa253" targetLineIndex="-1,2" editPoints="0.5978081295031106,-0.306340010300719 0.8057875175409204,0.09952198864624862">
+<celldesigner:modification type="CATALYSIS" modifiers="s292" aliases="sa253" targetLineIndex="-1,2" editPoints="0.5978081295031097,-0.3063400103007172 0.805787517540919,0.09952198864624684">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -18494,7 +18631,7 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s503" aliases="sa461" targetLineIndex="-1,2" editPoints="0.7064075401641539,0.2808691589837906 0.8429149076978817,-0.06245737093000869">
+<celldesigner:modification type="CATALYSIS" modifiers="s503" aliases="sa461" targetLineIndex="-1,2" editPoints="0.8180511133910358,-0.0050039828321075674 0.8180885291442301,0.0011127444999630143">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18579,7 +18716,7 @@ Uniprot Q9Y6M9
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="TRIGGER" modifiers="s1112" aliases="csa52" targetLineIndex="-1,3" editPoints="0.7959034917627612,-0.24573845550248763 0.8829358614198934,0.036144031163490964">
+<celldesigner:modification type="TRIGGER" modifiers="s1112" aliases="csa52" targetLineIndex="-1,3" editPoints="0.8132117211562964,-0.1707729844872814 0.8554483550201297,0.030355582911000933">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18588,7 +18725,7 @@ Uniprot Q9Y6M9
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
 <celldesigner:linkTarget species="s1112" alias="csa52">
-<celldesigner:linkAnchor position="E"/>
+<celldesigner:linkAnchor position="ESE"/>
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
@@ -18667,7 +18804,7 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s559" aliases="sa494" targetLineIndex="-1,2" editPoints="0.9565018281345248,-0.2039756870556806">
+<celldesigner:modification type="INHIBITION" modifiers="s559" aliases="sa494" targetLineIndex="-1,2" editPoints="0.9423445605198655,-0.23309073293137805">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18753,7 +18890,7 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s563" aliases="sa498" targetLineIndex="-1,2" editPoints="0.9394608389262529,-0.23848306239696337">
+<celldesigner:modification type="INHIBITION" modifiers="s563" aliases="sa498" targetLineIndex="-1,2" editPoints="0.8848961639664434,-0.31914721205725205">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18827,7 +18964,7 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s563" aliases="sa498" targetLineIndex="-1,2" editPoints="0.9743855456599022,-0.1579821321192898">
+<celldesigner:modification type="INHIBITION" modifiers="s563" aliases="sa498" targetLineIndex="-1,2" editPoints="0.9521793120621314,-0.21338666721006128">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18902,7 +19039,7 @@ Uniprot Q9Y6M9
 <celldesigner:lineDirection index="2" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.7419157069950817,-0.2303797697904173 0.8298587537323989,0.05283228374519977</celldesigner:editPoints>
+<celldesigner:editPoints>0.7419157069950959,-0.2303797697904213 0.8298587537323989,0.05283228374519977</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 <celldesigner:reactantLink reactant="s1140" alias="sa667" targetLineIndex="-1,0">
@@ -18913,11 +19050,10 @@ Uniprot Q9Y6M9
 <celldesigner:lineDirection index="2" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.7988266685090846,-0.10809308850376986 0.8168075380390363,0.024788655392450565</celldesigner:editPoints>
+<celldesigner:editPoints>0.7988266685090872,-0.10809308850377075 0.8168075380390407,0.024788655392449677</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 <celldesigner:reactantLink reactant="s1142" alias="sa669" targetLineIndex="-1,0">
-<celldesigner:linkAnchor position="INACTIVE"/>
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18925,7 +19061,7 @@ Uniprot Q9Y6M9
 <celldesigner:lineDirection index="2" value="horizontal"/>
 </celldesigner:listOfLineDirection>
 </celldesigner:connectScheme>
-<celldesigner:editPoints>0.8117245988468289,0.03745932837854049 0.813849695360612,-0.008590432517577185</celldesigner:editPoints>
+<celldesigner:editPoints>0.8117245988468298,0.03745932837854138 0.8138496953606182,-0.008590432517577185</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000" type="Straight"/>
 </celldesigner:reactantLink>
 </celldesigner:listOfReactantLinks>
@@ -18978,7 +19114,7 @@ Uniprot Q9Y6M9
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00009" species="s1142">
+<speciesReference metaid="CDMT00015" species="s1142">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa669</celldesigner:alias>
@@ -19013,7 +19149,7 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s563" aliases="sa498" targetLineIndex="-1,2" editPoints="0.7984073393682625,-0.4011895559597167">
+<celldesigner:modification type="INHIBITION" modifiers="s563" aliases="sa498" targetLineIndex="-1,2" editPoints="0.8690699642880153,-0.3373238228474875">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -19043,7 +19179,7 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00010" species="s1139">
+<speciesReference metaid="CDMT00041" species="s1139">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa672</celldesigner:alias>
@@ -19052,7 +19188,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00011" species="s1141">
+<speciesReference metaid="CDMT00072" species="s1141">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa668</celldesigner:alias>
@@ -19087,7 +19223,7 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="INHIBITION" modifiers="s563" aliases="sa498" targetLineIndex="-1,2" editPoints="0.7864359495777906,-0.40982245764412295">
+<celldesigner:modification type="INHIBITION" modifiers="s563" aliases="sa498" targetLineIndex="-1,2" editPoints="0.8525702221140157,-0.35453383262881144">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -19114,7 +19250,7 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00012" species="s1139">
+<speciesReference metaid="CDMT00079" species="s1139">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa671</celldesigner:alias>
@@ -19123,7 +19259,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00041" species="s1140">
+<speciesReference metaid="CDMT00083" species="s1140">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa667</celldesigner:alias>
@@ -19187,7 +19323,7 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00079" species="s1139">
+<speciesReference metaid="CDMT00086" species="s1139">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa670</celldesigner:alias>
@@ -19196,7 +19332,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00083" species="s1142">
+<speciesReference metaid="CDMT00087" species="s1142">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa669</celldesigner:alias>
@@ -19205,7 +19341,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00086" species="s564">
+<modifierSpeciesReference metaid="CDMT00088" species="s564">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa499</celldesigner:alias>
@@ -19246,7 +19382,7 @@ Uniprot Q9Y6M9
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s1153" aliases="csa93" targetLineIndex="-1,5" editPoints="0.7211651461009403,-0.30517449449942546">
+<celldesigner:modification type="CATALYSIS" modifiers="s1153" aliases="csa93" targetLineIndex="-1,5" editPoints="0.7211651461009412,-0.3051744944994246">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -19258,7 +19394,7 @@ Uniprot Q9Y6M9
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s1164" aliases="sa691" targetLineIndex="-1,4" editPoints="0.21662209524218135,0.29179685658662535">
+<celldesigner:modification type="INHIBITION" modifiers="s1164" aliases="sa691" targetLineIndex="-1,4" editPoints="0.21662209524217957,0.29179685658662535">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -19317,7 +19453,7 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00013" species="s1161">
+<speciesReference metaid="CDMT00089" species="s1161">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa688</celldesigner:alias>
@@ -19326,7 +19462,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00015" species="s1163">
+<speciesReference metaid="CDMT00090" species="s1163">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa690</celldesigner:alias>
@@ -19335,21 +19471,21 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00072" species="s1174">
+<modifierSpeciesReference metaid="CDMT00091" species="s1174">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>csa92</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>
-<modifierSpeciesReference metaid="CDMT00089" species="s1153">
+<modifierSpeciesReference metaid="CDMT00093" species="s1153">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>csa93</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </modifierSpeciesReference>
-<modifierSpeciesReference metaid="CDMT00091" species="s1164">
+<modifierSpeciesReference metaid="CDMT00094" species="s1164">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa691</celldesigner:alias>
@@ -19389,7 +19525,7 @@ Uniprot Q9Y6M9
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s1166" aliases="sa693" targetLineIndex="-1,2" editPoints="0.6283986813273863,0.1183412448157295 0.628398681327381,0.11834124481573571 0.9657495523557031,0.1818718078220556">
+<celldesigner:modification type="CATALYSIS" modifiers="s1166" aliases="sa693" targetLineIndex="-1,2" editPoints="0.6140789251586227,0.1118908147643074 0.6140789251586192,0.11189081476430918 0.9678666494347477,0.17635418437537353">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -19413,7 +19549,7 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00093" species="s1165">
+<speciesReference metaid="CDMT00095" species="s1165">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa692</celldesigner:alias>
@@ -19422,7 +19558,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00094" species="s1167">
+<speciesReference metaid="CDMT00114" species="s1167">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa694</celldesigner:alias>
@@ -19431,7 +19567,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00095" species="s1166">
+<modifierSpeciesReference metaid="CDMT00115" species="s1166">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa693</celldesigner:alias>
@@ -19482,7 +19618,7 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00114" species="s1170">
+<speciesReference metaid="CDMT00116" species="s1170">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>csa96</celldesigner:alias>
@@ -19491,7 +19627,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00115" species="s1182">
+<speciesReference metaid="CDMT00117" species="s1182">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>csa95</celldesigner:alias>
@@ -19500,7 +19636,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00116" species="s1168">
+<modifierSpeciesReference metaid="CDMT00118" species="s1168">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa695</celldesigner:alias>
@@ -19523,7 +19659,6 @@ Uniprot Q9Y6M9
 </celldesigner:baseProducts>
 <celldesigner:listOfReactantLinks>
 <celldesigner:reactantLink reactant="s1175" alias="sa700" targetLineIndex="-1,0">
-<celldesigner:linkAnchor position="INACTIVE"/>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -19551,14 +19686,14 @@ Uniprot Q9Y6M9
 </celldesigner:extension>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00117" species="s1185">
+<speciesReference metaid="CDMT00119" species="s1185">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa706</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00118" species="s1175">
+<speciesReference metaid="CDMT00120" species="s1175">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa700</celldesigner:alias>
@@ -19567,7 +19702,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00119" species="s1153">
+<speciesReference metaid="CDMT00121" species="s1153">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>csa93</celldesigner:alias>
@@ -19576,7 +19711,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00120" species="s1168">
+<modifierSpeciesReference metaid="CDMT00122" species="s1168">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa695</celldesigner:alias>
@@ -19599,7 +19734,6 @@ Uniprot Q9Y6M9
 </celldesigner:baseProducts>
 <celldesigner:listOfReactantLinks>
 <celldesigner:reactantLink reactant="s1188" alias="sa710" targetLineIndex="-1,0">
-<celldesigner:linkAnchor position="INACTIVE"/>
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -19636,14 +19770,14 @@ Uniprot Q9Y6M9
 </rdf:RDF>
 </annotation>
 <listOfReactants>
-<speciesReference metaid="CDMT00121" species="s1190">
+<speciesReference metaid="CDMT00123" species="s1190">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa712</celldesigner:alias>
 </celldesigner:extension>
 </annotation>
 </speciesReference>
-<speciesReference metaid="CDMT00122" species="s1188">
+<speciesReference metaid="CDMT00124" species="s1188">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa710</celldesigner:alias>
@@ -19652,7 +19786,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfReactants>
 <listOfProducts>
-<speciesReference metaid="CDMT00123" species="s375">
+<speciesReference metaid="CDMT00125" species="s375">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>csa47</celldesigner:alias>
@@ -19661,7 +19795,7 @@ Uniprot Q9Y6M9
 </speciesReference>
 </listOfProducts>
 <listOfModifiers>
-<modifierSpeciesReference metaid="CDMT00125" species="s1191">
+<modifierSpeciesReference metaid="CDMT00126" species="s1191">
 <annotation>
 <celldesigner:extension>
 <celldesigner:alias>sa713</celldesigner:alias>
