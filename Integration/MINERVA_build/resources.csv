@@ -7,22 +7,22 @@ No,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4863.gpml,GPML,HCoVs autophagy (WP4863)
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4868.gpml,GPML,HCoVs Type I Ifn signaling (WP4868)
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4880.gpml,GPML,HCoVs Ifn induction (WP4880)
-Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4869.gpml,GPML,HCoVs ER stress (WP4869)
 Yes,https://raw.githubusercontent.com/wikipathways/SARS-CoV-2-WikiPathways/master/gpml/WP4876.gpml,GPML,SARS-CoV-2 NLRP3 Inflammasome (WP4876)
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Apoptosis/Apoptosis_03.06.2020.xml,CellDesigner_SBML,Apoptosis
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Drug%20mechanisms/Role_of_spike_ACE2_interaction_in_pulmonary_blood_pressure_regulation_v3.xml,CellDesigner_SBML,ACE2-Spike-drugs
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ER%20Stress/ER_Stress_Cov19.xml,CellDesigner_SBML,ER stress
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ETC/ETC_Covid19.xml,CellDesigner_SBML,ETC
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/HMOX1%20pathway/HMOX1_Pathway_Updated.xml,CellDesigner_SBML,HMOX1 pathway
-Yes,https://git-r3lab.uni.lu/covid/models/raw/master/Curation/Innate%20Immunity%20and%20Proinflammatory%20Response/COVID19_PAMP_signaling.xml,CellDesigner_SBML,PAMP signaling
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Interferon%20pathway/Interferon1.xml,CellDesigner_SBML,Interferon 1 pathway
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/JNK%20pathway/JNK_pathway.xml,CellDesigner_SBML,JNK pathway
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Pyrimidine%20deprivation/Pyrimidine_deprivation.xml,CellDesigner_SBML,Pyrimidine deprivation
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/RTC-and-transcription/RTC-and-transcription-CD.xml,CellDesigner_SBML,RTC and transcription
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/E/E_SARS_CoV_2_22_05_2020.xml,CellDesigner_SBML,E protein interactions
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp4_Nsp6/Nsp4_Nsp6_v3.xml,CellDesigner_SBML,Nsp4 and Nsp6 interactions
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp9/Nsp9.xml,CellDesigner_SBML,Nsp9 interactions
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp14/Nsp14_V2.xml,CellDesigner_SBML,Nsp14 and metabolism
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Orf3a/Orf3a.xml,CellDesigner_SBML,Orf3a interactions
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Ubiquination%20and%20Protein%20Degradation/Orf10_Cul2_pathway.xml,CellDesigner_SBML,Orf10 Cul2 pathway
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Virus%20replication%20cycle/Virus_replication_cycle_V07.xml,CellDesigner_SBML,Virus replication cycle
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Apoptosis/Apoptosis_stable.xml,CellDesigner_SBML,Apoptosis
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Coagulation%20pathway/Coagulation-pathway_stable.xml,CellDesigner_SBML,Coagulation pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ER%20Stress/ER_Stress_stable.xml,CellDesigner_SBML,ER stress
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ETC/ETC_stable.xml,CellDesigner_SBML,ETC
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/HMOX1%20pathway/HMOX1_Pathway_stable.xml,CellDesigner_SBML,HMOX1 pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Interferon%20pathway/Interferon1_stable.xml,CellDesigner_SBML,Interferon 1 pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/JNK%20pathway/JNK_pathway_stable.xml,CellDesigner_SBML,JNK pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/PAMP%20signalling/PAMP_signaling_stable.xml,CellDesigner_SBML,PAMP signaling
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Pyrimidine%20deprivation/Pyrimidine_deprivation_stable.xml,CellDesigner_SBML,Pyrimidine deprivation
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Renin-angiotensin%20pathway/Renin_angiotensin_stable.xml,CellDesigner_SBML,Renin-angiotensin pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/RTC-and-transcription/RTC-and-transcription_stable.xml,CellDesigner_SBML,RTC and transcription
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/E/E_protein_stable.xml,CellDesigner_SBML,E protein interactions
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp4_Nsp6/Nsp4_Nsp6_proteins_stable.xml,CellDesigner_SBML,Nsp4 and Nsp6 interactions
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp9/Nsp9_protein_stable.xml,CellDesigner_SBML,Nsp9 interactions
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp14/Nsp14_stable.xml,CellDesigner_SBML,Nsp14 and metabolism
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Orf3a/Orf3a_stable.xml,CellDesigner_SBML,Orf3a interactions
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Ubiquination%20and%20Protein%20Degradation/Orf10_Cul2_pathway_stable.xml,CellDesigner_SBML,Orf10 Cul2 pathway
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Virus%20replication%20cycle/Virus_replication_cycle_stable.xml,CellDesigner_SBML,Virus replication cycle
