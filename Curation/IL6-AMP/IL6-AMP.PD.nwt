@@ -31,7 +31,7 @@
           <style id="nodeffffff5555553.2514normalnormalHelvetica00010.5" idList="nwtN_00b90db8-c51c-4988-970a-91631bde7be5 nwtN_b29e9f87-9746-46c7-ab3c-f8f9cb4dfd2c nwtN_0001029e-318a-45d1-95ca-316980d7c05f nwtN_ccbae7ed-ba1d-44d2-8280-23612b680e57 nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
             <g font-size="14" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="3.25" fill="color_4" background-image-opacity="1" background-opacity="0.5"/>
           </style>
-          <style id="infoboxffffff5555551.259normalnormalArial0f0f0fstadium" idList="id_27 661e6442-5247-c02e-e073-9859f0b05ea8_0 id_11 e35d665d-564b-727a-d7f0-b0f28574e625_0 id_21 id_43 c5e55552-1743-bf20-915d-f0ce2275b6af_0 82fc284a-1aa2-185e-b4a6-eb288ded76c6_0 id_63 id_5 id_7 id_13 id_25 id_29 id_31 b3e7227d-9835-4758-3687-e89b3f856288_0">
+          <style id="infoboxffffff5555551.259normalnormalArial0f0f0fstadium" idList="id_27 661e6442-5247-c02e-e073-9859f0b05ea8_0 id_11 e35d665d-564b-727a-d7f0-b0f28574e625_0 id_21 id_43 c5e55552-1743-bf20-915d-f0ce2275b6af_0 82fc284a-1aa2-185e-b4a6-eb288ded76c6_0 id_63 id_5 id_7 id_13 id_25 id_29 id_31 b3e7227d-9835-4758-3687-e89b3f856288_0 ddae0e4f-363b-db8b-b97f-06620fb2d3bf_0">
             <g font-size="9" font-family="Arial" font-weight="normal" font-style="normal" font-color="#0f0f0f" stroke="color_2" stroke-width="1.25" fill="color_5"/>
           </style>
           <style id="nodeffffff5555551.2511normalnormalHelvetica00010.5" idList="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6 nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4 nwtN_4166f7e5-9502-429f-8b28-44126d165cc2 id_65 nwtN_2d0b8032-1688-4ed7-8627-2aaed2fb3c8c">
@@ -46,7 +46,7 @@
           <style id="infoboxffffff55555519normalnormalArial0f0f0fstadium" idList="nwtSV_de0908e2-9dce-43a1-a98a-46dd0f99cf40 nwtSV_6ce1b442-ec94-4f83-92e2-a7817e820b22">
             <g font-size="9" font-family="Arial" font-weight="normal" font-style="normal" font-color="#0f0f0f" stroke="color_2" stroke-width="1" fill="color_5"/>
           </style>
-          <style id="node157f3b5555551.2511normalnormalHelvetica00011" idList="id_20 id_42">
+          <style id="node157f3b5555551.2511normalnormalHelvetica00011" idList="id_20 id_42 ddae0e4f-363b-db8b-b97f-06620fb2d3bf">
             <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_8" background-image-opacity="1" background-opacity="1"/>
           </style>
           <style id="nodec9eac25555551.2511normalnormalHelvetica00011" idList="id_22 215d8b5c-ddce-3fc9-c4de-82da2ab13923">
@@ -58,7 +58,7 @@
           <style id="nodeb1e0ab5555551.2511normalnormalHelvetica00011" idList="id_6 id_30">
             <g font-size="11" font-family="Helvetica" font-weight="normal" font-style="normal" font-color="#000" stroke="color_2" stroke-width="1.25" fill="color_11" background-image-opacity="1" background-opacity="1"/>
           </style>
-          <style id="edge5555551.25" idList="id_76 nwtE_d67d005c-ef6b-4c5d-a47d-4f585eadec42 nwtE_36ec0cc1-b490-465c-aec2-00021e757ea2 id_86 id_84 id_100 nwtE_f9141b31-899f-4873-96e1-2b27910219d1 id_83 id_87 id_88 nwtE_c07c9f40-12c0-4503-9352-9d656bbde57e nwtE_788d3b38-cab1-4a9a-9188-f6ed8fc830f5 id_94 nwtE_d42a47f9-341e-4dd5-b053-a4e8cf1e03fc nwtE_00872d78-de08-4c21-a969-5631187d3cf0 nwtE_fd68f1a4-f560-49f7-bde1-21288773cccf nwtE_fa9704ac-8a71-49c9-afdc-9c5870a7f6a5 nwtE_f015e274-5ef6-41bd-a5a3-0c9e7c3b32d2 id_134 id_150 nwtE_ab954f79-1604-4d2c-90f5-9de3e466f829 nwtE_0a2de145-3e8d-461a-ad6c-683248e333d3 id_135 nwtE_751469eb-8c3b-4ee1-817c-07594fc3a7fa id_74 nwtE_0a08c745-8d67-46fb-9962-10a565b9fa32 nwtE_fba88905-74a7-4da7-a5da-50f83305b48a nwtE_e1015158-f801-4b9a-9bfe-3a231440cf74 id_96 nwtE_b01b0178-0377-43a4-aee6-c948255e0d29 nwtE_aaf31623-f4c2-4d79-b6b4-11e06fa45d6b nwtE_2b1025a2-d1d0-4805-9529-093c62a97760 nwtE_51d05797-0fbd-4d27-89a1-38ff1c9f1b9a nwtE_46c3b9af-4a21-449f-a6fb-f12c98a735f3 nwtE_8f37a7b9-2301-4fc6-959b-5b543cccdb55 nwtE_8cdfc8cc-c7c0-49cc-9213-1377141dc69f nwtE_bc352fe5-5617-4c2f-af81-a872ccc877eb nwtE_fcbfda6b-ae4d-4946-88fa-522cb6bdbb89 nwtE_5e4f177b-9bfc-4218-946a-8994cbc6cb4d id_98 nwtE_3fa10dd8-de2b-45c3-8749-64fa5cdb79ec nwtE_6765d392-4487-48c3-9c91-d56179c3abd8 nwtE_907925b4-c228-4a86-bda5-972653bbe339 id_82 nwtE_ba0b36c3-1e5c-4c09-9cd6-91156d944e12 nwtE_1f721999-f7b9-4c7a-89fa-bc29bcf4c648 nwtE_742e1566-2594-474d-8675-2d5d739a0b80">
+          <style id="edge5555551.25" idList="id_76 nwtE_d67d005c-ef6b-4c5d-a47d-4f585eadec42 nwtE_36ec0cc1-b490-465c-aec2-00021e757ea2 id_86 id_84 id_100 nwtE_f9141b31-899f-4873-96e1-2b27910219d1 id_83 id_87 id_88 nwtE_c07c9f40-12c0-4503-9352-9d656bbde57e nwtE_788d3b38-cab1-4a9a-9188-f6ed8fc830f5 id_94 nwtE_d42a47f9-341e-4dd5-b053-a4e8cf1e03fc nwtE_00872d78-de08-4c21-a969-5631187d3cf0 nwtE_fd68f1a4-f560-49f7-bde1-21288773cccf nwtE_fa9704ac-8a71-49c9-afdc-9c5870a7f6a5 nwtE_f015e274-5ef6-41bd-a5a3-0c9e7c3b32d2 id_134 id_150 nwtE_ab954f79-1604-4d2c-90f5-9de3e466f829 nwtE_0a2de145-3e8d-461a-ad6c-683248e333d3 id_135 nwtE_751469eb-8c3b-4ee1-817c-07594fc3a7fa id_74 nwtE_0a08c745-8d67-46fb-9962-10a565b9fa32 nwtE_fba88905-74a7-4da7-a5da-50f83305b48a nwtE_e1015158-f801-4b9a-9bfe-3a231440cf74 id_96 nwtE_b01b0178-0377-43a4-aee6-c948255e0d29 nwtE_aaf31623-f4c2-4d79-b6b4-11e06fa45d6b nwtE_2b1025a2-d1d0-4805-9529-093c62a97760 nwtE_51d05797-0fbd-4d27-89a1-38ff1c9f1b9a nwtE_46c3b9af-4a21-449f-a6fb-f12c98a735f3 nwtE_8f37a7b9-2301-4fc6-959b-5b543cccdb55 nwtE_8cdfc8cc-c7c0-49cc-9213-1377141dc69f nwtE_bc352fe5-5617-4c2f-af81-a872ccc877eb nwtE_fcbfda6b-ae4d-4946-88fa-522cb6bdbb89 nwtE_7afc68ad-5540-4ebb-add1-71d446ce053f id_98 nwtE_3fa10dd8-de2b-45c3-8749-64fa5cdb79ec nwtE_6765d392-4487-48c3-9c91-d56179c3abd8 nwtE_907925b4-c228-4a86-bda5-972653bbe339 id_82 nwtE_ba0b36c3-1e5c-4c09-9cd6-91156d944e12 nwtE_1f721999-f7b9-4c7a-89fa-bc29bcf4c648 nwtE_742e1566-2594-474d-8675-2d5d739a0b80 nwtE_91d39a6e-190d-45c7-a6f7-31c2d2c6395c">
             <g stroke="color_2" stroke-width="1.25"/>
           </style>
         </listOfStyles>
@@ -87,17 +87,23 @@
       </mapProperties>
     </extension>
     <glyph id="id_73" class="process">
-      <bbox x="227.9972372159078" y="-755.560235609061" w="10" h="10"/>
+      <bbox x="282.78489806176344" y="-847.5100706607369" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_73.1" x="291.356326633192" y="-843.9386420893084"/>
+      <port id="id_73.2" x="281.356326633192" y="-843.9386420893084"/>
     </glyph>
     <glyph id="id_85" class="process">
-      <bbox x="414.719551285111" y="-682.7948405718756" w="10" h="10"/>
+      <bbox x="525.0895969406376" y="-681.3662691433042" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_85.1" x="523.6610255120662" y="-677.7948405718756"/>
+      <port id="id_85.2" x="533.6610255120662" y="-677.7948405718756"/>
     </glyph>
     <glyph id="nwtN_a8ff99f1-5f8f-4583-b266-360810340677" class="phenotype">
       <label text="CRS"/>
       <bbox x="923.3143438717477" y="154.82754991971888" w="60" h="30"/>
     </glyph>
     <glyph id="id_97" class="process">
-      <bbox x="929.9483281301644" y="-590.9589561977517" w="10" h="10"/>
+      <bbox x="929.153604166349" y="-609.5400433006619" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_97.1" x="932.7250327377776" y="-610.9686147292333"/>
+      <port id="id_97.2" x="932.7250327377776" y="-600.9686147292333"/>
     </glyph>
     <glyph id="96bb267e-6454-f799-7889-4083070690df" class="macromolecule">
       <extension>
@@ -167,8 +173,8 @@
           <h>718.9706034743958</h>
           <minW>1710.554904885206</minW>
           <minH>0</minH>
-          <WLBias>0.009999999999999997</WLBias>
-          <WRBias>2.842170943040401e-18</WRBias>
+          <WLBias>0.00009999999999999996</WLBias>
+          <WRBias>2.8421709430404006e-20</WRBias>
           <HTBias>0</HTBias>
           <HBBias>0</HBBias>
         </extraInfo>
@@ -183,7 +189,7 @@
           <h>522.013546083516</h>
           <minW>1657.0651330870521</minW>
           <minH>0</minH>
-          <WLBias>0.01</WLBias>
+          <WLBias>0.0001</WLBias>
           <WRBias>0</WRBias>
           <HTBias>0</HTBias>
           <HBBias>0</HBBias>
@@ -199,10 +205,10 @@
           <h>89.94456005775385</h>
           <minW>70.04550781249998</minW>
           <minH>89.94456005775385</minH>
-          <WLBias>5e-7</WLBias>
-          <WRBias>5e-7</WRBias>
-          <HTBias>5e-7</HTBias>
-          <HBBias>5e-7</HBBias>
+          <WLBias>5e-9</WLBias>
+          <WRBias>5e-9</WRBias>
+          <HTBias>5e-9</HTBias>
+          <HBBias>5e-9</HBBias>
         </extraInfo>
       </extension>
       <bbox x="972.1314938731991" y="-464.1405747447464" w="90.04550781250009" h="109.94456005775385"/>
@@ -354,10 +360,10 @@
         </annotation>
       </extension>
       <label text="NFKB1"/>
-      <bbox x="780.4831861405091" y="-254.376313269901" w="60" h="30"/>
+      <bbox x="669.318416521167" y="-343.3081289653746" w="60" h="30"/>
       <glyph id="id_21" class="state variable">
         <state value="i" variable="act"/>
-        <bbox x="807.8831861405092" y="-260.376313269901" w="28" h="12"/>
+        <bbox x="696.7184165211671" y="-349.3081289653746" w="28" h="12"/>
       </glyph>
     </glyph>
     <glyph id="id_22" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
@@ -465,15 +471,19 @@
       <port id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.2" x="1103.2026443383024" y="-409.6214636074874"/>
     </glyph>
     <glyph id="id_93" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
-      <bbox x="807.5326131762367" y="-427.2663907017784" w="10" h="10"/>
+      <bbox x="808.9611846048082" y="-425.83781927320695" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_93.1" x="807.5326131762367" y="-422.2663907017784"/>
+      <port id="id_93.2" x="817.5326131762367" y="-422.2663907017784"/>
     </glyph>
     <glyph id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
       <bbox x="1186.8752049631146" y="-272.2030172980276" w="7.142857142857143" h="7.142857142857143"/>
-      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.1" x="1185.4466335345433" y="-268.63158872659903"/>
-      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.2" x="1195.4466335345433" y="-268.63158872659903"/>
+      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.1" x="1190.4466335345433" y="-273.63158872659903"/>
+      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.2" x="1190.4466335345433" y="-263.63158872659903"/>
     </glyph>
     <glyph id="id_133" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
-      <bbox x="694.3685425819992" y="-239.35159299564634" w="10" h="10"/>
+      <bbox x="695.7971140105707" y="-237.92302156707493" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_133.1" x="699.3685425819992" y="-239.35159299564634"/>
+      <port id="id_133.2" x="699.3685425819992" y="-229.35159299564634"/>
     </glyph>
     <glyph id="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4" class="complex" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
       <extension>
@@ -534,11 +544,13 @@
     </glyph>
     <glyph id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
       <bbox x="1016.7152051048753" y="-528.024858001022" w="7.142857142857143" h="7.142857142857143"/>
-      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1" x="1015.2866336763038" y="-524.4534294295935"/>
-      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.2" x="1025.2866336763038" y="-524.4534294295935"/>
+      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1" x="1020.2866336763038" y="-529.4534294295935"/>
+      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.2" x="1020.2866336763038" y="-519.4534294295935"/>
     </glyph>
     <glyph id="id_149" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
-      <bbox x="527.9862103056091" y="-429.11539324201203" w="10" h="10"/>
+      <bbox x="529.4147817341806" y="-427.6868218134406" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_149.1" x="532.9862103056091" y="-429.11539324201203"/>
+      <port id="id_149.2" x="532.9862103056091" y="-419.11539324201203"/>
     </glyph>
     <glyph id="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2" class="complex" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
       <extension>
@@ -547,10 +559,10 @@
           <h>106.6942985144895</h>
           <minW>71.3304943223942</minW>
           <minH>106.69429851448942</minH>
-          <WLBias>5e-7</WLBias>
-          <WRBias>5e-7</WRBias>
-          <HTBias>5e-7</HTBias>
-          <HBBias>5e-7</HBBias>
+          <WLBias>5e-9</WLBias>
+          <WRBias>5e-9</WRBias>
+          <HTBias>5e-9</HTBias>
+          <HBBias>5e-9</HBBias>
         </extraInfo>
       </extension>
       <bbox x="1142.576584345933" y="-473.54214153057774" w="91.33049432239432" h="126.6942985144895"/>
@@ -675,8 +687,8 @@
         </annotation>
       </extension>
       <bbox x="137.43582653211644" y="-312.7268950267553" w="28.571428571428573" h="28.571428571428573"/>
-      <port id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.1" x="131.72154081783071" y="-298.441180741041"/>
-      <port id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.2" x="171.72154081783071" y="-298.441180741041"/>
+      <port id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.1" x="151.72154081783071" y="-318.441180741041"/>
+      <port id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.2" x="151.72154081783071" y="-278.441180741041"/>
     </glyph>
     <glyph id="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
       <extension>
@@ -695,13 +707,13 @@
         </annotation>
       </extension>
       <bbox x="940.9278306026705" y="-56.3195436414019" w="28.571428571428573" h="28.571428571428573"/>
-      <port id="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae.1" x="935.2135448883848" y="-42.033829355687615"/>
-      <port id="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae.2" x="975.2135448883848" y="-42.033829355687615"/>
+      <port id="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae.1" x="955.2135448883848" y="-62.033829355687615"/>
+      <port id="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae.2" x="955.2135448883848" y="-22.033829355687615"/>
     </glyph>
     <glyph id="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
       <bbox x="-6.331131411230354" y="-539.3688040106322" w="7.142857142857143" h="7.142857142857143"/>
-      <port id="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.1" x="-7.759702839801783" y="-535.7973754392036"/>
-      <port id="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.2" x="2.2402971601982173" y="-535.7973754392036"/>
+      <port id="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.1" x="-2.759702839801782" y="-540.7973754392036"/>
+      <port id="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.2" x="-2.759702839801782" y="-530.7973754392036"/>
     </glyph>
     <glyph id="nwtN_ccbae7ed-ba1d-44d2-8280-23612b680e57" class="compartment" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
       <extension>
@@ -713,7 +725,7 @@
           <WLBias>0</WLBias>
           <WRBias>0</WRBias>
           <HTBias>0</HTBias>
-          <HBBias>0.01</HBBias>
+          <HBBias>0.0001</HBBias>
         </extraInfo>
       </extension>
       <label text="Endosome"/>
@@ -800,6 +812,29 @@
       <port id="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.1" x="-166.00220110015596" y="-372.29462000498944"/>
       <port id="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.2" x="-136.00220110015596" y="-372.29462000498944"/>
     </glyph>
+    <glyph id="ddae0e4f-363b-db8b-b97f-06620fb2d3bf" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <extension>
+        <annotation>
+          <rdf:RDF 
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#ddae0e4f-363b-db8b-b97f-06620fb2d3bf">
+              <bqmodel:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/hgnc:1254"/>
+                </rdf:Bag>
+              </bqmodel:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </extension>
+      <label text="NFKB1"/>
+      <bbox x="120.84570263734841" y="-421.8747935181908" w="60" h="30"/>
+      <glyph id="ddae0e4f-363b-db8b-b97f-06620fb2d3bf_0" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="148.2457026373485" y="-427.8747935181908" w="28" h="12"/>
+      </glyph>
+    </glyph>
     <glyph id="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca" class="compartment" compartmentRef="nwtN_b29e9f87-9746-46c7-ab3c-f8f9cb4dfd2c">
       <extension>
         <extraInfo>
@@ -807,8 +842,8 @@
           <h>104.46080826070283</h>
           <minW>1602.221382346189</minW>
           <minH>0</minH>
-          <WLBias>0.40221380276919616</WLBias>
-          <WRBias>0.5977861972308038</WRBias>
+          <WLBias>0.004022138027691961</WLBias>
+          <WRBias>0.005977861972308038</WRBias>
           <HTBias>0</HTBias>
           <HBBias>0</HBBias>
         </extraInfo>
@@ -975,8 +1010,8 @@
     </glyph>
     <glyph id="nwtN_903513f0-4b5f-464b-a879-46281029edb8" class="process" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
       <bbox x="-17.231315106844555" y="-676.7111185753723" w="7.142857142857143" h="7.142857142857143"/>
-      <port id="nwtN_903513f0-4b5f-464b-a879-46281029edb8.1" x="-18.659886535415986" y="-673.1396900039438"/>
-      <port id="nwtN_903513f0-4b5f-464b-a879-46281029edb8.2" x="-8.659886535415982" y="-673.1396900039438"/>
+      <port id="nwtN_903513f0-4b5f-464b-a879-46281029edb8.1" x="-8.659886535415982" y="-673.1396900039438"/>
+      <port id="nwtN_903513f0-4b5f-464b-a879-46281029edb8.2" x="-18.659886535415986" y="-673.1396900039438"/>
     </glyph>
     <glyph id="nwtN_2d0b8032-1688-4ed7-8627-2aaed2fb3c8c" class="complex" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
       <extension>
@@ -1055,47 +1090,49 @@
       <bbox x="-40.5893428776719" y="-813.9353372815087" w="72.369140625" h="25"/>
     </glyph>
     <glyph id="id_81" class="process">
-      <bbox x="261.67657818094193" y="-595.0280269031285" w="10" h="10"/>
+      <bbox x="335.54066931732467" y="-660.6023112042826" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_81.1" x="334.1120978887532" y="-657.0308826328541"/>
+      <port id="id_81.2" x="344.1120978887532" y="-657.0308826328541"/>
     </glyph>
     <arc id="id_76" class="catalysis" source="id_24" target="id_73">
-      <start x="88.56036955883567" y="-624.2275846670245"/>
-      <end x="225.0200347206806" y="-743.582923274123"/>
+      <start x="89.55110124921629" y="-629.177713988515"/>
+      <end x="279.0903251320816" y="-836.0097203703057"/>
     </arc>
     <arc id="nwtE_d67d005c-ef6b-4c5d-a47d-4f585eadec42" class="stimulation" source="nwtN_381870d4-f221-4e03-b71d-06d457f0f49a" target="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab">
       <start x="147.82896570588792" y="-594.5636851155704"/>
-      <end x="5.7764772210890385" y="-539.1285676580878"/>
+      <end x="4.169334363946177" y="-538.5013899577393"/>
     </arc>
     <arc id="nwtE_36ec0cc1-b490-465c-aec2-00021e757ea2" class="consumption" source="nwtN_2d0b8032-1688-4ed7-8627-2aaed2fb3c8c" target="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.1">
-      <start x="-60.30421229691293" y="-593.3418848963148"/>
+      <start x="-60.30421229691294" y="-593.3418848963148"/>
       <end x="-8.384702839801776" y="-541.4223754392036"/>
     </arc>
-    <arc id="id_86" class="consumption" source="id_6" target="id_85">
-      <start x="477.17754493662426" y="-624.8487693179675"/>
-      <end x="425.344551285111" y="-672.6115469711707"/>
+    <arc id="id_86" class="consumption" source="id_6" target="id_85.1">
+      <start x="504.9571711915791" y="-630.7186228180965"/>
+      <end x="525.8287210722722" y="-672.1698405718756"/>
     </arc>
     <arc id="id_84" class="catalysis" source="id_26" target="id_81">
-      <start x="351.91625907059415" y="-828.5373673367587"/>
-      <end x="269.73855267371096" y="-598.5957445326721"/>
+      <start x="355.3632729577714" y="-828.5373673367587"/>
+      <end x="339.93988767936867" y="-665.7669473456697"/>
     </arc>
     <arc id="id_100" class="catalysis" source="id_30" target="id_97">
-      <start x="620.7120789716148" y="-603.5691459628375"/>
-      <end x="926.2032238215976" y="-586.4490427068725"/>
+      <start x="620.7120789716148" y="-605.3464739736863"/>
+      <end x="923.9750389500542" y="-605.9511676082711"/>
     </arc>
     <arc id="nwtE_f9141b31-899f-4873-96e1-2b27910219d1" class="stimulation" source="96bb267e-6454-f799-7889-4083070690df" target="nwtN_a8ff99f1-5f8f-4583-b266-360810340677">
       <start x="954.3584723335032" y="91.71039967444054"/>
       <end x="953.5649561530295" y="151.07782903070074"/>
     </arc>
-    <arc id="id_83" class="production" source="id_81" target="id_28">
-      <start x="272.30157818094193" y="-590.74315934905"/>
-      <end x="368.22859831973847" y="-602.9388081564827"/>
+    <arc id="id_83" class="production" source="id_81.2" target="id_28">
+      <start x="344.7370978887532" y="-652.5728440459893"/>
+      <end x="379.7894552239582" y="-624.7924419907157"/>
     </arc>
-    <arc id="id_87" class="production" source="id_85" target="id_30">
-      <start x="425.344551285111" y="-675.4008071660311"/>
-      <end x="558.1932914468921" y="-618.8595943888472"/>
+    <arc id="id_87" class="production" source="id_85.2" target="id_30">
+      <start x="533.4262200978304" y="-672.1698405718756"/>
+      <end x="574.8304799517127" y="-623.2948245601772"/>
     </arc>
     <arc id="id_88" class="catalysis" source="id_28" target="id_85">
-      <start x="405.8873074658865" y="-622.8514304476485"/>
-      <end x="417.54050634701304" y="-669.1394003354449"/>
+      <start x="428.2849575732167" y="-621.8913918447716"/>
+      <end x="520.3058901662596" y="-673.1415313717497"/>
     </arc>
     <arc id="nwtE_c07c9f40-12c0-4503-9352-9d656bbde57e" class="production" source="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.2" target="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6">
       <start x="1020.133798094218" y="-518.8284294295935"/>
@@ -1105,7 +1142,7 @@
       <start x="1062.8020016856992" y="-409.42352668739306"/>
       <end x="1092.5776443383024" y="-409.59001233733795"/>
     </arc>
-    <arc id="id_94" class="consumption" source="id_10" target="id_93">
+    <arc id="id_94" class="consumption" source="id_10" target="id_93.1">
       <start x="754.9738984984085" y="-420.4655898559677"/>
       <end x="806.9076131762367" y="-422.09040510490775"/>
     </arc>
@@ -1113,15 +1150,15 @@
       <start x="1053.9429301652644" y="-520.185632734062"/>
       <end x="1025.9116336763038" y="-523.7401496300695"/>
     </arc>
-    <arc id="nwtE_00872d78-de08-4c21-a969-5631187d3cf0" class="production" source="id_97" target="e35d665d-564b-727a-d7f0-b0f28574e625">
-      <start x="935.8239902798539" y="-580.3339561977517"/>
-      <end x="942.8892457834975" y="-534.9488014070681"/>
+    <arc id="nwtE_00872d78-de08-4c21-a969-5631187d3cf0" class="production" source="id_97.2" target="e35d665d-564b-727a-d7f0-b0f28574e625">
+      <start x="933.5447992287106" y="-600.3436147292333"/>
+      <end x="943.0745356669204" y="-534.9533260826228"/>
     </arc>
     <arc id="nwtE_fd68f1a4-f560-49f7-bde1-21288773cccf" class="consumption" source="e35d665d-564b-727a-d7f0-b0f28574e625" target="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1">
       <start x="976.4273299305635" y="-519.6146776816843"/>
       <end x="1014.6616336763038" y="-523.8328546311476"/>
     </arc>
-    <arc id="nwtE_fa9704ac-8a71-49c9-afdc-9c5870a7f6a5" class="production" source="id_93" target="id_19">
+    <arc id="nwtE_fa9704ac-8a71-49c9-afdc-9c5870a7f6a5" class="production" source="id_93.2" target="id_19">
       <start x="818.1576131762367" y="-422.1342077509994"/>
       <end x="861.0610430876457" y="-421.1260118462473"/>
     </arc>
@@ -1129,15 +1166,15 @@
       <start x="878.3903851059592" y="-404.70793440901593"/>
       <end x="707.257361670274" y="-241.8585560511214"/>
     </arc>
-    <arc id="id_134" class="consumption" source="id_20" target="id_133">
-      <start x="779.8581861405091" y="-237.99141877291223"/>
-      <end x="704.9935425819992" y="-234.6059613726443"/>
+    <arc id="id_134" class="consumption" source="id_20" target="id_133.1">
+      <start x="699.3267525000579" y="-312.6831289653746"/>
+      <end x="699.3655416295985" y="-239.97659299564634"/>
     </arc>
-    <arc id="id_150" class="consumption" source="id_22" target="id_149">
+    <arc id="id_150" class="consumption" source="id_22" target="id_149.1">
       <start x="584.6755627472871" y="-422.44374443966325"/>
       <end x="538.6112103056091" y="-423.9334790939518"/>
     </arc>
-    <arc id="nwtE_ab954f79-1604-4d2c-90f5-9de3e466f829" class="consumption" source="id_32" target="id_149">
+    <arc id="nwtE_ab954f79-1604-4d2c-90f5-9de3e466f829" class="consumption" source="id_32" target="id_149.1">
       <start x="477.7618130760228" y="-421.9329952104725"/>
       <end x="527.3612103056091" y="-423.89310038698324"/>
     </arc>
@@ -1145,17 +1182,17 @@
       <start x="1097.891305769999" y="-457.66419517248494"/>
       <end x="1098.1661918013701" y="-415.2464636074874"/>
     </arc>
-    <arc id="id_135" class="production" source="id_133" target="id_42">
+    <arc id="id_135" class="production" source="id_133.2" target="id_42">
       <start x="699.6599869129167" y="-228.72659299564634"/>
-      <end x="702.5878289475316" y="-172.21799187492024"/>
+      <end x="702.7317827947286" y="-169.43962117224282"/>
     </arc>
     <arc id="nwtE_751469eb-8c3b-4ee1-817c-07594fc3a7fa" class="logic arc" source="id_65" target="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.1">
       <start x="-150.79971913907838" y="-410.6568347903932"/>
       <end x="-150.91973097713014" y="-387.91940236119547"/>
     </arc>
-    <arc id="id_74" class="consumption" source="id_26" target="id_73">
-      <start x="338.79860280719936" y="-828.5373673367587"/>
-      <end x="238.6222372159078" y="-754.7059417019548"/>
+    <arc id="id_74" class="consumption" source="id_26" target="id_73.1">
+      <start x="316.1235398729204" y="-842.9741187302425"/>
+      <end x="291.981326633192" y="-843.7563796836524"/>
     </arc>
     <arc id="nwtE_0a08c745-8d67-46fb-9962-10a565b9fa32" class="consumption" source="8a97a0e4-e5a8-b4c2-2577-22b3483d60ed" target="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.1">
       <start x="1235.1793961912695" y="-270.411167038665"/>
@@ -1179,17 +1216,17 @@
     </arc>
     <arc id="nwtE_aaf31623-f4c2-4d79-b6b4-11e06fa45d6b" class="catalysis" source="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2" target="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f">
       <start x="1189.2381760484916" y="-346.2228430160883"/>
-      <end x="1190.3103611523181" y="-277.38120977980907"/>
+      <end x="1190.335391857578" y="-275.77406692266624"/>
     </arc>
     <arc id="nwtE_2b1025a2-d1d0-4805-9529-093c62a97760" class="stimulation" source="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4" target="id_133">
       <start x="582.7659436746483" y="-305.7024267702949"/>
       <end x="691.0779902737725" y="-239.42470307370158"/>
     </arc>
-    <arc id="nwtE_51d05797-0fbd-4d27-89a1-38ff1c9f1b9a" class="production" source="id_73" target="nwtN_41ec362d-3eee-49d1-a0b8-216d10ba668d">
-      <start x="233.9388174745174" y="-756.185235609061"/>
-      <end x="246.91915945839753" y="-833.7297922113225"/>
+    <arc id="nwtE_51d05797-0fbd-4d27-89a1-38ff1c9f1b9a" class="production" source="id_73.2" target="nwtN_41ec362d-3eee-49d1-a0b8-216d10ba668d">
+      <start x="280.731326633192" y="-844.5982127654503"/>
+      <end x="264.0039446362635" y="-846.5596155483479"/>
     </arc>
-    <arc id="nwtE_46c3b9af-4a21-449f-a6fb-f12c98a735f3" class="production" source="id_149" target="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4">
+    <arc id="nwtE_46c3b9af-4a21-449f-a6fb-f12c98a735f3" class="production" source="id_149.2" target="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4">
       <start x="533.1110555517703" y="-418.49039324201203"/>
       <end x="534.246619854143" y="-367.3266573589655"/>
     </arc>
@@ -1209,13 +1246,13 @@
       <start x="1160.612100562923" y="-136.47817076114003"/>
       <end x="978.6777821639967" y="-52.82292389824062"/>
     </arc>
-    <arc id="nwtE_5e4f177b-9bfc-4218-946a-8994cbc6cb4d" class="stimulation" source="422086ff-89f7-fa6f-4be4-1d30931fd72f" target="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae">
+    <arc id="nwtE_7afc68ad-5540-4ebb-add1-71d446ce053f" class="consumption" source="422086ff-89f7-fa6f-4be4-1d30931fd72f" target="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae.1">
       <start x="952.4478097658807" y="-139.8901734127606"/>
-      <end x="954.542328731322" y="-65.78258196318497"/>
+      <end x="954.6306160302581" y="-62.6588293556876"/>
     </arc>
-    <arc id="id_98" class="consumption" source="id_12" target="id_97">
-      <start x="935.0594948577294" y="-645.7859886457361"/>
-      <end x="934.958780141855" y="-591.5839561977517"/>
+    <arc id="id_98" class="consumption" source="id_12" target="id_97.1">
+      <start x="934.4224381130985" y="-645.7859886457361"/>
+      <end x="932.9648251775352" y="-611.5936147292333"/>
     </arc>
     <arc id="nwtE_3fa10dd8-de2b-45c3-8749-64fa5cdb79ec" class="stimulation" source="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.2" target="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212">
       <start x="-135.82240800500045" y="-368.59130978462326"/>
@@ -1229,13 +1266,13 @@
       <start x="955.1007062858237" y="-21.40882935568763"/>
       <end x="954.669899302036" y="57.335446441251946"/>
     </arc>
-    <arc id="id_82" class="consumption" source="id_4" target="id_81">
-      <start/>
-      <end x="272.30157818094193" y="-593.9212828284494"/>
+    <arc id="id_82" class="consumption" source="id_4" target="id_81.1">
+      <start x="307.09433680693996" y="-624.4724013521882"/>
+      <end x="333.580515978262" y="-651.4058826328541"/>
     </arc>
     <arc id="nwtE_ba0b36c3-1e5c-4c09-9cd6-91156d944e12" class="production" source="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.2" target="id_65">
       <start x="-8.384702839801776" y="-532.9727911036568"/>
-      <end x="-94.41591615319581" y="-489.7723613271055"/>
+      <end x="-94.4159161531958" y="-489.7723613271055"/>
     </arc>
     <arc id="nwtE_1f721999-f7b9-4c7a-89fa-bc29bcf4c648" class="logic arc" source="nwtN_387a2f0d-f10e-4384-9ffb-85e5dac87998" target="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.1">
       <start x="-151.00220110015596" y="-342.1388484834095"/>
@@ -1244,6 +1281,10 @@
     <arc id="nwtE_742e1566-2594-474d-8675-2d5d739a0b80" class="production" source="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.2" target="id_42">
       <start x="172.34654081783071" y="-292.92054364905624"/>
       <end x="670.0886220564289" y="-159.69128808893439"/>
+    </arc>
+    <arc id="nwtE_91d39a6e-190d-45c7-a6f7-31c2d2c6395c" class="consumption" source="ddae0e4f-363b-db8b-b97f-06620fb2d3bf" target="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.1">
+      <start x="150.9719086284571" y="-391.2497935181908"/>
+      <end x="151.55494890956726" y="-319.066180741041"/>
     </arc>
   </map>
 </sbgn>
