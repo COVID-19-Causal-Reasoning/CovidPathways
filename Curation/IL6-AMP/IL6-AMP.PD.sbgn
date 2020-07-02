@@ -1,441 +1,695 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <sbgn xmlns="http://sbgn.org/libsbgn/0.3">
   <map id="IL6-AMP.PD.sbgn" language="process description">
-    <glyph id="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6" class="complex">
-      <bbox x="959.0512734384627" y="-461.96053800562356" w="90.04550781249998" h="109.94456005775385"/>
-      <glyph id="661e6442-5247-c02e-e073-9859f0b05ea8" class="macromolecule">
-        <label text="IL6R"/>
-        <bbox x="970.6762734384628" y="-443.71053800562356" w="60" h="30"/>
-        <glyph id="661e6442-5247-c02e-e073-9859f0b05ea8_0" class="state variable">
-          <state value="soluble"/>
-          <bbox x="1006.0762734384627" y="-449.71053800562356" w="30.7705078125" h="12"/>
-        </glyph>
-      </glyph>
-      <glyph id="4caeb2fa-a68e-ffe0-5175-ba0b00a4533f" class="macromolecule">
-        <label text="IL6"/>
-        <bbox x="971.0226412295141" y="-393.6409779478697" w="60" h="30"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_4" class="macromolecule">
-      <label text="AGTR1"/>
-      <bbox x="187.41082323194948" y="-608.313428646387" w="60" h="30"/>
-      <glyph id="id_5" class="state variable">
-        <state value="i" variable="act"/>
-        <bbox x="214.81082323194946" y="-614.313428646387" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_6" class="macromolecule">
-      <label text="ADAM17"/>
-      <bbox x="394.37288993944554" y="-613.3235856223532" w="60" h="30"/>
-      <glyph id="id_7" class="state variable">
-        <state value="i" variable="act"/>
-        <bbox x="421.7728899394455" y="-619.3235856223532" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_10" class="macromolecule">
-      <label text="TNF"/>
-      <bbox x="681.2686780636715" y="-432.3274093116602" w="60" h="30"/>
-      <glyph id="id_11" class="state variable">
-        <state value="i" variable="act"/>
-        <bbox x="708.6686780636715" y="-438.3274093116602" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_12" class="macromolecule">
-      <label text="IL6R"/>
-      <bbox x="904.3273525716049" y="-662.5108049501218" w="60" h="30"/>
-      <glyph id="id_13" class="state variable">
-        <state value="Membrane"/>
-        <bbox x="933.0933193684799" y="-668.5108049501218" w="45.26806640625" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="4cbe95a5-ef8b-0394-78b4-6828d2d599de" class="macromolecule">
-      <label text="IL6"/>
-      <bbox x="1041.4877097305273" y="-538.1221837530862" w="60" h="30"/>
-    </glyph>
-    <glyph id="id_16" class="macromolecule">
-      <label text="SARS_COV_2"/>
-      <bbox x="-186.00308373281337" y="-465.63507790185105" w="82.14453125" h="25"/>
-    </glyph>
-    <glyph id="e35d665d-564b-727a-d7f0-b0f28574e625" class="macromolecule">
-      <label text="IL6R"/>
-      <bbox x="902.7221094958267" y="-538.0559559288002" w="60" h="30"/>
-      <glyph id="e35d665d-564b-727a-d7f0-b0f28574e625_0" class="state variable">
-        <state value="soluble"/>
-        <bbox x="938.1221094958266" y="-544.0559559288002" w="30.7705078125" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_19" class="macromolecule">
-      <label text="TNF"/>
-      <bbox x="851.7299601788602" y="-433.152897669893" w="60" h="30"/>
-      <glyph id="nwtSV_de0908e2-9dce-43a1-a98a-46dd0f99cf40" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="856.7299601788602" y="-439.152897669893" w="28.1474609375" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_20" class="macromolecule">
-      <label text="NFKB1"/>
-      <bbox x="745.6025983145433" y="-250.01623979165518" w="60" h="30"/>
-      <glyph id="id_21" class="state variable">
-        <state value="i" variable="act"/>
-        <bbox x="773.0025983145434" y="-256.01623979165515" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_22" class="macromolecule">
-      <label text="EGFR"/>
-      <bbox x="572.2203423125502" y="-434.27328622776815" w="60" h="30"/>
-    </glyph>
-    <glyph id="id_24" class="macromolecule">
-      <label text="ACE2"/>
-      <bbox x="55.956471739405714" y="-601.8022172757959" w="60" h="30"/>
-      <glyph id="id_25" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="83.35647173940572" y="-607.8022172757959" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_26" class="macromolecule">
-      <label text="Angiotensin_II"/>
-      <bbox x="224.84287530306165" y="-683.3456160765013" w="79.716796875" h="25"/>
-      <glyph id="id_27" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="229.84287530306165" y="-689.3456160765013" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_28" class="macromolecule">
-      <label text="AGTR1"/>
-      <bbox x="302.1924697207813" y="-611.3262467520341" w="60" h="30"/>
-      <glyph id="id_29" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="329.59246972078125" y="-617.3262467520341" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_30" class="macromolecule">
-      <label text="ADAM17"/>
-      <bbox x="490.32590331968345" y="-609.3852253113498" w="60" h="30"/>
-      <glyph id="id_31" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="517.7259033196834" y="-615.3852253113498" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_32" class="macromolecule">
-      <label text="EGF"/>
-      <bbox x="404.0565926412859" y="-433.5426973717483" w="60" h="30"/>
-    </glyph>
-    <glyph id="nwtN_932fe1e7-52a1-4392-93a1-e2789e87a72d" class="macromolecule">
-      <label text="IL6ST"/>
-      <bbox x="1054.709828288227" y="-486.1091584333619" w="60" h="30"/>
-    </glyph>
-    <glyph id="id_42" class="macromolecule">
-      <label text="NFKB1"/>
-      <bbox x="660.6228265698415" y="-163.51377056462388" w="60" h="30"/>
-      <glyph id="id_43" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="688.0228265698416" y="-169.51377056462388" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="5b5ce97d-537d-202f-0001-d827e4ffbdb8" class="macromolecule">
-      <label text="PRR"/>
-      <bbox x="-32.365455085858954" y="-241.69097752659937" w="60" h="30"/>
-    </glyph>
-    <glyph id="nwtN_41ec362d-3eee-49d1-a0b8-216d10ba668d" class="source and sink">
-      <bbox x="119.87920148999652" y="-738.9425823245095" w="22" h="22"/>
-    </glyph>
-    <glyph id="8a97a0e4-e5a8-b4c2-2577-22b3483d60ed" class="macromolecule">
-      <label text="STAT3"/>
-      <bbox x="1222.7241757565318" y="-284.44946743255673" w="60" h="30"/>
-    </glyph>
-    <glyph id="id_65" class="complex">
-      <bbox x="119.41730897212318" y="-509.72679805127024" w="105.39453125" h="100.62500000000011"/>
-      <glyph id="id_65id_62" class="macromolecule">
-        <label text="ACE2"/>
-        <bbox x="142.11457459712318" y="-491.47679805127024" w="60" h="30"/>
-        <glyph id="id_63" class="state variable">
-          <state value="i" variable="act"/>
-          <bbox x="169.5145745971232" y="-497.47679805127024" w="28" h="12"/>
-        </glyph>
-      </glyph>
-      <glyph id="id_65id_64" class="macromolecule">
-        <label text="SARS_COV_2"/>
-        <bbox x="131.04230897212318" y="-445.7267980512701" w="82.14453125" h="25"/>
-      </glyph>
-    </glyph>
     <glyph id="id_73" class="process">
-      <bbox x="183.98749812401124" y="-672.650144306331" w="10" h="10"/>
-    </glyph>
-    <glyph id="id_81" class="process">
-      <bbox x="261.67657818094193" y="-595.0280269031285" w="10" h="10"/>
+      <bbox x="282.78489806176344" y="-847.5100706607369" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_73.1" x="291.356326633192" y="-843.9386420893084"/>
+      <port id="id_73.2" x="281.356326633192" y="-843.9386420893084"/>
     </glyph>
     <glyph id="id_85" class="process">
-      <bbox x="414.719551285111" y="-682.7948405718756" w="10" h="10"/>
-    </glyph>
-    <glyph id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb" class="process">
-      <bbox x="1082.571403495402" y="-409.9924472765277" w="5.1020408163265305" h="5.1020408163265305"/>
-      <port id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.1" x="1081.5509953321366" y="-407.44142686836443"/>
-      <port id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.2" x="1088.693852474994" y="-407.44142686836443"/>
-    </glyph>
-    <glyph id="id_93" class="process">
-      <bbox x="794.4523927414997" y="-425.0863539626556" w="10" h="10"/>
-    </glyph>
-    <glyph id="id_97" class="process">
-      <bbox x="929.9483281301644" y="-590.9589561977517" w="10" h="10"/>
-    </glyph>
-    <glyph id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f" class="process">
-      <bbox x="1174.8153926916423" y="-269.00257239563933" w="5.1020408163265305" h="5.1020408163265305"/>
-      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.1" x="1173.794984528377" y="-266.4515519874761"/>
-      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.2" x="1180.9378416712343" y="-266.4515519874761"/>
-    </glyph>
-    <glyph id="id_133" class="process">
-      <bbox x="681.2883221472622" y="-237.17155625652344" w="10" h="10"/>
-    </glyph>
-    <glyph id="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4" class="complex">
-      <bbox x="445.28417573473786" y="-361.39739003117194" w="153.2015207158687" h="57.25"/>
-      <glyph id="nwtSV_6ce1b442-ec94-4f83-92e2-a7817e820b22" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="450.2841757347378" y="-367.39739003117194" w="28.1474609375" h="12"/>
-      </glyph>
-      <glyph id="0a295900-d3c8-0915-15db-024ed486af12" class="macromolecule">
-        <label text="EGF"/>
-        <bbox x="458.9091757347379" y="-347.77239003117194" w="60" h="30"/>
-      </glyph>
-      <glyph id="215d8b5c-ddce-3fc9-c4de-82da2ab13923" class="macromolecule">
-        <label text="EGFR"/>
-        <bbox x="524.8606964506066" y="-347.77239003117194" w="60" h="30"/>
-      </glyph>
-    </glyph>
-    <glyph id="id_141" class="process">
-      <bbox x="79.18247183838253" y="-462.7391072263174" w="10" h="10"/>
-    </glyph>
-    <glyph id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd" class="process">
-      <bbox x="1004.6553928334042" y="-524.8244130986336" w="5.1020408163265305" h="5.1020408163265305"/>
-      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1" x="1003.6349846701389" y="-522.2733926904704"/>
-      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.2" x="1010.777841812996" y="-522.2733926904704"/>
-    </glyph>
-    <glyph id="id_149" class="process">
-      <bbox x="514.9059898708721" y="-426.93535650288925" w="10" h="10"/>
-    </glyph>
-    <glyph id="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2" class="complex">
-      <bbox x="1129.4963639111954" y="-471.3621047914548" w="91.33049432239432" h="126.69429851448945"/>
-      <glyph id="c5e55552-1743-bf20-915d-f0ce2275b6af" class="macromolecule">
-        <label text="IL6R"/>
-        <bbox x="1142.4063504210897" y="-453.1121047914548" w="60" h="30"/>
-        <glyph id="c5e55552-1743-bf20-915d-f0ce2275b6af_0" class="state variable">
-          <state value="soluble"/>
-          <bbox x="1177.8063504210897" y="-459.1121047914548" w="30.7705078125" h="12"/>
-        </glyph>
-      </glyph>
-      <glyph id="548ff045-6b1d-2792-50f9-c79acd0b62fc" class="macromolecule">
-        <label text="IL6"/>
-        <bbox x="1141.1213639111954" y="-420.9874420441041" w="60" h="30"/>
-      </glyph>
-      <glyph id="bc6f6fa1-d0d8-4e30-88c5-433de438a6d8" class="macromolecule">
-        <label text="IL6ST"/>
-        <bbox x="1141.7638571661425" y="-386.29280627696534" w="60" h="30"/>
-      </glyph>
-    </glyph>
-    <glyph id="82fc284a-1aa2-185e-b4a6-eb288ded76c6" class="macromolecule">
-      <label text="STAT3"/>
-      <bbox x="1145.9500389577697" y="-162.3650919945377" w="60" h="30"/>
-      <glyph id="82fc284a-1aa2-185e-b4a6-eb288ded76c6_0" class="state variable">
-        <state value="a" variable="act"/>
-        <bbox x="1173.3500389577698" y="-168.3650919945377" w="28" h="12"/>
-      </glyph>
-    </glyph>
-    <glyph id="422086ff-89f7-fa6f-4be4-1d30931fd72f" class="macromolecule">
-      <label text="IL6"/>
-      <bbox x="908.9259765598357" y="-150.3351366736377" w="60" h="30"/>
-    </glyph>
-    <glyph id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212" class="process">
-      <bbox x="61.96905084475331" y="-314.0724215839413" w="5.1020408163265305" h="5.1020408163265305"/>
-      <port id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.1" x="60.94864268148801" y="-311.52140117577807"/>
-      <port id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.2" x="68.09149982434515" y="-311.52140117577807"/>
-    </glyph>
-    <glyph id="nwtN_c22a9518-42c8-490f-aa00-2296db23f595" class="and">
-      <bbox x="936.1669782381836" y="-30.424751132871044" w="15.306122448979595" h="15.306122448979595"/>
-      <port id="nwtN_c22a9518-42c8-490f-aa00-2296db23f595.1" x="933.1057537483877" y="-22.771689908381248"/>
-      <port id="nwtN_c22a9518-42c8-490f-aa00-2296db23f595.2" x="954.534325176959" y="-22.771689908381248"/>
+      <bbox x="525.0895969406376" y="-681.3662691433042" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_85.1" x="523.6610255120662" y="-677.7948405718756"/>
+      <port id="id_85.2" x="533.6610255120662" y="-677.7948405718756"/>
     </glyph>
     <glyph id="nwtN_a8ff99f1-5f8f-4583-b266-360810340677" class="phenotype">
       <label text="CRS"/>
-      <bbox x="921.9768109674021" y="153.0967633022709" w="60" h="30"/>
+      <bbox x="923.3143438717477" y="154.82754991971888" w="60" h="30"/>
     </glyph>
-    <glyph id="nwtN_c632ff64-78c1-48e3-9aa6-542d531d4285" class="macromolecule">
-      <label text="PRR"/>
-      <bbox x="151.9775809210102" y="-240.0596232256536" w="60" h="30"/>
-      <glyph id="nwtSV_b27046c2-0b99-4cad-b0bb-6c4f374b7869" class="state variable">
+    <glyph id="id_97" class="process">
+      <bbox x="929.153604166349" y="-609.5400433006619" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_97.1" x="932.7250327377776" y="-610.9686147292333"/>
+      <port id="id_97.2" x="932.7250327377776" y="-600.9686147292333"/>
+    </glyph>
+    <glyph id="96bb267e-6454-f799-7889-4083070690df" class="macromolecule">
+      <label text="IL6"/>
+      <bbox x="924.5673190101127" y="61.08539967444054" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_00b90db8-c51c-4988-970a-91631bde7be5" class="compartment">
+      <label text="Blood Stream"/>
+      <bbox x="212.72931123876887" y="-886.4123673367587" w="209.3610255091515" h="82.875"/>
+    </glyph>
+    <glyph id="id_26" class="macromolecule" compartmentRef="nwtN_00b90db8-c51c-4988-970a-91631bde7be5">
+      <label text="Angiotensin_II"/>
+      <bbox x="316.7485398729204" y="-854.1623673367587" w="79.716796875" h="25"/>
+      <glyph id="id_27" class="state variable">
         <state value="a" variable="act"/>
-        <bbox x="156.9775809210102" y="-246.0596232256536" w="28.1474609375" h="12"/>
+        <bbox x="321.7485398729204" y="-860.1623673367587" w="28" h="12"/>
       </glyph>
     </glyph>
-    <arc id="nwtE_d42a47f9-341e-4dd5-b053-a4e8cf1e03fc" class="consumption" source="4cbe95a5-ef8b-0394-78b4-6828d2d599de" target="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1">
-      <start x="1040.8627097305273" y="-522.7178013321891"/>
-      <end x="1011.402841812996" y="-522.3288036927507"/>
-    </arc>
-    <arc id="id_135" class="production" source="id_133" target="id_42">
-      <start x="686.5797664781796" y="-226.54655625652344"/>
-      <end x="689.6515623599915" y="-167.25958443311993"/>
-    </arc>
-    <arc id="nwtE_c07c9f40-12c0-4503-9352-9d656bbde57e" class="production" source="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.2" target="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6">
-      <start x="1007.0923930454082" y="-518.0769641190418"/>
-      <end x="1005.6695255933812" y="-465.7093851271218"/>
-    </arc>
+    <glyph id="nwtN_41ec362d-3eee-49d1-a0b8-216d10ba668d" class="source and sink" compartmentRef="nwtN_00b90db8-c51c-4988-970a-91631bde7be5">
+      <bbox x="238.3543112387689" y="-859.277387744831" w="22" h="22"/>
+    </glyph>
+    <glyph id="nwtN_b29e9f87-9746-46c7-ab3c-f8f9cb4dfd2c" class="compartment">
+      <label text="Cell"/>
+      <bbox x="-410.5005086939366" y="-736.7544328300835" w="1758.554904885206" h="766.9706034743958"/>
+    </glyph>
+    <glyph id="nwtN_0001029e-318a-45d1-95ca-316980d7c05f" class="compartment" compartmentRef="nwtN_b29e9f87-9746-46c7-ab3c-f8f9cb4dfd2c">
+      <label text="Cytosol"/>
+      <bbox x="-383.63573689578266" y="-566.4223754392036" w="1705.0651330870521" h="570.013546083516"/>
+    </glyph>
+    <glyph id="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6" class="complex" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="972.1314938731991" y="-464.1405747447464" w="90.04550781250009" h="109.94456005775385"/>
+      <glyph id="661e6442-5247-c02e-e073-9859f0b05ea8" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#661e6442-5247-c02e-e073-9859f0b05ea8">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/hgnc:6019"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="IL6R"/>
+        <bbox x="983.7564938731991" y="-445.89057474474635" w="60" h="30"/>
+        <glyph id="661e6442-5247-c02e-e073-9859f0b05ea8_0" class="state variable">
+          <state value="soluble"/>
+          <bbox x="1019.1564938731992" y="-451.89057474474635" w="30.7705078125" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="4caeb2fa-a68e-ffe0-5175-ba0b00a4533f" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#4caeb2fa-a68e-ffe0-5175-ba0b00a4533f">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/hgnc:6018"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="IL6"/>
+        <bbox x="984.1028616642504" y="-395.8210146869926" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_10" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="TNF"/>
+      <bbox x="694.3488984984085" y="-434.5074460507831" w="60" h="30"/>
+      <glyph id="id_11" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="721.7488984984085" y="-440.5074460507831" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="4cbe95a5-ef8b-0394-78b4-6828d2d599de" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="IL6"/>
+      <bbox x="1054.5679301652644" y="-531.3022204922094" w="60" h="30"/>
+    </glyph>
+    <glyph id="e35d665d-564b-727a-d7f0-b0f28574e625" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="IL6R"/>
+      <bbox x="915.8023299305635" y="-531.2359926679234" w="60" h="30"/>
+      <glyph id="e35d665d-564b-727a-d7f0-b0f28574e625_0" class="state variable">
+        <state value="soluble"/>
+        <bbox x="951.2023299305635" y="-537.2359926679234" w="30.7705078125" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_19" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="TNF"/>
+      <bbox x="864.8101806135971" y="-435.33293440901593" w="60" h="30"/>
+      <glyph id="nwtSV_de0908e2-9dce-43a1-a98a-46dd0f99cf40" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="869.8101806135971" y="-441.33293440901593" w="28.1474609375" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_20" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="NFKB1"/>
+      <bbox x="669.318416521167" y="-343.3081289653746" w="60" h="30"/>
+      <glyph id="id_21" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="696.7184165211671" y="-349.3081289653746" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_22" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="EGFR"/>
+      <bbox x="585.3005627472871" y="-436.45332296689094" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_32" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="EGF"/>
+      <bbox x="417.1368130760228" y="-435.7227341108712" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_932fe1e7-52a1-4392-93a1-e2789e87a72d" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="IL6ST"/>
+      <bbox x="1067.7900487229645" y="-488.28919517248494" w="60" h="30"/>
+    </glyph>
+    <glyph id="id_42" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="NFKB1"/>
+      <bbox x="673.7030470045786" y="-165.69380730374678" w="60" h="30"/>
+      <glyph id="id_43" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="701.1030470045787" y="-171.69380730374678" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="8a97a0e4-e5a8-b4c2-2577-22b3483d60ed" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="STAT3"/>
+      <bbox x="1235.8043961912695" y="-286.6295041716796" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="1094.6312157668738" y="-413.19289217891594" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.1" x="1093.2026443383024" y="-409.6214636074874"/>
+      <port id="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.2" x="1103.2026443383024" y="-409.6214636074874"/>
+    </glyph>
+    <glyph id="id_93" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="808.9611846048082" y="-425.83781927320695" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_93.1" x="807.5326131762367" y="-422.2663907017784"/>
+      <port id="id_93.2" x="817.5326131762367" y="-422.2663907017784"/>
+    </glyph>
+    <glyph id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="1186.8752049631146" y="-272.2030172980276" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.1" x="1190.4466335345433" y="-273.63158872659903"/>
+      <port id="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.2" x="1190.4466335345433" y="-263.63158872659903"/>
+    </glyph>
+    <glyph id="id_133" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="695.7971140105707" y="-237.92302156707493" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_133.1" x="699.3685425819992" y="-239.35159299564634"/>
+      <port id="id_133.2" x="699.3685425819992" y="-229.35159299564634"/>
+    </glyph>
+    <glyph id="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4" class="complex" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="458.3643961694748" y="-363.5774267702949" w="153.2015207158687" h="57.25"/>
+      <glyph id="nwtSV_6ce1b442-ec94-4f83-92e2-a7817e820b22" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="463.36439616947473" y="-369.5774267702949" w="28.1474609375" h="12"/>
+      </glyph>
+      <glyph id="0a295900-d3c8-0915-15db-024ed486af12" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#0a295900-d3c8-0915-15db-024ed486af12">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/hgnc:3229"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="EGF"/>
+        <bbox x="471.98939616947484" y="-349.9524267702949" w="60" h="30"/>
+      </glyph>
+      <glyph id="215d8b5c-ddce-3fc9-c4de-82da2ab13923" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#215d8b5c-ddce-3fc9-c4de-82da2ab13923">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/hgnc:3236"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="EGFR"/>
+        <bbox x="537.9409168853435" y="-349.9524267702949" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="1016.7152051048753" y="-528.024858001022" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1" x="1020.2866336763038" y="-529.4534294295935"/>
+      <port id="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.2" x="1020.2866336763038" y="-519.4534294295935"/>
+    </glyph>
+    <glyph id="id_149" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="529.4147817341806" y="-427.6868218134406" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_149.1" x="532.9862103056091" y="-429.11539324201203"/>
+      <port id="id_149.2" x="532.9862103056091" y="-419.11539324201203"/>
+    </glyph>
+    <glyph id="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2" class="complex" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="1142.576584345933" y="-473.54214153057774" w="91.33049432239432" h="126.6942985144895"/>
+      <glyph id="c5e55552-1743-bf20-915d-f0ce2275b6af" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#c5e55552-1743-bf20-915d-f0ce2275b6af">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/hgnc:6019"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="IL6R"/>
+        <bbox x="1155.4865708558273" y="-455.29214153057774" w="60" h="30"/>
+        <glyph id="c5e55552-1743-bf20-915d-f0ce2275b6af_0" class="state variable">
+          <state value="soluble"/>
+          <bbox x="1190.8865708558274" y="-461.29214153057774" w="30.7705078125" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="548ff045-6b1d-2792-50f9-c79acd0b62fc" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#548ff045-6b1d-2792-50f9-c79acd0b62fc">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/hgnc:6018"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="IL6"/>
+        <bbox x="1154.201584345933" y="-423.1674787832269" w="60" h="30"/>
+      </glyph>
+      <glyph id="bc6f6fa1-d0d8-4e30-88c5-433de438a6d8" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#bc6f6fa1-d0d8-4e30-88c5-433de438a6d8">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/hgnc:6021"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="IL6ST"/>
+        <bbox x="1154.8440776008802" y="-388.47284301608823" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="82fc284a-1aa2-185e-b4a6-eb288ded76c6" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="STAT3"/>
+      <bbox x="1159.030259392507" y="-164.5451287336606" w="60" h="30"/>
+      <glyph id="82fc284a-1aa2-185e-b4a6-eb288ded76c6_0" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="1186.4302593925072" y="-170.5451287336606" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="422086ff-89f7-fa6f-4be4-1d30931fd72f" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="IL6"/>
+      <bbox x="922.0061969945725" y="-170.5151734127606" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="137.43582653211644" y="-312.7268950267553" w="28.571428571428573" h="28.571428571428573"/>
+      <port id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.1" x="151.72154081783071" y="-318.441180741041"/>
+      <port id="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.2" x="151.72154081783071" y="-278.441180741041"/>
+    </glyph>
+    <glyph id="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="940.9278306026705" y="-56.3195436414019" w="28.571428571428573" h="28.571428571428573"/>
+      <port id="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae.1" x="955.2135448883848" y="-62.033829355687615"/>
+      <port id="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae.2" x="955.2135448883848" y="-22.033829355687615"/>
+    </glyph>
+    <glyph id="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab" class="process" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <bbox x="-6.331131411230354" y="-539.3688040106322" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.1" x="-2.759702839801782" y="-540.7973754392036"/>
+      <port id="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.2" x="-2.759702839801782" y="-530.7973754392036"/>
+    </glyph>
+    <glyph id="nwtN_ccbae7ed-ba1d-44d2-8280-23612b680e57" class="compartment" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="Endosome"/>
+      <bbox x="-228.85312841805967" y="-537.5318347903934" w="156.64453125" h="273.9570573908802"/>
+    </glyph>
+    <glyph id="id_65" class="complex" compartmentRef="nwtN_ccbae7ed-ba1d-44d2-8280-23612b680e57">
+      <bbox x="-203.22812841805967" y="-511.9068347903934" w="105.39453125" h="100.62500000000023"/>
+      <glyph id="id_65id_62" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#id_65id_62">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/hgnc:13557"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="ACE2"/>
+        <bbox x="-180.53086279305967" y="-493.6568347903934" w="60" h="30"/>
+        <glyph id="id_63" class="state variable">
+          <state value="i" variable="act"/>
+          <bbox x="-153.13086279305966" y="-499.6568347903934" w="28" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="id_65id_64" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#id_65id_64">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/mesh:C000656484"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="SARS_COV_2"/>
+        <bbox x="-191.60312841805967" y="-447.9068347903932" w="82.14453125" h="25"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_387a2f0d-f10e-4384-9ffb-85e5dac87998" class="macromolecule" compartmentRef="nwtN_ccbae7ed-ba1d-44d2-8280-23612b680e57">
+      <label text="TLR"/>
+      <bbox x="-181.00220110015596" y="-341.5138484834095" w="60" h="30"/>
+    </glyph>
+    <glyph id="nwtN_be9edce6-9fad-4030-b20c-745f56e35315" class="and" compartmentRef="nwtN_ccbae7ed-ba1d-44d2-8280-23612b680e57">
+      <bbox x="-161.71648681444168" y="-383.00890571927516" w="21.42857142857143" h="21.42857142857143"/>
+      <port id="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.1" x="-166.00220110015596" y="-372.29462000498944"/>
+      <port id="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.2" x="-136.00220110015596" y="-372.29462000498944"/>
+    </glyph>
+    <glyph id="ddae0e4f-363b-db8b-b97f-06620fb2d3bf" class="macromolecule" compartmentRef="nwtN_0001029e-318a-45d1-95ca-316980d7c05f">
+      <label text="NFKB1"/>
+      <bbox x="120.84570263734841" y="-421.8747935181908" w="60" h="30"/>
+      <glyph id="ddae0e4f-363b-db8b-b97f-06620fb2d3bf_0" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="148.2457026373485" y="-427.8747935181908" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca" class="compartment" compartmentRef="nwtN_b29e9f87-9746-46c7-ab3c-f8f9cb4dfd2c">
+      <label text="Cell Membrane"/>
+      <bbox x="-359.8617447478055" y="-710.1294328300835" w="1650.221382346189" h="152.46080826070283"/>
+    </glyph>
+    <glyph id="id_4" class="macromolecule" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
+      <label text="AGTR1"/>
+      <bbox x="257.17199888388075" y="-619.2136123420014" w="60" h="30"/>
+      <glyph id="id_5" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="284.5719988838807" y="-625.2136123420014" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_6" class="macromolecule" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
+      <label text="ADAM17"/>
+      <bbox x="464.13406559137684" y="-624.2237693179675" w="60" h="30"/>
+      <glyph id="id_7" class="state variable">
+        <state value="i" variable="act"/>
+        <bbox x="491.5340655913768" y="-630.2237693179675" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_12" class="macromolecule" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
+      <label text="IL6R"/>
+      <bbox x="905.0885282235363" y="-676.4109886457361" w="60" h="30"/>
+      <glyph id="id_13" class="state variable">
+        <state value="Membrane"/>
+        <bbox x="933.8544950204114" y="-682.4109886457361" w="45.26806640625" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_24" class="macromolecule" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
+      <label text="ACE2"/>
+      <bbox x="40.69621456554562" y="-623.6025846670245" w="60" h="30"/>
+      <glyph id="id_25" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="68.09621456554562" y="-629.6025846670245" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_28" class="macromolecule" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
+      <label text="AGTR1"/>
+      <bbox x="371.9536453727126" y="-622.2264304476485" w="60" h="30"/>
+      <glyph id="id_29" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="399.35364537271255" y="-628.2264304476485" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="id_30" class="macromolecule" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
+      <label text="ADAM17"/>
+      <bbox x="560.0870789716148" y="-620.2854090069641" w="60" h="30"/>
+      <glyph id="id_31" class="state variable">
+        <state value="a" variable="act"/>
+        <bbox x="587.4870789716148" y="-626.2854090069641" w="28" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_381870d4-f221-4e03-b71d-06d457f0f49a" class="macromolecule" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
+      <label text="Tmpress2"/>
+      <bbox x="146.55409101827246" y="-618.0585510911351" w="58.8984375" h="25"/>
+    </glyph>
+    <glyph id="nwtN_903513f0-4b5f-464b-a879-46281029edb8" class="process" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
+      <bbox x="-17.231315106844555" y="-676.7111185753723" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="nwtN_903513f0-4b5f-464b-a879-46281029edb8.1" x="-8.659886535415982" y="-673.1396900039438"/>
+      <port id="nwtN_903513f0-4b5f-464b-a879-46281029edb8.2" x="-18.659886535415986" y="-673.1396900039438"/>
+    </glyph>
+    <glyph id="nwtN_2d0b8032-1688-4ed7-8627-2aaed2fb3c8c" class="complex" compartmentRef="nwtN_7588c6c1-ab67-4aa4-a58e-bf7a80e647ca">
+      <bbox x="-142.4863561003302" y="-684.5044328300835" w="83.25" h="101.21080826070272"/>
+      <glyph id="b3e7227d-9835-4758-3687-e89b3f856288" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#b3e7227d-9835-4758-3687-e89b3f856288">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/hgnc:13557"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="ACE2"/>
+        <bbox x="-130.8613561003302" y="-624.9186245693808" w="60" h="30"/>
+        <glyph id="b3e7227d-9835-4758-3687-e89b3f856288_0" class="state variable">
+          <state value="a" variable="act"/>
+          <bbox x="-103.46135610033019" y="-630.9186245693808" w="28" h="12"/>
+        </glyph>
+      </glyph>
+      <glyph id="nwtN_7ba71f29-e4fd-46d6-a6f4-01a1b1eabd61" class="macromolecule">
+        <extension>
+          <annotation>
+            <rdf:RDF 
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+              xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+              <rdf:Description rdf:about="#nwtN_7ba71f29-e4fd-46d6-a6f4-01a1b1eabd61">
+                <bqmodel:is>
+                  <rdf:Bag>
+                    <rdf:li rdf:resource="http://identifiers.org/mesh:C000656484"/>
+                  </rdf:Bag>
+                </bqmodel:is>
+              </rdf:Description>
+            </rdf:RDF>
+          </annotation>
+        </extension>
+        <label text="Sars_CoV_2"/>
+        <bbox x="-130.8613561003302" y="-672.8794328300835" w="60" h="30"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_f55f3ff4-c402-41a8-9ff1-a0b17ec966df" class="macromolecule">
+      <label text="Sars_CoV_2"/>
+      <bbox x="-40.5893428776719" y="-813.9353372815087" w="72.369140625" h="25"/>
+    </glyph>
+    <glyph id="id_81" class="process">
+      <bbox x="335.54066931732467" y="-660.6023112042826" w="7.142857142857143" h="7.142857142857143"/>
+      <port id="id_81.1" x="334.1120978887532" y="-657.0308826328541"/>
+      <port id="id_81.2" x="344.1120978887532" y="-657.0308826328541"/>
+    </glyph>
     <arc id="id_76" class="catalysis" source="id_24" target="id_73">
-      <start x="105.86866796246338" y="-602.4272172757959"/>
-      <end x="180.90403638969184" y="-661.3070926316752"/>
+      <start x="89.55110124921629" y="-629.177713988515"/>
+      <end x="279.0903251320816" y="-836.0097203703057"/>
     </arc>
-    <arc id="id_88" class="catalysis" source="id_28" target="id_85">
-      <start x="348.9794373768938" y="-611.9512467520341"/>
-      <end x="411.8070941019238" y="-670.4300713044325"/>
+    <arc id="nwtE_d67d005c-ef6b-4c5d-a47d-4f585eadec42" class="stimulation" source="nwtN_381870d4-f221-4e03-b71d-06d457f0f49a" target="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab">
+      <start x="147.82896570588792" y="-594.5636851155704"/>
+      <end x="4.169334363946177" y="-538.5013899577393"/>
     </arc>
-    <arc id="nwtE_4d82c9b2-48f9-46a4-b3eb-d9e82c07662d" class="logic arc" source="id_42" target="nwtN_c22a9518-42c8-490f-aa00-2296db23f595.1">
-      <start x="718.3128512190166" y="-134.76242917729348"/>
-      <end x="933.6641689578801" y="-27.815269470564616"/>
+    <arc id="nwtE_36ec0cc1-b490-465c-aec2-00021e757ea2" class="consumption" source="nwtN_2d0b8032-1688-4ed7-8627-2aaed2fb3c8c" target="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.1">
+      <start x="-60.30421229691294" y="-593.3418848963148"/>
+      <end x="-8.384702839801776" y="-541.4223754392036"/>
     </arc>
-    <arc id="nwtE_e35f764e-e162-475f-acd7-fabf71096655" class="consumption" source="5b5ce97d-537d-202f-0001-d827e4ffbdb8" target="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.1">
-      <start x="9.954256452602586" y="-242.31597752659937"/>
-      <end x="61.21134872544407" y="-307.3249726043495"/>
-    </arc>
-    <arc id="id_98" class="consumption" source="id_12" target="id_97">
-      <start x="934.4849878546901" y="-631.8858049501218"/>
-      <end x="934.8915794282537" y="-591.5839561977517"/>
-    </arc>
-    <arc id="nwtE_788d3b38-cab1-4a9a-9188-f6ed8fc830f5" class="consumption" source="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6" target="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.1">
-      <start x="1049.7217812509627" y="-407.24348994827017"/>
-      <end x="1080.9259953321366" y="-407.41796322237997"/>
-    </arc>
-    <arc id="nwtE_b01b0178-0377-43a4-aee6-c948255e0d29" class="production" source="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.2" target="82fc284a-1aa2-185e-b4a6-eb288ded76c6">
-      <start x="1177.3165021954271" y="-262.2551234160475"/>
-      <end x="1176.1730424976918" y="-166.1148709879797"/>
-    </arc>
-    <arc id="nwtE_0a08c745-8d67-46fb-9962-10a565b9fa32" class="consumption" source="8a97a0e4-e5a8-b4c2-2577-22b3483d60ed" target="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.1">
-      <start x="1222.0991757565318" y="-268.2311302995421"/>
-      <end x="1181.5628416712343" y="-266.6184961427288"/>
-    </arc>
-    <arc id="nwtE_0a2de145-3e8d-461a-ad6c-683248e333d3" class="consumption" source="nwtN_932fe1e7-52a1-4392-93a1-e2789e87a72d" target="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.1">
-      <start x="1084.8110853352616" y="-455.4841584333619"/>
-      <end x="1085.0952291537903" y="-411.637855439793"/>
-    </arc>
-    <arc id="id_143" class="consumption" source="id_16" target="id_141">
-      <start x="-103.23355248281337" y="-453.9729840474642"/>
-      <end x="78.55747183838253" y="-457.62607290623845"/>
-    </arc>
-    <arc id="nwtE_86731819-8e21-4d0e-b7ab-29440e871539" class="logic arc" source="82fc284a-1aa2-185e-b4a6-eb288ded76c6" target="nwtN_c22a9518-42c8-490f-aa00-2296db23f595.1">
-      <start x="1149.1420672918116" y="-132.9761875006937"/>
-      <end x="953.8111247209516" y="-28.134302692464928"/>
-    </arc>
-    <arc id="nwtE_aaf31623-f4c2-4d79-b6b4-11e06fa45d6b" class="catalysis" source="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2" target="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f">
-      <start x="1176.157955613754" y="-344.04280627696534"/>
-      <end x="1177.2523902333671" y="-273.77260161211467"/>
-    </arc>
-    <arc id="nwtE_ab954f79-1604-4d2c-90f5-9de3e466f829" class="consumption" source="id_32" target="id_149">
-      <start x="464.6815926412859" y="-419.75295847134964"/>
-      <end x="514.2809898708721" y="-421.71306364786045"/>
-    </arc>
-    <arc id="nwtE_bc352fe5-5617-4c2f-af81-a872ccc877eb" class="stimulation" source="id_30" target="id_149">
-      <start x="520.2878566242408" y="-578.7602253113498"/>
-      <end x="519.9272959977615" y="-430.68534723860387"/>
-    </arc>
-    <arc id="nwtE_00872d78-de08-4c21-a969-5631187d3cf0" class="production" source="id_97" target="e35d665d-564b-727a-d7f0-b0f28574e625">
-      <start x="934.7492520961978" y="-580.3339561977517"/>
-      <end x="933.3856270764254" y="-541.8040006657783"/>
-    </arc>
-    <arc id="id_87" class="production" source="id_85" target="id_30">
-      <start x="425.344551285111" y="-673.1313270227587"/>
-      <end x="499.07373492370294" y="-612.00474091362"/>
-    </arc>
-    <arc id="id_86" class="consumption" source="id_6" target="id_85">
-      <start x="423.4579878591882" y="-613.9485856223532"/>
-      <end x="420.04891603400364" y="-672.1698405718756"/>
-    </arc>
-    <arc id="nwtE_e1015158-f801-4b9a-9bfe-3a231440cf74" class="production" source="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.2" target="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2">
-      <start x="1089.318852474994" y="-407.46815714165507"/>
-      <end x="1125.7464273060395" y="-407.7001923148921"/>
-    </arc>
-    <arc id="id_96" class="catalysis" source="id_30" target="id_93">
-      <start x="544.9119891558416" y="-579.0325906653113"/>
-      <end x="791.1767359287712" y="-425.25403849562696"/>
-    </arc>
-    <arc id="nwtE_46c3b9af-4a21-449f-a6fb-f12c98a735f3" class="production" source="id_149" target="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4">
-      <start x="520.0308351170333" y="-416.31035650288925"/>
-      <end x="521.166399419406" y="-365.14662061984257"/>
-    </arc>
-    <arc id="id_134" class="consumption" source="id_20" target="id_133">
-      <start x="744.9775983145433" y="-234.04082536742314"/>
-      <end x="691.9133221472622" y="-232.350714007913"/>
-    </arc>
-    <arc id="nwtE_fa9704ac-8a71-49c9-afdc-9c5870a7f6a5" class="production" source="id_93" target="id_19">
-      <start x="805.0773927414997" y="-419.9541710118766"/>
-      <end x="847.9808226529087" y="-418.9459751071244"/>
-    </arc>
-    <arc id="id_74" class="consumption" source="id_26" target="id_73">
-      <start x="224.21787530306165" y="-669.1370292861299"/>
-      <end x="194.61249812401124" y="-667.8875453414905"/>
-    </arc>
-    <arc id="id_100" class="catalysis" source="id_30" target="id_97">
-      <start x="550.9509033196834" y="-593.7628410017653"/>
-      <end x="926.1989732651591" y="-586.1367671752853"/>
-    </arc>
-    <arc id="id_144" class="production" source="id_141" target="id_65">
-      <start x="89.80747183838253" y="-457.846268866887"/>
-      <end x="115.66787591001282" y="-458.338934347084"/>
-    </arc>
-    <arc id="nwtE_5f74bee1-4772-4812-8fbc-5a07ca4b0db4" class="consumption" source="id_24" target="id_141">
-      <start x="85.74170279076608" y="-571.1772172757959"/>
-      <end x="84.25978865989279" y="-463.3641072263174"/>
-    </arc>
-    <arc id="nwtE_2b1025a2-d1d0-4805-9529-093c62a97760" class="stimulation" source="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4" target="id_133">
-      <start x="569.6857232399113" y="-303.52239003117194"/>
-      <end x="677.9977698390355" y="-237.24466633457868"/>
-    </arc>
-    <arc id="id_150" class="consumption" source="id_22" target="id_149">
-      <start x="571.5953423125502" y="-420.2637077005404"/>
-      <end x="525.5309898708721" y="-421.753442354829"/>
-    </arc>
-    <arc id="nwtE_51d05797-0fbd-4d27-89a1-38ff1c9f1b9a" class="production" source="id_73" target="nwtN_41ec362d-3eee-49d1-a0b8-216d10ba668d">
-      <start x="183.56626821010758" y="-673.275144306331"/>
-      <end x="141.1148858467454" y="-717.3221649245669"/>
+    <arc id="id_86" class="consumption" source="id_6" target="id_85.1">
+      <start x="504.9571711915791" y="-630.7186228180965"/>
+      <end x="525.8287210722722" y="-672.1698405718756"/>
     </arc>
     <arc id="id_84" class="catalysis" source="id_26" target="id_81">
-      <start x="265.0220686448043" y="-657.7206160765013"/>
-      <end x="266.4627377153897" y="-598.7770939028026"/>
+      <start x="355.3632729577714" y="-828.5373673367587"/>
+      <end x="339.93988767936867" y="-665.7669473456697"/>
     </arc>
-    <arc id="id_83" class="production" source="id_81" target="id_28">
-      <start x="272.30157818094193" y="-590.5687733665809"/>
-      <end x="298.45681023997963" y="-593.0831465642163"/>
+    <arc id="id_100" class="catalysis" source="id_30" target="id_97">
+      <start x="620.7120789716148" y="-605.3464739736863"/>
+      <end x="923.9750389500542" y="-605.9511676082711"/>
     </arc>
-    <arc id="nwtE_f015e274-5ef6-41bd-a5a3-0c9e7c3b32d2" class="stimulation" source="id_19" target="id_133">
-      <start x="865.3101646712223" y="-402.527897669893"/>
-      <end x="694.177141235537" y="-239.6785193119985"/>
+    <arc id="nwtE_f9141b31-899f-4873-96e1-2b27910219d1" class="stimulation" source="96bb267e-6454-f799-7889-4083070690df" target="nwtN_a8ff99f1-5f8f-4583-b266-360810340677">
+      <start x="954.3584723335032" y="91.71039967444054"/>
+      <end x="953.5649561530295" y="151.07782903070074"/>
     </arc>
-    <arc id="id_82" class="consumption" source="id_4" target="id_81">
-      <start x="248.03582323194948" y="-591.2711291121271"/>
-      <end x="261.05157818094193" y="-590.403143144115"/>
+    <arc id="id_83" class="production" source="id_81.2" target="id_28">
+      <start x="344.7370978887532" y="-652.5728440459893"/>
+      <end x="379.7894552239582" y="-624.7924419907157"/>
     </arc>
-    <arc id="nwtE_21ab8275-d57a-4b29-b5c3-e719b838da7a" class="logic arc" source="422086ff-89f7-fa6f-4be4-1d30931fd72f" target="nwtN_c22a9518-42c8-490f-aa00-2296db23f595.1">
-      <start x="939.6053243859227" y="-119.71013667363769"/>
-      <end x="943.3274923659687" y="-34.10027313258594"/>
+    <arc id="id_87" class="production" source="id_85.2" target="id_30">
+      <start x="533.4262200978304" y="-672.1698405718756"/>
+      <end x="574.8304799517127" y="-623.2948245601772"/>
     </arc>
-    <arc id="id_94" class="consumption" source="id_10" target="id_93">
-      <start x="741.8936780636715" y="-418.2855531168449"/>
-      <end x="793.8273927414997" y="-419.91036836578496"/>
+    <arc id="id_88" class="catalysis" source="id_28" target="id_85">
+      <start x="428.2849575732167" y="-621.8913918447716"/>
+      <end x="520.3058901662596" y="-673.1415313717497"/>
     </arc>
-    <arc id="nwtE_e02a7d39-65ae-4aec-b74e-d86039235ae9" class="stimulation" source="nwtN_c22a9518-42c8-490f-aa00-2296db23f595.2" target="nwtN_a8ff99f1-5f8f-4583-b266-360810340677">
-      <start x="944.3041824326698" y="-11.44274441046278"/>
-      <end x="951.1756506967153" y="149.3496129681988"/>
+    <arc id="nwtE_c07c9f40-12c0-4503-9352-9d656bbde57e" class="production" source="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.2" target="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6">
+      <start x="1020.133798094218" y="-518.8284294295935"/>
+      <end x="1018.7497460281176" y="-467.8894218662446"/>
+    </arc>
+    <arc id="nwtE_788d3b38-cab1-4a9a-9188-f6ed8fc830f5" class="consumption" source="nwtN_3c080d67-b5fb-44bd-ba79-6e74ad18b1c6" target="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.1">
+      <start x="1062.8020016856992" y="-409.42352668739306"/>
+      <end x="1092.5776443383024" y="-409.59001233733795"/>
+    </arc>
+    <arc id="id_94" class="consumption" source="id_10" target="id_93.1">
+      <start x="754.9738984984085" y="-420.4655898559677"/>
+      <end x="806.9076131762367" y="-422.09040510490775"/>
+    </arc>
+    <arc id="nwtE_d42a47f9-341e-4dd5-b053-a4e8cf1e03fc" class="consumption" source="4cbe95a5-ef8b-0394-78b4-6828d2d599de" target="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1">
+      <start x="1053.9429301652644" y="-520.185632734062"/>
+      <end x="1025.9116336763038" y="-523.7401496300695"/>
+    </arc>
+    <arc id="nwtE_00872d78-de08-4c21-a969-5631187d3cf0" class="production" source="id_97.2" target="e35d665d-564b-727a-d7f0-b0f28574e625">
+      <start x="933.5447992287106" y="-600.3436147292333"/>
+      <end x="943.0745356669204" y="-534.9533260826228"/>
     </arc>
     <arc id="nwtE_fd68f1a4-f560-49f7-bde1-21288773cccf" class="consumption" source="e35d665d-564b-727a-d7f0-b0f28574e625" target="nwtN_65ed092c-c82f-4546-988b-dfb986558cdd.1">
-      <start x="963.3471094958267" y="-522.7341968739574"/>
-      <end x="1003.0099846701389" y="-522.3174821236412"/>
+      <start x="976.4273299305635" y="-519.6146776816843"/>
+      <end x="1014.6616336763038" y="-523.8328546311476"/>
     </arc>
-    <arc id="nwtE_ee04817a-f832-4bc9-b491-34070920d3a4" class="production" source="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.2" target="nwtN_c632ff64-78c1-48e3-9aa6-542d531d4285">
-      <start x="68.71649982434515" y="-308.43236347736536"/>
-      <end x="158.23448806450298" y="-242.5371776894714"/>
+    <arc id="nwtE_fa9704ac-8a71-49c9-afdc-9c5870a7f6a5" class="production" source="id_93.2" target="id_19">
+      <start x="818.1576131762367" y="-422.1342077509994"/>
+      <end x="861.0610430876457" y="-421.1260118462473"/>
     </arc>
-    <arc id="nwtE_f46707db-31cc-448c-80db-00b0551b2cbc" class="stimulation" source="nwtN_c632ff64-78c1-48e3-9aa6-542d531d4285" target="id_133">
-      <start x="212.6025809210102" y="-225.49150565699108"/>
-      <end x="677.5386328421696" y="-232.04816565764898"/>
+    <arc id="nwtE_f015e274-5ef6-41bd-a5a3-0c9e7c3b32d2" class="stimulation" source="id_19" target="id_133">
+      <start x="878.3903851059592" y="-404.70793440901593"/>
+      <end x="707.257361670274" y="-241.8585560511214"/>
     </arc>
-    <arc id="nwtE_ff4a566b-345c-42dc-aaf3-9efcd0c7d413" class="stimulation" source="id_16" target="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212">
-      <start x="-125.51854814622536" y="-440.01007790185105"/>
-      <end x="57.73483439232939" y="-316.1090271448908"/>
+    <arc id="id_134" class="consumption" source="id_20" target="id_133.1">
+      <start x="699.3267525000579" y="-312.6831289653746"/>
+      <end x="699.3655416295985" y="-239.97659299564634"/>
+    </arc>
+    <arc id="id_150" class="consumption" source="id_22" target="id_149.1">
+      <start x="584.6755627472871" y="-422.44374443966325"/>
+      <end x="538.6112103056091" y="-423.9334790939518"/>
+    </arc>
+    <arc id="nwtE_ab954f79-1604-4d2c-90f5-9de3e466f829" class="consumption" source="id_32" target="id_149.1">
+      <start x="477.7618130760228" y="-421.9329952104725"/>
+      <end x="527.3612103056091" y="-423.89310038698324"/>
+    </arc>
+    <arc id="nwtE_0a2de145-3e8d-461a-ad6c-683248e333d3" class="consumption" source="nwtN_932fe1e7-52a1-4392-93a1-e2789e87a72d" target="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.1">
+      <start x="1097.891305769999" y="-457.66419517248494"/>
+      <end x="1098.1661918013701" y="-415.2464636074874"/>
+    </arc>
+    <arc id="id_135" class="production" source="id_133.2" target="id_42">
+      <start x="699.6599869129167" y="-228.72659299564634"/>
+      <end x="702.7317827947286" y="-169.43962117224282"/>
+    </arc>
+    <arc id="nwtE_751469eb-8c3b-4ee1-817c-07594fc3a7fa" class="logic arc" source="id_65" target="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.1">
+      <start x="-150.79971913907838" y="-410.6568347903932"/>
+      <end x="-150.91973097713014" y="-387.91940236119547"/>
+    </arc>
+    <arc id="id_74" class="consumption" source="id_26" target="id_73.1">
+      <start x="316.1235398729204" y="-842.9741187302425"/>
+      <end x="291.981326633192" y="-843.7563796836524"/>
+    </arc>
+    <arc id="nwtE_0a08c745-8d67-46fb-9962-10a565b9fa32" class="consumption" source="8a97a0e4-e5a8-b4c2-2577-22b3483d60ed" target="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.1">
+      <start x="1235.1793961912695" y="-270.411167038665"/>
+      <end x="1196.0716335345433" y="-268.85536493470374"/>
+    </arc>
+    <arc id="nwtE_fba88905-74a7-4da7-a5da-50f83305b48a" class="consumption" source="id_24" target="nwtN_903513f0-4b5f-464b-a879-46281029edb8.1">
+      <start x="50.272861630493686" y="-624.2275846670245"/>
+      <end x="-8.034886535415993" y="-668.8362524009459"/>
+    </arc>
+    <arc id="nwtE_e1015158-f801-4b9a-9bfe-3a231440cf74" class="production" source="nwtN_df0b984b-2eae-4759-aed8-18172107a3cb.2" target="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2">
+      <start x="1103.8276443383024" y="-409.6572935482812"/>
+      <end x="1138.8266477407772" y="-409.88022905401505"/>
+    </arc>
+    <arc id="id_96" class="catalysis" source="id_30" target="id_93">
+      <start x="609.0780641934426" y="-589.6604090069641"/>
+      <end x="804.4944188676303" y="-428.8798857155924"/>
+    </arc>
+    <arc id="nwtE_b01b0178-0377-43a4-aee6-c948255e0d29" class="production" source="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f.2" target="82fc284a-1aa2-185e-b4a6-eb288ded76c6">
+      <start x="1190.3797316839934" y="-263.00658872659903"/>
+      <end x="1189.2951086919352" y="-171.81323188835657"/>
+    </arc>
+    <arc id="nwtE_aaf31623-f4c2-4d79-b6b4-11e06fa45d6b" class="catalysis" source="nwtN_4166f7e5-9502-429f-8b28-44126d165cc2" target="nwtN_5ed39004-54f8-4760-9177-fc7444a5184f">
+      <start x="1189.2381760484916" y="-346.2228430160883"/>
+      <end x="1190.335391857578" y="-275.77406692266624"/>
+    </arc>
+    <arc id="nwtE_2b1025a2-d1d0-4805-9529-093c62a97760" class="stimulation" source="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4" target="id_133">
+      <start x="582.7659436746483" y="-305.7024267702949"/>
+      <end x="691.0779902737725" y="-239.42470307370158"/>
+    </arc>
+    <arc id="nwtE_51d05797-0fbd-4d27-89a1-38ff1c9f1b9a" class="production" source="id_73.2" target="nwtN_41ec362d-3eee-49d1-a0b8-216d10ba668d">
+      <start x="280.731326633192" y="-844.5982127654503"/>
+      <end x="264.0039446362635" y="-846.5596155483479"/>
+    </arc>
+    <arc id="nwtE_46c3b9af-4a21-449f-a6fb-f12c98a735f3" class="production" source="id_149.2" target="nwtN_18321973-afbf-48b8-b32f-a2a8ceffc4c4">
+      <start x="533.1110555517703" y="-418.49039324201203"/>
+      <end x="534.246619854143" y="-367.3266573589655"/>
+    </arc>
+    <arc id="nwtE_8f37a7b9-2301-4fc6-959b-5b543cccdb55" class="production" source="nwtN_903513f0-4b5f-464b-a879-46281029edb8.2" target="nwtN_2d0b8032-1688-4ed7-8627-2aaed2fb3c8c">
+      <start x="-19.28488653541598" y="-670.6084400039438"/>
+      <end x="-55.761601396658" y="-654.1939183163847"/>
+    </arc>
+    <arc id="nwtE_8cdfc8cc-c7c0-49cc-9213-1377141dc69f" class="consumption" source="nwtN_f55f3ff4-c402-41a8-9ff1-a0b17ec966df" target="nwtN_903513f0-4b5f-464b-a879-46281029edb8.1">
+      <start x="-5.351596354108784" y="-788.3103372815087"/>
+      <end x="-13.254104911585893" y="-678.7646900039438"/>
+    </arc>
+    <arc id="nwtE_bc352fe5-5617-4c2f-af81-a872ccc877eb" class="stimulation" source="id_30" target="id_149">
+      <start x="585.1624170779829" y="-589.6604090069641"/>
+      <end x="535.6984677301773" y="-432.7208616323759"/>
+    </arc>
+    <arc id="nwtE_fcbfda6b-ae4d-4946-88fa-522cb6bdbb89" class="stimulation" source="82fc284a-1aa2-185e-b4a6-eb288ded76c6" target="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae">
+      <start x="1160.612100562923" y="-136.47817076114003"/>
+      <end x="978.6777821639967" y="-52.82292389824062"/>
+    </arc>
+    <arc id="nwtE_7afc68ad-5540-4ebb-add1-71d446ce053f" class="consumption" source="422086ff-89f7-fa6f-4be4-1d30931fd72f" target="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae.1">
+      <start x="952.4478097658807" y="-139.8901734127606"/>
+      <end x="954.6306160302581" y="-62.6588293556876"/>
+    </arc>
+    <arc id="id_98" class="consumption" source="id_12" target="id_97.1">
+      <start x="934.4224381130985" y="-645.7859886457361"/>
+      <end x="932.9648251775352" y="-611.5936147292333"/>
+    </arc>
+    <arc id="nwtE_3fa10dd8-de2b-45c3-8749-64fa5cdb79ec" class="stimulation" source="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.2" target="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212">
+      <start x="-135.82240800500045" y="-368.59130978462326"/>
+      <end x="128.06058219879958" y="-304.2135828632731"/>
+    </arc>
+    <arc id="nwtE_6765d392-4487-48c3-9c91-d56179c3abd8" class="stimulation" source="id_42" target="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae">
+      <start x="732.6146619223134" y="-138.2031340879704"/>
+      <end x="931.719820809088" y="-52.18381339950892"/>
+    </arc>
+    <arc id="nwtE_907925b4-c228-4a86-bda5-972653bbe339" class="production" source="nwtN_83bb357c-edb0-4bf8-9e14-c8d32a7b4fae.2" target="96bb267e-6454-f799-7889-4083070690df">
+      <start x="955.1007062858237" y="-21.40882935568763"/>
+      <end x="954.669899302036" y="57.335446441251946"/>
+    </arc>
+    <arc id="id_82" class="consumption" source="id_4" target="id_81.1">
+      <start x="307.09433680693996" y="-624.4724013521882"/>
+      <end x="333.580515978262" y="-651.4058826328541"/>
+    </arc>
+    <arc id="nwtE_ba0b36c3-1e5c-4c09-9cd6-91156d944e12" class="production" source="nwtN_f2eaa72e-afc8-4e37-8a1a-312df7cf8cab.2" target="id_65">
+      <start x="-8.384702839801776" y="-532.9727911036568"/>
+      <end x="-94.4159161531958" y="-489.7723613271055"/>
+    </arc>
+    <arc id="nwtE_1f721999-f7b9-4c7a-89fa-bc29bcf4c648" class="logic arc" source="nwtN_387a2f0d-f10e-4384-9ffb-85e5dac87998" target="nwtN_be9edce6-9fad-4030-b20c-745f56e35315.1">
+      <start x="-151.00220110015596" y="-342.1388484834095"/>
+      <end x="-151.00220110015596" y="-356.66962000498944"/>
+    </arc>
+    <arc id="nwtE_742e1566-2594-474d-8675-2d5d739a0b80" class="production" source="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.2" target="id_42">
+      <start x="172.34654081783071" y="-292.92054364905624"/>
+      <end x="670.0886220564289" y="-159.69128808893439"/>
+    </arc>
+    <arc id="nwtE_91d39a6e-190d-45c7-a6f7-31c2d2c6395c" class="consumption" source="ddae0e4f-363b-db8b-b97f-06620fb2d3bf" target="nwtN_dc5a2df6-0ef0-47f4-a34d-ca8af570c212.1">
+      <start x="150.9719086284571" y="-391.2497935181908"/>
+      <end x="151.55494890956726" y="-319.066180741041"/>
     </arc>
   </map>
 </sbgn>
