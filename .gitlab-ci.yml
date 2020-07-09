@@ -1,9 +1,10 @@
 stages:
-  - generate
+  - convert
+  - deploy
 
-generate:index:
+convert:
   image: python
-  stage: generate
+  stage: convert
   rules:
     - if: $CI_COMMIT_BRANCH == "build-ci"
     - if: $CI_COMMIT_BRANCH == "master"
@@ -11,3 +12,11 @@ generate:index:
     - pip install casq
   script:
     - python .ci/convertCASQ.py
+
+commit:
+  stage: deploy
+  rules:
+    - if: $CI_COMMIT_BRANCH == "build-ci"
+    - if: $CI_COMMIT_BRANCH == "master"
+  script:
+    - echo " > This is the commit stage"
