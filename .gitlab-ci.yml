@@ -1,0 +1,13 @@
+stages:
+  - generate
+
+generate:index:
+  image: python
+  stage: generate
+  rules:
+    - if: $CI_COMMIT_BRANCH == "develop"
+    - if: $CI_COMMIT_BRANCH == "master"
+  before_script:
+    - pip install casq
+  script:
+    - python .ci/convertCASQ.py
