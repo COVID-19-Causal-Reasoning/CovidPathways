@@ -25,7 +25,8 @@ commit:
     - if: $CI_MERGE_REQUEST_ID
   before_script:
     - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
-    - git checkout $CI_COMMIT_BRANCH
+    - git branch -d $CI_COMMIT_BRANCH # delete existing branch locally
+    - git checkout -b $CI_COMMIT_BRANCH origin/$CI_COMMIT_BRANCH
     - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@${url_host}"
     - git config user.name $GIT_ACCESS_USER
     - git config user.email $GIT_ACCESS_EMAIL
