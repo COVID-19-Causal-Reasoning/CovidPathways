@@ -15,7 +15,7 @@ convert:
   artifacts:
     expire_in: 1 day
     paths:
-      - Executable\ Modules/SBML_Qual_build/
+      - "Executable Modules"/SBML_Qual_build/
 
 commit:
   image:
