@@ -15,16 +15,17 @@ convert:
   artifacts:
     expire_in: 1 day
     paths:
-      - "Executable Modules"
+      - Executable\ Modules/SBML_Qual_build/
 
 commit:
-  image: alpine
+  image:
+    name: alpine/git:latest
+    entrypoint: [""]
   stage: deploy
   rules:
     - if: $CI_COMMIT_BRANCH == "build-ci"
     - if: $CI_COMMIT_BRANCH == "master"
   before_script:
-    - apk update && apk add git
     - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
     - git checkout -b $CI_COMMIT_REF_NAME
     - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@${url_host}"
