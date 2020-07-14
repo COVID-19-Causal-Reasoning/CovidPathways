@@ -24,7 +24,7 @@ commit:
   rules:
     - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_COMMIT_MESSAGE !~ /tmpBranch/ && $CI_COMMIT_MESSAGE !~ /Update models/'
   before_script:
-    - env
+    - git fetch --all
     - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
     - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@${url_host}"
     - git config user.name $GIT_ACCESS_USER
