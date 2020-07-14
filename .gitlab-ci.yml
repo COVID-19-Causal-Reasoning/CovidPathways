@@ -31,5 +31,6 @@ commit:
     - git config user.name $GIT_ACCESS_USER
     - git config user.email $GIT_ACCESS_EMAIL
   script:
-    - git commit -am "Update models"
+    - git add --all
+    - git commit -m "Update models"
     - git push origin $CI_COMMIT_REF_NAME
