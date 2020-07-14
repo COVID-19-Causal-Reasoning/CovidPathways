@@ -6,7 +6,7 @@ convert:
   image: python
   stage: convert
   rules:
-    - if: '$CI_MERGE_REQUEST_ID && $CI_COMMIT_MESSAGE !=~ "Merge branch 'tmpBranch'" && $CI_COMMIT_MESSAGE !=~ "Update models"'
+    - if: '$CI_MERGE_REQUEST_ID && $CI_COMMIT_MESSAGE !~ "Merge branch 'tmpBranch'" && $CI_COMMIT_MESSAGE !~ "Update models"'
   before_script:
     - pip install casq
   script:
@@ -22,7 +22,7 @@ commit:
     entrypoint: [""]
   stage: deploy
   rules:
-    - if: '$CI_MERGE_REQUEST_ID && $CI_COMMIT_MESSAGE !=~ "Merge branch 'tmpBranch'" && $CI_COMMIT_MESSAGE !=~ "Update models"'
+    - if: '$CI_MERGE_REQUEST_ID && $CI_COMMIT_MESSAGE !~ "Merge branch 'tmpBranch'" && $CI_COMMIT_MESSAGE !~ "Update models"'
   before_script:
     - env
     - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
