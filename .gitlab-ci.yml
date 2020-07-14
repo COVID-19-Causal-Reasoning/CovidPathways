@@ -1,0 +1,41 @@
+stages:
+  - convert
+  - deploy
+
+convert:
+  image: python
+  stage: convert
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+  before_script:
+    - pip install casq
+  script:
+    - python .ci/convertCASQ.py
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - "Executable Modules"
+
+commit:
+  image:
+    name: alpine/git:latest
+    entrypoint: [""]
+  stage: deploy
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_COMMIT_MESSAGE !~ /tmpBranch/ && $CI_COMMIT_MESSAGE !~ /Update models/'
+  before_script:
+    - git fetch --all
+    - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
+    - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@${url_host}"
+    - git config user.name $GIT_ACCESS_USER
+    - git config user.email $GIT_ACCESS_EMAIL
+  script:
+    - git branch -D tmpBranch || true
+    - git checkout -b tmpBranch
+    - git add --all
+    - git commit -m "Update models"
+    - git checkout $CI_COMMIT_REF_NAME
+    - git pull origin $CI_COMMIT_REF_NAME
+    - git merge tmpBranch --ff
+    - git push origin $CI_COMMIT_REF_NAME || true
+    - git branch -D tmpBranch

@@ -1,0 +1,122 @@
+ACE2_EPITHELIAL CELL POSITIVE ACE2:SPIKE complex_complex_EPITHELIAL CELL
+Nucleocapsid_complex_SARS-CoV-2 POSITIVE ACE2:SPIKE complex_complex_EPITHELIAL CELL
+S_SARS-CoV-2 POSITIVE ACE2:SPIKE complex_complex_EPITHELIAL CELL
+S2_EPITHELIAL CELL POSITIVE ACE2:SPIKE complex_complex_EPITHELIAL CELL
+S2_EPITHELIAL CELL POSITIVE Nucleocapsid_complex_EPITHELIAL CELL
+S2_SARS-CoV-2 POSITIVE Nucleocapsid_complex_EPITHELIAL CELL
+(+)ss gRNA_rna_EPITHELIAL CELL POSITIVE Nucleocapsid_complex_EPITHELIAL CELL
+S2_EPITHELIAL CELL POSITIVE S2_EPITHELIAL CELL
+S2_SARS-CoV-2 POSITIVE S2_SARS-CoV-2
+N_EPITHELIAL CELL POSITIVE Replication transcription complex:N oligomer_complex
+Replication transcription complex_complex POSITIVE Replication transcription complex:N oligomer_complex
+Nucleocapsid_complex_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Replication transcription complex:N oligomer_complex
+N_EPITHELIAL CELL POSITIVE N_EPITHELIAL CELL
+Nsp10_EPITHELIAL CELL POSITIVE Replication transcription complex_complex
+Orf7b (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE Replication transcription complex_complex
+ds gRNA_rna POSITIVE Replication transcription complex_complex
+M ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+E ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+S ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+Orf7a ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+Orf6 ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+Orf3a ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+Orf8 ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+Orf9b ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+Orf14 ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+Orf7b ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+N ds sgmRNA_rna POSITIVE Replication transcription complex_complex
+(-)ss gRNA_rna_EPITHELIAL CELL POSITIVE Replication transcription complex_complex
+Nucleocapsid_complex_SARS-CoV-2 POSITIVE Nucleocapsid_complex_SARS-CoV-2
+Nucleocapsid_complex_SARS-CoV-2 POSITIVE Nucleocapsid_complex_SARS-CoV-2
+Nucleocapsid_complex_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Nucleocapsid_complex_SARS-CoV-2
+Endoplasmic reticulum_complex POSITIVE Double-membrane vesicle_complex
+Nsp4 POSITIVE Double-membrane vesicle_complex
+Nsp3 POSITIVE Double-membrane vesicle_complex
+Nsp6_Endoplasmic reticulum POSITIVE Double-membrane vesicle_complex
+Nsp6_Endoplasmic reticulum POSITIVE Double-membrane vesicle_complex
+Nsp3-4_glycosylated_Endoplasmic reticulum POSITIVE Nsp4
+Nsp3-4_glycosylated_Endoplasmic reticulum POSITIVE Nsp3
+pp1a Nsp6-11 POSITIVE Nsp6_Endoplasmic reticulum
+Nsp5_EPITHELIAL CELL POSITIVE Nsp6_Endoplasmic reticulum
+FURIN POSITIVE S2_EPITHELIAL CELL
+TMPRSS2 POSITIVE S2_EPITHELIAL CELL
+pp1a POSITIVE (+)ss gRNA_rna_EPITHELIAL CELL
+pp1ab POSITIVE (+)ss gRNA_rna_EPITHELIAL CELL
+(-)ss gRNA_rna_EPITHELIAL CELL POSITIVE (+)ss gRNA_rna_EPITHELIAL CELL
+N (+)ss sgmRNA_rna POSITIVE N_EPITHELIAL CELL
+Host translation complex_complex_EPITHELIAL CELL POSITIVE N_EPITHELIAL CELL
+M (+)ss sgmRNA_rna POSITIVE M_ROUGH ENDOPLASMIC RETICULUM
+Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM POSITIVE M_ROUGH ENDOPLASMIC RETICULUM
+M_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE M_ROUGH ENDOPLASMIC RETICULUM
+E_ROUGH ENDOPLASMIC RETICULUM POSITIVE Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM
+S_ROUGH ENDOPLASMIC RETICULUM POSITIVE Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM
+Orf3a_ROUGH ENDOPLASMIC RETICULUM POSITIVE Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM
+Orf6_ROUGH ENDOPLASMIC RETICULUM POSITIVE Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM
+Orf7a_ROUGH ENDOPLASMIC RETICULUM POSITIVE Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM
+Orf7b_ROUGH ENDOPLASMIC RETICULUM POSITIVE Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM
+Orf14_ROUGH ENDOPLASMIC RETICULUM POSITIVE Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM
+Orf9b_ROUGH ENDOPLASMIC RETICULUM POSITIVE Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM
+Orf8_ROUGH ENDOPLASMIC RETICULUM POSITIVE Host translation complex_complex_ROUGH ENDOPLASMIC RETICULUM
+E (+)ss sgmRNA_rna POSITIVE E_ROUGH ENDOPLASMIC RETICULUM
+E_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE E_ROUGH ENDOPLASMIC RETICULUM
+S (+)ss sgmRNA_rna POSITIVE S_ROUGH ENDOPLASMIC RETICULUM
+S_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE S_ROUGH ENDOPLASMIC RETICULUM
+Host translation complex_complex_EPITHELIAL CELL POSITIVE pp1a
+pp1a Nsp3-11_Endoplasmic reticulum POSITIVE pp1a
+pp1ab POSITIVE Host translation complex_complex_EPITHELIAL CELL
+pp1ab Nsp3-16_Endoplasmic reticulum POSITIVE pp1ab
+M_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE M_SARS-CoV-2
+E_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE E_SARS-CoV-2
+S_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE S_SARS-CoV-2
+Orf3a (+)ss sgmRNA_rna POSITIVE Orf3a_ROUGH ENDOPLASMIC RETICULUM
+Orf3a_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Orf3a_ROUGH ENDOPLASMIC RETICULUM
+Orf6  (+)ss sgmRNA_rna POSITIVE Orf6_ROUGH ENDOPLASMIC RETICULUM
+Orf6_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Orf6_ROUGH ENDOPLASMIC RETICULUM
+Orf7a (+)ss sgmRNA_rna POSITIVE Orf7a_ROUGH ENDOPLASMIC RETICULUM
+Orf7a_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Orf7a_ROUGH ENDOPLASMIC RETICULUM
+Orf7b (+)ss sgmRNA_rna POSITIVE Orf7b_ROUGH ENDOPLASMIC RETICULUM
+Orf7b_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Orf7b_ROUGH ENDOPLASMIC RETICULUM
+Orf14 (+)ss sgmRNA_rna POSITIVE Orf14_ROUGH ENDOPLASMIC RETICULUM
+Orf14_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Orf14_ROUGH ENDOPLASMIC RETICULUM
+Orf9b (+)ss sgmRNA_rna POSITIVE Orf9b_ROUGH ENDOPLASMIC RETICULUM
+Orf9b_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Orf9b_ROUGH ENDOPLASMIC RETICULUM
+Orf8 (+)ss sgmRNA_rna POSITIVE Orf8_ROUGH ENDOPLASMIC RETICULUM
+Orf8_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Orf8_ROUGH ENDOPLASMIC RETICULUM
+Orf7a_ER-GOLGI INTERMEDIATE COMPLEX POSITIVE Orf7a_SARS-CoV-2
+ACE2:SPIKE complex_complex_SARS-CoV-2 POSITIVE S2_SARS-CoV-2
+CTSB POSITIVE S2_SARS-CoV-2
+CTSL POSITIVE S2_SARS-CoV-2
+pp1ab nsp6-16 POSITIVE Nsp13
+Nsp5_EPITHELIAL CELL POSITIVE Nsp13
+pp1ab Nsp3-16_Endoplasmic reticulum POSITIVE pp1ab nsp6-16
+pp1a Nsp3-11_Endoplasmic reticulum POSITIVE pp1a Nsp3-11_Endoplasmic reticulum
+pp1ab Nsp3-16_Endoplasmic reticulum POSITIVE pp1ab Nsp3-16_Endoplasmic reticulum
+pp1a Nsp3-11_Endoplasmic reticulum POSITIVE pp1a Nsp6-11
+Nsp1_EPITHELIAL CELL POSITIVE Host translation_phenotype_EPITHELIAL CELL
+Nsp15 POSITIVE cellular response to exogenous dsRNA_phenotype
+M ds sgmRNA_rna POSITIVE M (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+M (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE M ds sgmRNA_rna
+E ds sgmRNA_rna POSITIVE E (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+E (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE E ds sgmRNA_rna
+S ds sgmRNA_rna POSITIVE S (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+S (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE S ds sgmRNA_rna
+Orf7a ds sgmRNA_rna POSITIVE Orf7a (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+Orf7a (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE Orf7a ds sgmRNA_rna
+Orf6 ds sgmRNA_rna POSITIVE Orf6 (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+Orf6 (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE Orf6 ds sgmRNA_rna
+Orf3a ds sgmRNA_rna POSITIVE Orf3a (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+Orf3a (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE Orf3a ds sgmRNA_rna
+Orf8 ds sgmRNA_rna POSITIVE Orf8 (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+Orf8 (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE Orf8 ds sgmRNA_rna
+Orf9b ds sgmRNA_rna POSITIVE Orf9b (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+Orf9b (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE Orf9b ds sgmRNA_rna
+Orf14 ds sgmRNA_rna POSITIVE Orf14 (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+Orf14 (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE Orf14 ds sgmRNA_rna
+Orf7b ds sgmRNA_rna POSITIVE Orf7b (-)ss sgmRNA_rna_DOUBLE-MEMBRANE VESICLE
+Orf7b (-)ss sgmRNA_rna_EPITHELIAL CELL POSITIVE Orf7b ds sgmRNA_rna
+ds gRNA_rna POSITIVE (-)ss gRNA_rna_DOUBLE-MEMBRANE VESICLE
+(-)ss gRNA_rna_EPITHELIAL CELL POSITIVE ds gRNA_rna
+(-)ss gRNA_rna_EPITHELIAL CELL POSITIVE Orf7b (-)ss sgmRNA_rna_EPITHELIAL CELL
+N  (-)ss sgmRNA_rna POSITIVE N ds sgmRNA_rna
+N (-)ss sgmRNA_rna POSITIVE N ds sgmRNA_rna
+Nsp1_EPITHELIAL CELL POSITIVE Host translation_phenotype_EPITHELIAL CELL

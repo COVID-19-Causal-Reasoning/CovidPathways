@@ -1,0 +1,83 @@
+MYD88 POSITIVE MYD88:IRAK:TRAF_complex
+IRF7_phosphorylated POSITIVE MYD88:IRAK:TRAF_complex
+TRAF6_ubiquitinated POSITIVE MYD88:IRAK:TRAF_complex
+TLR7:ssRNA_complex POSITIVE MYD88
+TLR8:ssRNA_complex POSITIVE MYD88
+TRAF2 POSITIVE MAVS:TRAF_complex
+TRAF6_ubiquitinated POSITIVE MAVS:TRAF_complex
+MAVS POSITIVE MAVS:TRADD_complex
+TANK:TRAF3:IKBKE_complex_Cell POSITIVE MAVS:TRADD_complex
+RIPK1:FADD_complex POSITIVE MAVS:TRADD_complex
+DDX58_ubiquitinated POSITIVE MAVS
+IFIH1:dsRNA_complex POSITIVE MAVS
+TICAM1_Cell POSITIVE TICAM1:TRAF3:TRAF6_complex
+TANK:TRAF3:IKBKE_complex_Cell POSITIVE TICAM1:TRAF3:TRAF6_complex
+MAP3K7 POSITIVE TICAM1:TRAF3:TRAF6_complex
+TLR3:dsRNA_complex POSITIVE TICAM1_Cell
+IKBKG POSITIVE IKK Complex_complex_Cell
+IKK Complex_complex_Cell POSITIVE IKK Complex_complex_Cell
+NFKBIA POSITIVE NFKB:NFKBIA_complex_Cell
+NFKB:NFKBIA_complex_Cell POSITIVE NFKB:NFKBIA_complex_Cell
+Nsp3_Cell NEGATIVE TANK:TRAF3:IKBKE_complex_Cell
+M_Cell NEGATIVE TANK:TRAF3:IKBKE_complex_Cell
+TBK1_Cell POSITIVE TANK:TRAF3:IKBKE_complex_Cell
+TANK:TRAF3:IKBKE_complex_Cell POSITIVE TANK:TRAF3:IKBKE_complex_Cell
+M_Cell NEGATIVE TANK:TRAF3:IKBKE_complex_Cell
+TBK1_Cell POSITIVE TANK:TRAF3:IKBKE_complex_Cell
+IKBKE_Cell POSITIVE TANK:TRAF3:IKBKE_complex_Cell
+TRAF3 POSITIVE TANK:TRAF3:IKBKE_complex_Cell
+CASP10 POSITIVE RIPK1:FADD_complex
+CASP8 POSITIVE RIPK1:FADD_complex
+dsRNA_rna_endosome POSITIVE TLR3:dsRNA_complex
+TLR7 POSITIVE TLR7:ssRNA_complex
+TLR8 POSITIVE TLR8:ssRNA_complex
+dsRNA_rna_Cell POSITIVE DDX58:dsRNA_complex
+M_Cell NEGATIVE DDX58:dsRNA_complex
+Nsp3_Cell NEGATIVE DDX58:dsRNA_complex
+DDX58_ubiquitinated POSITIVE DDX58:dsRNA_complex
+IFIH1:dsRNA_complex NEGATIVE M_Cell
+IFIH1:dsRNA_complex NEGATIVE Nsp3_Cell
+dsRNA_rna_Cell POSITIVE IFIH1:dsRNA_complex
+Nsp15_Cell NEGATIVE IFIH1:dsRNA_complex
+MAP2K7_phosphorylated POSITIVE JNK_complex
+MAP2K4_phosphorylated POSITIVE JNK_complex
+AP1_complex POSITIVE JNK_complex
+MAP3K7 POSITIVE MAP2K7_phosphorylated
+MAP3K7 POSITIVE MAP2K4_phosphorylated
+NFKB:NFKBIA_complex_Cell POSITIVE NFKB_complex
+N_Cell POSITIVE NFKB_complex
+transcription of proinflammatory proteins_phenotype POSITIVE NFKB_complex
+IKK Complex_complex_Cell POSITIVE NFKB:NFKBIA_complex_Cell
+NFKBIA_phosphorylated POSITIVE NFKB:NFKBIA_complex_Cell
+NFKBIA_phosphorylated POSITIVE N_Cell
+dsRNA_rna_Cell POSITIVE EIF2AK2:dsRNA_complex
+Nsp15_Cell NEGATIVE EIF2AK2:dsRNA_complex
+MAP2K6_phosphorylated POSITIVE EIF2AK2:dsRNA_complex
+TRAF6_ubiquitinated POSITIVE IKK Complex_complex_Cell
+CASP8 POSITIVE IKK Complex_complex_Cell
+M_Cell NEGATIVE IKK Complex_complex_Cell
+CASP10 POSITIVE IKK Complex_complex_Cell
+TRAF6_Cell POSITIVE TRAF6_ubiquitinated
+UBE2N POSITIVE TRAF6_ubiquitinated
+MAP3K7 POSITIVE TRAF6_ubiquitinated
+MAPK14_phosphorylated POSITIVE AP1_complex
+transcription of proinflammatory proteins_phenotype POSITIVE AP1_complex
+MAP2K6_phosphorylated POSITIVE MAPK14_phosphorylated
+MAP2K3_phosphorylated POSITIVE MAPK14_phosphorylated
+IRF3_phosphorylated_nucleus POSITIVE TBK1_Cell
+Nsp3_Cell NEGATIVE IKBKE_Cell
+IRF7_phosphorylated POSITIVE IKBKE_Cell
+RNF135 POSITIVE DDX58_ubiquitinated
+TRIM25 POSITIVE DDX58_ubiquitinated
+N_Cell NEGATIVE DDX58_ubiquitinated
+IRF3_phosphorylated_nucleus POSITIVE TBK1_Cell
+transcription of proinflammatory proteins_phenotype POSITIVE IRF3_phosphorylated_nucleus
+transcription of proinflammatory proteins_phenotype POSITIVE IRF7_phosphorylated
+Nsp3_Cell NEGATIVE IRF3_phosphorylated_nucleus
+Orf3b POSITIVE IRF3_phosphorylated_nucleus
+Orf8 POSITIVE IRF3_phosphorylated_nucleus
+transcription of proinflammatory proteins_phenotype POSITIVE IRF3_phosphorylated_nucleus
+Nsp3_Cell POSITIVE TRAF6_Cell
+MAP2K6_phosphorylated POSITIVE MAP3K7
+MAP2K3_phosphorylated POSITIVE MAP3K7
+Orf9 POSITIVE ITCH

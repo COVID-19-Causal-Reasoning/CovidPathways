@@ -1,0 +1,21 @@
+histone_complex_Nucleus POSITIVE histone_complex_Nucleus
+BRD4 POSITIVE histone_complex_Nucleus
+BRD2 POSITIVE histone_complex_Nucleus
+Chromatin organization_phenotype POSITIVE histone_complex_Nucleus
+H4C14 POSITIVE histone_complex_Nucleus
+P-TEFb_complex POSITIVE BRD4
+E_Nucleus NEGATIVE BRD4
+TBP POSITIVE BRD2
+E_Nucleus NEGATIVE BRD2
+JQ1 NEGATIVE BRD2
+PALS1_Cytoplasm POSITIVE CRB3:PALS1:PATJ complex_complex
+PALS1_Cytoplasm POSITIVE PALS1_Cytoplasm
+E_Cytoplasm NEGATIVE ASIC1 trimer:H+:STOML3_complex
+ASIC1 trimer POSITIVE ASIC1 trimer:H+:STOML3_complex
+ATP1A:ATP1B:FXYDs_complex NEGATIVE E_Cytoplasm
+K+_ion POSITIVE ATP1A:ATP1B:FXYDs_complex
+E_Cytoplasm POSITIVE E-PALS1_complex
+PALS1_Cytoplasm POSITIVE E-PALS1_complex
+CDK9 POSITIVE P-TEFb_complex
+CCNT1 POSITIVE P-TEFb_complex
+RNA Polymerase II-dependent Transcription _phenotype POSITIVE P-TEFb_complex

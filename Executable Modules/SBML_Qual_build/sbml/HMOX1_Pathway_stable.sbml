@@ -1,0 +1,1615 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sbml xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" level="3" version="1" layout:required="false" xmlns="http://www.sbml.org/sbml/level3/version1/core" qual:required="true" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"><model id="model_id"><listOfCompartments><compartment constant="true" id="comp1" /></listOfCompartments><layout:listOfLayouts><layout:layout id="layout1"><layout:dimensions width="10000" height="10000" /><layout:listOfAdditionalGraphicalObjects><layout:generalGlyph layout:reference="csa2" layout:id="csa2_glyph"><layout:boundingBox><layout:position layout:x="1085.5" layout:y="1008.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa4" layout:id="csa4_glyph"><layout:boundingBox><layout:position layout:x="1225.5" layout:y="1007.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa5" layout:id="csa5_glyph"><layout:boundingBox><layout:position layout:x="2324.75" layout:y="332.5" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa8" layout:id="csa8_glyph"><layout:boundingBox><layout:position layout:x="855.0" layout:y="415.0" /><layout:dimensions layout:height="196.0" layout:width="213.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa10" layout:id="csa10_glyph"><layout:boundingBox><layout:position layout:x="557.4000000000001" layout:y="419.8000000000002" /><layout:dimensions layout:height="187.0" layout:width="205.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa11" layout:id="csa11_glyph"><layout:boundingBox><layout:position layout:x="2295.0" layout:y="1417.0" /><layout:dimensions layout:height="121.0" layout:width="104.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa12" layout:id="csa12_glyph"><layout:boundingBox><layout:position layout:x="1816.0" layout:y="1743.0" /><layout:dimensions layout:height="118.0" layout:width="157.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa13" layout:id="csa13_glyph"><layout:boundingBox><layout:position layout:x="1586.0" layout:y="1748.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa14" layout:id="csa14_glyph"><layout:boundingBox><layout:position layout:x="2902.0" layout:y="371.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa15" layout:id="csa15_glyph"><layout:boundingBox><layout:position layout:x="3087.0" layout:y="612.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa17" layout:id="csa17_glyph"><layout:boundingBox><layout:position layout:x="2546.0" layout:y="703.0" /><layout:dimensions layout:height="101.0" layout:width="101.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa19" layout:id="csa19_glyph"><layout:boundingBox><layout:position layout:x="1633.0" layout:y="277.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa21" layout:id="csa21_glyph"><layout:boundingBox><layout:position layout:x="2511.0" layout:y="1138.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa22" layout:id="csa22_glyph"><layout:boundingBox><layout:position layout:x="2090.0" layout:y="1744.0" /><layout:dimensions layout:height="118.0" layout:width="135.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa27" layout:id="csa27_glyph"><layout:boundingBox><layout:position layout:x="305.875" layout:y="1756.875" /><layout:dimensions layout:height="178.0" layout:width="105.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa29" layout:id="csa29_glyph"><layout:boundingBox><layout:position layout:x="297.3125" layout:y="1471.375" /><layout:dimensions layout:height="178.0" layout:width="105.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa30" layout:id="csa30_glyph"><layout:boundingBox><layout:position layout:x="298.3125" layout:y="1231.375" /><layout:dimensions layout:height="135.0" layout:width="103.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa31" layout:id="csa31_glyph"><layout:boundingBox><layout:position layout:x="53.53125" layout:y="1488.375" /><layout:dimensions layout:height="135.0" layout:width="103.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa32" layout:id="csa32_glyph"><layout:boundingBox><layout:position layout:x="212.5" layout:y="439.0" /><layout:dimensions layout:height="147.0" layout:width="212.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa5" layout:id="sa5_glyph"><layout:boundingBox><layout:position layout:x="1158.5" layout:y="913.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa6" layout:id="sa6_glyph"><layout:boundingBox><layout:position layout:x="1832.0" layout:y="527.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa20" layout:id="sa20_glyph"><layout:boundingBox><layout:position layout:x="2182.0" layout:y="423.5" /><layout:dimensions layout:height="28.0" layout:width="93.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa21" layout:id="sa21_glyph"><layout:boundingBox><layout:position layout:x="1973.0" layout:y="664.5" /><layout:dimensions layout:height="26.0" layout:width="58.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa22" layout:id="sa22_glyph"><layout:boundingBox><layout:position layout:x="2255.0" layout:y="1080.5" /><layout:dimensions layout:height="27.0" layout:width="74.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa23" layout:id="sa23_glyph"><layout:boundingBox><layout:position layout:x="2254.75" layout:y="665.0" /><layout:dimensions layout:height="26.0" layout:width="52.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa24" layout:id="sa24_glyph"><layout:boundingBox><layout:position layout:x="2062.75" layout:y="1113.0" /><layout:dimensions layout:height="23.0" layout:width="25.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa25" layout:id="sa25_glyph"><layout:boundingBox><layout:position layout:x="2018.75" layout:y="1097.0" /><layout:dimensions layout:height="29.0" layout:width="41.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa26" layout:id="sa26_glyph"><layout:boundingBox><layout:position layout:x="2221.75" layout:y="1024.0" /><layout:dimensions layout:height="27.0" layout:width="28.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa27" layout:id="sa27_glyph"><layout:boundingBox><layout:position layout:x="2175.75" layout:y="1028.0" /><layout:dimensions layout:height="22.0" layout:width="36.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa28" layout:id="sa28_glyph"><layout:boundingBox><layout:position layout:x="2137.25" layout:y="1334.0" /><layout:dimensions layout:height="37.0" layout:width="47.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa29" layout:id="sa29_glyph"><layout:boundingBox><layout:position layout:x="1753.75" layout:y="1139.5" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa30" layout:id="sa30_glyph"><layout:boundingBox><layout:position layout:x="2103.4708534708675" layout:y="724.1182030344781" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa31" layout:id="sa31_glyph"><layout:boundingBox><layout:position layout:x="2234.75" layout:y="1054.0" /><layout:dimensions layout:height="23.0" layout:width="27.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa32" layout:id="sa32_glyph"><layout:boundingBox><layout:position layout:x="2891.75" layout:y="1087.0" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa33" layout:id="sa33_glyph"><layout:boundingBox><layout:position layout:x="2445.75" layout:y="1057.0" /><layout:dimensions layout:height="25.0" layout:width="46.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa34" layout:id="sa34_glyph"><layout:boundingBox><layout:position layout:x="2732.75" layout:y="1056.0" /><layout:dimensions layout:height="22.0" layout:width="41.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa36" layout:id="sa36_glyph"><layout:boundingBox><layout:position layout:x="2619.0" layout:y="1139.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa39" layout:id="sa39_glyph"><layout:boundingBox><layout:position layout:x="2975.0" layout:y="1789.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa43" layout:id="sa43_glyph"><layout:boundingBox><layout:position layout:x="997.5" layout:y="913.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa44" layout:id="sa44_glyph"><layout:boundingBox><layout:position layout:x="1291.0" layout:y="914.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa48" layout:id="sa48_glyph"><layout:boundingBox><layout:position layout:x="1399.0" layout:y="957.5" /><layout:dimensions layout:height="24.0" layout:width="99.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa50" layout:id="sa50_glyph"><layout:boundingBox><layout:position layout:x="1256.0" layout:y="1153.5" /><layout:dimensions layout:height="26.0" layout:width="99.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa53" layout:id="sa53_glyph"><layout:boundingBox><layout:position layout:x="2369.75" layout:y="601.5" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa54" layout:id="sa54_glyph"><layout:boundingBox><layout:position layout:x="2511.75" layout:y="665.0" /><layout:dimensions layout:height="26.0" layout:width="54.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa55" layout:id="sa55_glyph"><layout:boundingBox><layout:position layout:x="2467.25" layout:y="703.0" /><layout:dimensions layout:height="23.0" layout:width="26.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa56" layout:id="sa56_glyph"><layout:boundingBox><layout:position layout:x="2384.25" layout:y="724.0" /><layout:dimensions layout:height="25.0" layout:width="51.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa57" layout:id="sa57_glyph"><layout:boundingBox><layout:position layout:x="2344.25" layout:y="708.0" /><layout:dimensions layout:height="21.0" layout:width="18.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa65" layout:id="sa65_glyph"><layout:boundingBox><layout:position layout:x="2178.75" layout:y="515.0" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa67" layout:id="sa67_glyph"><layout:boundingBox><layout:position layout:x="2280.25" layout:y="560.0" /><layout:dimensions layout:height="19.0" layout:width="28.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa68" layout:id="sa68_glyph"><layout:boundingBox><layout:position layout:x="2259.0" layout:y="535.5" /><layout:dimensions layout:height="21.0" layout:width="31.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa69" layout:id="sa69_glyph"><layout:boundingBox><layout:position layout:x="2499.0" layout:y="515.5" /><layout:dimensions layout:height="24.0" layout:width="46.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa70" layout:id="sa70_glyph"><layout:boundingBox><layout:position layout:x="2438.75" layout:y="462.0" /><layout:dimensions layout:height="20.0" layout:width="37.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa71" layout:id="sa71_glyph"><layout:boundingBox><layout:position layout:x="2463.75" layout:y="483.0" /><layout:dimensions layout:height="24.0" layout:width="43.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa72" layout:id="sa72_glyph"><layout:boundingBox><layout:position layout:x="2822.0" layout:y="515.5" /><layout:dimensions layout:height="23.0" layout:width="42.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa78" layout:id="sa78_glyph"><layout:boundingBox><layout:position layout:x="1831.0" layout:y="464.8000000000002" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa101" layout:id="sa101_glyph"><layout:boundingBox><layout:position layout:x="3017.0" layout:y="594.5" /><layout:dimensions layout:height="25.0" layout:width="42.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa103" layout:id="sa103_glyph"><layout:boundingBox><layout:position layout:x="3011.0" layout:y="473.5" /><layout:dimensions layout:height="23.0" layout:width="33.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa104" layout:id="sa104_glyph"><layout:boundingBox><layout:position layout:x="3015.5" layout:y="502.5" /><layout:dimensions layout:height="22.0" layout:width="24.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa105" layout:id="sa105_glyph"><layout:boundingBox><layout:position layout:x="3016.0" layout:y="723.5" /><layout:dimensions layout:height="26.0" layout:width="48.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa106" layout:id="sa106_glyph"><layout:boundingBox><layout:position layout:x="2977.0" layout:y="619.5" /><layout:dimensions layout:height="27.0" layout:width="39.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa107" layout:id="sa107_glyph"><layout:boundingBox><layout:position layout:x="2983.4" layout:y="707.6" /><layout:dimensions layout:height="25.0" layout:width="27.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa111" layout:id="sa111_glyph"><layout:boundingBox><layout:position layout:x="3019.0" layout:y="862.5" /><layout:dimensions layout:height="25.0" layout:width="47.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa112" layout:id="sa112_glyph"><layout:boundingBox><layout:position layout:x="3075.0" layout:y="785.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa113" layout:id="sa113_glyph"><layout:boundingBox><layout:position layout:x="2818.0" layout:y="977.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa114" layout:id="sa114_glyph"><layout:boundingBox><layout:position layout:x="2925.0" layout:y="1015.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa115" layout:id="sa115_glyph"><layout:boundingBox><layout:position layout:x="2638.5" layout:y="972.25" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa116" layout:id="sa116_glyph"><layout:boundingBox><layout:position layout:x="2640.0" layout:y="815.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa117" layout:id="sa117_glyph"><layout:boundingBox><layout:position layout:x="2640.0" layout:y="666.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa118" layout:id="sa118_glyph"><layout:boundingBox><layout:position layout:x="2526.0" layout:y="887.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa121" layout:id="sa121_glyph"><layout:boundingBox><layout:position layout:x="2605.0" layout:y="942.5" /><layout:dimensions layout:height="21.0" layout:width="24.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa122" layout:id="sa122_glyph"><layout:boundingBox><layout:position layout:x="2715.0" layout:y="870.5" /><layout:dimensions layout:height="20.0" layout:width="26.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa123" layout:id="sa123_glyph"><layout:boundingBox><layout:position layout:x="2714.0" layout:y="828.5" /><layout:dimensions layout:height="26.0" layout:width="31.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa124" layout:id="sa124_glyph"><layout:boundingBox><layout:position layout:x="2687.0" layout:y="773.5" /><layout:dimensions layout:height="20.0" layout:width="25.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa125" layout:id="sa125_glyph"><layout:boundingBox><layout:position layout:x="2693.0" layout:y="694.5" /><layout:dimensions layout:height="23.0" layout:width="29.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa126" layout:id="sa126_glyph"><layout:boundingBox><layout:position layout:x="1650.0" layout:y="428.0" /><layout:dimensions layout:height="30.0" layout:width="127.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa127" layout:id="sa127_glyph"><layout:boundingBox><layout:position layout:x="2756.0" layout:y="1711.0" /><layout:dimensions layout:height="51.0" layout:width="97.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa128" layout:id="sa128_glyph"><layout:boundingBox><layout:position layout:x="2252.0" layout:y="1722.5" /><layout:dimensions layout:height="29.0" layout:width="193.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa130" layout:id="sa130_glyph"><layout:boundingBox><layout:position layout:x="2548.0" layout:y="1722.5" /><layout:dimensions layout:height="28.0" layout:width="108.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa136" layout:id="sa136_glyph"><layout:boundingBox><layout:position layout:x="2262.0" layout:y="1380.5" /><layout:dimensions layout:height="23.0" layout:width="25.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa137" layout:id="sa137_glyph"><layout:boundingBox><layout:position layout:x="2245.0" layout:y="1362.5" /><layout:dimensions layout:height="21.0" layout:width="18.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa140" layout:id="sa140_glyph"><layout:boundingBox><layout:position layout:x="1249.0" layout:y="1405.5" /><layout:dimensions layout:height="25.0" layout:width="90.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa141" layout:id="sa141_glyph"><layout:boundingBox><layout:position layout:x="2441.0" layout:y="1395.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa144" layout:id="sa144_glyph"><layout:boundingBox><layout:position layout:x="1248.0" layout:y="1362.5" /><layout:dimensions layout:height="25.0" layout:width="90.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa145" layout:id="sa145_glyph"><layout:boundingBox><layout:position layout:x="1251.0" layout:y="1320.5" /><layout:dimensions layout:height="25.0" layout:width="90.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa147" layout:id="sa147_glyph"><layout:boundingBox><layout:position layout:x="1273.0" layout:y="802.5" /><layout:dimensions layout:height="25.0" layout:width="90.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa150" layout:id="sa150_glyph"><layout:boundingBox><layout:position layout:x="1247.0" layout:y="1236.5" /><layout:dimensions layout:height="25.0" layout:width="90.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa151" layout:id="sa151_glyph"><layout:boundingBox><layout:position layout:x="1255.0" layout:y="1279.5" /><layout:dimensions layout:height="25.0" layout:width="90.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa152" layout:id="sa152_glyph"><layout:boundingBox><layout:position layout:x="2482.0" layout:y="1339.5" /><layout:dimensions layout:height="26.0" layout:width="83.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa164" layout:id="sa164_glyph"><layout:boundingBox><layout:position layout:x="1285.0" layout:y="1776.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa165" layout:id="sa165_glyph"><layout:boundingBox><layout:position layout:x="2416.0" layout:y="1652.5" /><layout:dimensions layout:height="30.0" layout:width="163.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa166" layout:id="sa166_glyph"><layout:boundingBox><layout:position layout:x="2648.0" layout:y="1540.5" /><layout:dimensions layout:height="29.0" layout:width="114.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa167" layout:id="sa167_glyph"><layout:boundingBox><layout:position layout:x="2744.0" layout:y="1599.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa168" layout:id="sa168_glyph"><layout:boundingBox><layout:position layout:x="1922.6" layout:y="1139.2" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa169" layout:id="sa169_glyph"><layout:boundingBox><layout:position layout:x="1839.0" layout:y="1049.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa171" layout:id="sa171_glyph"><layout:boundingBox><layout:position layout:x="3048.0" layout:y="1714.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa189" layout:id="sa189_glyph"><layout:boundingBox><layout:position layout:x="1428.0" layout:y="599.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa190" layout:id="sa190_glyph"><layout:boundingBox><layout:position layout:x="1724.0" layout:y="598.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa3" layout:id="sa3_glyph"><layout:boundingBox><layout:position layout:x="1832.5" layout:y="668.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa196" layout:id="sa196_glyph"><layout:boundingBox><layout:position layout:x="2088.0" layout:y="161.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa198" layout:id="sa198_glyph"><layout:boundingBox><layout:position layout:x="1791.0" layout:y="155.0" /><layout:dimensions layout:height="58.0" layout:width="98.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa203" layout:id="sa203_glyph"><layout:boundingBox><layout:position layout:x="1946.0" layout:y="505.5" /><layout:dimensions layout:height="25.0" layout:width="27.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa204" layout:id="sa204_glyph"><layout:boundingBox><layout:position layout:x="1952.0" layout:y="246.5" /><layout:dimensions layout:height="25.0" layout:width="30.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa205" layout:id="sa205_glyph"><layout:boundingBox><layout:position layout:x="1939.0" layout:y="280.5" /><layout:dimensions layout:height="16.0" layout:width="30.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa206" layout:id="sa206_glyph"><layout:boundingBox><layout:position layout:x="1940.5000000000002" layout:y="473.83333333333337" /><layout:dimensions layout:height="27.0" layout:width="28.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa217" layout:id="sa217_glyph"><layout:boundingBox><layout:position layout:x="152.0" layout:y="1779.0" /><layout:dimensions layout:height="46.0" layout:width="86.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa229" layout:id="sa229_glyph"><layout:boundingBox><layout:position layout:x="444.375" layout:y="1413.375" /><layout:dimensions layout:height="36.0" layout:width="48.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa238" layout:id="sa238_glyph"><layout:boundingBox><layout:position layout:x="568.875" layout:y="1412.875" /><layout:dimensions layout:height="38.0" layout:width="40.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa240" layout:id="sa240_glyph"><layout:boundingBox><layout:position layout:x="923.875" layout:y="1544.875" /><layout:dimensions layout:height="38.0" layout:width="40.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa241" layout:id="sa241_glyph"><layout:boundingBox><layout:position layout:x="712.0" layout:y="1350.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa242" layout:id="sa242_glyph"><layout:boundingBox><layout:position layout:x="485.875" layout:y="1454.875" /><layout:dimensions layout:height="20.0" layout:width="20.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa243" layout:id="sa243_glyph"><layout:boundingBox><layout:position layout:x="488.0" layout:y="1340.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa249" layout:id="sa249_glyph"><layout:boundingBox><layout:position layout:x="369.0999999999999" layout:y="637.1999999999998" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph></layout:listOfAdditionalGraphicalObjects></layout:layout></layout:listOfLayouts><qual:listOfQualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Nrf2/Maf_complex" qual:constant="false" qual:id="csa2"><annotation><rdf:RDF><rdf:Description rdf:about="#s36"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_phosphorylated_Nucleus&amp;MAF" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s36" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="BACH1/Maf_complex" qual:constant="false" qual:id="csa4"><annotation><rdf:RDF><rdf:Description rdf:about="#s44"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:MAF&amp;BACH1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s44" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ALAS1:ALAS2_complex" qual:constant="true" qual:id="csa5"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s201">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P13196" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P22557" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ALAS1:ALAS2_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s201" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Ubiquitin Ligase Complex_complex_Cytosol" qual:constant="false" qual:id="csa8"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s197">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q14145" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q15843" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q13618" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P62877" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q16236" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:19940261" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:interpro:IPR000608" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:interpro:IPR000608" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q14145" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q15843" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q13618" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P62877" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q16236" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q15843" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q13618" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P62877" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q14145" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q16236" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:!CAND1|CUL3:RBX1_complex|NRF2_empty&amp;KEAP1&amp;!Dimethly fumarate_drug" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s197" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Ubiquitin Ligase Complex_complex_Cytosol" qual:constant="false" qual:id="csa10"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s196">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q14145" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q15843" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q13618" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P62877" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q16236" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P0CG48" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:19940261" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:interpro:IPR000608" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Ubiquitin Ligase Complex_complex_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s196" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Ferritin_complex" qual:constant="false" qual:id="csa11"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s132">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02794" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:FTH1_rna|FTL_rna" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s132" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="SLC40A1:CP:Cu2+_complex" qual:constant="false" qual:id="csa12"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s239">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P00450" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q9NP59" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29036" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:SLC40A1_rna" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s239" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CYBRD1:Heme_complex" qual:constant="true" qual:id="csa13"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s162">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q53TN4" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A30413" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:CYBRD1:Heme_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s162" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ALAD:Zn2+_complex" qual:constant="true" qual:id="csa14"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s178">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P13716" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29105" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ALAD:Zn2+_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s178" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="HMBS:DIPY_complex" qual:constant="true" qual:id="csa15"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s181">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A36319" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P08397" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:HMBS:DIPY_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s181" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="PPO:FAD_complex" qual:constant="true" qual:id="csa17"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s184">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16238" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P50336" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:PPO:FAD_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s184" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CUL3:RBX1_complex" qual:constant="true" qual:id="csa19"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s200">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q13618" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P62877" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:CUL3:RBX1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s200" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="BLVRA:Zn2+_complex" qual:constant="false" qual:id="csa21"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s217">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29805" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P53004" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:BLVRA_rna" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s217" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="SLC40A1:HEPH:Cu2+_complex" qual:constant="true" qual:id="csa22"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s238">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q9BQS7" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q9NP59" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A28694" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:SLC40A1:HEPH:Cu2+_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s238" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="TFRC:holoTF_complex_Cytosol" qual:constant="false" qual:id="csa27"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s265">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02787" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29034" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02786" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TFRC" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s265" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="TFRC:holoTF_complex_Endosome Lumen" qual:constant="false" qual:id="csa29"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s289">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02787" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29034" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02786" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TFRC:holoTF_complex_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s289" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="TFRC:TF_complex_Endosome Lumen" qual:constant="false" qual:id="csa30"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s290">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02787" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02786" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TFRC:holoTF_complex_Endosome Lumen" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s290" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="TFRC:TF_complex_Cytosol" qual:constant="false" qual:id="csa31"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s288">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02787" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02786" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TFRC:TF_complex_Endosome Lumen" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s288" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Ubiquitin Ligase Complex_complex_Cytosol" qual:constant="false" qual:id="csa32"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s294">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q14145" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q15843" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q13618" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P62877" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q16236" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P0CG48" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:19940261" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:interpro:IPR000608" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Ubiquitin Ligase Complex_complex_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s294" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="MAF" qual:constant="true" qual:id="sa5"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s35">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:O75444" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:MAF" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s35" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NRF2_empty" qual:constant="true" qual:id="sa6"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s32">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q16236" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_empty" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s32" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Panhematin_drug" qual:constant="true" qual:id="sa20"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s8">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A50385" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Panhematin_drug" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s8" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Heme_simple_molecule_Cytosol" qual:constant="false" qual:id="sa21"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s9">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A30413" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Heme_simple_molecule_Mitochondrial Matrix&amp;FLVCR1-2" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s9" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Biliverdin_simple_molecule" qual:constant="false" qual:id="sa22"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s10">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17033" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Heme_simple_molecule_Cytosol&amp;HMOX1_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s10" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Heme_simple_molecule_Mitochondrial Matrix" qual:constant="false" qual:id="sa23"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s11">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A30413" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:PRIN9_simple_molecule_Mitochondrial Matrix&amp;FECH&amp;!Pb2+_ion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s11" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="O2_simple_molecule_Cytosol" qual:constant="true" qual:id="sa24"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s12">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15379" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:O2_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s12" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:O2_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s12" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NADPH_simple_molecule_Cytosol" qual:constant="true" qual:id="sa25"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s13">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16474" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NADPH_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s13" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NADPH_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s13" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H2O_simple_molecule_Cytosol" qual:constant="true" qual:id="sa26"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s14">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15377" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NADP+_simple_molecule_Cytosol" qual:constant="true" qual:id="sa27"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s15">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A18009" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NADP+_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s15" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NADP+_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s15" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Fe2+_ion_Cytosol" qual:constant="false" qual:id="sa28"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s16">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29033" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:SLC11A2|Fe2+_ion_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s16" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Fe2+_ion_Endosome Lumen&amp;MCOLN1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s16" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="HMOX1_Cytosol" qual:constant="false" qual:id="sa29"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s17">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P09601" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:HMOX1_rna" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s17" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:HMOX1_Cytosol&amp;Orf3a" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s17" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="FLVCR1-2" qual:constant="true" qual:id="sa30"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s18">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q9Y5Y0" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:FLVCR1-2" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s18" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CO_simple_molecule" qual:constant="true" qual:id="sa31"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s19">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17245" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:CO_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s19" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Bilirubin_simple_molecule" qual:constant="false" qual:id="sa32"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s20">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16990" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:BLVRB|BLVRA:Zn2+_complex&amp;Biliverdin_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s20" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NADPH_simple_molecule_Cytosol" qual:constant="true" qual:id="sa33"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s13">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16474" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NADPH_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s13" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NADPH_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s13" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NADP+_simple_molecule_Cytosol" qual:constant="true" qual:id="sa34"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s15">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A18009" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NADP+_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s15" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NADP+_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s15" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="BLVRB" qual:constant="false" qual:id="sa36"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s22">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P30043" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:BLVRB_rna" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s22" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ABCC1" qual:constant="false" qual:id="sa39"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s26">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02768" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02768" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Orf9c" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s26" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NRF2_phosphorylated_Nucleus" qual:constant="false" qual:id="sa43"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s42">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q16236" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_phosphorylated_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s42" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="BACH1" qual:constant="false" qual:id="sa44"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s43">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:O14867" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:571" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:!miRNA-155_rna" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s43" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="miRNA-155_rna" qual:constant="true" qual:id="sa48"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s48">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:406947" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:miRNA-155_rna" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s48" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="HMOX1_rna" qual:constant="false" qual:id="sa50"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s50">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:3162" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:3162" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Nrf2/Maf_complex&amp;!BACH1/Maf_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s50" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="FECH" qual:constant="false" qual:id="sa53"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s52">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P22830" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:FECH_rna" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s52" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="PRIN9_simple_molecule_Mitochondrial Matrix" qual:constant="false" qual:id="sa54"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s53">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15430" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:PRIN9_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s53" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Fe2+_ion_Mitochondrial Matrix" qual:constant="true" qual:id="sa55"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s54">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29033" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Fe2+_ion_Mitochondrial Matrix" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s54" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Pb2+_ion" qual:constant="true" qual:id="sa56"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s55">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A27889" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Pb2+_ion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s55" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H+_ion_Mitochondrial Matrix" qual:constant="true" qual:id="sa57"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s56">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15378" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H+_ion_Mitochondrial Matrix" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s56" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H+_ion_Mitochondrial Matrix" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s56" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="SUCC-CoA_simple_molecule" qual:constant="true" qual:id="sa65"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s63">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A57292" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:SUCC-CoA_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s63" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H+_ion_Mitochondrial Matrix" qual:constant="true" qual:id="sa67"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s56">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15378" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H+_ion_Mitochondrial Matrix" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s56" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H+_ion_Mitochondrial Matrix" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s56" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Gly_simple_molecule" qual:constant="true" qual:id="sa68"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s65">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A57305" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Gly_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s65" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="dALA_simple_molecule_Mitochondrial Matrix" qual:constant="false" qual:id="sa69"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s66">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A356416" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:SUCC-CoA_simple_molecule&amp;ALAS1:ALAS2_complex&amp;!Heme_simple_molecule_Mitochondrial Matrix&amp;!Panhematin_drug" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s66" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CO2_simple_molecule_Mitochondrial Matrix" qual:constant="true" qual:id="sa70"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s67">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16526" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:CO2_simple_molecule_Mitochondrial Matrix" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s67" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CoA-SH_simple_molecule" qual:constant="true" qual:id="sa71"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s68">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15346" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:CoA-SH_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s68" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="dALA_simple_molecule_Cytosol" qual:constant="false" qual:id="sa72"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s69">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A356416" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:dALA_simple_molecule_Mitochondrial Matrix" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s69" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="KEAP1" qual:constant="true" qual:id="sa78"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s75">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q14145" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:KEAP1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s75" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="PBG_simple_molecule" qual:constant="false" qual:id="sa101"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s99">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A58126" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:dALA_simple_molecule_Cytosol&amp;ALAD:Zn2+_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s99" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H2O_simple_molecule_Cytosol" qual:constant="true" qual:id="sa103"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s14">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15377" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H+_ion_Cytosol" qual:constant="true" qual:id="sa104"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s101">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15378" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H+_ion_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s101" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H+_ion_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s101" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="HMBL_simple_molecule" qual:constant="false" qual:id="sa105"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s102">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A57845" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:PBG_simple_molecule&amp;HMBS:DIPY_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s102" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H2O_simple_molecule_Cytosol" qual:constant="true" qual:id="sa106"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s14">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15377" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NH4+_ion" qual:constant="true" qual:id="sa107"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s215">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A28938" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NH4+_ion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s215" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="URO3_simple_molecule" qual:constant="false" qual:id="sa111"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s107">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15437" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:HMBL_simple_molecule&amp;UROS" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s107" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="UROS" qual:constant="true" qual:id="sa112"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s108">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P10746" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:UROS" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s108" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="COPRO3_simple_molecule_Cytosol" qual:constant="false" qual:id="sa113"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s109">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15439" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:URO3_simple_molecule&amp;UROD" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s109" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="UROD" qual:constant="true" qual:id="sa114"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s110">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P06132" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:UROD" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s110" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="COPRO3_simple_molecule_Mitochondrion" qual:constant="false" qual:id="sa115"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s114">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15439" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:COPRO3_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s114" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="PPGEN9_simple_molecule" qual:constant="false" qual:id="sa116"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s117">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15435" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:COPRO3_simple_molecule_Mitochondrion&amp;CPOX" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s117" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="PRIN9_simple_molecule_Mitochondrion" qual:constant="false" qual:id="sa117"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s118">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15430" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:PPGEN9_simple_molecule&amp;PPO:FAD_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s118" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CPOX" qual:constant="true" qual:id="sa118"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s119">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P36551" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:CPOX" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s119" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="O2_simple_molecule_Mitochondrion" qual:constant="true" qual:id="sa121"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s125">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15379" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:O2_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s125" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:O2_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s125" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CO2_simple_molecule_Mitochondrion" qual:constant="true" qual:id="sa122"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s123">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16526" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:CO2_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s123" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H2O2_simple_molecule_Mitochondrion" qual:constant="true" qual:id="sa123"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s124">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16240" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O2_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s124" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O2_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s124" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="O2_simple_molecule_Mitochondrion" qual:constant="true" qual:id="sa124"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s125">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15379" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:O2_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s125" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:O2_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s125" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H2O2_simple_molecule_Mitochondrion" qual:constant="true" qual:id="sa125"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s124">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16240" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O2_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s124" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O2_simple_molecule_Mitochondrion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s124" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Dimethly fumarate_drug" qual:constant="true" qual:id="sa126"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s127">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A76004" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Dimethly fumarate_drug" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s127" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Ferroptosis_phenotype" qual:constant="false" qual:id="sa127"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s128">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0097707" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Lipid Peroxide_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s128" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Poly-unsaturated fatty acid_simple_molecule" qual:constant="true" qual:id="sa128"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s129">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A26208" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Poly-unsaturated fatty acid_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s129" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Lipid Peroxide_simple_molecule" qual:constant="false" qual:id="sa130"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s131">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A61051" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Poly-unsaturated fatty acid_simple_molecule&amp;Reactive Oxygen Species_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s131" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="O2_simple_molecule_Cytosol" qual:constant="true" qual:id="sa136"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s12">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15379" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:O2_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s12" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:O2_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s12" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H+_ion_Cytosol" qual:constant="true" qual:id="sa137"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s101">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15378" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H+_ion_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s101" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H+_ion_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s101" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="SLC40A1_rna" qual:constant="false" qual:id="sa140"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s140">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:30061" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:30061" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_phosphorylated_Nucleus" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s140" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NCOA4" qual:constant="true" qual:id="sa141"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s141">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q13772" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NCOA4" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s141" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="FTH1_rna" qual:constant="false" qual:id="sa144"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s144">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:2495" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:2495" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_phosphorylated_Nucleus" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s144" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="FTL_rna" qual:constant="false" qual:id="sa145"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s145">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:2512" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:2512" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_phosphorylated_Nucleus" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s145" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="FECH_rna" qual:constant="false" qual:id="sa147"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s147">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:2235" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:2235" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_phosphorylated_Nucleus" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s147" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="BLVRA_rna" qual:constant="false" qual:id="sa150"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s150">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:644" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:644" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_phosphorylated_Nucleus" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s150" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="BLVRB_rna" qual:constant="false" qual:id="sa151"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s151">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:645" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbigene:645" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_phosphorylated_Nucleus" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s151" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Fe(3+)O(OH)_simple_molecule" qual:constant="false" qual:id="sa152"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s153">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A78619" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Fe2+_ion_Cytosol&amp;Ferritin_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s153" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="SLC11A2" qual:constant="true" qual:id="sa164"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s170">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P49281" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:SLC11A2" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s170" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Reactive Oxygen Species_simple_molecule" qual:constant="false" qual:id="sa165"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s171">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A26523" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Fe2+_ion_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s171" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Lipid alcohol_simple_molecule" qual:constant="false" qual:id="sa166"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s172">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A24026" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Lipid Peroxide_simple_molecule&amp;GPX4" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s172" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="GPX4" qual:constant="true" qual:id="sa167"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s173">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P36969" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:GPX4" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s173" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="HMOX1_Cytosol" qual:constant="false" qual:id="sa168"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s17">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P09601" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:HMOX1_rna" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s17" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:HMOX1_Cytosol&amp;Orf3a" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s17" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Orf3a" qual:constant="true" qual:id="sa169"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s174">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:ncbiprotein:BCD58754" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Orf3a" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s174" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Orf9c" qual:constant="true" qual:id="sa171"><annotation><rdf:RDF><rdf:Description rdf:about="#s176"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Orf9c" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s176" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CAND1" qual:constant="true" qual:id="sa189"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s211">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q86VP6" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:CAND1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s211" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="PKC" qual:constant="true" qual:id="sa190"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s212">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:12198130" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:is>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:interpro:IPR012233" />
+</rdf:Bag>
+</bqmodel:is>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:PKC" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s212" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NRF2_phosphorylated_Cytosol" qual:constant="false" qual:id="sa3"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s33">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q16236" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_empty&amp;PKC" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s33" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="FLVCR1-1" qual:constant="true" qual:id="sa196"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s221">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q9Y5Y0" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:FLVCR1-1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s221" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ABCG2" qual:constant="true" qual:id="sa198"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s223">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q9UNQ0" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ABCG2" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s223" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ATP_simple_molecule" qual:constant="true" qual:id="sa203"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s228">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A30616" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ATP_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s228" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ADP_simple_molecule" qual:constant="true" qual:id="sa204"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s229">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A456216" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ADP_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s229" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Pi_simple_molecule" qual:constant="true" qual:id="sa205"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s230">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A18367" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Pi_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s230" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="H2O_simple_molecule_Cytosol" qual:constant="true" qual:id="sa206"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s14">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A15377" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:H2O_simple_molecule_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s14" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="TFRC" qual:constant="false" qual:id="sa217"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s244">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:P02786" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TFRC:TF_complex_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s244" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Fe3+_ion" qual:constant="false" qual:id="sa229"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s270">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29034" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TFRC:holoTF_complex_Endosome Lumen" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s270" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Fe2+_ion_Endosome Lumen" qual:constant="false" qual:id="sa238"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s281">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29033" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Fe3+_ion&amp;STEAP3" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s281" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Fe2+_ion_Cytosol" qual:constant="false" qual:id="sa240"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s16">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A29033" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:SLC11A2|Fe2+_ion_Cytosol" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s16" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Fe2+_ion_Endosome Lumen&amp;MCOLN1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s16" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="MCOLN1" qual:constant="true" qual:id="sa241"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s282">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q9GZU1" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:MCOLN1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s282" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="e-_ion" qual:constant="true" qual:id="sa242"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s283">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A10545" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:e-_ion" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s283" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="STEAP3" qual:constant="true" qual:id="sa243"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s284">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:uniprot:Q658P3" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:STEAP3" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s284" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NRF2_ubiquitinated" qual:constant="true" qual:id="sa249"><annotation><rdf:RDF><rdf:Description rdf:about="#s299"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NRF2_ubiquitinated" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s299" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies></qual:listOfQualitativeSpecies><qual:listOfTransitions><qual:transition qual:id="tr_csa2"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa43" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa2_in_0" /><qual:input qual:qualitativeSpecies="sa5" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa2_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa2" qual:transitionEffect="assignmentLevel" qual:id="tr_csa2_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa43</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa5</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re20">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31827672" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:29717933" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa4"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa5" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa4_in_0" /><qual:input qual:qualitativeSpecies="sa44" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa4_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa4" qual:transitionEffect="assignmentLevel" qual:id="tr_csa4_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa5</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa44</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://www.sciencedirect.com/science/article/pii/S0002944016305326
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re21">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28082120" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa8"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa189" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_csa8_in_0" /><qual:input qual:qualitativeSpecies="csa19" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa8_in_1" /><qual:input qual:qualitativeSpecies="sa6" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa8_in_2" /><qual:input qual:qualitativeSpecies="sa78" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa8_in_3" /><qual:input qual:qualitativeSpecies="sa126" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_csa8_in_4" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa8" qual:transitionEffect="assignmentLevel" qual:id="tr_csa8_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>sa189</ci><cn type="integer">0</cn></apply><apply><eq /><ci>csa19</ci><cn type="integer">1</cn></apply><apply><and /><apply><eq /><ci>sa6</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa78</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa126</ci><cn type="integer">0</cn></apply></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re95">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20486766" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31692987" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:15572695" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re94">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20486766" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31692987" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:16449638" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:15572695" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re92">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20486766" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31692987" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re35">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:15282312" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20486766" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31692987" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:15572695" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:32132672" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa10"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa8" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa10_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa10" qual:transitionEffect="assignmentLevel" qual:id="tr_csa10_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>csa8</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966484/figure/f5/
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re40">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20486766" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31692987" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:15572695" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa11"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa144" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa11_in_0" /><qual:input qual:qualitativeSpecies="sa145" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa11_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa11" qual:transitionEffect="assignmentLevel" qual:id="tr_csa11_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>sa144</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa145</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms></qual:transition><qual:transition qual:id="tr_csa12"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa140" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa12_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa12" qual:transitionEffect="assignmentLevel" qual:id="tr_csa12_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa140</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms></qual:transition><qual:transition qual:id="tr_csa21"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa150" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa21_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa21" qual:transitionEffect="assignmentLevel" qual:id="tr_csa21_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa150</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms></qual:transition><qual:transition qual:id="tr_csa27"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa217" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa27_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa27" qual:transitionEffect="assignmentLevel" qual:id="tr_csa27_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa217</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-917987.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_csa29"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa27" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa29_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa29" qual:transitionEffect="assignmentLevel" qual:id="tr_csa29_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>csa27</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-917807.2
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_csa30"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa29" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa30_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa30" qual:transitionEffect="assignmentLevel" qual:id="tr_csa30_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>csa29</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-917835.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_csa31"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa30" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa31_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa31" qual:transitionEffect="assignmentLevel" qual:id="tr_csa31_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>csa30</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-917814.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_csa32"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa10" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa32_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa32" qual:transitionEffect="assignmentLevel" qual:id="tr_csa32_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>csa10</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms></qual:transition><qual:transition qual:id="tr_sa21"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa23" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa21_in_0" /><qual:input qual:qualitativeSpecies="sa30" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa21_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa21" qual:transitionEffect="assignmentLevel" qual:id="tr_sa21_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa23</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa30</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-9661408.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa22"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa21" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa22_in_0" /><qual:input qual:qualitativeSpecies="sa168" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa22_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa22" qual:transitionEffect="assignmentLevel" qual:id="tr_sa22_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa21</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa168</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189398.2
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa23"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa54" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa23_in_0" /><qual:input qual:qualitativeSpecies="sa53" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa23_in_1" /><qual:input qual:qualitativeSpecies="sa56" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa23_in_2" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa23" qual:transitionEffect="assignmentLevel" qual:id="tr_sa23_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa54</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa53</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa56</ci><cn type="integer">0</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189465.2
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa28"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa164" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa28_in_0" /><qual:input qual:qualitativeSpecies="sa240" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa28_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa28" qual:transitionEffect="assignmentLevel" qual:id="tr_sa28_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>sa164</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa240</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-435349.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa29"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa50" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa29_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa29" qual:transitionEffect="assignmentLevel" qual:id="tr_sa29_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa50</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms></qual:transition><qual:transition qual:id="tr_sa32"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa22" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa32_in_0" /><qual:input qual:qualitativeSpecies="sa36" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa32_in_1" /><qual:input qual:qualitativeSpecies="csa21" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa32_in_2" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa32" qual:transitionEffect="assignmentLevel" qual:id="tr_sa32_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><or /><apply><eq /><ci>sa36</ci><cn type="integer">1</cn></apply><apply><eq /><ci>csa21</ci><cn type="integer">1</cn></apply></apply><apply><eq /><ci>sa22</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189384.4
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa36"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa151" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa36_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa36" qual:transitionEffect="assignmentLevel" qual:id="tr_sa36_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa151</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms></qual:transition><qual:transition qual:id="tr_sa39"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa171" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa39_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa39" qual:transitionEffect="assignmentLevel" qual:id="tr_sa39_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa171</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re90">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:doi:10.1101%2F2020.03.22.002386" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:2697049" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa43"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa3" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa43_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa43" qual:transitionEffect="assignmentLevel" qual:id="tr_sa43_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa3</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re51">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:12198130" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa44"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa48" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa44_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa44" qual:transitionEffect="assignmentLevel" qual:id="tr_sa44_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa48</ci><cn type="integer">0</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re24">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28082120" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:21982894" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa50"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa2" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa50_in_0" /><qual:input qual:qualitativeSpecies="csa4" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa50_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa50" qual:transitionEffect="assignmentLevel" qual:id="tr_sa50_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>csa2</ci><cn type="integer">1</cn></apply><apply><eq /><ci>csa4</ci><cn type="integer">0</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re25">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:10473555" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31827672" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:29717933" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa53"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa147" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa53_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa53" qual:transitionEffect="assignmentLevel" qual:id="tr_sa53_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa147</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms></qual:transition><qual:transition qual:id="tr_sa54"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa117" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa54_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa54" qual:transitionEffect="assignmentLevel" qual:id="tr_sa54_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa117</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189457.2
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa69"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa65" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa69_in_0" /><qual:input qual:qualitativeSpecies="csa5" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa69_in_1" /><qual:input qual:qualitativeSpecies="sa23" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa69_in_2" /><qual:input qual:qualitativeSpecies="sa20" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa69_in_3" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa69" qual:transitionEffect="assignmentLevel" qual:id="tr_sa69_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa65</ci><cn type="integer">1</cn></apply><apply><eq /><ci>csa5</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa23</ci><cn type="integer">0</cn></apply><apply><eq /><ci>sa20</ci><cn type="integer">0</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189442.3
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re32">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:25446301" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa72"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa69" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa72_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa72" qual:transitionEffect="assignmentLevel" qual:id="tr_sa72_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa69</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189456.2
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa101"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa72" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa101_in_0" /><qual:input qual:qualitativeSpecies="csa14" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa101_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa101" qual:transitionEffect="assignmentLevel" qual:id="tr_sa101_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa72</ci><cn type="integer">1</cn></apply><apply><eq /><ci>csa14</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189439.2
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa105"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa101" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa105_in_0" /><qual:input qual:qualitativeSpecies="csa15" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa105_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa105" qual:transitionEffect="assignmentLevel" qual:id="tr_sa105_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa101</ci><cn type="integer">1</cn></apply><apply><eq /><ci>csa15</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189406.2
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa111"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa105" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa111_in_0" /><qual:input qual:qualitativeSpecies="sa112" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa111_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa111" qual:transitionEffect="assignmentLevel" qual:id="tr_sa111_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa105</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa112</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189488.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa113"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa111" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa113_in_0" /><qual:input qual:qualitativeSpecies="sa114" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa113_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa113" qual:transitionEffect="assignmentLevel" qual:id="tr_sa113_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa111</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa114</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189425.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa115"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa113" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa115_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa115" qual:transitionEffect="assignmentLevel" qual:id="tr_sa115_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa113</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189467.2
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa116"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa115" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa116_in_0" /><qual:input qual:qualitativeSpecies="sa118" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa116_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa116" qual:transitionEffect="assignmentLevel" qual:id="tr_sa116_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa115</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa118</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189421.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa117"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa116" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa117_in_0" /><qual:input qual:qualitativeSpecies="csa17" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa117_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa117" qual:transitionEffect="assignmentLevel" qual:id="tr_sa117_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa116</ci><cn type="integer">1</cn></apply><apply><eq /><ci>csa17</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-189423.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa127"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa130" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa127_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa127" qual:transitionEffect="assignmentLevel" qual:id="tr_sa127_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa130</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re89">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:26794443" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa130"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa128" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa130_in_0" /><qual:input qual:qualitativeSpecies="sa165" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa130_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa130" qual:transitionEffect="assignmentLevel" qual:id="tr_sa130_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa128</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa165</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re59">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:26794443" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa140"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa43" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa140_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa140" qual:transitionEffect="assignmentLevel" qual:id="tr_sa140_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa43</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>PMID: 21303654
+PMID: 30692038
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re63">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa144"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa43" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa144_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa144" qual:transitionEffect="assignmentLevel" qual:id="tr_sa144_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa43</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re65">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa145"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa43" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa145_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa145" qual:transitionEffect="assignmentLevel" qual:id="tr_sa145_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa43</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re66">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa147"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa43" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa147_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa147" qual:transitionEffect="assignmentLevel" qual:id="tr_sa147_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa43</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re69">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:23766848" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa150"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa43" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa150_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa150" qual:transitionEffect="assignmentLevel" qual:id="tr_sa150_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa43</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re72">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa151"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa43" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa151_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa151" qual:transitionEffect="assignmentLevel" qual:id="tr_sa151_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa43</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re73">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa152"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa28" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa152_in_0" /><qual:input qual:qualitativeSpecies="csa11" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa152_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa152" qual:transitionEffect="assignmentLevel" qual:id="tr_sa152_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa28</ci><cn type="integer">1</cn></apply><apply><eq /><ci>csa11</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-1562626.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa165"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa28" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa165_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa165" qual:transitionEffect="assignmentLevel" qual:id="tr_sa165_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa28</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re88">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:26794443" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa166"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa130" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa166_in_0" /><qual:input qual:qualitativeSpecies="sa167" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa166_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa166" qual:transitionEffect="assignmentLevel" qual:id="tr_sa166_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa130</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa167</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re85">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:26794443" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:30692038" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa168"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa29" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa168_in_0" /><qual:input qual:qualitativeSpecies="sa169" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa168_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa168" qual:transitionEffect="assignmentLevel" qual:id="tr_sa168_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa29</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa169</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>Could not find this site in identifiers.org. This interaction is described in the Gordon et.al. preprint.
+https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re87">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:doi:10.1101%2F2020.03.22.002386" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:2697049" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa3"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa6" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa3_in_0" /><qual:input qual:qualitativeSpecies="sa190" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa3_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa3" qual:transitionEffect="assignmentLevel" qual:id="tr_sa3_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa6</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa190</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re96">
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31692987" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+<bqmodel:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:12198130" />
+</rdf:Bag>
+</bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa217"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa31" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa217_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa217" qual:transitionEffect="assignmentLevel" qual:id="tr_sa217_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>csa31</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-917839.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa229"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa29" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa229_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa229" qual:transitionEffect="assignmentLevel" qual:id="tr_sa229_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>csa29</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-917835.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa238"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa229" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa238_in_0" /><qual:input qual:qualitativeSpecies="sa243" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa238_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa238" qual:transitionEffect="assignmentLevel" qual:id="tr_sa238_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa229</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa243</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-917811.1
+</p>
+</body></html></notes></qual:transition><qual:transition qual:id="tr_sa240"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa238" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa240_in_0" /><qual:input qual:qualitativeSpecies="sa241" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa240_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa240" qual:transitionEffect="assignmentLevel" qual:id="tr_sa240_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa238</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa241</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>https://identifiers.org/reactome:R-HSA-917936.1
+</p>
+</body></html></notes></qual:transition></qual:listOfTransitions></model></sbml>
