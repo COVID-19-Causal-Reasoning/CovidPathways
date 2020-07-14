@@ -27,7 +27,6 @@ commit:
     - if: $CI_COMMIT_BRANCH == "master"
   before_script:
     - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
-    - git checkout -b $CI_COMMIT_REF_NAME
     - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@${url_host}"
     - git config user.name $GIT_ACCESS_USER
     - git config user.email $GIT_ACCESS_EMAIL
