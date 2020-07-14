@@ -30,7 +30,7 @@ commit:
     - git config user.name $GIT_ACCESS_USER
     - git config user.email $GIT_ACCESS_EMAIL
   script:
-    - git branch -d tmpBranch
+    - git branch -D tmpBranch &>/dev/null
     - git checkout -b tmpBranch
     - git add --all
     - git commit -m "Update models"
@@ -38,4 +38,4 @@ commit:
     - git pull origin $CI_COMMIT_REF_NAME
     - git merge tmpBranch --ff
     - git push origin $CI_COMMIT_REF_NAME || true
-    - git branch -d tmpBranch
+    - git branch -D tmpBranch
