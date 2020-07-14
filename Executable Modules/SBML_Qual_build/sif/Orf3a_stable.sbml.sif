@@ -1,0 +1,44 @@
+Orf3a POSITIVE Hops Complex_complex
+P65/P015_complex POSITIVE Orf3a
+TRIM59 POSITIVE Orf3a
+PYCARD_ubiquitinated_ubiquitinated_ubiquitinated POSITIVE Orf3a
+S POSITIVE Orf3a
+LPS/TNF α/IL-1_complex POSITIVE IKBKG/IKBKB/CHUK_complex
+P65/P015_complex POSITIVE IKBKG/IKBKB/CHUK_complex
+TLR4 POSITIVE LPS/TLR4/MYD88_complex
+TRAF6_cytoplasm POSITIVE LPS/TLR4/MYD88_complex
+E_cytoplasm POSITIVE P65/P015_complex
+TRAF3 POSITIVE P65/P015_complex
+IL1b_cytoplasm POSITIVE P65/P015_complex
+IL1b_cytoplasm POSITIVE P65/P015_complex
+PYCARD_ubiquitinated_ubiquitinated_ubiquitinated POSITIVE TRAF3
+TICAM1 POSITIVE TRAF3
+TRIM30a/TRIM38_complex NEGATIVE TAB2/TAB3/TAK1_complex
+TRAF6_cytoplasm POSITIVE TAB2/TAB3/TAK1_complex
+NEMO/IKKA/IKKB_complex POSITIVE TAB2/TAB3/TAK1_complex
+SERPINF2 POSITIVE TAB2/TAB3/TAK1_complex
+TRAF6_cytoplasm POSITIVE TRAF6_cytoplasm
+MYD88_cytoplasm POSITIVE TRAF6_cytoplasm
+TRIM38_cytoplasm NEGATIVE TRAF6_cytoplasm
+TRIM23 POSITIVE TRAF6_cytoplasm
+ssRNA_rna POSITIVE TLR7/8/9_complex
+MYD88_cytoplasm POSITIVE TLR7/8/9_complex
+TRIM22 NEGATIVE NEMO/IKKA/IKKB_complex
+TRIM29 NEGATIVE NEMO/IKKA/IKKB_complex
+TRIM14/TRIM23_complex POSITIVE NEMO/IKKA/IKKB_complex
+TRIM27/TRIM21_complex NEGATIVE NEMO/IKKA/IKKB_complex
+NFKBIA_phosphorylated_ubiquitinated_ubiquitinated_ubiquitinated POSITIVE NEMO/IKKA/IKKB_complex
+NFKB1 POSITIVE NFKB1:NFKNIA_complex
+CACTIN NEGATIVE NFKB1:NFKNIA_complex
+TRIM39 POSITIVE CACTIN
+MYD88_cytoplasm NEGATIVE TRIM59
+ORF8b POSITIVE NLRP3
+TLR3 POSITIVE TICAM1
+TRIM38_cytoplasm NEGATIVE TICAM1
+IL1b_cytoplasm POSITIVE CASP1
+double-stranded RNA_rna POSITIVE TLR3
+BTRC POSITIVE NFKBIA_phosphorylated_ubiquitinated_ubiquitinated_ubiquitinated
+TRIM9 NEGATIVE BTRC
+IFNB1 POSITIVE SERPINF2
+IL1b_cytoplasm POSITIVE IL1b_cytoplasm
+E_cytoplasm POSITIVE IL1b_cytoplasm

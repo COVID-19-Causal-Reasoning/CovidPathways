@@ -1,0 +1,9 @@
+C5b:C6:C7_complex POSITIVE C5b:C6:C7:C8A:C8B:C8G_complex
+C5b-9_complex POSITIVE C5b:C6:C7:C8A:C8B:C8G_complex
+GP6:Fibrinogen_complex POSITIVE GP6:alpha2beta1:VWF_complex
+platelet activation_phenotype POSITIVE GP6:alpha2beta1:VWF_complex
+GP6 POSITIVE GP6:Fibrinogen_complex
+ITGA2:ITGAB1_complex POSITIVE GP6:Fibrinogen_complex
+GP6 POSITIVE Fibrinogen:GP6_complex
+platelet activation_phenotype POSITIVE Fibrinogen:GP6_complex
+thrombus formation_phenotype POSITIVE platelet activation_phenotype

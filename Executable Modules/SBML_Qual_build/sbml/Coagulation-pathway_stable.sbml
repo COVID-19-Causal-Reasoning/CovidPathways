@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sbml xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" level="3" version="1" layout:required="false" xmlns="http://www.sbml.org/sbml/level3/version1/core" qual:required="true" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"><model id="model_id"><listOfCompartments><compartment constant="true" id="comp1" /></listOfCompartments><layout:listOfLayouts><layout:layout id="layout1"><layout:dimensions width="7000" height="20000" /><layout:listOfAdditionalGraphicalObjects><layout:generalGlyph layout:reference="csa31" layout:id="csa31_glyph"><layout:boundingBox><layout:position layout:x="2363.0" layout:y="817.0" /><layout:dimensions layout:height="110.0" layout:width="260.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa29" layout:id="csa29_glyph"><layout:boundingBox><layout:position layout:x="2146.375" layout:y="801.5" /><layout:dimensions layout:height="165.0" layout:width="99.25" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa32" layout:id="csa32_glyph"><layout:boundingBox><layout:position layout:x="2719.0" layout:y="760.0" /><layout:dimensions layout:height="180.0" layout:width="270.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa37" layout:id="csa37_glyph"><layout:boundingBox><layout:position layout:x="1052.0" layout:y="642.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa40" layout:id="csa40_glyph"><layout:boundingBox><layout:position layout:x="571.875" layout:y="3180.0" /><layout:dimensions layout:height="187.5" layout:width="136.25" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa42" layout:id="csa42_glyph"><layout:boundingBox><layout:position layout:x="10.888888888888914" layout:y="3063.9999999999995" /><layout:dimensions layout:height="161.0" layout:width="185.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa41" layout:id="csa41_glyph"><layout:boundingBox><layout:position layout:x="308.0" layout:y="2904.5" /><layout:dimensions layout:height="117.5" layout:width="99.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa39" layout:id="csa39_glyph"><layout:boundingBox><layout:position layout:x="520.0" layout:y="2953.75" /><layout:dimensions layout:height="140.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa198" layout:id="sa198_glyph"><layout:boundingBox><layout:position layout:x="546.0" layout:y="859.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa387" layout:id="sa387_glyph"><layout:boundingBox><layout:position layout:x="1442.0" layout:y="822.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa394" layout:id="sa394_glyph"><layout:boundingBox><layout:position layout:x="1058.5" layout:y="816.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa430" layout:id="sa430_glyph"><layout:boundingBox><layout:position layout:x="290.0" layout:y="3121.25" /><layout:dimensions layout:height="45.0" layout:width="140.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa431" layout:id="sa431_glyph"><layout:boundingBox><layout:position layout:x="206.0" layout:y="2992.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa441" layout:id="sa441_glyph"><layout:boundingBox><layout:position layout:x="275.0" layout:y="3327.5" /><layout:dimensions layout:height="45.0" layout:width="170.0" /></layout:boundingBox></layout:generalGlyph></layout:listOfAdditionalGraphicalObjects></layout:layout></layout:listOfLayouts><qual:listOfQualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="C5b:C6:C7:C8A:C8B:C8G_complex" qual:constant="false" qual:id="csa31"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s401">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28630159" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:C5b:C6:C7_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s401" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="C5b:C6:C7_complex" qual:constant="true" qual:id="csa29"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s396">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28630159" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:C5b:C6:C7_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s396" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="C5b-9_complex" qual:constant="false" qual:id="csa32"><annotation><rdf:RDF><rdf:Description rdf:about="#s493"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:C5b:C6:C7:C8A:C8B:C8G_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s493" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE2:Spike_complex" qual:constant="true" qual:id="csa37"><annotation><rdf:RDF><rdf:Description rdf:about="#s480"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE2:Spike_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s480" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="GP6:alpha2beta1:VWF_complex" qual:constant="false" qual:id="csa40"><annotation><rdf:RDF><rdf:Description rdf:about="#s533"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:GP6:Fibrinogen_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s533" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Fibrinogen:GP6_complex" qual:constant="false" qual:id="csa42"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s545">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:19296670" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:GP6" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s545" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ITGA2:ITGAB1_complex" qual:constant="true" qual:id="csa41"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s524">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:intact:EBI-16428357" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ITGA2:ITGAB1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s524" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="GP6:Fibrinogen_complex" qual:constant="false" qual:id="csa39"><annotation><rdf:RDF><rdf:Description rdf:about="#s513"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:GP6&amp;ITGA2:ITGAB1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s513" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE" qual:constant="true" qual:id="sa198"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s6">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A2707" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s6" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="C4d" qual:constant="true" qual:id="sa387"><annotation><rdf:RDF><rdf:Description rdf:about="#s475"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:C4d" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s475" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE2" qual:constant="true" qual:id="sa394"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s114">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A13557" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE2" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s114" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="platelet activation_phenotype" qual:constant="false" qual:id="sa430"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s510">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0030168" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:GP6:alpha2beta1:VWF_complex|Fibrinogen:GP6_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s510" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="GP6" qual:constant="true" qual:id="sa431"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s511">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc:14388" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:GP6" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s511" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="thrombus formation_phenotype" qual:constant="false" qual:id="sa441"><annotation><rdf:RDF><rdf:Description rdf:about="#s522"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:platelet activation_phenotype" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s522" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies></qual:listOfQualitativeSpecies><qual:listOfTransitions><qual:transition qual:id="tr_csa31"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa29" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa31_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa31" qual:transitionEffect="assignmentLevel" qual:id="tr_csa31_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>csa29</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>The first step requires cleavage of C5 (purple) into the small anaphylatoxin C5a and the large fragment C5b by the C5 convertase (turquoise). C6 (yellow) binds the labile C5b intermediate, resulting in a stable C5b6 complex. C7 (green) binds C5b6, anchoring the newly formed C5b7 complex to the membrane surface. C8, a heterotrimeric protein composed of C8α (orange), C8β (red) and C8γ (dark blue), is incorporated into the assembly precursor forming C5b8 and marking the first membrane penetrating event. Finally, multiple copies of C9 (light blue) join the assembly and span membrane, resulting in the final membrane attack complex (MAC). PMID: 28630159
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re266">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28630159" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa32"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa31" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa32_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa32" qual:transitionEffect="assignmentLevel" qual:id="tr_csa32_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>csa31</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>There was co-localization of COVID-19 spike glycoproteins with C4d and C5b-9 in the interalveolar septa and the cutaneous microvasculature of 2 cases examined. PMID: 32299776
+</p>
+<p>The elevated circulatory levels of C5b-9 were also reported in severe cases of COVID-19. PMCID: PMC7260598
+</p>
+<p>The first step requires cleavage of C5 (purple) into the small anaphylatoxin C5a and the large fragment C5b by the C5 convertase (turquoise). C6 (yellow) binds the labile C5b intermediate, resulting in a stable C5b6 complex. C7 (green) binds C5b6, anchoring the newly formed C5b7 complex to the membrane surface. C8, a heterotrimeric protein composed of C8α (orange), C8β (red) and C8γ (dark blue), is incorporated into the assembly precursor forming C5b8 and marking the first membrane penetrating event. Finally, multiple copies of C9 (light blue) join the assembly and span membrane, resulting in the final membrane attack complex (MAC). PMID: 28630159
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re309">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:32299776" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re324">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pmc:PMC7260598" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re267">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28630159" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa40"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa39" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa40_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa40" qual:transitionEffect="assignmentLevel" qual:id="tr_csa40_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>csa39</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>GPVI and α2β1 to primary hemostasis confirm that collagen binding by VWF, GPVI, and α2β1 have major roles in thrombus formation. PMID: 25051961
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re358">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:25051961" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:10090" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa42"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa431" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa42_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa42" qual:transitionEffect="assignmentLevel" qual:id="tr_csa42_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa431</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>Human glycoprotein VI binds to immobilized fibrinogen and show that this contributes to platelet spreading and platelet aggregation under flow. PMID: 29472360
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re363">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:10090" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:29472360" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa39"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa431" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa39_in_0" /><qual:input qual:qualitativeSpecies="csa41" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa39_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa39" qual:transitionEffect="assignmentLevel" qual:id="tr_csa39_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa431</ci><cn type="integer">1</cn></apply><apply><eq /><ci>csa41</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>GPVI and α2β1 to primary hemostasis confirm that collagen binding by VWF, GPVI, and α2β1 have major roles in thrombus formation. PMID: 25051961
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re357">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:25051961" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:10090" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa430"><qual:listOfInputs><qual:input qual:qualitativeSpecies="csa40" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa430_in_0" /><qual:input qual:qualitativeSpecies="csa42" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa430_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa430" qual:transitionEffect="assignmentLevel" qual:id="tr_sa430_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>csa40</ci><cn type="integer">1</cn></apply><apply><eq /><ci>csa42</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>GPVI and α2β1 to primary hemostasis confirm that collagen binding by VWF, GPVI, and α2β1 have major roles in thrombus formation. PMID: 25051961
+</p>
+<p>Human glycoprotein VI binds to immobilized fibrinogen and show that this contributes to platelet spreading and platelet aggregation under flow. PMID: 29472360
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re353">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:25051961" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:10090" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re356">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:29472360" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:10090" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa441"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa430" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa441_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa441" qual:transitionEffect="assignmentLevel" qual:id="tr_sa441_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa430</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>GPVI and α2β1 to primary hemostasis confirm that collagen binding by VWF, GPVI, and α2β1 have major roles in thrombus formation. PMID: 25051961
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re355">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:25051961" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:100090" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition></qual:listOfTransitions></model></sbml>
