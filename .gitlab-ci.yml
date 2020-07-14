@@ -29,13 +29,13 @@ commit:
     - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@${url_host}"
     - git config user.name $GIT_ACCESS_USER
     - git config user.email $GIT_ACCESS_EMAIL
-    - tmpBranch=$(base64 /dev/urandom | tr -d '/+' | dd bs=32 count=1 2>/dev/null)
   script:
+    - git branch -d tmpBranch
     - git checkout -b tmpBranch
     - git add --all
     - git commit -m "Update models"
     - git checkout $CI_COMMIT_REF_NAME
     - git pull origin $CI_COMMIT_REF_NAME
-    - git merge $tmpBranch --ff
+    - git merge tmpBranch --ff
     - git push origin $CI_COMMIT_REF_NAME || true
-    - git branch -D $tmpBranch
+    - git branch -d tmpBranch
