@@ -14,7 +14,7 @@ convert:
     - python .ci/convertCASQ.py
 
 commit:
-  image: alpine
+  image: alpine/git
   stage: deploy
   rules:
     - if: $CI_COMMIT_BRANCH == "build-ci"
