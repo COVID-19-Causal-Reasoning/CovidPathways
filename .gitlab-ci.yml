@@ -3,7 +3,7 @@ stages:
   - deploy
 
 convert:
-  image: python:3.9
+  image: python::3.8.4-buster
   stage: convert
   rules:
     - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
