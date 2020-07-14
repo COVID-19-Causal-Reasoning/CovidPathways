@@ -6,7 +6,7 @@ convert:
   image: python
   stage: convert
   rules:
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_COMMIT_MESSAGE !~ /tmpBranch/ && $CI_COMMIT_MESSAGE !~ /Update models/'
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
   before_script:
     - pip install casq
   script:
