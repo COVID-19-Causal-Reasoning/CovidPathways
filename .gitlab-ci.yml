@@ -24,6 +24,7 @@ commit:
     entrypoint: [""]
   stage: deploy
   rules:
+    - if: $CI_MERGE_REQUEST_ID
     - if: $CI_COMMIT_MESSAGE != "Merge branch 'tmpBranch' into build-ci"
     - if: $CI_COMMIT_MESSAGE != "Update models"
   before_script:
@@ -39,5 +40,5 @@ commit:
     - git checkout $CI_COMMIT_REF_NAME
     - git pull origin $CI_COMMIT_REF_NAME
     - git merge tmpBranch --ff
-    - git push origin $CI_COMMIT_REF_NAME
+    - git push origin $CI_COMMIT_REF_NAME || true
     - git branch -D tmpBranch
