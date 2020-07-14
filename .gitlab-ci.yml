@@ -23,8 +23,7 @@ commit:
     entrypoint: [""]
   stage: deploy
   rules:
-    - if: $CI_COMMIT_BRANCH == "build-ci"
-    - if: $CI_COMMIT_BRANCH == "master"
+    - if: $CI_MERGE_REQUEST_ID
   before_script:
     - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
     - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@${url_host}"
@@ -33,4 +32,4 @@ commit:
   script:
     - git add --all
     - git commit -m "Update models"
-    - git push origin $CI_COMMIT_REF_NAME
+    - git push origin $CI_COMMIT_BRANCH
