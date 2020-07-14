@@ -12,20 +12,24 @@ convert:
     - pip install casq
   script:
     - python .ci/convertCASQ.py
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - "Executable Modules"
 
 commit:
-  image: alpine/git
+  image: alpine
   stage: deploy
   rules:
     - if: $CI_COMMIT_BRANCH == "build-ci"
     - if: $CI_COMMIT_BRANCH == "master"
   before_script:
+    - apk update && apk add git
     - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
     - git checkout -b $CI_COMMIT_REF_NAME
     - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@${url_host}"
     - git config user.name $GIT_ACCESS_USER
     - git config user.email $GIT_ACCESS_EMAIL
-
   script:
     - git commit -am "Update models"
     - git push origin $CI_COMMIT_REF_NAME
