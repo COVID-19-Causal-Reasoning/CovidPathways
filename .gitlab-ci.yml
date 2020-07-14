@@ -14,6 +14,7 @@ convert:
     - python .ci/convertCASQ.py
 
 commit:
+  image: alpine
   stage: deploy
   rules:
     - if: $CI_COMMIT_BRANCH == "build-ci"
@@ -21,7 +22,7 @@ commit:
   before_script:
     - url_host=`git remote get-url origin | sed -e "s/https:\/\/gitlab-ci-token:.*@//g"`
     - git checkout -b $CI_COMMIT_REF_NAME
-    - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_PASSWORD@${url_host}"
+    - git remote set-url origin "https://$GIT_ACCESS_USER:$GIT_ACCESS_TOKEN@${url_host}"
     - git config user.name $GIT_ACCESS_USER
     - git config user.email $GIT_ACCESS_EMAIL
 
