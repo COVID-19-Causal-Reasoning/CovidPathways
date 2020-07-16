@@ -3,7 +3,7 @@ stages:
   - deploy
 
 convert:
-  image: python
+  image: python:3.8.4-buster
   stage: convert
   rules:
     - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
@@ -18,7 +18,7 @@ convert:
 
 commit:
   image:
-    name: alpine/git:latest
+    name: alpine/git:v2.26.2
     entrypoint: [""]
   stage: deploy
   rules:
@@ -33,7 +33,7 @@ commit:
     - git branch -D tmpBranch || true
     - git checkout -b tmpBranch
     - git add --all
-    - git commit -m "Update models"
+    - git commit -m "Update models" || true
     - git checkout $CI_COMMIT_REF_NAME
     - git pull origin $CI_COMMIT_REF_NAME
     - git merge tmpBranch --ff
