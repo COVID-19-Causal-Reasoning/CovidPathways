@@ -1,75 +1,74 @@
-ERN1 POSITIVE ERN1:Unfolded protein_complex
-Unfolded protein_Endoplasmic Reticulum POSITIVE ERN1:Unfolded protein_complex
-TRAF2:ERN1_complex POSITIVE ERN1:Unfolded protein_complex
-ERN1:BCL2L11_complex POSITIVE ERN1
-ERN1:BBC3_complex POSITIVE ERN1
-Persistant ER Stress_phenotype POSITIVE CASP8:FADD:MAP1LC3A:SQSTM1:ATG5_complex
-TRIM13 POSITIVE CASP8:FADD:MAP1LC3A:SQSTM1:ATG5_complex
-Apoptosis_phenotype POSITIVE CASP8:FADD:MAP1LC3A:SQSTM1:ATG5_complex
-TRAF2:ERN1_complex NEGATIVE Persistant ER Stress_phenotype
-EIF2AK3:EIF2AK3_complex POSITIVE Persistant ER Stress_phenotype
-ERN1:BCL2L11_complex NEGATIVE Persistant ER Stress_phenotype
-ERN1:BBC3_complex NEGATIVE Persistant ER Stress_phenotype
-DDIT3_rna POSITIVE Persistant ER Stress_phenotype
-ER Stress_phenotype POSITIVE Persistant ER Stress_phenotype
+ERN1:Unfolded protein_complex POSITIVE TRAF2:ERN1_complex
 BAK1:ERN1_complex POSITIVE TRAF2:ERN1_complex
 BAX:ERN1_complex POSITIVE TRAF2:ERN1_complex
 BCL2 NEGATIVE TRAF2:ERN1_complex
 BCL2L1 NEGATIVE TRAF2:ERN1_complex
+Persistant ER Stress_phenotype NEGATIVE TRAF2:ERN1_complex
 BAX POSITIVE TRAF2:ERN1_complex
 BAK1 POSITIVE TRAF2:ERN1_complex
 UPR_phenotype POSITIVE TRAF2:ERN1_complex
 TRAF2_Cytoplasm POSITIVE TRAF2:ERN1_complex
 MAP3K5_phosphorylated POSITIVE TRAF2:ERN1_complex
 XBP1_rna POSITIVE TRAF2:ERN1_complex
+Unfolded protein_Endoplasmic Reticulum POSITIVE ERN1:Unfolded protein_complex
+CASP8:FADD:MAP1LC3A:SQSTM1:ATG5_complex POSITIVE Persistant ER Stress_phenotype
+EIF2AK3:EIF2AK3_complex POSITIVE Persistant ER Stress_phenotype
+ERN1:BCL2L11_complex NEGATIVE Persistant ER Stress_phenotype
+ERN1:BBC3_complex NEGATIVE Persistant ER Stress_phenotype
+DDIT3_rna POSITIVE Persistant ER Stress_phenotype
+ER Stress_phenotype POSITIVE Persistant ER Stress_phenotype
+TRIM13 POSITIVE CASP8:FADD:MAP1LC3A:SQSTM1:ATG5_complex
+Apoptosis_phenotype POSITIVE CASP8:FADD:MAP1LC3A:SQSTM1:ATG5_complex
 EIF2AK3 POSITIVE EIF2AK3:EIF2AK3_complex
 Unfolded protein_Endoplasmic Reticulum POSITIVE EIF2AK3:EIF2AK3_complex
 retrograde transport from ER to cytosol_phenotype POSITIVE EIF2AK3:EIF2AK3_complex
 UPR_phenotype POSITIVE EIF2AK3:EIF2AK3_complex
 EIF2S1_phosphorylated POSITIVE EIF2AK3:EIF2AK3_complex
-ATF6_Endoplasmic Reticulum POSITIVE Unfolded protein_Endoplasmic Reticulum
-HSPA5 POSITIVE Unfolded protein_Endoplasmic Reticulum
 accumulation of misfolded protein in ER_phenotype POSITIVE Unfolded protein_Endoplasmic Reticulum
-EIF2:GDP:Met-tRNA_complex POSITIVE Ternary Complex_complex
-EIF2B*_complex POSITIVE Ternary Complex_complex
-Translation initiation_phenotype POSITIVE Ternary Complex_complex
+Ternary Complex_complex POSITIVE EIF2:GDP:Met-tRNA_complex
 EIF2S2 POSITIVE EIF2:GDP:Met-tRNA_complex
 EIF2S3:GDP_complex POSITIVE EIF2:GDP:Met-tRNA_complex
+EIF2B_complex POSITIVE Ternary Complex_complex
+Translation initiation_phenotype POSITIVE Ternary Complex_complex
 EIF2-P:GDP_complex POSITIVE EIF2S2
 EIF2S1_phosphorylated POSITIVE EIF2-P:GDP_complex
 ATF4_rna POSITIVE EIF2-P:GDP_complex
 EIF2S1 POSITIVE EIF2S1_phosphorylated
 GCN2:ATP_complex POSITIVE EIF2S1_phosphorylated
 EIF2AK2 POSITIVE EIF2S1_phosphorylated
-DNAJC3 NEGATIVE EIF2S1_phosphorylated
+DNAJC3_Cytoplasm NEGATIVE EIF2S1_phosphorylated
+ERN1 POSITIVE ERN1:BCL2L11_complex
 BCL2L11_Endoplasmic Reticulum POSITIVE ERN1:BCL2L11_complex
 XBP1_rna POSITIVE ERN1:BCL2L11_complex
+ERN1:BBC3_complex POSITIVE ERN1
 BBC3 POSITIVE ERN1:BBC3_complex
 XBP1_rna POSITIVE ERN1:BBC3_complex
 CAPN1 POSITIVE CAPN1:Ca2+_complex
 Ca2+_ion_Cytoplasm POSITIVE CAPN1:Ca2+_complex
 high Ca2+ cytosolic concentration_phenotype POSITIVE CAPN1:Ca2+_complex
 cleaved~CASP4 POSITIVE CAPN1:Ca2+_complex
-TMBIM6_Endoplasmic Reticulum POSITIVE Ca2+_ion_Cytoplasm
+TMBIM6 POSITIVE Ca2+_ion_Cytoplasm
 RYR1 POSITIVE Ca2+_ion_Cytoplasm
 ITPR POSITIVE Ca2+_ion_Cytoplasm
 high Ca2+ cytosolic concentration_phenotype POSITIVE Ca2+_ion_Cytoplasm
 release of ER Ca2+_phenotype POSITIVE high Ca2+ cytosolic concentration_phenotype
 ATF6:HSPA5_complex POSITIVE ATF6_Endoplasmic Reticulum
+Unfolded protein_Endoplasmic Reticulum POSITIVE ATF6_Endoplasmic Reticulum
 retrograde transport from ER to cytosol_phenotype POSITIVE ATF6_Endoplasmic Reticulum
 ATF6_Golgi POSITIVE ATF6_Endoplasmic Reticulum
 HSPA5 POSITIVE ATF6:HSPA5_complex
-UPR_phenotype POSITIVE accumulation of misfolded protein in ER_phenotype
-ER Stress_phenotype POSITIVE accumulation of misfolded protein in ER_phenotype
-ERAD_phenotype POSITIVE accumulation of misfolded protein in ER_phenotype
+HSPA5 POSITIVE Unfolded protein_Endoplasmic Reticulum
 protein ubiquitination and destruction_phenotype POSITIVE retrograde transport from ER to cytosol_phenotype
 ATF6_Golgi NEGATIVE retrograde transport from ER to cytosol_phenotype
-XBP1_rna POSITIVE XBP1
-UPR_phenotype POSITIVE XBP1
-ERAD_phenotype POSITIVE XBP1
-DDIT3_rna POSITIVE XBP1
+XBP1_rna POSITIVE XBP1_Cytoplasm
+DDIT3_rna POSITIVE XBP1_Cytoplasm
 ATF6_Nucleus POSITIVE XBP1_rna
+XBP1_Cytoplasm POSITIVE UPR_phenotype
+accumulation of misfolded protein in ER_phenotype POSITIVE UPR_phenotype
 ATF6_Golgi POSITIVE UPR_phenotype
+ERAD_phenotype POSITIVE XBP1_Cytoplasm
+ER Stress_phenotype POSITIVE accumulation of misfolded protein in ER_phenotype
+ERAD_phenotype POSITIVE accumulation of misfolded protein in ER_phenotype
 ATF6_Golgi POSITIVE ATF6_Golgi
 MBTPS2 POSITIVE ATF6_Golgi
 ATF6_Nucleus POSITIVE ATF6_Golgi
@@ -80,22 +79,24 @@ AP-1_phosphorylated_phosphorylated POSITIVE MAPK8_phosphorylated
 BCL2L11_phosphorylated POSITIVE MAPK8_phosphorylated
 BID_phosphorylated POSITIVE MAPK8_phosphorylated
 CDK5 POSITIVE MAP3K4_phosphorylated
-MAPK14_phosphorylated POSITIVE MAP3K5_phosphorylated
+MAPK14_phosphorylated_Cytoplasm POSITIVE MAP3K5_phosphorylated
 TRAF2_Cytoplasm POSITIVE MAP3K5_phosphorylated
-Apoptosis_phenotype POSITIVE MAPK14_phosphorylated
-DDIT3_phosphorylated POSITIVE MAPK14_phosphorylated
-BAX_phosphorylated POSITIVE MAPK14_phosphorylated
+Apoptosis_phenotype POSITIVE MAPK14_phosphorylated_Cytoplasm
+BAX_phosphorylated POSITIVE MAPK14_phosphorylated_Cytoplasm
 DDIT3_phosphorylated POSITIVE Apoptosis_phenotype
 BAX_phosphorylated POSITIVE Apoptosis_phenotype
 BCL2L11_phosphorylated POSITIVE Apoptosis_phenotype
 BID_phosphorylated POSITIVE Apoptosis_phenotype
+TRIB3 POSITIVE Apoptosis_phenotype
 cleaved~CASP3 POSITIVE Apoptosis_phenotype
 cleaved~CASP9 POSITIVE Apoptosis_phenotype
-Cell death_phenotype POSITIVE Apoptosis_phenotype
+Cell survival_phenotype POSITIVE Apoptosis_phenotype
 DDIT3 POSITIVE DDIT3_phosphorylated
+MAPK14_phosphorylated_Cytoplasm POSITIVE DDIT3_phosphorylated
 BCL2_rna NEGATIVE DDIT3_phosphorylated
 release of ER Ca2+_phenotype POSITIVE BAX_phosphorylated
 BCL2L11_Cytoplasm POSITIVE BCL2L11_phosphorylated
+TRIB3_rna POSITIVE TRIB3
 CASP3 POSITIVE cleaved~CASP3
 cleaved~CASP4 POSITIVE cleaved~CASP3
 CASP9 POSITIVE cleaved~CASP9
@@ -119,20 +120,16 @@ PPP1R15A_rna POSITIVE ATF4
 PPP1R15A POSITIVE EIF2S1
 EIF2AK1 POSITIVE EIF2S1
 presence of dsRNA_phenotype POSITIVE EIF2AK2
-DNAJC3 NEGATIVE EIF2AK2
-DNAJC3_rna POSITIVE DNAJC3
+DNAJC3_Cytoplasm NEGATIVE EIF2AK2
+DNAJC3_rna POSITIVE DNAJC3_Cytoplasm
 PPP1R15A_rna POSITIVE PPP1R15A
 ERO1A_rna POSITIVE ERO1A_Cytoplasm
-ERO1A_Endoplasmic Reticulum POSITIVE ERO1A_Cytoplasm
-ITPR POSITIVE ERO1A_Cytoplasm
-Ca2+_ion_Mitochondrial inner membrane POSITIVE release of ER Ca2+_phenotype
-Cell death_phenotype POSITIVE Cell survival_phenotype
-TRIB3 POSITIVE Cell death_phenotype
-ITPR POSITIVE Ca2+_ion_Mitochondrial inner membrane
-MAM_phenotype POSITIVE Ca2+_ion_Mitochondrial inner membrane
-s619_complex POSITIVE Ca2+_ion_Mitochondrial inner membrane
-TMBIM6_Endoplasmic Reticulum POSITIVE ITPR
-TRIB3_rna POSITIVE TRIB3
+Ca2+_ion_Mitochondria POSITIVE release of ER Ca2+_phenotype
+ITPR POSITIVE Ca2+_ion_Mitochondria
+MAM_phenotype POSITIVE Ca2+_ion_Mitochondria
+s619_complex POSITIVE Ca2+_ion_Mitochondria
+TMBIM6 POSITIVE ITPR
+ERO1A_Endoplasmic Reticulum POSITIVE ITPR
 ERO1A_Endoplasmic Reticulum POSITIVE hyperoxidation_phenotype
 PPP2CA POSITIVE BCL2L11_Cytoplasm
 CASP4 POSITIVE cleaved~CASP4

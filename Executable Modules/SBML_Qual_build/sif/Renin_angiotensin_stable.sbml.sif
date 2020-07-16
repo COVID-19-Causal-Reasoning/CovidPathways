@@ -18,7 +18,9 @@ TMPRSS2 POSITIVE ACE2-Spike complex_complex
 viral replication cycle_phenotype POSITIVE ACE2-Spike complex_complex
 angiotensin 1-9_simple_molecule POSITIVE ACE2_cytoplasm
 angiotensin 1-7_simple_molecule POSITIVE ACE2_cytoplasm
-estradiol_simple_molecule NEGATIVE ACE2_cytoplasm
+ACE2_gene POSITIVE ACE2_cytoplasm
+estradiol_simple_molecule_cytoplasm POSITIVE ACE2_cytoplasm
+Calcitriol_simple_molecule_cytoplasm POSITIVE ACE2_cytoplasm
 alamandine_simple_molecule POSITIVE ACE2_cytoplasm
 ACE2_cytoplasm POSITIVE ACE2_cytoplasm
 androgen_simple_molecule POSITIVE TMPRSS2
@@ -31,11 +33,13 @@ angiotensin 1-9_simple_molecule POSITIVE angiotensin I_simple_molecule
 angiotensin 1-7_simple_molecule POSITIVE angiotensin I_simple_molecule
 angiotensin 1-7_simple_molecule POSITIVE angiotensin 1-12_simple_molecule
 angiotensin 1-4_simple_molecule POSITIVE angiotensin 1-12_simple_molecule
+estradiol_simple_molecule_cytoplasm POSITIVE ACE_cytoplasm
+Calcitriol_simple_molecule_cell NEGATIVE ACE_cytoplasm
 ACE_cytoplasm POSITIVE ACE_cytoplasm
 angiotensin 1-7_simple_molecule POSITIVE angiotensin 1-9_simple_molecule
 AGTR2_cytoplasm POSITIVE angiotensin 1-9_simple_molecule
 ACE_cytoplasm POSITIVE angiotensin 1-7_simple_molecule
-MME POSITIVE angiotensin 1-7_simple_molecule
+MME_cytoplasm POSITIVE angiotensin 1-7_simple_molecule
 PRCP POSITIVE angiotensin 1-7_simple_molecule
 THOP1 POSITIVE angiotensin 1-7_simple_molecule
 PREP POSITIVE angiotensin 1-7_simple_molecule
@@ -48,21 +52,26 @@ AGTR1_cytoplasm NEGATIVE angiotensin 1-7_simple_molecule
 angiotensin 3-7_simple_molecule POSITIVE angiotensin 1-7_simple_molecule
 angiotensin 1-5_simple_molecule POSITIVE ACE_cytoplasm
 ACE_cytoplasm POSITIVE ACE_cytoplasm
-angiotensin 1-4_simple_molecule POSITIVE MME
+aldosterone_simple_molecule POSITIVE ACE_cytoplasm
+angiotensin 1-4_simple_molecule POSITIVE MME_cytoplasm
+MME_cytoplasm POSITIVE MME_cytoplasm
 AGTR2_cytoplasm POSITIVE AGTR2_cytoplasm
 angiotensin A_simple_molecule POSITIVE AGTR2_cytoplasm
 alamandine_simple_molecule POSITIVE angiotensin A_simple_molecule
 AGTR1_cytoplasm POSITIVE angiotensin A_simple_molecule
 MAS1_cytoplasm POSITIVE MAS1_cytoplasm
 angiotensin 1-5_simple_molecule POSITIVE MAS1_cytoplasm
-Calcitriol_simple_molecule NEGATIVE REN
+aldosterone_simple_molecule NEGATIVE MAS1_cytoplasm
+REN NEGATIVE Calcitriol_simple_molecule_cell
 MRGPRD_cytoplasm POSITIVE alamandine_simple_molecule
 MRGPRD_cytoplasm POSITIVE MRGPRD_cytoplasm
-ENPEP POSITIVE angiotensin III_simple_molecule
+ENPEP_cytoplasm POSITIVE angiotensin III_simple_molecule
 angiotensin IV_simple_molecule POSITIVE angiotensin III_simple_molecule
+ENPEP_cytoplasm POSITIVE ENPEP_cytoplasm
 ANPEP  POSITIVE angiotensin IV_simple_molecule
 AGTR1_cytoplasm POSITIVE angiotensin IV_simple_molecule
 LNPEP_cytoplasm POSITIVE angiotensin IV_simple_molecule
 angiotensin 3-7_simple_molecule POSITIVE angiotensin IV_simple_molecule
+AGTR1_cytoplasm POSITIVE aldosterone_simple_molecule
 LNPEP_cytoplasm POSITIVE LNPEP_cytoplasm
 angiotensin 3-7_simple_molecule POSITIVE LNPEP_cytoplasm
