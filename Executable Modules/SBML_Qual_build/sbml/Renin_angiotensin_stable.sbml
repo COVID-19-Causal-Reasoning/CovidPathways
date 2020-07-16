@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<sbml xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" level="3" version="1" layout:required="false" xmlns="http://www.sbml.org/sbml/level3/version1/core" qual:required="true" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"><model id="model_id"><listOfCompartments><compartment constant="true" id="comp1" /></listOfCompartments><layout:listOfLayouts><layout:layout id="layout1"><layout:dimensions width="2600" height="2100" /><layout:listOfAdditionalGraphicalObjects><layout:generalGlyph layout:reference="csa4" layout:id="csa4_glyph"><layout:boundingBox><layout:position layout:x="865.0" layout:y="1600.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa5" layout:id="csa5_glyph"><layout:boundingBox><layout:position layout:x="1000.0" layout:y="230.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa9" layout:id="csa9_glyph"><layout:boundingBox><layout:position layout:x="520.0" layout:y="1170.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa21" layout:id="sa21_glyph"><layout:boundingBox><layout:position layout:x="704.5" layout:y="748.5" /><layout:dimensions layout:height="33.0" layout:width="95.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa22" layout:id="sa22_glyph"><layout:boundingBox><layout:position layout:x="1614.5" layout:y="748.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa23" layout:id="sa23_glyph"><layout:boundingBox><layout:position layout:x="702.5" layout:y="1003.5" /><layout:dimensions layout:height="33.0" layout:width="95.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa24" layout:id="sa24_glyph"><layout:boundingBox><layout:position layout:x="1614.5" layout:y="1003.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa25" layout:id="sa25_glyph"><layout:boundingBox><layout:position layout:x="1148.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa26" layout:id="sa26_glyph"><layout:boundingBox><layout:position layout:x="660.0" layout:y="1658.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa27" layout:id="sa27_glyph"><layout:boundingBox><layout:position layout:x="1805.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa28" layout:id="sa28_glyph"><layout:boundingBox><layout:position layout:x="2190.0" layout:y="935.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa29" layout:id="sa29_glyph"><layout:boundingBox><layout:position layout:x="530.0" layout:y="905.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa30" layout:id="sa30_glyph"><layout:boundingBox><layout:position layout:x="1290.0" layout:y="280.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa32" layout:id="sa32_glyph"><layout:boundingBox><layout:position layout:x="1897.0" layout:y="1223.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa35" layout:id="sa35_glyph"><layout:boundingBox><layout:position layout:x="300.5" layout:y="491.5" /><layout:dimensions layout:height="36.0" layout:width="43.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa37" layout:id="sa37_glyph"><layout:boundingBox><layout:position layout:x="264.0" layout:y="413.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa39" layout:id="sa39_glyph"><layout:boundingBox><layout:position layout:x="2180.0" layout:y="781.5" /><layout:dimensions layout:height="37.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa40" layout:id="sa40_glyph"><layout:boundingBox><layout:position layout:x="900.0" layout:y="270.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa43" layout:id="sa43_glyph"><layout:boundingBox><layout:position layout:x="1560.0" layout:y="280.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa47" layout:id="sa47_glyph"><layout:boundingBox><layout:position layout:x="1000.0" layout:y="675.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa48" layout:id="sa48_glyph"><layout:boundingBox><layout:position layout:x="1410.0" layout:y="890.0" /><layout:dimensions layout:height="30.0" layout:width="50.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa49" layout:id="sa49_glyph"><layout:boundingBox><layout:position layout:x="1452.5" layout:y="1163.5" /><layout:dimensions layout:height="33.0" layout:width="95.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa50" layout:id="sa50_glyph"><layout:boundingBox><layout:position layout:x="1535.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa51" layout:id="sa51_glyph"><layout:boundingBox><layout:position layout:x="1077.5" layout:y="1163.5" /><layout:dimensions layout:height="33.0" layout:width="95.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa62" layout:id="sa62_glyph"><layout:boundingBox><layout:position layout:x="695.25" layout:y="1296.75" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa63" layout:id="sa63_glyph"><layout:boundingBox><layout:position layout:x="695.5" layout:y="1436.0" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa64" layout:id="sa64_glyph"><layout:boundingBox><layout:position layout:x="526.0" layout:y="1323.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa65" layout:id="sa65_glyph"><layout:boundingBox><layout:position layout:x="525.0" layout:y="1470.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa77" layout:id="sa77_glyph"><layout:boundingBox><layout:position layout:x="1985.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa79" layout:id="sa79_glyph"><layout:boundingBox><layout:position layout:x="982.7894736842104" layout:y="1655.2894736842104" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa94" layout:id="sa94_glyph"><layout:boundingBox><layout:position layout:x="1698.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa98" layout:id="sa98_glyph"><layout:boundingBox><layout:position layout:x="1430.0" layout:y="280.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa100" layout:id="sa100_glyph"><layout:boundingBox><layout:position layout:x="2190.0" layout:y="1055.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa102" layout:id="sa102_glyph"><layout:boundingBox><layout:position layout:x="535.0" layout:y="1590.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa120" layout:id="sa120_glyph"><layout:boundingBox><layout:position layout:x="1390.0" layout:y="967.0" /><layout:dimensions layout:height="30.0" layout:width="50.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa121" layout:id="sa121_glyph"><layout:boundingBox><layout:position layout:x="920.0" layout:y="962.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa122" layout:id="sa122_glyph"><layout:boundingBox><layout:position layout:x="808.0" layout:y="935.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa132" layout:id="sa132_glyph"><layout:boundingBox><layout:position layout:x="1075.0" layout:y="366.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa136" layout:id="sa136_glyph"><layout:boundingBox><layout:position layout:x="960.0" layout:y="590.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa137" layout:id="sa137_glyph"><layout:boundingBox><layout:position layout:x="910.0" layout:y="640.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa138" layout:id="sa138_glyph"><layout:boundingBox><layout:position layout:x="920.0" layout:y="855.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa140" layout:id="sa140_glyph"><layout:boundingBox><layout:position layout:x="530.0" layout:y="1060.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa144" layout:id="sa144_glyph"><layout:boundingBox><layout:position layout:x="665.0" layout:y="795.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa146" layout:id="sa146_glyph"><layout:boundingBox><layout:position layout:x="530.0" layout:y="795.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa152" layout:id="sa152_glyph"><layout:boundingBox><layout:position layout:x="1262.0" layout:y="1650.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa156" layout:id="sa156_glyph"><layout:boundingBox><layout:position layout:x="1420.0" layout:y="1650.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa160" layout:id="sa160_glyph"><layout:boundingBox><layout:position layout:x="1390.0" layout:y="1429.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa166" layout:id="sa166_glyph"><layout:boundingBox><layout:position layout:x="1121.5" layout:y="321.0" /><layout:dimensions layout:height="38.0" layout:width="147.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa167" layout:id="sa167_glyph"><layout:boundingBox><layout:position layout:x="1711.5" layout:y="279.5" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa169" layout:id="sa169_glyph"><layout:boundingBox><layout:position layout:x="1165.0" layout:y="388.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa174" layout:id="sa174_glyph"><layout:boundingBox><layout:position layout:x="825.0" layout:y="417.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph></layout:listOfAdditionalGraphicalObjects></layout:layout></layout:listOfLayouts><qual:listOfQualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE2:AGTR1_complex" qual:constant="false" qual:id="csa4"><annotation><rdf:RDF>
+<sbml xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" level="3" version="1" layout:required="false" xmlns="http://www.sbml.org/sbml/level3/version1/core" qual:required="true" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:qual="http://www.sbml.org/sbml/level3/version1/qual/version1"><model id="model_id"><listOfCompartments><compartment constant="true" id="comp1" /></listOfCompartments><layout:listOfLayouts><layout:layout id="layout1"><layout:dimensions width="2600" height="2500" /><layout:listOfAdditionalGraphicalObjects><layout:generalGlyph layout:reference="csa4" layout:id="csa4_glyph"><layout:boundingBox><layout:position layout:x="865.0" layout:y="1600.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa5" layout:id="csa5_glyph"><layout:boundingBox><layout:position layout:x="1000.0" layout:y="230.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="csa9" layout:id="csa9_glyph"><layout:boundingBox><layout:position layout:x="520.0" layout:y="1170.0" /><layout:dimensions layout:height="120.0" layout:width="100.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa21" layout:id="sa21_glyph"><layout:boundingBox><layout:position layout:x="704.5" layout:y="748.5" /><layout:dimensions layout:height="33.0" layout:width="95.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa22" layout:id="sa22_glyph"><layout:boundingBox><layout:position layout:x="1614.5" layout:y="748.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa23" layout:id="sa23_glyph"><layout:boundingBox><layout:position layout:x="702.5" layout:y="1003.5" /><layout:dimensions layout:height="33.0" layout:width="95.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa24" layout:id="sa24_glyph"><layout:boundingBox><layout:position layout:x="1614.5" layout:y="1003.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa25" layout:id="sa25_glyph"><layout:boundingBox><layout:position layout:x="1148.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa26" layout:id="sa26_glyph"><layout:boundingBox><layout:position layout:x="660.0" layout:y="1658.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa27" layout:id="sa27_glyph"><layout:boundingBox><layout:position layout:x="1805.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa28" layout:id="sa28_glyph"><layout:boundingBox><layout:position layout:x="2190.0" layout:y="950.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa29" layout:id="sa29_glyph"><layout:boundingBox><layout:position layout:x="530.0" layout:y="905.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa30" layout:id="sa30_glyph"><layout:boundingBox><layout:position layout:x="1290.0" layout:y="280.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa32" layout:id="sa32_glyph"><layout:boundingBox><layout:position layout:x="1897.0" layout:y="1223.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa35" layout:id="sa35_glyph"><layout:boundingBox><layout:position layout:x="300.5" layout:y="491.5" /><layout:dimensions layout:height="36.0" layout:width="43.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa37" layout:id="sa37_glyph"><layout:boundingBox><layout:position layout:x="264.0" layout:y="413.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa39" layout:id="sa39_glyph"><layout:boundingBox><layout:position layout:x="2180.0" layout:y="781.5" /><layout:dimensions layout:height="37.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa40" layout:id="sa40_glyph"><layout:boundingBox><layout:position layout:x="900.0" layout:y="270.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa43" layout:id="sa43_glyph"><layout:boundingBox><layout:position layout:x="1560.0" layout:y="280.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa47" layout:id="sa47_glyph"><layout:boundingBox><layout:position layout:x="1000.0" layout:y="675.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa48" layout:id="sa48_glyph"><layout:boundingBox><layout:position layout:x="1410.0" layout:y="890.0" /><layout:dimensions layout:height="30.0" layout:width="50.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa49" layout:id="sa49_glyph"><layout:boundingBox><layout:position layout:x="1452.5" layout:y="1163.5" /><layout:dimensions layout:height="33.0" layout:width="95.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa50" layout:id="sa50_glyph"><layout:boundingBox><layout:position layout:x="1535.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa51" layout:id="sa51_glyph"><layout:boundingBox><layout:position layout:x="1077.5" layout:y="1163.5" /><layout:dimensions layout:height="33.0" layout:width="95.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa62" layout:id="sa62_glyph"><layout:boundingBox><layout:position layout:x="695.25" layout:y="1296.75" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa63" layout:id="sa63_glyph"><layout:boundingBox><layout:position layout:x="695.5" layout:y="1436.0" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa64" layout:id="sa64_glyph"><layout:boundingBox><layout:position layout:x="526.0" layout:y="1323.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa65" layout:id="sa65_glyph"><layout:boundingBox><layout:position layout:x="525.0" layout:y="1470.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa77" layout:id="sa77_glyph"><layout:boundingBox><layout:position layout:x="1985.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa79" layout:id="sa79_glyph"><layout:boundingBox><layout:position layout:x="982.7894736842104" layout:y="1655.2894736842104" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa94" layout:id="sa94_glyph"><layout:boundingBox><layout:position layout:x="1698.0" layout:y="1655.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa98" layout:id="sa98_glyph"><layout:boundingBox><layout:position layout:x="1430.0" layout:y="280.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa100" layout:id="sa100_glyph"><layout:boundingBox><layout:position layout:x="2190.0" layout:y="1055.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa102" layout:id="sa102_glyph"><layout:boundingBox><layout:position layout:x="535.0" layout:y="1590.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa120" layout:id="sa120_glyph"><layout:boundingBox><layout:position layout:x="1390.0" layout:y="967.0" /><layout:dimensions layout:height="30.0" layout:width="50.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa121" layout:id="sa121_glyph"><layout:boundingBox><layout:position layout:x="920.0" layout:y="962.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa122" layout:id="sa122_glyph"><layout:boundingBox><layout:position layout:x="808.0" layout:y="935.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa132" layout:id="sa132_glyph"><layout:boundingBox><layout:position layout:x="1075.0" layout:y="366.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa136" layout:id="sa136_glyph"><layout:boundingBox><layout:position layout:x="960.0" layout:y="590.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa137" layout:id="sa137_glyph"><layout:boundingBox><layout:position layout:x="910.0" layout:y="640.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa138" layout:id="sa138_glyph"><layout:boundingBox><layout:position layout:x="920.0" layout:y="855.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa140" layout:id="sa140_glyph"><layout:boundingBox><layout:position layout:x="530.0" layout:y="1060.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa144" layout:id="sa144_glyph"><layout:boundingBox><layout:position layout:x="665.0" layout:y="795.0" /><layout:dimensions layout:height="30.0" layout:width="60.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa146" layout:id="sa146_glyph"><layout:boundingBox><layout:position layout:x="530.0" layout:y="810.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa152" layout:id="sa152_glyph"><layout:boundingBox><layout:position layout:x="1262.0" layout:y="1650.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa156" layout:id="sa156_glyph"><layout:boundingBox><layout:position layout:x="1420.0" layout:y="1650.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa160" layout:id="sa160_glyph"><layout:boundingBox><layout:position layout:x="1390.0" layout:y="1429.5" /><layout:dimensions layout:height="35.0" layout:width="110.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa162" layout:id="sa162_glyph"><layout:boundingBox><layout:position layout:x="526.4615384615386" layout:y="1415.1538461538462" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa166" layout:id="sa166_glyph"><layout:boundingBox><layout:position layout:x="1121.5" layout:y="321.0" /><layout:dimensions layout:height="38.0" layout:width="147.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa167" layout:id="sa167_glyph"><layout:boundingBox><layout:position layout:x="1711.5" layout:y="279.5" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa168" layout:id="sa168_glyph"><layout:boundingBox><layout:position layout:x="985.0" layout:y="478.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa169" layout:id="sa169_glyph"><layout:boundingBox><layout:position layout:x="1165.0" layout:y="388.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa174" layout:id="sa174_glyph"><layout:boundingBox><layout:position layout:x="825.0" layout:y="417.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa194" layout:id="sa194_glyph"><layout:boundingBox><layout:position layout:x="2180.0" layout:y="677.5" /><layout:dimensions layout:height="37.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa195" layout:id="sa195_glyph"><layout:boundingBox><layout:position layout:x="2097.5" layout:y="1605.75" /><layout:dimensions layout:height="32.5" layout:width="85.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa200" layout:id="sa200_glyph"><layout:boundingBox><layout:position layout:x="585.0" layout:y="427.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa201" layout:id="sa201_glyph"><layout:boundingBox><layout:position layout:x="1145.0" layout:y="427.5" /><layout:dimensions layout:height="25.0" layout:width="70.0" /></layout:boundingBox></layout:generalGlyph><layout:generalGlyph layout:reference="sa204" layout:id="sa204_glyph"><layout:boundingBox><layout:position layout:x="2190.0" layout:y="1557.0" /><layout:dimensions layout:height="40.0" layout:width="80.0" /></layout:boundingBox></layout:generalGlyph></layout:listOfAdditionalGraphicalObjects></layout:layout></layout:listOfLayouts><qual:listOfQualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE2:AGTR1_complex" qual:constant="false" qual:id="csa4"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s236">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
@@ -58,7 +58,7 @@
 <rdf:Description rdf:about="#s4">
 <bqbiol:isEncodedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A2718" />
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A48432" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
 <bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin I_simple_molecule&amp;ACE_cytoplasm|angiotensin 1-12_simple_molecule&amp;CMA1|angiotensin I_simple_molecule&amp;CMA1|angiotensin I_simple_molecule&amp;KLK1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s4" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
@@ -70,7 +70,7 @@
 <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A55438" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm|MME&amp;angiotensin 1-9_simple_molecule|ACE2_cytoplasm|PRCP&amp;angiotensin II_simple_molecule|angiotensin I_simple_molecule&amp;MME|angiotensin 1-12_simple_molecule&amp;MME|angiotensin I_simple_molecule&amp;THOP1|angiotensin I_simple_molecule&amp;PREP" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s12" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm|MME_cytoplasm&amp;angiotensin 1-9_simple_molecule|ACE2_cytoplasm|PRCP&amp;angiotensin II_simple_molecule|angiotensin I_simple_molecule&amp;MME_cytoplasm|angiotensin 1-12_simple_molecule&amp;MME_cytoplasm|angiotensin I_simple_molecule&amp;THOP1|angiotensin I_simple_molecule&amp;PREP" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s12" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="AGTR2_cytoplasm" qual:constant="false" qual:id="sa25"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s157">
@@ -106,16 +106,16 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A2707" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s6" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s6" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s6" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:estradiol_simple_molecule_cytoplasm&amp;!Calcitriol_simple_molecule_cell" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s6" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
-</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE_cytoplasm" qual:constant="true" qual:id="sa29"><annotation><rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE_cytoplasm" qual:constant="false" qual:id="sa29"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s6">
 <bqbiol:isEncodedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A2707" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s6" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s6" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s6" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:estradiol_simple_molecule_cytoplasm&amp;!Calcitriol_simple_molecule_cell" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s6" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE2_cytoplasm" qual:constant="false" qual:id="sa30"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s9">
@@ -124,12 +124,7 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A13557" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isEncodedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A13557" />
-</rdf:Bag>
-</bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:!estradiol_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s9" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:estradiol_simple_molecule_cytoplasm|Calcitriol_simple_molecule_cytoplasm&amp;ACE2_gene|ACE2_gene|ACE2_gene" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s9" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="angiotensin 1-5_simple_molecule" qual:constant="false" qual:id="sa32"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s7">
@@ -152,25 +147,25 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A9958" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:!Calcitriol_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s189" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:!Calcitriol_simple_molecule_cell" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s189" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
-</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Calcitriol_simple_molecule" qual:constant="true" qual:id="sa37"><annotation><rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Calcitriol_simple_molecule_cell" qual:constant="true" qual:id="sa37"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s13">
 <bqbiol:isEncodedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17823" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Calcitriol_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s13" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Calcitriol_simple_molecule_cell" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s13" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
-</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="MME" qual:constant="true" qual:id="sa39"><annotation><rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="MME_cytoplasm" qual:constant="true" qual:id="sa39"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s18">
 <bqbiol:isEncodedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A7154" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:MME" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s18" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:MME_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s18" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="TMPRSS2" qual:constant="false" qual:id="sa40"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s176">
@@ -252,7 +247,7 @@
 <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A89666" />
 </rdf:Bag>
 </bqbiol:isDescribedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule&amp;ENPEP" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s54" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule&amp;ENPEP_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s54" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="angiotensin IV_simple_molecule" qual:constant="false" qual:id="sa63"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s55">
@@ -263,19 +258,14 @@
 </bqbiol:isEncodedBy>
 <bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin III_simple_molecule&amp;ANPEP " /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s55" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
-</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ENPEP" qual:constant="true" qual:id="sa64"><annotation><rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ENPEP_cytoplasm" qual:constant="false" qual:id="sa64"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s232">
 <bqbiol:isEncodedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A3355" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isEncodedBy>
-<rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A3355" />
-</rdf:Bag>
-</bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ENPEP" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s232" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ENPEP_cytoplasm|ENPEP_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s232" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ANPEP " qual:constant="true" qual:id="sa65"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s57">
@@ -286,14 +276,14 @@
 </bqbiol:isEncodedBy>
 <bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ANPEP " /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s57" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
-</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="MAS1_cytoplasm" qual:constant="true" qual:id="sa77"><annotation><rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="MAS1_cytoplasm" qual:constant="false" qual:id="sa77"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s103">
 <bqbiol:isEncodedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A6899" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:MAS1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s103" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:!aldosterone_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s103" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="AGTR2_cytoplasm" qual:constant="true" qual:id="sa79"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s156">
@@ -320,7 +310,7 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A13557" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE2_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s114" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE2_cytoplasm|ACE2_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s114" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE_cytoplasm" qual:constant="false" qual:id="sa100"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s117">
@@ -329,7 +319,7 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A2707" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s117" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s117" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm|ACE_cytoplasm&amp;aldosterone_simple_molecule|ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s117" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm|ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s117" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="AGTR1_cytoplasm" qual:constant="false" qual:id="sa102"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s120">
@@ -343,7 +333,7 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A336" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule|angiotensin IV_simple_molecule|angiotensin A_simple_molecule&amp;AGTR1_cytoplasm|AGTR1_cytoplasm|AGTR1_cytoplasm&amp;!angiotensin 1-7_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule&amp;!MAS1:AGTR1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule|angiotensin IV_simple_molecule|angiotensin A_simple_molecule&amp;AGTR1_cytoplasm|AGTR1_cytoplasm|AGTR1_cytoplasm&amp;!angiotensin 1-7_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule&amp;!MAS1:AGTR1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="PREP" qual:constant="true" qual:id="sa120"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s143">
@@ -406,7 +396,7 @@
 <rdf:li rdf:resource="urn:miriam:pubmed:22490446" />
 </rdf:Bag>
 </bqbiol:isDescribedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin 1-12_simple_molecule&amp;MME" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s192" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin 1-12_simple_molecule&amp;MME_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s192" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="AGTR1_cytoplasm" qual:constant="false" qual:id="sa140"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s120">
@@ -420,7 +410,7 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A336" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule|angiotensin IV_simple_molecule|angiotensin A_simple_molecule&amp;AGTR1_cytoplasm|AGTR1_cytoplasm|AGTR1_cytoplasm&amp;!angiotensin 1-7_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule&amp;!MAS1:AGTR1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule|angiotensin IV_simple_molecule|angiotensin A_simple_molecule&amp;AGTR1_cytoplasm|AGTR1_cytoplasm|AGTR1_cytoplasm&amp;!angiotensin 1-7_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule&amp;!MAS1:AGTR1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="KLK1" qual:constant="true" qual:id="sa144"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s208">
@@ -438,7 +428,7 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A2707" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s117" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s117" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm|ACE_cytoplasm&amp;aldosterone_simple_molecule|ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s117" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE_cytoplasm|ACE_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s117" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="LNPEP_cytoplasm" qual:constant="true" qual:id="sa152"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s217">
@@ -467,6 +457,15 @@
 </bqbiol:isDescribedBy>
 <bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin 1-7_simple_molecule|angiotensin II_simple_molecule|angiotensin IV_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s228" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ENPEP_cytoplasm" qual:constant="true" qual:id="sa162"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s56">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A3355" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ENPEP_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s56" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="viral replication cycle_phenotype" qual:constant="false" qual:id="sa166"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s237">
 <bqmodel:isDescribedBy>
@@ -488,16 +487,25 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A336" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule|angiotensin IV_simple_molecule|angiotensin A_simple_molecule&amp;AGTR1_cytoplasm|AGTR1_cytoplasm|AGTR1_cytoplasm&amp;!angiotensin 1-7_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule&amp;!MAS1:AGTR1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule|angiotensin IV_simple_molecule|angiotensin A_simple_molecule&amp;AGTR1_cytoplasm|AGTR1_cytoplasm|AGTR1_cytoplasm&amp;!angiotensin 1-7_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule&amp;!MAS1:AGTR1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
-</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="estradiol_simple_molecule" qual:constant="true" qual:id="sa169"><annotation><rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="ACE2_gene" qual:constant="true" qual:id="sa168"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s238">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A13557" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:ACE2_gene" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s238" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="estradiol_simple_molecule_cytoplasm" qual:constant="true" qual:id="sa169"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s239">
 <bqbiol:isEncodedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16469" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:estradiol_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s239" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:estradiol_simple_molecule_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s239" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:estradiol_simple_molecule_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s239" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="AGT_gene" qual:constant="true" qual:id="sa174"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s178">
@@ -507,6 +515,47 @@
 </rdf:Bag>
 </bqbiol:isEncodedBy>
 <bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGT_gene" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s178" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="MME_cytoplasm" qual:constant="false" qual:id="sa194"><annotation><rdf:RDF><rdf:Description rdf:about="#s264"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:MME_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s264" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="aldosterone_simple_molecule" qual:constant="false" qual:id="sa195"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s265">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A27584" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s265" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="estradiol_simple_molecule_cytoplasm" qual:constant="true" qual:id="sa200"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s239">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A16469" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:estradiol_simple_molecule_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s239" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:estradiol_simple_molecule_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s239" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Calcitriol_simple_molecule_cytoplasm" qual:constant="true" qual:id="sa201"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s270">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:obo.chebi:CHEBI%3A17823" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:Calcitriol_simple_molecule_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s270" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+</rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="AGTR1_cytoplasm" qual:constant="true" qual:id="sa204"><annotation><rdf:RDF>
+<rdf:Description rdf:about="#s120">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A336" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:hgnc:HGNC%3A336" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule|angiotensin IV_simple_molecule|angiotensin A_simple_molecule&amp;AGTR1_cytoplasm|AGTR1_cytoplasm|AGTR1_cytoplasm&amp;!angiotensin 1-7_simple_molecule" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:angiotensin II_simple_molecule&amp;!MAS1:AGTR1_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:AGTR1_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s120" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies></qual:listOfQualitativeSpecies><qual:listOfTransitions><qual:transition qual:id="tr_csa4"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa26" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa4_in_0" /><qual:input qual:qualitativeSpecies="sa23" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_csa4_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa4" qual:transitionEffect="assignmentLevel" qual:id="tr_csa4_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa26</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa23</ci><cn type="integer">0</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>Because AT1R seems to be essential for Ang-II–mediated ACE2 internalization, we also tested whether ACE2 and AT1R physically interact. Coimmunoprecipitation experiments confirmed this dimerization in control conditions (Figure 5B, second lane). However, Ang-II treatment decreased this interaction in a time-dependent manner [...]. PMID:25225202
 </p>
@@ -635,6 +684,7 @@ A human neutrophil protease, initially termed neutral peptide-generating proteas
 </rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa23"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa21" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa23_in_0" /><qual:input qual:qualitativeSpecies="sa29" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa23_in_1" /><qual:input qual:qualitativeSpecies="sa121" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa23_in_2" /><qual:input qual:qualitativeSpecies="sa122" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa23_in_3" /><qual:input qual:qualitativeSpecies="sa144" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa23_in_4" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa23" qual:transitionEffect="assignmentLevel" qual:id="tr_sa23_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><and /><apply><eq /><ci>sa21</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa29</ci><cn type="integer">1</cn></apply></apply><apply><and /><apply><eq /><ci>sa121</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa122</ci><cn type="integer">1</cn></apply></apply><apply><and /><apply><eq /><ci>sa21</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa122</ci><cn type="integer">1</cn></apply></apply><apply><and /><apply><eq /><ci>sa21</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa144</ci><cn type="integer">1</cn></apply></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>ACE2 and ACE catalytic activity has been analyzed in CHO cells expressing human ACE2. ACE converted the decapeptide Ang I to Ang II. ACE2, in contrast, converted Ang I to the nonapeptide Ang1-9. PMID:10969042
 </p>
 <p>ACE2 functions as a carboxypeptidase, cleaving a single residue from angiotensin I (AngI), generating Ang1-9, and a single  residue from angiotensin II (AngII) to generate Ang1-7. The ACE2 homologue ACE, by contrast, cleaves the decapeptide AngI into the  octapeptide AngII. Thus, ACE2 counterbalances the function of ACE and negatively regulates AngII production. To test whether Spike-Fc injections indeed affect the function of the renin-angiotensin system, AngII levels in the lungs of acid- and Spike-Fc–treated mice were analyzed. Acid aspiration increased AngII levels in the lungs of wild-type mice. Notably, the authors observed a further, significant increase in AngII levels in the lung tissue of mice treated with Spike-Fc. PMID:16007097
+Adipocytes express all components of the renin-angiotensin system, and the renin-angiotensin system is involved in obesity and insulin resistance. The aim of this study was to investigate plasma Ang II in obese patients with type 2 diabetes mellitus (T2D) and the change during weight loss. Fifty Japanese obese subjects with T2D were enrolled. After 24 weeks of weight reduction diet, the mean body weight, visceral fat area (VFA), and hemoglobin A(1c) decreased significantly by 2.3%, 7.0%, and 8.3%, respectively. The mean plasma Ang II decreased by 24% and correlated with body weight both at baseline. PMID:19375596
 </p>
 <p>Overall the findings suggest that Ang-(1-12), not Ang I, is the better substrate for Ang II formation by chymase in adult rats. In addition, this confirms the previous observation that chymase (rather than ACE) is the main hydrolyzing enzyme responsible for Ang II generation from Ang-(1-12) in the adult rat heart. PMID:27465904
 Since angiotensin-(1-12) [Ang-(1-12)] is a non-renin dependent alternate precursor for the generation of cardiac Ang peptides in rat tissue, the authors investigated the metabolism of Ang-(1-12) by plasma membranes (PM) isolated from human atrial appendage tissue from nine patients undergoing cardiac surgery for primary control of atrial fibrillation. PM was incubated with highly purified Ang-(1-12) for 1 h with or without renin-angiotensin system (RAS) inhibitors [lisinopril for angiotensin converting enzyme (ACE), SCH39370 for neprilysin (NEP), MLN-4760 for ACE2 and chymostatin for chymase].  In the absence of all RAS inhibitor, Ang-(1-12) was converted into Ang I (2%), Ang II (69%), Ang-(1-7) (5%), and Ang-(1-4) (2%). In the absence of all RAS inhibitor, only 22% of Ang-(1-12) was unmetabolized, whereas, in the presence of the all RAS inhibitors, 98% of Ang-(1-12) remained intact. The relative contribution of selective inhibition of ACE and chymase enzyme showed that Ang-(1-12) was primarily converted into Ang II (65%) by chymase while its hydrolysis into Ang II by ACE was significantly lower or undetectable. PMID:22180785
@@ -669,6 +719,16 @@ Since angiotensin-(1-12) [Ang-(1-12)] is a non-renin dependent alternate precurs
 <bqbiol:isEncodedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:uniprot:P59594" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:19375596" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
 </rdf:Description>
@@ -902,17 +962,23 @@ Angiotensin (Ang)-(1-7) has cardiovascular protective effects and is the opponen
 </rdf:Bag>
 </bqbiol:isEncodedBy>
 </rdf:Description>
-</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa30"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa169" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa30_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa30" qual:transitionEffect="assignmentLevel" qual:id="tr_sa30_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>sa169</ci><cn type="integer">0</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>In Renal cortex, protein expression of ACE was increased in old SD rats vs. young. ACE-2 protein expression was decreased in old rats vs. young. PMID:20689271
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa29"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa200" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa29_in_0" /><qual:input qual:qualitativeSpecies="sa37" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa29_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa29" qual:transitionEffect="assignmentLevel" qual:id="tr_sa29_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa200</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa37</ci><cn type="integer">0</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>Addition of estradiol (E2) to HUVEC cells induces a concentration-dependent increase of ACE1 and ACE2 mRNA expression and ACE1, but not ACE2, protein levels. ACE1 and ACE2 enzymatic activities are also induced with E2. These effects were mediated through estrogen receptor alpha activation, since ER antagonists ICI 182780 and MPP completely abolishes the effect of E2. PMID:26562171
+Calcitriol inhibits ACE and AT1R expression, and induces ACE2 expression in LPS-treated rat PMVECs. PMID:28944831
 </p>
-<p>Human bronchial epithelial cells treated with 17-beta-estradiol (E2), expressed lower levels of ACE2 mRNA compared with the vehicle-treated controls. The levels of TMPRSS2 mRNA were not affected by E2 treatment. PMID:32432918
-Recombinant SARS-CoV spike protein downregulates ACE2 expression and thereby promotes lung injury. PMID:19864379
-</p>
-<p>By using quantitative translatome and proteome proteomics the authors found that the protein level of ACE2 is mildly reduced after infection. PMID:32408336
-</p>
-</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re82">
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re197">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:20689271" />
+<rdf:li rdf:resource="urn:miriam:pubmed:26562171" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28944831" />
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 <bqbiol:isEncodedBy>
@@ -921,7 +987,19 @@ Recombinant SARS-CoV spike protein downregulates ACE2 expression and thereby pro
 </rdf:Bag>
 </bqbiol:isEncodedBy>
 </rdf:Description>
-<rdf:Description rdf:about="#re153">
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa30"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa168" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa30_in_0" /><qual:input qual:qualitativeSpecies="sa169" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa30_in_1" /><qual:input qual:qualitativeSpecies="sa201" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa30_in_2" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa30" qual:transitionEffect="assignmentLevel" qual:id="tr_sa30_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><and /><apply><or /><apply><eq /><ci>sa169</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa201</ci><cn type="integer">1</cn></apply></apply><apply><eq /><ci>sa168</ci><cn type="integer">1</cn></apply></apply><apply><eq /><ci>sa168</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa168</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>Human bronchial epithelial cells treated with 17-beta-estradiol (E2), expressed lower levels of ACE2 mRNA compared with the vehicle-treated controls. The levels of TMPRSS2 mRNA were not affected by E2 treatment. PMID:32432918
+Addition of estradiol (E2) to HUVEC cells induces a concentration-dependent increase of ACE1 and ACE2 mRNA expression and ACE1, but not ACE2, protein levels. ACE1 and ACE2 enzymatic activities are also induced with E2. These effects were mediated through estrogen receptor alpha activation, since ER antagonists ICI 182780 and MPP completely abolishes the effect of E2. PMID:26562171
+Calcitriol inhibits ACE and AT1R expression, and induces ACE2 expression in LPS-treated rat PMVECs. PMID:28944831
+Recombinant SARS-CoV spike protein downregulates ACE2 expression and thereby promotes lung injury. PMID:19864379
+</p>
+<p>By using quantitative translatome and proteomics the authors found that the protein level of ACE2 is mildly reduced after infection. PMID:32408336
+</p>
+<p>We found age-dependent ACE2 gene expression in nasal epithelium. ACE2 gene expression was lowest (mean log2 counts per million, 2.40; 95% CI, 2.07-2.72) in younger children (n = 45) and increased with age, with mean log2 counts per million of 2.77 (95% CI, 2.64-2.90) for older children (n = 185), 3.02 (95% CI, 2.78-3.26) for young adults (n = 46), and 3.09 (95% CI, 2.83-3.35) for adults (n = 29). PMID:32432657
+</p>
+<p>The present study explored the signaling mechanism by which ACE2 is regulated under hypertensive conditions. Real-time PCR and immunohistochemistry showed that ACE2 mRNA and protein expression levels were high, whereas ACE expression levels were moderate in both normal kidney and heart. In contrast, patients with hypertension showed marked ACE up-regulation and ACE2 down-regulation in both hypertensive cardiopathy and, particularly, hypertensive nephropathy. PMID:18403595
+ACE2 and ACE mRNA levels were measured by real-time PCR in laser microdissected renal biopsies from 13 diabetic and 8 control patients. ACE2 mRNA was significantly reduced by more than half in both the glomeruli and proximal tubules of the diabetic patients compared to controls, but ACE mRNA was increased in both compartments. PMID:19034303
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re153">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:32432918" />
@@ -942,11 +1020,55 @@ Recombinant SARS-CoV spike protein downregulates ACE2 expression and thereby pro
 <rdf:li rdf:resource="urn:miriam:uniprot:P59594" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:26562171" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28944831" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:10116" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
 </rdf:Description>
 <rdf:Description rdf:about="#re168">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:32408336" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re189">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:32432657" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re200">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:18403595" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:19034303" />
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 <bqbiol:isEncodedBy>
@@ -1095,8 +1217,53 @@ Recombinant SARS-CoV spike protein downregulates ACE2 expression and thereby pro
 </rdf:Bag>
 </bqbiol:isEncodedBy>
 </rdf:Description>
-</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa98"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa30" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa98_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa98" qual:transitionEffect="assignmentLevel" qual:id="tr_sa98_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa30</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>Male rats showed higher cardiac ACE and ACE2 activity as well as hypertrophy compared to female rats.
-PMID:26171856
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa64"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa162" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa64_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa64" qual:transitionEffect="assignmentLevel" qual:id="tr_sa64_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>sa162</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa162</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>We demonstrated here the antihypertensive effects of RB150, a prodrug of the specific and selective aminopeptidase A inhibitor, EC33, in spontaneously hypertensive rats, a model of human essential hypertension. PMID:22710644
+</p>
+<p>Serum peptidases, such as angiotensin-converting enzyme (ACE), angiotensin-converting enzyme-2 (ACE2), neutral endopeptidase (NEP), aminopeptidase N (APN), and aminopeptidase A (APA), are important elements of the renin-angiotensin system (RAS). Dysregulation of these enzymes has been associated with hypertension and cardiovascular risk. In the present study, serum activities of RAS peptidases were analyzed to evaluate the existence of sexual differences, with a possible different pattern in pre- and post-andropausal/post-menopausal participants. Significantly lower serum APA activity was observed in men with respect to women; no sex differences were detected for ACE, ACE2, NEP, or APN. PMID:28174624
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re128">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:22710644" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:10116" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re191">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28174624" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa77"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa195" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa77_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa77" qual:transitionEffect="assignmentLevel" qual:id="tr_sa77_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa195</ci><cn type="integer">0</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>The aim of the study was to investigate whether aldosterone stimulation can modulate the intracellular RAS of immortalized human MCs by evaluating ANG-converting enzyme (ACE)/ANG II/ANG II receptor type 1 (AT1) and ANG-converting enzyme 2 (ACE2)/ANG (1-7)/MAS receptor axes. Aldosterone treatment decreased the protein expression of MAS receptor, but did not alter the expression or the catalytic activity of ACE2 and ANG (1-7) levels. Spironolactone modulated the localization of ANG II and AT1 receptor and decreased ANG (1-7) and MAS receptor levels. PMID:31165585
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re194">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31165585" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa98"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa30" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa98_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa98" qual:transitionEffect="assignmentLevel" qual:id="tr_sa98_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>sa30</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa30</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>Male rats showed higher cardiac ACE and ACE2 activity as well as hypertrophy compared to female rats. PMID:26171856
+ACE and ACE2 activity were significantly higher in male compared to female spontaneously hypertensive rats. PMID:26010093
+</p>
+<p>In women, significantly higher ACE2 serum activity was observed in older women compared to younger women. PMID:28174624
+Serum ACE2 activity was the lowest in the healthy group and significantly increased in hypertensive patients, and further increased when hypertension was accompanied by heart failure with reduced ejection fraction, representing progression of cardiovascular disease toward systolic dysfunction. PMID:27965422
 </p>
 </body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re93">
 <bqbiol:isDescribedBy>
@@ -1109,19 +1276,69 @@ PMID:26171856
 <rdf:li rdf:resource="urn:miriam:taxonomy:10116" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-</rdf:Description>
-</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa100"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa28" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa100_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa100" qual:transitionEffect="assignmentLevel" qual:id="tr_sa100_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa28</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>Male rats showed higher cardiac ACE and ACE2 activity as well as hypertrophy compared to female rats.
-PMID:26171856
-</p>
-</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re95">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:26171856" />
+<rdf:li rdf:resource="urn:miriam:pubmed:26010093" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re190">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28174624" />
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 <bqbiol:isEncodedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:taxonomy:10116" />
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:27965422" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa100"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa28" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa100_in_0" /><qual:input qual:qualitativeSpecies="sa195" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa100_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa100" qual:transitionEffect="assignmentLevel" qual:id="tr_sa100_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>sa28</ci><cn type="integer">1</cn></apply><apply><and /><apply><eq /><ci>sa28</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa195</ci><cn type="integer">1</cn></apply></apply><apply><eq /><ci>sa28</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>Significantly lower APA and ACE serum activity were observed in older men compared to older women. Significantly lower ACE serum activity was detected in older men compared to younger men. PMID:28174624
+Renal cortical ACE activity was significantly higher in female than in male WKY rats. ACE2 activity did not differ significantly in male and female WKY rats in the renal cortex. PMID:23547034
+</p>
+<p>The aim of the study was to investigate whether aldosterone stimulation can modulate the intracellular RAS of immortalized human MCs by evaluating ANG-converting enzyme (ACE)/ANG II/ANG II receptor type 1 (AT1) and ANG-converting enzyme 2 (ACE2)/ANG (1-7)/MAS receptor axes. High doses of aldosterone increase ACE activity. The effect of aldosterone on the catalytic activity of ACE was completely abolished with the pretreatment of SPI suggesting that the aldosterone-induced cell injuries through ANG II release were attenuated. PMID:31165585
+</p>
+<p>The present study explored the signaling mechanism by which ACE2 is regulated under hypertensive conditions. Real-time PCR and immunohistochemistry showed that ACE2 mRNA and protein expression levels were high, whereas ACE expression levels were moderate in both normal kidney and heart. In contrast, patients with hypertension showed marked ACE up-regulation and ACE2 down-regulation in both hypertensive cardiopathy and, particularly, hypertensive nephropathy. PMID:18403595
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re186">
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28174624" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re193">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31165585" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re201">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:18403595" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
 </rdf:Description>
@@ -1218,12 +1435,44 @@ Ang A has the same affinity to the AT1 receptor as Ang II, but a higher affinity
 </rdf:Bag>
 </bqbiol:isEncodedBy>
 </rdf:Description>
-</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa146"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa29" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa146_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa146" qual:transitionEffect="assignmentLevel" qual:id="tr_sa146_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa29</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>We studied the efficacy of the ACE inhibitor lisinopril in treating overt proteinuria in comparison with the NSAID indomethacin, and evaluated some of the conditions that could influence this antiproteinuric effect. PMID:2550696
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa146"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa29" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa146_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa146" qual:transitionEffect="assignmentLevel" qual:id="tr_sa146_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><or /><apply><eq /><ci>sa29</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa29</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>We studied the efficacy of the ACE inhibitor lisinopril in treating overt proteinuria in comparison with the NSAID indomethacin, and evaluated some of the conditions that could influence this antiproteinuric effect. PMID:2550696
+</p>
+<p>A non-significant trend was found in ACE activity among rs495828 genotype groups; however the polymorphism was significantly associated with ABO phenotype (p=0.007), which in turn was associated with ACE activity (p=0.029). PMID:24803075
+That is, the GATC haplotype of the four poly-morphisms of the ABO gene (rs8176746, rs8176740, rs495828, rs12683493), which is prevalent among non- O blood type patients, is positively associated with ACE activity. PMID:32343152
+We further replicated the association between ABO genotype/blood types and ACE activity in an independent YOH family study (428 hypertension pedigrees). PMID:20066004
+Type O alleles were associated with intermediate plasma ACE activity compared to Type A1 alleles (in whom plasma ACE activity was ∼36% lower) and Type B alleles (in whom plasma ACE activity was ∼36% higher). We demonstrated heterogeneity among A alleles: A2 alleles were associated with plasma ACE activity that was very similar to the O alleles. PMID:23937567
 </p>
 </body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re117">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:2550696" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+<rdf:Description rdf:about="#re188">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:24803075" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:32343152" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:20066004" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:23937567" />
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 <bqbiol:isEncodedBy>
@@ -1313,6 +1562,34 @@ Ang A has the same affinity to the AT1 receptor as Ang II, but a higher affinity
 <bqbiol:isEncodedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa194"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa39" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa194_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa194" qual:transitionEffect="assignmentLevel" qual:id="tr_sa194_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa39</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>In contrast, younger (younger than 55 years) men had significantly higher values of NEP (MME) serum activity than younger women. PMID:28174624
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re192">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:28174624" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:9606" />
+</rdf:Bag>
+</bqbiol:isEncodedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa195"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa204" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa195_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa195" qual:transitionEffect="assignmentLevel" qual:id="tr_sa195_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa204</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>The role of the angiotensin I1 (AII) receptor subtypes on steroidogenesis was studied by examining the relationship between binding inhibition potency of the AI1 receptor subtype antagonists and their ability to inhibit aldosterone production in isolated adrenal glomerulosa cells. Incubation of the cells with AI1 resulted in the characteristic dose-dependent increase in aldosterone production. AT1 receptor antagonism inhibited the AII-induced aldosterone production, whereas AT2 receptor antagonism had no significant effect. The studies show that the actions of AI1 on intracellular signalling systems and steroidogenesis in the adrenal glomerulosa cell are mediated by type 1 angiotensin II receptors. PMID:1338730
+</p>
+</body></html></notes><annotation><rdf:RDF><rdf:Description rdf:about="#re198">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:1338730" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
+<bqbiol:isEncodedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:taxonomy:10116" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
 </rdf:Description>

@@ -1,9 +1,155 @@
-C5b:C6:C7_complex POSITIVE C5b:C6:C7:C8A:C8B:C8G_complex
-C5b-9_complex POSITIVE C5b:C6:C7:C8A:C8B:C8G_complex
-GP6:Fibrinogen_complex POSITIVE GP6:alpha2beta1:VWF_complex
-platelet activation_phenotype POSITIVE GP6:alpha2beta1:VWF_complex
-GP6 POSITIVE GP6:Fibrinogen_complex
-ITGA2:ITGAB1_complex POSITIVE GP6:Fibrinogen_complex
+KLKB1 POSITIVE KNG1:KLKB1_complex
+KNG1 POSITIVE KNG1:KLKB1_complex
+F12a POSITIVE KNG1:KLKB1_complex
+Kininogen POSITIVE KNG1:KLKB1_complex
+Bradykinin POSITIVE KNG1:KLKB1_complex
+F12a POSITIVE KLKB1
+Small peptide_Blood POSITIVE KLKB1
+Plasmin_Blood POSITIVE KLKB1
+Kallikrein POSITIVE KLKB1
+F12 POSITIVE F12a
+F11 POSITIVE F12a
+F11a POSITIVE F12a
+Kallikrein POSITIVE F12a
+F10 POSITIVE F5a:F10a_complex
+F9a POSITIVE F5a:F10a_complex
+Antithrombin NEGATIVE F5a:F10a_complex
+F5 POSITIVE F5a:F10a_complex
+Thrombin:Thrombomodulin_complex NEGATIVE F5a:F10a_complex
+PROC NEGATIVE F5a:F10a_complex
+Thrombin_Blood POSITIVE F5a:F10a_complex
+Small peptide_Blood POSITIVE F10
+F8:F9_complex POSITIVE F9a
+F9 POSITIVE F9a
+F11a POSITIVE F9a
+Small peptide_Blood POSITIVE F9a
+TAT complex_complex POSITIVE Antithrombin
+Small peptide_Blood NEGATIVE Antithrombin
+Thrombin_Blood NEGATIVE Antithrombin
+SARS-CoV-2 infection_phenotype_Blood POSITIVE Antithrombin
+Thrombin_Blood POSITIVE Thrombin:Thrombomodulin_complex
+Thrombomodulin POSITIVE Thrombin:Thrombomodulin_complex
+Fibrin monomer NEGATIVE Thrombin:Thrombomodulin_complex
+F8a POSITIVE PROC
+SARS-CoV-2 infection_phenotype_Blood POSITIVE PROC
+F8a POSITIVE F8:F9_complex
+F8 POSITIVE F8a
+Small peptide_Blood POSITIVE F8a
+SERPINE1 POSITIVE PLAT:SERPINE1_complex
+PLAT_Blood POSITIVE PLAT:SERPINE1_complex
+SARS-CoV-2 infection_phenotype_Blood POSITIVE PLAT:SERPINE1_complex
+PLAT_Blood NEGATIVE SERPINE1
+angiotensin II_simple_molecule POSITIVE SERPINE1
+PLAU NEGATIVE SERPINE1
+PLAT_Blood POSITIVE PLAT_Blood
+Fibrinogen_complex POSITIVE SARS-CoV-2 infection_phenotype_Blood
+D-dimer POSITIVE SARS-CoV-2 infection_phenotype_Blood
+Thrombomodulin POSITIVE SARS-CoV-2 infection_phenotype_Blood
+Fibrin monomer POSITIVE SARS-CoV-2 infection_phenotype_Blood
+VWF POSITIVE SARS-CoV-2 infection_phenotype_Blood
+Fibrinogen:GP6_complex POSITIVE Fibrinogen_complex
+Fibrin monomer POSITIVE Fibrinogen_complex
+Thrombin_Blood POSITIVE TAT complex_complex
+SARS-CoV-2 infection_phenotype_Blood POSITIVE TAT complex_complex
+F11 POSITIVE Thrombin_Blood
+F11a POSITIVE Thrombin_Blood
+F8 POSITIVE Thrombin_Blood
+Thrombin_Blood POSITIVE Thrombin_Blood
+Heparin_simple_molecule POSITIVE Thrombin_Blood
+Small peptide_Blood POSITIVE Thrombin_Blood
+TAFI POSITIVE Thrombin_Blood
+SERPINF2:Plasmin_complex POSITIVE SARS-CoV-2 infection_phenotype_Blood
+C3b POSITIVE C3b:Bb:C3b_complex
+C3b:Bb_complex POSITIVE C3b:Bb:C3b_complex
+C5b-9_complex_Endothelium, vascular POSITIVE C3b:Bb:C3b_complex
+C5a POSITIVE C3b:Bb:C3b_complex
+C3 POSITIVE C3b
+C3b:Bb_complex POSITIVE C3b
+C2a:C4b_complex POSITIVE C3b
+C3a POSITIVE C3b:Bb_complex
+SARS-CoV-2 infection_phenotype_Blood POSITIVE C5b-9_complex_Endothelium, vascular
+C5 POSITIVE C5b-9_complex_Endothelium, vascular
+C2a:C4b_complex POSITIVE C5b-9_complex_Endothelium, vascular
+C5b-9_complex_Endothelium, vascular POSITIVE C5b-9_complex_Endothelium, vascular
+Plasminogen POSITIVE C5b-9_complex_Endothelium, vascular
+Thrombosis_phenotype POSITIVE C5b-9_complex_Endothelium, vascular
+F8 POSITIVE SARS-CoV-2 infection_phenotype_Blood
+TNF POSITIVE SARS-CoV-2 infection_phenotype_Blood
+IL6 POSITIVE SARS-CoV-2 infection_phenotype_Blood
+IL1B POSITIVE SARS-CoV-2 infection_phenotype_Blood
+C5a POSITIVE SARS-CoV-2 infection_phenotype_Blood
+IL8 POSITIVE SARS-CoV-2 infection_phenotype_Blood
+IL2RA POSITIVE SARS-CoV-2 infection_phenotype_Blood
+CRP POSITIVE SARS-CoV-2 infection_phenotype_Blood
+C5a POSITIVE C5
+C4b POSITIVE C2a:C4b_complex
+C2a POSITIVE C2a:C4b_complex
+C5a POSITIVE C2a:C4b_complex
+C3a POSITIVE C2a:C4b_complex
+C4 POSITIVE C4b
+MASP2 POSITIVE C4b
+C4d POSITIVE C4b
+C2 POSITIVE C2a
+MASP1 POSITIVE C2a
+ACE2_Blood POSITIVE ACE2:Spike_complex
+SARS-CoV-2 viral entry_phenotype POSITIVE ACE2:Spike_complex
+ACE2_Endothelium, vascular POSITIVE ACE2_Blood
+Plasmin_Blood POSITIVE SERPINF2:Plasmin_complex
+SERPINF2 POSITIVE SERPINF2:Plasmin_complex
+D-dimer POSITIVE Plasmin_Blood
+Plasminogen POSITIVE Plasmin_Blood
+PLAT_Blood POSITIVE Plasmin_Blood
+PLAU POSITIVE Plasmin_Blood
+F11a POSITIVE Plasmin_Blood
 GP6 POSITIVE Fibrinogen:GP6_complex
 platelet activation_phenotype POSITIVE Fibrinogen:GP6_complex
+GP6:alpha2:beta1_complex POSITIVE GP6
+GP6:alpha2:beta1_complex POSITIVE GP6:alpha2beta1:VWF_complex
+VWF POSITIVE GP6:alpha2beta1:VWF_complex
+platelet activation_phenotype POSITIVE GP6:alpha2beta1:VWF_complex
+ITGA2:ITGAB1_complex POSITIVE GP6:alpha2:beta1_complex
+Thrombosis_phenotype POSITIVE VWF
+Small peptide_Blood POSITIVE F12
+Prothrombin POSITIVE Thrombin_Blood
+angiotensin I_simple_molecule POSITIVE angiotensin II_simple_molecule
+ACE POSITIVE angiotensin II_simple_molecule
+SARS-CoV-2 infection_phenotype_Blood POSITIVE angiotensin II_simple_molecule
+Thrombosis_phenotype POSITIVE angiotensin II_simple_molecule
+angiotensin I-7_simple_molecule POSITIVE angiotensin II_simple_molecule
+AGTR1 POSITIVE angiotensin II_simple_molecule
+Bradykinin(1-5) POSITIVE ACE
+C4d POSITIVE SARS-CoV-2 infection_phenotype_Blood
+ACE2_Endothelium, vascular NEGATIVE SARS-CoV-2 infection_phenotype_Blood
+MASP2 POSITIVE SARS-CoV-2 infection_phenotype_Blood
+Fibrin polymer POSITIVE D-dimer
+TAFI POSITIVE D-dimer
+Fibrin monomer POSITIVE Fibrin polymer
+F13a POSITIVE Fibrin polymer
+Bradykinin POSITIVE PLAT_Blood
+Bradykinin(1-5) POSITIVE Bradykinin
+cytokine storm_phenotype POSITIVE TNF
+Thrombosis_phenotype POSITIVE TNF
+IL6 POSITIVE cytokine storm_phenotype
+IL1B POSITIVE cytokine storm_phenotype
+IL8 POSITIVE cytokine storm_phenotype
+IL2RA POSITIVE cytokine storm_phenotype
+Thrombosis_phenotype POSITIVE IL6
+Thrombosis_phenotype POSITIVE IL1B
+Plasmin_Blood POSITIVE C5a
+IL2RA POSITIVE Thrombosis_phenotype
+C4d POSITIVE Thrombosis_phenotype
+IL8 POSITIVE Thrombosis_phenotype
+CRP POSITIVE Thrombosis_phenotype
+CFI POSITIVE C4d
+C3 POSITIVE C3a
+MBL2 POSITIVE MASP1
+C2b POSITIVE MASP1
+C4 POSITIVE C4a
+MASP2 POSITIVE C4a
+C2b POSITIVE C2
+angiotensin I-7_simple_molecule POSITIVE ACE2_Endothelium, vascular
+Thrombin_Blood POSITIVE Fibrin monomer
+MAS1 POSITIVE angiotensin I-7_simple_molecule
 thrombus formation_phenotype POSITIVE platelet activation_phenotype
+MAS1 POSITIVE thrombus formation_phenotype
+AGTR1 POSITIVE thrombus formation_phenotype
