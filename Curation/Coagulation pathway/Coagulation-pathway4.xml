@@ -11470,7 +11470,7 @@ ACE catalyses degradation of Bradykinin in human plasma. PMID:10749699
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s564" alias="sa484">
 <celldesigner:linkAnchor position="SSW"/>
@@ -11624,7 +11624,7 @@ Acute or chronic oral treatment with Ang-(1-7)-CyD promoted an antithrombotic ef
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>INHIBITION</celldesigner:reactionType>
+<celldesigner:reactionType>NEGATIVE_INFLUENCE</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s588" alias="sa483">
 <celldesigner:linkAnchor position="W"/>
@@ -12199,7 +12199,7 @@ Acute or chronic oral treatment with Ang-(1-7)-CyD promoted an antithrombotic ef
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s545" alias="csa42">
 <celldesigner:linkAnchor position="SSW"/>
@@ -12262,7 +12262,7 @@ GPVI and α2β1 to primary hemostasis confirm that collagen binding by VWF, GPVI
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s510" alias="sa430"/>
 </celldesigner:baseReactants>
@@ -12332,7 +12332,7 @@ GPVI and α2β1 to primary hemostasis confirm that collagen binding by VWF, GPVI
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s533" alias="csa40">
 <celldesigner:linkAnchor position="E"/>
@@ -19279,7 +19279,7 @@ Renin provides only one known function, to cleave the 10-amino acid precursor pe
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s606" alias="sa516">
 <celldesigner:linkAnchor position="NW"/>
@@ -19348,7 +19348,7 @@ Renin provides only one known function, to cleave the 10-amino acid precursor pe
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s611" alias="sa519">
 <celldesigner:linkAnchor position="N"/>
@@ -19415,7 +19415,7 @@ Renin provides only one known function, to cleave the 10-amino acid precursor pe
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s596" alias="sa509">
 <celldesigner:linkAnchor position="SW"/>
@@ -19484,7 +19484,7 @@ Renin provides only one known function, to cleave the 10-amino acid precursor pe
 </notes>
 <annotation>
 <celldesigner:extension>
-<celldesigner:reactionType>TRIGGER</celldesigner:reactionType>
+<celldesigner:reactionType>POSITIVE_INFLUENCE</celldesigner:reactionType>
 <celldesigner:baseReactants>
 <celldesigner:baseReactant species="s596" alias="sa509">
 <celldesigner:linkAnchor position="WNW"/>
