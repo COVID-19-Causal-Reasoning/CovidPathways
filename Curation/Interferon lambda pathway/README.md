@@ -15,13 +15,15 @@ IFNL may be the main IFN produced in lung cells during viral infection based on 
 - HCoVs IFN induction (WP4880)
 
 ## Creators (alphabetically)
-Marta Conti
-Marius Rameil
-Vanessa Nakonecnij
+[Marta Conti](https://fairdomhub.org/people/1807)
+[Marius Rameil](https://fairdomhub.org/people/1802)
+[Vanessa Nakonecnij](https://fairdomhub.org/people/1801)
 
 ## Contributors and reviewers
-Marta Conti
-Marius Rameil
-Vanessa Nakonecnij
-Jakob Vanhoefer
-Jan Hasenauer
+[Marta Conti](https://fairdomhub.org/people/1807)
+[Marius Rameil](https://fairdomhub.org/people/1802)
+[Vanessa Nakonecnij](https://fairdomhub.org/people/1801)
+[Jakob Vanhoefer](https://fairdomhub.org/people/1800)
+[Jan Hasenauer](https://fairdomhub.org/people/842)
+
+## Model af FairdomHub (https://fairdomhub.org/models/750)

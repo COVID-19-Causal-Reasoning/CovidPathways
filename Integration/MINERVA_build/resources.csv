@@ -26,3 +26,4 @@ Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20pro
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Orf3a/Orf3a_stable.xml,CellDesigner_SBML,Orf3a interactions
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Ubiquination%20and%20Protein%20Degradation/Orf10_Cul2_pathway_stable.xml,CellDesigner_SBML,Orf10 Cul2 pathway
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Virus%20replication%20cycle/Virus_replication_cycle_stable.xml,CellDesigner_SBML,Virus replication cycle
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Interferon%20lambda%20pathway/IFN-lambda_stable.xml,CellDesigner_SBML,Interferon lambda pathway
