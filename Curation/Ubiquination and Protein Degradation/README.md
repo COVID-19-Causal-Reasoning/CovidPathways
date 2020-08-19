@@ -8,7 +8,10 @@ The map describes the ubiquitin-activating enzymes (E1s), the ubiquitin-conjugat
 The ubiquitin-proteasome system is a key regulator of protein degradation and influences the levels of various proteins within the cell. This results in the modulation of cellular processes, including cell cycle progression and apoptosis [DOI: 10.1128/JVI.00485-10]. Furthermore, it has been shown that the ubiquitin-proteasome system plays an important role during various stages of the infection cycle of coronaviruses [DOI: 10.1128/JVI.00485-10]. RNA synthesis is modulated [DOI: 10.1128/JVI.00485-10] and antigen presentation on MHC class I molecules depends on proteasomal function [DOI 10.1681/ASN.2006010083].
 
 ## Creators
-Jan Hasenauer & Leonard Schmiester
+[Jan Hasenauer](https://fairdomhub.org/people/842)
+[Leonard Schmiester](https://fairdomhub.org/people/1799)
 
 ## Contributors and reviewers
-Paul Stapor
+**Paul Stapor**
+
+## Model at FairdomHub (https://fairdomhub.org/models/702)

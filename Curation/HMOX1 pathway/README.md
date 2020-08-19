@@ -18,10 +18,10 @@ Hyperinflammation is a known complication in COVID-19, causing widespread damage
 This pathway may overlap with the following existing disease map pathways: Orf3a Interactions, the Impact of Nsp14 on Metabolism, the Apoptosis pathway, the ER Stress pathway, and the Interferon pathway. An interaction between HO-1 and Orf3a were identified in the SARS-CoV-2 host protein interactome published by Gordon et. al., however the nature of this interaction is unknown [PMID: 32353859]. Nicotinamide synthesis, which is represented in the Nsp14 pathway, occurs downstream of the tryptophan metabolite 2-amino-3-carboxymuconate semialdehyde. The ER stress pathway may also be relevant to heme and tryptophan catabolism, as HO-1 was shown to modulate proapoptotic Bcl-2 and ER stress pathways in a mouse model of sepsis-induced ALI [DOI: 10.1155/2018/9413876]. There may also be overlap with the interferon pathway, however the heme/tryptophan pathway is more involved with interferon-gamma as opposed to interferons -alpha and -beta. Other general pathways that would help to contextualize this pathway are high level curation of the innate immune response to SARS-CoV-2, initiation of the cytokine storm, detailed iron homeostasis, and T-cell differentiation.
 
 ## Creators
-[Julia Somers](https://fairdomhub.org/people/1611)
-[Emek Demir](https://fairdomhub.org/people/1589)
+- [Julia Somers](https://fairdomhub.org/people/1611)
+- [Emek Demir](https://fairdomhub.org/people/1589)
 
 ## Contributors and reviewers
-[Marek Ostaszewski](https://fairdomhub.org/people/665)
+- [Marek Ostaszewski](https://fairdomhub.org/people/665)
 
-## Model af FairdomHub (https://fairdomhub.org/models/718)
+## Model at FairdomHub (https://fairdomhub.org/models/718)

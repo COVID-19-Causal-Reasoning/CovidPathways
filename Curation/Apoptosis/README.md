@@ -23,11 +23,11 @@ JNK pathway via BCL2 protein
 HCoVs ER stress (WP4869)	via MAPKs (however, Apoptosis pathway is regulated by MAPK14 while in HCoVs ER stress (WP4869) pathway, Apoptosis is regulated by a complex of MAPKs (MAPK8,9,10)
 
 ## Creators
-[Vidisha Singh](https://fairdomhub.org/people/1658)
-[Anna Niarakis](https://fairdomhub.org/people/1554)
-[Sara Ahgamiri](https://fairdomhub.org/people/1659)
+- [Vidisha Singh](https://fairdomhub.org/people/1658)
+- [Anna Niarakis](https://fairdomhub.org/people/1554)
+- [Sara Ahgamiri](https://fairdomhub.org/people/1659)
 
 ## Contributors and reviewers
-[Marek Ostaszewski](https://fairdomhub.org/people/665)
+- [Marek Ostaszewski](https://fairdomhub.org/people/665)
 
-## Model af FairdomHub (https://fairdomhub.org/models/712)
+## Model at FairdomHub (https://fairdomhub.org/models/712)

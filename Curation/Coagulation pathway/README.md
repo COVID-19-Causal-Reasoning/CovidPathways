@@ -9,11 +9,11 @@ Thrombotic complications and coagulopathy frequently occur in COVID-19 [PMID: 32
 Our pathway model shows how the proteins with altered expression level can be integrated in a tightly interconnected network. This network intends to identify potential regulatory mechanisms between of five thrombosis related pathways such as coagulation cascade, renin-angiotensin system, complement component cascade, kallikrein-kinin system and hyperinflammation for COVID-19 patients with severe immunothrombosis. SARS-CoV-2 infection coagulation pathway is interlinked with the “SPIKE-ACE2-RAS pathway” map via ACE2 and pro-thrombotic function of Angiotensin II. SARS-CoV-2 infection triggers hyperinflammation that leads detrimental hypercoagulability and immunothrombosis. Therefore, this pathway also be linked to “SARS-CoV-2 NRLP3 Inflammasome (WP4876)” via “cytokine storm” and “PAMP signaling” via “transcription of pro-inflammatory factors”.
 
 ## Creators
-[Goar Frishman](https://fairdomhub.org/people/1696)
-[Gisela Fobo](https://fairdomhub.org/people/1695)
-[Corinna Montrone](https://fairdomhub.org/people/1694)
+- [Goar Frishman](https://fairdomhub.org/people/1696)
+- [Gisela Fobo](https://fairdomhub.org/people/1695)
+- [Corinna Montrone](https://fairdomhub.org/people/1694)
 
 ## Contributors and reviewers
-[Andreas Ruepp](https://fairdomhub.org/people/1692)
+- [Andreas Ruepp](https://fairdomhub.org/people/1692)
 
-## Model af FairdomHub (https://fairdomhub.org/models/749)
+## Model at FairdomHub (https://fairdomhub.org/models/749)

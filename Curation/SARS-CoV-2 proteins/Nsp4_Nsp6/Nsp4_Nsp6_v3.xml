@@ -2863,14 +2863,6 @@ ATP synthase membrane subunit g
 <celldesigner:paint color="ffcccc00" scheme="Color"/>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:compartmentAlias>
-<celldesigner:compartmentAlias id="ca10" compartment="c10">
-<celldesigner:class>SQUARE</celldesigner:class>
-<celldesigner:bounds x="20120.0" y="6274.0" w="1063.0" h="1235.0"/>
-<celldesigner:namePoint x="3144.0" y="1976.0"/>
-<celldesigner:doubleLine thickness="12.0" outerWidth="2.0" innerWidth="1.0"/>
-<celldesigner:paint color="ffcccc00" scheme="Color"/>
-<celldesigner:info state="empty" angle="-1.5707963267948966"/>
-</celldesigner:compartmentAlias>
 </celldesigner:listOfCompartmentAliases>
 <celldesigner:listOfComplexSpeciesAliases>
 <celldesigner:complexSpeciesAlias id="csa39" species="s284" compartmentAlias="ca8">
@@ -6765,13 +6757,6 @@ From SARS-COV-1: Together, nsp3, nsp4, and nsp6 have the ability to induce doubl
 <annotation>
 <celldesigner:extension>
 <celldesigner:name>cytoplasm</celldesigner:name>
-</celldesigner:extension>
-</annotation>
-</compartment>
-<compartment metaid="c10" id="c10" name="lysosome" size="1" units="volume" outside="default">
-<annotation>
-<celldesigner:extension>
-<celldesigner:name>lysosome</celldesigner:name>
 </celldesigner:extension>
 </annotation>
 </compartment>

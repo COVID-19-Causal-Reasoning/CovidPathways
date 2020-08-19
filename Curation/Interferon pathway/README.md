@@ -51,12 +51,12 @@ Bibliography
 
 
 ## Creators (alphabetically)
-[Sara Aghamiri](https://fairdomhub.org/people/1659)
-[Vidisha Singh](https://fairdomhub.org/people/1658)
-[Anna Niarakis](https://fairdomhub.org/people/1554)
+- [Sara Aghamiri](https://fairdomhub.org/people/1659)
+- [Vidisha Singh](https://fairdomhub.org/people/1658)
+- [Anna Niarakis](https://fairdomhub.org/people/1554)
 
 
 ## Contributors and reviewers
-[Marek Ostaszewski](https://fairdomhub.org/people/665)
+- [Marek Ostaszewski](https://fairdomhub.org/people/665)
 
-## Model af FairdomHub (https://fairdomhub.org/models/713)
+## Model at FairdomHub (https://fairdomhub.org/models/713)
