@@ -21,7 +21,7 @@ Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Pyrimidine%20dep
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Renin-angiotensin%20pathway/Renin_angiotensin_stable.xml,CellDesigner_SBML,Renin-angiotensin pathway
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/RTC-and-transcription/RTC-and-transcription_stable.xml,CellDesigner_SBML,RTC and transcription
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/E/E_protein_stable.xml,CellDesigner_SBML,E protein interactions
-Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp4_Nsp6/Nsp4_Nsp6_proteins_stable.xml,CellDesigner_SBML,Nsp4 and Nsp6 interactions
+Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp4_Nsp6/Nsp4_Nsp6_stable.xml,CellDesigner_SBML,Nsp4 and Nsp6 interactions
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp9/Nsp9_protein_stable.xml,CellDesigner_SBML,Nsp9 interactions
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Nsp14/Nsp14_stable.xml,CellDesigner_SBML,Nsp14 and metabolism
 Yes,https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/SARS-CoV-2%20proteins/Orf3a/Orf3a_stable.xml,CellDesigner_SBML,Orf3a interactions
