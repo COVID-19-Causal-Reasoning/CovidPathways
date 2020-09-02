@@ -57,7 +57,7 @@
 <rdf:li rdf:resource="urn:miriam:obo.go:GO%3A0006915" />
 </rdf:Bag>
 </bqbiol:isEncodedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:BCL2_phosphorylated" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s20" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:!BCL2_phosphorylated" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s20" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Autophagy_phenotype" qual:constant="false" qual:id="sa18"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s21">
@@ -245,7 +245,7 @@
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 </rdf:Description>
-</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa17"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa12" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa17_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa17" qual:transitionEffect="assignmentLevel" qual:id="tr_sa17_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa12</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re43">
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa17"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa12" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa17_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa17" qual:transitionEffect="assignmentLevel" qual:id="tr_sa17_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa12</ci><cn type="integer">0</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re43">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:31226023" />
