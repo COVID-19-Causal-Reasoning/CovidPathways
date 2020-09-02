@@ -84,7 +84,7 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:7562" />
 </rdf:Bag>
 </bqbiol:isDescribedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TLR4" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s53" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TLR4&amp;IRF6&amp;MYD88_cytoplasm" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s53" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="P65/P015_complex" qual:constant="false" qual:id="csa7"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s165">
@@ -273,7 +273,7 @@
 </bqbiol:isDescribedBy>
 <bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TRIM14/TRIM23_complex" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s91" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
-</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NFKB1:NFKNIA_complex" qual:constant="false" qual:id="csa21"><annotation><rdf:RDF><rdf:Description rdf:about="#s184"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NFKB1&amp;!CACTIN" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s184" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Orf3a" qual:constant="true" qual:id="sa1"><annotation><rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="NFKB1:NFKNIA_complex" qual:constant="false" qual:id="csa21"><annotation><rdf:RDF><rdf:Description rdf:about="#s184"><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:NFKB1&amp;NFKBIA_phosphorylated_ubiquitinated_ubiquitinated_ubiquitinated&amp;!CACTIN" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s184" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description></rdf:RDF></annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="Orf3a" qual:constant="true" qual:id="sa1"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s1">
 <bqbiol:isVersionOf>
 <rdf:Bag>
@@ -338,7 +338,7 @@
 </bqbiol:isDescribedBy>
 <bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:TICAM1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s13" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
-</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CASP1" qual:constant="true" qual:id="sa25"><annotation><rdf:RDF>
+</annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="CASP1" qual:constant="false" qual:id="sa25"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s31">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
@@ -350,7 +350,7 @@
 <rdf:li rdf:resource="urn:miriam:hgnc:1499" />
 </rdf:Bag>
 </bqbiol:isDescribedBy>
-<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:CASP1" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s31" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
+<bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:function:PYCARD_ubiquitinated_ubiquitinated_ubiquitinated&amp;NLRP3" /></rdf:Bag></bqbiol:isDescribedBy><bqbiol:isDescribedBy><rdf:Bag><rdf:li rdf:resource="urn:casq:cdid:s31" /></rdf:Bag></bqbiol:isDescribedBy></rdf:Description>
 </rdf:RDF>
 </annotation></qual:qualitativeSpecies><qual:qualitativeSpecies qual:maxLevel="1" qual:compartment="comp1" qual:name="TRAF6_cytoplasm" qual:constant="false" qual:id="sa38"><annotation><rdf:RDF>
 <rdf:Description rdf:about="#s54">
@@ -691,7 +691,7 @@ HMOX1 PMID:19590927
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 </rdf:Description>
-</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa8"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa142" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa8_in_0" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa8" qual:transitionEffect="assignmentLevel" qual:id="tr_csa8_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><eq /><ci>sa142</ci><cn type="integer">1</cn></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re112">
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa8"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa142" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa8_in_0" /><qual:input qual:qualitativeSpecies="sa141" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa8_in_1" /><qual:input qual:qualitativeSpecies="sa143" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa8_in_2" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa8" qual:transitionEffect="assignmentLevel" qual:id="tr_csa8_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa142</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa141</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa143</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re112">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:28829373" />
@@ -794,7 +794,7 @@ TRIM23 PMID:20724660
 </rdf:Bag>
 </bqmodel:isDescribedBy>
 </rdf:Description>
-</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa21"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa81" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa21_in_0" /><qual:input qual:qualitativeSpecies="sa138" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_csa21_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa21" qual:transitionEffect="assignmentLevel" qual:id="tr_csa21_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa81</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa138</ci><cn type="integer">0</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re93">
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_csa21"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa81" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa21_in_0" /><qual:input qual:qualitativeSpecies="sa65" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_csa21_in_1" /><qual:input qual:qualitativeSpecies="sa138" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_csa21_in_2" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="csa21" qual:transitionEffect="assignmentLevel" qual:id="tr_csa21_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa81</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa65</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa138</ci><cn type="integer">0</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re93">
 <bqmodel:isDescribedBy>
 <rdf:Bag>
 <rdf:li rdf:resource="urn:miriam:pubmed:26999213" />
@@ -831,6 +831,13 @@ A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Pote
 <rdf:li rdf:resource="urn:miriam:pubmed:28829373" />
 </rdf:Bag>
 </bqmodel:isDescribedBy>
+</rdf:Description>
+</rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa25"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa14" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa25_in_0" /><qual:input qual:qualitativeSpecies="sa10" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa25_in_1" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa25" qual:transitionEffect="assignmentLevel" qual:id="tr_sa25_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><eq /><ci>sa14</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa10</ci><cn type="integer">1</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><annotation><rdf:RDF><rdf:Description rdf:about="#re24">
+<bqbiol:isDescribedBy>
+<rdf:Bag>
+<rdf:li rdf:resource="urn:miriam:pubmed:31034780" />
+</rdf:Bag>
+</bqbiol:isDescribedBy>
 </rdf:Description>
 </rdf:RDF></annotation></qual:transition><qual:transition qual:id="tr_sa38"><qual:listOfInputs><qual:input qual:qualitativeSpecies="sa101" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa38_in_0" /><qual:input qual:qualitativeSpecies="sa49" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa38_in_1" /><qual:input qual:qualitativeSpecies="sa52" qual:transitionEffect="none" qual:sign="negative" qual:id="tr_sa38_in_2" /><qual:input qual:qualitativeSpecies="sa70" qual:transitionEffect="none" qual:sign="positive" qual:id="tr_sa38_in_3" /></qual:listOfInputs><qual:listOfOutputs><qual:output qual:qualitativeSpecies="sa38" qual:transitionEffect="assignmentLevel" qual:id="tr_sa38_out" /></qual:listOfOutputs><qual:listOfFunctionTerms><qual:defaultTerm qual:resultLevel="0" /><qual:functionTerm qual:resultLevel="1"><math xmlns="http://www.w3.org/1998/Math/MathML"><apply><and /><apply><or /><apply><eq /><ci>sa49</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa70</ci><cn type="integer">1</cn></apply></apply><apply><eq /><ci>sa101</ci><cn type="integer">1</cn></apply><apply><eq /><ci>sa52</ci><cn type="integer">0</cn></apply></apply></math></qual:functionTerm></qual:listOfFunctionTerms><notes><html xmlns="http://www.w3.org/1999/xhtml"><head><title /></head><body><p>TRAF6 PMID:20724660
 TRIM 38 PMID: 22539786 
