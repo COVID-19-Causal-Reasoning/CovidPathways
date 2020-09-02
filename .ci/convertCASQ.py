@@ -25,11 +25,15 @@ for currentpath, folders, files in os.walk(fullPath_modelDir):
                 print('(exception)')
 
             # move both output files to the respective folders (note: files are overwritten)
-            fileName_sif = file[:-4] + '.sbml.sif'
+            fileName_sif = file[:-4] + '.sif'
+            fileName_raw = file[:-4] + '_raw.sif'
             fileName_sbml = file[:-4] + '.sbml'
+
             file_sif = os.path.join(currentpath, fileName_sif)
+            file_raw = os.path.join(currentpath, fileName_raw)
             file_sbml = os.path.join(currentpath, fileName_sbml)
-            if os.path.isfile(file_sif) and os.path.isfile(file_sbml):
+            if os.path.isfile(file_sif) and os.path.isfile(file_sbml)and os.path.isfile(file_raw):
                 shutil.move(file_sif, os.path.join(outputDir, 'sif', fileName_sif))
+                shutil.move(file_raw, os.path.join(outputDir, 'sif', fileName_raw))
                 shutil.move(file_sbml, os.path.join(outputDir, 'sbml', fileName_sbml))
                 print(' Done.')
