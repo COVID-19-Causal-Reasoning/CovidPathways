@@ -6,7 +6,7 @@ localRoot = os.getcwd()
 
 # generate the index properly speaking
 modelDir = "Curation"
-outputDir = os.path.join(localRoot, "Executable Modules", "SBML_Qual_build")
+outputDir = os.path.join(localRoot, "Executable Modules", "SBML_qual_build")
 fullPath_modelDir = os.path.join(localRoot, modelDir)
 
 print(' > The output directory is: {0}' . format(outputDir))
