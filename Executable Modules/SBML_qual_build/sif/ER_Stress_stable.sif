@@ -123,10 +123,20 @@ ACE2 POSITIVE ACE2:Spike_complex
 ACE2 NEGATIVE HSPA5_Endoplasmic_Reticulum
 ACE2 NEGATIVE HSPA5_rna
 ACE2 NEGATIVE ER_space_stress_phenotype
+ACE2 POSITIVE ACE2,_space_soluble
 ACE2 POSITIVE ACE2,_space_membrane-bound
+ACE2 NEGATIVE pulmonary_fibrosis_phenotype
 ACE2 POSITIVE viral_RNA_genome_replication_phenotype
+S_default_compartment POSITIVE ACE2:Spike_complex
+S_default_compartment POSITIVE HSPA5-Spike_interaction_complex
+HSPA5-Spike_interaction_complex POSITIVE viral_entry_into_host_cell_phenotype
+HSPA5_default_compartment POSITIVE HSPA5-Spike_interaction_complex
 ACE2-SARS-CoV_interaction_complex POSITIVE viral_entry_into_host_cell_phenotype
 ACE2,_space_membrane-bound POSITIVE ACE2-SARS-CoV_interaction_complex
+S_default_compartment POSITIVE ACE2-SARS-CoV_interaction_complex
+S_default_compartment POSITIVE HSPA5_rna
+ACE2,_space_soluble NEGATIVE ACE2-SARS-CoV_interaction_complex
+ACE2,_space_soluble NEGATIVE viral_entry_into_host_cell_phenotype
 PPP1R15A_rna POSITIVE PPP1R15A
 PPP1R15A_gene POSITIVE PPP1R15A_rna
 ATF4 POSITIVE PPP1R15A_rna
@@ -247,6 +257,7 @@ MAP3K5 POSITIVE MAP3K5_phosphorylated
 DNAJC3_gene POSITIVE DNAJC3_rna
 MBTPS1 POSITIVE ATF6_Golgi
 MFN2_rna POSITIVE MFN2_Endoplasmic_Reticulum
+ADAM17_Cytoplasm POSITIVE ACE2,_space_soluble
 ADAM17_Cytoplasm POSITIVE ACE2,_space_membrane-bound
 XBP1_Cytoplasm POSITIVE ERAD_phenotype
 MFN2_gene POSITIVE MFN2_rna
@@ -255,3 +266,4 @@ MAP3K4 POSITIVE MAP3K4_phosphorylated
 HYOU1_gene POSITIVE HYOU1_rna
 ERO1A_gene POSITIVE ERO1A_rna
 viral_entry_into_host_cell_phenotype NEGATIVE ACE2_rna
+SARS-CoV_infection_phenotype POSITIVE viral_entry_into_host_cell_phenotype
