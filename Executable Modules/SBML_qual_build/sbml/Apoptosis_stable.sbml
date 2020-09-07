@@ -3,7 +3,7 @@
 <rdf:Description rdf:about="#s37">
 <bqbiol:isDescribedBy>
 <rdf:Bag>
-<rdf:li rdf:resource="urn:miriam:pubmed:3122602377777" />
+<rdf:li rdf:resource="urn:miriam:pubmed:31226023" />
 </rdf:Bag>
 </bqbiol:isDescribedBy>
 <bqbiol:isDescribedBy>
