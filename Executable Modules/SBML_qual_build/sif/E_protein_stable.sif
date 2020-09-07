@@ -12,13 +12,20 @@ H3C1 POSITIVE histone_complex_Nucleus
 H4C9 POSITIVE histone_complex_Nucleus
 H2BC21 POSITIVE histone_complex_Nucleus
 H2A POSITIVE histone_complex_Nucleus
+CRB3:PALS1:PATJ_complex_complex POSITIVE Maintenance_of_tight_junction_phenotype
 PALS1_Cytoplasm POSITIVE CRB3:PALS1:PATJ_complex_complex
 CRB3 POSITIVE CRB3:PALS1:PATJ_complex_complex
 PATJ POSITIVE CRB3:PALS1:PATJ_complex_complex
+ASIC1_trimer:H+:STOML3_complex POSITIVE Activity_of_sodium_channels_phenotype
+ASIC1_trimer POSITIVE ASIC1_trimer:H+:STOML3_complex
+STOML3 POSITIVE ASIC1_trimer:H+:STOML3_complex
+STOML3 NEGATIVE Activity_of_sodium_channels_phenotype
 E_Cytoplasm NEGATIVE ASIC1_trimer:H+:STOML3_complex
 E_Cytoplasm NEGATIVE ATP1A:ATP1B:FXYDs_complex
-ASIC1_trimer POSITIVE ASIC1_trimer:H+:STOML3_complex
 ATP1A:ATP1B:FXYDs_complex POSITIVE K+_ion
+ATP1A:ATP1B:FXYDs_complex POSITIVE Na+_ion
+ATP1A:ATP1B:FXYDs_complex POSITIVE Activity_of_sodium_channels_phenotype
+E-PALS1_complex POSITIVE Maintenance_of_tight_junction_phenotype
 E_Cytoplasm POSITIVE E-PALS1_complex
 PALS1_Cytoplasm POSITIVE E-PALS1_complex
 PALS1_Cytoplasm POSITIVE PALS1_Cytoplasm
@@ -28,3 +35,4 @@ CCNT1 POSITIVE P-TEFb_complex
 E_Nucleus NEGATIVE BRD4
 E_Nucleus NEGATIVE BRD2
 JQ1 NEGATIVE BRD2
+H+_ion POSITIVE ASIC1_trimer

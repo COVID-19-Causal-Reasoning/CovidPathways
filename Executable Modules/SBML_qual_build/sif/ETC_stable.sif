@@ -162,4 +162,5 @@ Orf9c NEGATIVE ECSIT
 Orf9c NEGATIVE ACAD9
 Nsp7 NEGATIVE NDUFAF7
 TOM_complex_complex POSITIVE precursor_protein_N-terminus_binding
+ORF9b NEGATIVE precursor_protein_N-terminus_binding
 TIM23_complex_complex POSITIVE precursor_protein_N-terminus_binding

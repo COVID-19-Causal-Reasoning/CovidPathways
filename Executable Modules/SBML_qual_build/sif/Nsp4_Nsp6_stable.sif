@@ -15,6 +15,8 @@ Nsp4 POSITIVE Nsp4:IDE_complex_cytoplasm
 Nsp4_ALG11_complex_ER POSITIVE Nsp4_ALG11_complex_ER
 ALG11_ER POSITIVE Nsp4_ALG11_complex_ER
 ALG11_ER POSITIVE ALG11_ER
+Nsp4:IDE_complex_cytoplasm POSITIVE Nsp4_IDE_complex
+Nsp4:IDE_complex_cytoplasm POSITIVE Nsp4:IDE_complex_cytoplasm
 DNAJC11 POSITIVE Nsp4:DNAJC11_complex
 F-ATPase_complex POSITIVE F-ATPase:Nsp6_complex
 Nsp4:NUP210_complex_ER POSITIVE Nsp4:NUP210_complex_nucleus
@@ -38,7 +40,6 @@ ATP6AP1 POSITIVE V-ATPase_complex_ER
 ATP6AP1 POSITIVE ATP6AP1:Bafilomycin_A1_complex
 Selinexor_drug POSITIVE NUP210:Selinexor_complex
 P-ATPase_complex POSITIVE P-ATPase:Nsp6_complex
-Nsp4:IDE_complex_cytoplasm POSITIVE Nsp4:IDE_complex_cytoplasm
 SLC6A15 POSITIVE SLC6A15:Nsp6_complex
 SLC6A15 POSITIVE SLC6A15:Orf9c_complex
 SLC6A15 POSITIVE SLC6A15:M_complex
@@ -48,6 +49,7 @@ M POSITIVE SLC6A15:M_complex
 Loratadine_drug POSITIVE SLC6A15:Loratadine_complex
 Bafilomycin_A1_drug POSITIVE ATP6AP1:Bafilomycin_A1_complex
 IDE_cytoplasm POSITIVE Nsp4:IDE_complex_cytoplasm
+IDE_cytoplasm POSITIVE IDE_default_compartment
 IDE_cytoplasm POSITIVE IDE_cytoplasm
 Nsp4_(+)_rna POSITIVE Nsp4
 Nsp4_(+)_rna POSITIVE Nsp4_(-)_rna

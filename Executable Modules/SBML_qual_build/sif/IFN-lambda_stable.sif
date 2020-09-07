@@ -2,7 +2,9 @@ receptor_complex_complex_cell POSITIVE receptor_complex_complex_cell
 receptor_complex_complex_cell POSITIVE receptor_complex_complex_cell
 receptor_complex_complex_cell POSITIVE ISGF3_precursor_complex
 receptor_complex_complex_cell POSITIVE receptor_complex_complex_cell
+receptor_complex_complex_cell POSITIVE IFNL
 receptor_complex_complex_cell POSITIVE receptor_complex_complex_cell
+IFNL POSITIVE receptor_complex_complex_cell
 ISGF3_complex POSITIVE ISGs_rna
 ISGF3_precursor_complex POSITIVE ISGF3_complex
 ISGF3_precursor_complex POSITIVE Inhibited_ISGF3_precursor?_complex
@@ -16,8 +18,8 @@ ribosomal_40S_subunit_complex POSITIVE 80S_ribosome_complex
 viral_nsp1 POSITIVE inhibited_ribosomal_40S_SU_complex
 viral_nsp1 POSITIVE inhibited_80S_ribosome_complex
 80S_ribosome_complex POSITIVE inhibited_80S_ribosome_complex
-80S_ribosome_complex POSITIVE antiviral_proteins
 80S_ribosome_complex POSITIVE IFNs
+80S_ribosome_complex POSITIVE antiviral_proteins
 RIG-I-MAVS_complex_mitochondria POSITIVE IRF3_phosphorylated
 RIG-I_ubiquitinated POSITIVE RIG-I-MAVS_complex_mitochondria
 RIG-I_ubiquitinated POSITIVE RIG-I_mitochondria
@@ -31,8 +33,9 @@ SOCS1 POSITIVE receptor_complex_complex_cell
 M-protein,_membrane-bound POSITIVE RIG-1_M-Protein_complex
 RIG-I_mitochondria POSITIVE RIG-1_M-Protein_complex
 RIG-I_mitochondria POSITIVE RIG-I_mitochondria
-ISGs_rna POSITIVE antiviral_proteins
+IFN-III POSITIVE IFNL
 ISGs_rna POSITIVE IFNs
+ISGs_rna POSITIVE antiviral_proteins
 IFN-sensitive-response-element_gene POSITIVE ISGs_rna
 viral_RNA+N-methyl-Guanine_rna POSITIVE 5'cap-viral-RNA_rna
 viral_RNA_rna POSITIVE viral_RNA+N-methyl-Guanine_rna
