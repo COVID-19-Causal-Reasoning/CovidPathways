@@ -11,21 +11,32 @@ library(jsonlite)
 ### A convenience function to handle API queries
 ask_GET <- function(furl, fask) {
   print(URLencode(paste0(furl, fask)))
-  resp <- httr::GET(url = URLencode(paste0(furl, fask)),
+  resp <- httr::GET(url = URLencode(paste0(furl, fask)), write_memory(),
                     httr::add_headers('Content-Type' = "application/x-www-form-urlencoded"),
                     ### Currently ignoring SSL!
                     httr::set_config(config(ssl_verifypeer = 0L)))
   if(httr::status_code(resp) == 200) {
+    ### when the content is sent as a zip file, it needs to be handled differently,
+    ### i.e. saved to a tmp file and unzipped
+    if(headers(resp)$`content-type` == "application/zip") {
+      tmp <- tempfile()
+      tmpc <- file(tmp, "wb")
+      writeBin(httr::content(resp, as = "raw"), con = tmpc)
+      close(tmpc)
+      unzipped <- unzip(tmp)
+      file.remove(tmp)
+      return(unzipped)
+    }
     return(httr::content(resp, as = "text"))
   }
   return(NULL)
 }
 
 ### Define the source file (GitLab, raw link)
-diagram <- "https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/Pyrimidine%20deprivation/Pyrimidine_deprivation_stable.xml"
+diagram <- "https://git-r3lab.uni.lu/covid/models/-/raw/master/Curation/ER%20Stress/ER_Stress_stable.xml"
 
 ### Read in the raw SIF version (here straight from the github of Aurelien)
-raw_sif <- read.table(url("https://git-r3lab.uni.lu/covid/models/-/raw/master/Executable%20Modules/SBML_qual_build/sif/Pyrimidine_deprivation_stable_raw.sif"),
+raw_sif <- read.table(url("https://git-r3lab.uni.lu/covid/models/-/raw/master/Executable%20Modules/SBML_qual_build/sif/ER_Stress_stable_raw.sif"),
                       sep = " ", header = F, stringsAsFactors = F)
 
 ### Read the list of resources to be integrated, from the MINERVA build scripts
@@ -86,13 +97,11 @@ group_elements <- function(feid, felements, fentrez) {
 get_groups <- function(fname) {
   message(paste0("Getting groups for ", fname, "..."))
   library(xml2)
-  ### Currently comment out the MINERVA download, some content dlded as binary!
-  # cd_map <- read_xml(ask_GET(mnv_base, 
-  #                            paste0("models/",
-  #                                   models$idObject[models$name == fname],
-  #                                   ":downloadModel?handlerClass=lcsb.mapviewer.converter.model.celldesigner.CellDesignerXmlParser")))
-  cd_map <- read_xml(diagram)
-  print(cd_map)
+  ## Currently comment out the MINERVA download, some content dlded as binary!
+  cd_map <- read_xml(ask_GET(mnv_base,
+                             paste0("models/",
+                                    models$idObject[models$name == fname],
+                                    ":downloadModel?handlerClass=lcsb.mapviewer.converter.model.celldesigner.CellDesignerXmlParser")))
   ### CellDesigner namespace
   ns_cd <- xml_ns_rename(xml_ns(read_xml("<root>
                                             <sbml xmlns = \"http://www.sbml.org/sbml/level2/version4\"/>
@@ -101,7 +110,6 @@ get_groups <- function(fname) {
                          d1 = "sbml", d2 = "cd")
   ### Get complex ids
   cids <- xml_attr(xml_find_all(cd_map, "//cd:complexSpeciesAlias", ns_cd), "species")
-  print(cids)
   ### For each check, which is hypothetical
   hypocs <- sapply(cids, 
                    function(x) {
