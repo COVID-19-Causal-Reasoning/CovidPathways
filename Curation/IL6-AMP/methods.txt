@@ -1,0 +1,184 @@
+Leveraging COVID-19 Disease Maps for Counterfactual Inference of viral pathogenesis.
+
+We are interested in leveraging domain knowledge contained in COVID-19
+Disease Maps to enable three kinds of reasoning, collectively known as
+Pearl's Causal Hierarchy~\cite{bareinboim_2020}. The least expressive
+kind of reasoning is associational, which enables the ability to learn
+from data to answer questions such as "Given that we know a patient
+has COVID-19, would gaining information about her pre-existing
+conditions give us new information about her chances of survival?"
+The second level of the hierarchy is interventional, which enables the
+ability to learn from data to answer questions such as "Given that a
+patient has COVID-19, would treating her with Tocilizumab alter her
+chances of survival?" The third level of the hierarchy is
+counterfactual, which enables the ability to learn from data to answer
+questions such as "Given that I treated this COVID-19 patient with
+Tocilizumab and she lived, what are the chances that she would have
+died had I not treated her?"
+
+What enables this ability to reason at all three levels of the causal
+hierarchy is a formalism known as a Structural Causal Model (SCM)~\cite{pearl_2009}. An SCM represents domain knowledge in terms of causal
+diagrams, assumes a probability distribution over exogenous variables,
+and assigns deterministic functions to endogenous variables. Because
+the probability distribution over exogenous variables induces a
+probability distribution over endogenous variables, an SCM can answer
+associational level questions by using information about one
+endogenous variable to compute a posterior distribution on another
+endogenous variable. The action of replacing an endogenous variable's
+function with a fixed value enables the ability to learn from data to
+answer interventional level questions, and the process of using
+evidence to abduce a posterior distribution on exogenous variables
+followed by the action of fixing an endogenous variable enables the
+ability to answer counterfactual level questions.
+
+In order to leverage the COVID-19 Disease Maps,~\cite{ostaszewski_2020}, we
+are developing tools to translate a disease map into an SCM.  We have
+recently developed an algorithm (BEL2SCM) that automatically converts
+knowledge represented in the Biological Expression Language (BEL)~\cite{slater_2014} to an SCM~\cite{Zucker_2020}.
+This same algorithm will work just as effectively with knowledge represented in the Systems
+Biology Graphical Notation Activity Flow (SBGN-AF)~\cite{mi_2015}.  We are
+also leveraging the ODE2SCM~\cite{ness_2019} methodology to generate
+an SCM for any ordinary or stochastic differential equation
+represented in the Systems Biology Markup Language (SBML)~\cite{hucka_2003}. Lastly, using the CASQ methodology~\cite{aghamiri_2020}, it is
+possible to convert a disease map represented in Systems Biology
+Graphical Notation Process Description (SBGN-PD)~\cite{moodie_2015} to SBML
+Qualitative models (SBML-Qual)~\cite{chaouiya_2013}, and we are now
+developing a tool to convert an SBML-Qual model to an SCM (QUAL2SCM).
+
+@article{aghamiri_2020,
+title = {Automated inference of Boolean models from molecular interaction maps using {CaSQ}.},
+author = {Aghamiri, Sara Sadat and Singh, Vidisha and Naldi, Aurélien and Helikar, Tomáš and Soliman, Sylvain and Niarakis, Anna},
+url = {http://dx.doi.org/10.1093/bioinformatics/btaa484},
+year = {2020},
+month = {may},
+day = {13},
+urldate = {2020-06-28},
+journal = {Bioinformatics},
+doi = {10.1093/bioinformatics/btaa484},
+pmid = {32403123},
+sciwheel-projects = {MARS},
+abstract = {{MOTIVATION}: Molecular interaction maps have emerged as a meaningful way of representing biological mechanisms in a comprehensive and systematic manner. However, their static nature provides limited insights to the emerging behavior of the described biological system under different conditions. Computational modelling provides the means to study dynamic properties through in silico simulations and perturbations. We aim to bridge the gap between static and dynamic representations of biological systems with {CaSQ}, a software tool that infers Boolean rules based on the topology and semantics of molecular interaction maps built with {CellDesigner}. {RESULTS}: We developed {CaSQ} by defining conversion rules and logical formulas for inferred Boolean models according to the topology and the annotations of the starting molecular interaction maps. We used {CaSQ} to produce executable files of existing molecular maps that differ in size, complexity and the use of {SBGN} standards. We also compared, where possible, the manually built logical models corresponding to a molecular map to the ones inferred by {CaSQ}. The tool is able to process large and complex maps built with {CellDesigner} (either following {SBGN} standards or not) and produce Boolean models in a standard output format, {SBML}-qual, that can be further analyzed using popular modelling tools. References, annotations and layout of the {CellDesigner} molecular map are retained in the obtained model, facilitating interoperability and model reusability. {AVAILABILITY}: The present tool is available online: https://lifeware.inria.fr/∼soliman/post/casq/ and distributed as a Python package under the {GNU} {GPLv3} license. The code can be accessed here: https://gitlab.inria.fr/soliman/casq. {SUPPLEMENTARY} {INFORMATION}: Supplementary data are available at Bioinformatics online. \copyright The Author(s) 2020. Published by Oxford University Press.}
+}
+
+@incollection{bareinboim_2020,
+booktitle = {Probabilistic and Causal Inference: The Works of Judea Pearl},
+title = {On Pearl\textquoterights Hierarchy and the Foundations of Causal Inference},
+author = {Bareinboim, Elias and Correa, Juan and Ibeling, Duligur and Icard, Thomas},
+year = {2020},
+urldate = {2020-09-24},
+sciwheel-projects = {MARS},
+abstract = {Cause and effect relationships play a central role in how we perceive and make sense of the world around us, how we act upon it, and ultimately, how we understand ourselves. Almost two decades ago, computer scientist Judea Pearl made a breakthrough in understanding causality by discovering and systematically studying the {\textquotedblleftLadder} of Causation\textquotedblright [Pearl and Mackenzie 2018], a framework that highlights the distinct roles of seeing,doing, and imagining. In honor of this landmark discovery, we name this the Pearl Causal Hierarchy ({PCH}). In this chapter, we develop a novel and comprehensive treatment of the {PCH} through two complementary lenses, one logical-probabilistic and another inferential graphical. Following Pearl\textquoterights own presentation of the hierarchy, we begin by showing how the {PCH} organically emerges from a well-specified collection of causal mechanisms (a structural causal model, or {SCM}). We then turn to the logical lens. Our first result, the Causal Hierarchy Theorem ({CHT}), demonstrates that the three layers of the hierarchy almost always separate in a measure-theoretic sense. Roughly speaking, the {CHT} says that data at one layer virtually always underdetermines information at higher layers. Since in most practical settings the scientist does not have access to the precise form of the underlying causal mechanisms– only to data generated by them with respect to some of {PCH\textquoterights} layers – this motivates us to study inferences within the {PCH} through the graphical lens. Specifically, we explore a set of methods known as causal inference that enable inferences bridging {PCH\textquoterights} layers given a partial specification of the {SCM}. For instance, one may want to infer what would happen had an intervention been performed in the environment (second-layer statement) when only passive observations (first-layer data) are available. We introduce a family of graphical models that allows the scientist to represent such a partial specification of the {SCM} in a cognitively meaningful and parsimonious way. Finally, we investigate an inferential system known as do calculus, showing how it can be sufficient, and in many cases necessary, to allow inferences across {PCH\textquoterights} layers. We believe that connecting with the essential dimensions of human experience as delineated by the {PCH} is a critical step towards creating the next generation of {AI} systems that will be safe, robust, human-compatible, and aligned with the social good.}
+}
+@book{pearl_2009,
+author = {Pearl, Judea},
+title = {Causality: Models, Reasoning and Inference},
+year = {2009},
+isbn = {052189560X},
+publisher = {Cambridge University Press},
+address = {USA},
+edition = {2nd},
+abstract = {Written by one of the preeminent researchers in the field, this book provides a comprehensive exposition of modern analysis of causation. It shows how causality has grown from a nebulous concept into a mathematical theory with significant applications in the fields of statistics, artificial intelligence, economics, philosophy, cognitive science, and the health and social sciences. Judea Pearl presents and unifies the probabilistic, manipulative, counterfactual, and structural approaches to causation and devises simple mathematical tools for studying the relationships between causal connections and statistical associations. The book will open the way for including causal analysis in the standard curricula of statistics, artificial intelligence, business, epidemiology, social sciences, and economics. Students in these fields will find natural models, simple inferential procedures, and precise mathematical definitions of causal concepts that traditional texts have evaded or made unduly complicated. The first edition of Causality has led to a paradigmatic change in the way that causality is treated in statistics, philosophy, computer science, social science, and economics. Cited in more than 3,000 scientific publications, it continues to liberate scientists from the traditional molds of statistical thinking. In this revised edition, Judea Pearl elucidates thorny issues, answers readers' questions, and offers a panoramic view of recent advances in this field of research. Causality will be of interests to students and professionals in a wide variety of fields. Anyone who wishes to elucidate meaningful relationships from data, predict effects of actions and policies, assess explanations of reported events, or form theories of causal understanding and causal speech will find this book stimulating and invaluable.}
+}
+@article{ostaszewski_2020,
+title = {{COVID}-19 Disease Map, building a computational repository of {SARS}-{CoV}-2 virus-host interaction mechanisms.},
+author = {Ostaszewski, Marek and Mazein, Alexander and Gillespie, Marc E and Kuperstein, Inna and Niarakis, Anna and Hermjakob, Henning and Pico, Alexander R and Willighagen, Egon L and Evelo, Chris T and Hasenauer, Jan and Schreiber, Falk and Dräger, Andreas and Demir, Emek and Wolkenhauer, Olaf and Furlong, Laura I and Barillot, Emmanuel and Dopazo, Joaquin and Orta-Resendiz, Aurelio and Messina, Francesco and Valencia, Alfonso and Funahashi, Akira and Kitano, Hiroaki and Auffray, Charles and Balling, Rudi and Schneider, Reinhard},
+pages = {136},
+url = {http://www.nature.com/articles/s41597-020-0477-8},
+year = {2020},
+month = {may},
+day = {5},
+urldate = {2020-07-15},
+journal = {Scientific data},
+volume = {7},
+number = {1},
+issn = {2052-4463},
+doi = {10.1038/s41597-020-0477-8},
+pmid = {32371892},
+pmcid = {PMC7200764},
+sciwheel-projects = {MARS}
+}
+@unpublished{zucker_2020,
+title = {Leveraging Structured Biological Knowledge for Counterfactual Inference: a Case Study of Viral Pathogenesis"},
+author = {Zucker, Jeremy and Paneri, and Mohammad-Taheri, and Bhargava, and Kolambkar, and Bakker, and Teuton, and Hoyt, and Oxford, and Ness, and Vitek,},
+year = {2020},
+urldate = {2020-09-24},
+sciwheel-projects = {MARS},
+abstract = {Counterfactual inference is a useful tool for compar-ing outcomes of interventions on complex systems. It requiresus to represent the system in form of a structural causal model,complete with a causal diagram, probabilistic assumptions on ex-ogenous variables, and functional assignments. Specifying suchmodels can be extremely difficult in practice. The process re-quires substantial domain expertise, and does not scale easily tolarge systems, multiple systems, or novel system modifications.At the same time, many application domains, such as molecularbiology, are rich in structured causal knowledge that is qualita-tive in nature. This manuscript proposes a general approachfor querying a causal knowledge graph with a causal questionand converting the qualitative result into a quantitative structuralcausal model that can learn from data to answer the question.We demonstrate the feasibility, accuracy and versatility of thisapproach using two case studies in systems biology. The firstdemonstrates the appropriateness of the underlying assump-tions and the accuracy of the results. The second demonstratesthe versatility of the approach by querying a knowledge basefor the molecular determinants of a severe acute respiratorysyndrome coronavirus 2 ({SARS}-{CoV}-2)-induced cytokine stormand performing counterfactual inference to predict the causaleffect of medical countermeasures for severely ill {COVID}-19patients.}
+}
+@article{moodie_2015,
+title = {Systems Biology Graphical Notation: Process Description language Level 1 Version 1.3},
+author = {Moodie, Stuart and Le Novère, Nicolas and Demir, Emek and Mi, Huaiyu and Villéger, Alice},
+pages = {213-280},
+url = {https://www.degruyter.com/view/journals/jib/12/2/article-p213.xml},
+year = {2015},
+month = {jun},
+day = {1},
+urldate = {2020-09-24},
+journal = {Journal of integrative bioinformatics},
+volume = {12},
+number = {2},
+issn = {1613-4516},
+doi = {10.1515/jib-2015-263},
+sciwheel-projects = {MARS},
+abstract = {{SUMMARY}: The Systems Biological Graphical Notation ({SBGN}) is an international community effort for standardized graphical representations of biological pathways and networks. The goal of {SBGN} is to provide unambiguous pathway and network maps for readers with different scientific backgrounds as well as to support efficient and accurate exchange of biological knowledge between different research communities, industry, and other players in systems biology. Three {SBGN} languages, Process Description ({PD}), Entity Relationship ({ER}) and Activity Flow ({AF}), allow for the representation of different aspects of biological and biochemical systems at different levels of detail. The {SBGN} Process Description language represents biological entities and processes between these entities within a network. {SBGN} {PD} focuses on the mechanistic description and temporal dependencies of biological interactions and transformations. The nodes (elements) are split into entity nodes describing, e.g., metabolites, proteins, genes and complexes, and process nodes describing, e.g., reactions and associations. The edges (connections) provide descriptions of relationships (or influences) between the nodes, such as consumption, production, stimulation and inhibition. Among all three languages of {SBGN}, {PD} is the closest to metabolic and regulatory pathways in biological literature and textbooks, but its well-defined semantics offer a superior precision in expressing biological knowledge.}
+}
+@misc{ness_2019,
+title = {[1911.02175] Integrating Markov processes with structural causal modeling enables counterfactual inference in complex systems},
+author = {ness, Robert and vitek, Olga and paneri, kaushal},
+translator = {vitek,},
+url = {https://arxiv.org/abs/1911.02175},
+urldate = {2020-02-03},
+sciwheel-projects = {Causality and {MARS}},
+type = {WEBSITE}
+}
+@article{mi_2015,
+title = {Systems Biology Graphical Notation: Activity Flow language Level 1 Version 1.2.},
+author = {Mi, Huaiyu and Schreiber, Falk and Moodie, Stuart and Czauderna, Tobias and Demir, Emek and Haw, Robin and Luna, Augustin and Le Novère, Nicolas and Sorokin, Anatoly and Villéger, Alice},
+pages = {265},
+url = {http://dx.doi.org/10.2390/biecoll-jib-2015-265},
+year = {2015},
+month = {sep},
+day = {4},
+urldate = {2020-07-16},
+journal = {Journal of integrative bioinformatics},
+volume = {12},
+number = {2},
+doi = {10.2390/biecoll-jib-2015-265},
+pmid = {26528563},
+sciwheel-projects = {MARS},
+abstract = {The Systems Biological Graphical Notation ({SBGN}) is an international community effort for standardized graphical representations of biological pathways and networks. The goal of {SBGN} is to provide unambiguous pathway and network maps for readers with different scientific backgrounds as well as to support efficient and accurate exchange of biological knowledge between different research communities, industry, and other players in systems biology. Three {SBGN} languages, Process Description ({PD}), Entity Relationship ({ER}) and Activity Flow ({AF}), allow for the representation of different aspects of biological and biochemical systems at different levels of detail. The {SBGN} Activity Flow language represents the influences of activities among various entities within a network. Unlike {SBGN} {PD} and {ER} that focus on the entities and their relationships with others, {SBGN} {AF} puts the emphasis on the functions (or activities) performed by the entities, and their effects to the functions of the same or other entities. The nodes (elements) describe the biological activities of the entities, such as protein kinase activity, binding activity or receptor activity, which can be easily mapped to Gene Ontology molecular function terms. The edges (connections) provide descriptions of relationships (or influences) between the activities, e.g., positive influence and negative influence. Among all three languages of {SBGN}, {AF} is the closest to signaling pathways in biological literature and textbooks, but its well-defined semantics offer a superior precision in expressing biological knowledge.}
+}
+@article{hucka_2003,
+title = {The systems biology markup language ({SBML}): a medium for representation and exchange of biochemical network models.},
+author = {Hucka, M and Finney, A and Sauro, H M and Bolouri, H and Doyle, J C and Kitano, H and Arkin, A P and Bornstein, B J and Bray, D and Cornish-Bowden, A and Cuellar, A A and Dronov, S and Gilles, E D and Ginkel, M and Gor, V and Goryanin, I I and Hedley, W J and Hodgman, T C and Hofmeyr, J-H and Hunter, P J and Juty, N S and Kasberger, J L and Kremling, A and Kummer, U and Le Novère, N and Loew, L M and Lucio, D and Mendes, P and Minch, E and Mjolsness, E D and Nakayama, Y and Nelson, M R and Nielsen, P F and Sakurada, T and Schaff, J C and Shapiro, B E and Shimizu, T S and Spence, H D and Stelling, J and Takahashi, K and Tomita, M and Wagner, J and Wang, J and {SBML} Forum},
+pages = {524-531},
+url = {http://dx.doi.org/10.1093/bioinformatics/btg015},
+year = {2003},
+month = {mar},
+day = {1},
+urldate = {2018-06-11},
+journal = {Bioinformatics},
+volume = {19},
+number = {4},
+doi = {10.1093/bioinformatics/btg015},
+pmid = {12611808},
+sciwheel-projects = {MARS},
+abstract = {{MOTIVATION}: Molecular biotechnology now makes it possible to build elaborate systems models, but the systems biology community needs information standards if models are to be shared, evaluated and developed cooperatively. {RESULTS}: We summarize the Systems Biology Markup Language ({SBML}) Level 1, a free, open, {XML}-based format for representing biochemical reaction networks. {SBML} is a software-independent language for describing models common to research in many areas of computational biology, including cell signaling pathways, metabolic pathways, gene regulation, and others. {AVAILABILITY}: The specification of {SBML} Level 1 is freely available from http://www.sbml.org/}
+}
+@article{chaouiya_2013,
+title = {{SBML} qualitative models: a model representation format and infrastructure to foster interactions between qualitative modelling formalisms and tools.},
+author = {Chaouiya, Claudine and Bérenguier, Duncan and Keating, Sarah M and Naldi, Aurélien and van Iersel, Martijn P and Rodriguez, Nicolas and Dräger, Andreas and Büchel, Finja and Cokelaer, Thomas and Kowal, Bryan and Wicks, Benjamin and Gonçalves, Emanuel and Dorier, Julien and Page, Michel and Monteiro, Pedro T and von Kamp, Axel and Xenarios, Ioannis and de Jong, Hidde and Hucka, Michael and Klamt, Steffen and Thieffry, Denis and Le Novère, Nicolas and Saez-Rodriguez, Julio and Helikar, Tomáš},
+pages = {135},
+url = {http://dx.doi.org/10.1186/1752-0509-7-135},
+year = {2013},
+month = {dec},
+day = {10},
+urldate = {2020-05-18},
+journal = {{BMC} Systems Biology},
+volume = {7},
+doi = {10.1186/1752-0509-7-135},
+pmid = {24321545},
+pmcid = {PMC3892043},
+sciwheel-projects = {MARS},
+abstract = {{BACKGROUND}: Qualitative frameworks, especially those based on the logical discrete formalism, are increasingly used to model regulatory and signalling networks. A major advantage of these frameworks is that they do not require precise quantitative data, and that they are well-suited for studies of large networks. While numerous groups have developed specific computational tools that provide original methods to analyse qualitative models, a standard format to exchange qualitative models has been missing. {RESULTS}: We present the Systems Biology Markup Language ({SBML}) Qualitative Models Package ("qual"), an extension of the {SBML} Level 3 standard designed for computer representation of qualitative models of biological networks. We demonstrate the interoperability of models via {SBML} qual through the analysis of a specific signalling network by three independent software tools. Furthermore, the collective effort to define the {SBML} qual format paved the way for the development of {LogicalModel}, an open-source model library, which will facilitate the adoption of the format as well as the collaborative development of algorithms to analyse qualitative models. {CONCLUSIONS}: {SBML} qual allows the exchange of qualitative models among a number of complementary software tools. {SBML} qual has the potential to promote collaborative work on the development of novel computational approaches, as well as on the specification and the analysis of comprehensive qualitative models of regulatory and signalling networks.}
+}

@@ -9,6 +9,34 @@ Originally developed to treat autoimmune disorders such as rheumatoid arthritis~
 Tocilizumab is an antibody that targets the soluble IL6 receptor (SIL6R) and can effectively block the IL6 signal transduction pathway~\cite{zhang_2020}.
 Tocilizumab has emerged as a promising drug repurposing candidate to reduce mortality in severely ill COVID-19 patients~\cite{coomes_2020,xaoling_2020}.
 
+\medskip \noindent {\textbf{Methods}}
+The IL6-AMP SBGN-AF model was developed manually using the Newt Editor.
+The first draft of the IL6-AMP SBGN-PD model was developed using the Bob with Bioagents dialogue system:
+
+\begin{itemize}
+\item ACE2 inhibits Angiotensin II
+\item Angiotensin II activates AGTR1
+\item Angiotensin II activates AGTR1
+\item AGTR1 activates ADAM17
+\item Active AGTR1 activates ADAM17
+\item Active ADAM17 activates EGF
+\item Active ADAM17 activates TNF-alpha
+\item Active ADAM17 activates soluble IL6R
+\item Active IL6R activates STAT3
+\item SARS-CoV-2 inactivates ACE2
+\item STAT3 binds IL6
+\item TNF activates NFkb1
+\item NFKB1 activates IL6
+\item Active NFKB1 activates IL6
+\item EGF activates EGFR
+\item EGFR activates NFKB1
+\item SARS-CoV-2 binds ACE2
+\item Active EGF activates EGFR
+\end{itemize}
+
+The IL6-AMP model that was generated was subsequently manually updated in Newt and exported to SBML and SBGN-PD.
+Because the Newt to CellDesigner converter was  unable to convert to CellDesigner format, the model was manually redrawn in the Cell Designer graphical user interface.
+
 
 @article{ulhaq_2020,
 title = {Interleukin-6 as a potential biomarker of {COVID}-19 progression.},
@@ -72,4 +100,11 @@ year = {2020},
 volume={117},
 pages={10970},
 journal = {PNAS}
+}
+@article{gyori2017word,
+    title = {From word models to executable models of signaling networks using automated assembly},
+    author = {Gyori, B. M. and Bachman, J. A. and Subramanian, K. and Muhlich, J. L. and Galescu, L. and Sorger, P. K},
+    journal = {Molecular Systems Biology},
+    volume = {13},
+    year = {2017}
 }
