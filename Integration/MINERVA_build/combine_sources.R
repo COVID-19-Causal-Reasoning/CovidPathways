@@ -94,7 +94,7 @@ construct_overview <- function(elements) {
 ### Type: what kind of file do we integrate
 ### Name: under which name the diaram is to be shown in the build
 
-regular_build = T
+regular_build = F
 
 if(regular_build) {
   ### Regular build

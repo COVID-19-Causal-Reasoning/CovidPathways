@@ -1,0 +1,75 @@
+Retrospective studies indicate that high levels of pro-inflammatory cytokine Interleukin 6 are strongly associated with severely ill COVID-19 patients~\cite{ulhaq_2020}.
+One recently proposed explanation for this observation is the viral induction of a positive feedback loop, known as Interleukin 6 Amplifier (IL6-AMP)~\cite{hirano_2020}.
+IL6-AMP is stimulated by simultaneous activation of NF-kB and STAT~\cite{murakami_2012}.
+This in turn induces various pro-inflammatory cytokines and chemokines, including Interleukin 6, which recruit activated T cells and macrophages.
+This strengthens the IL6 amplifier into a positive feedback loop leading to a cytokine storm~\cite{ogura2008interleukin}, which is believed to be responsible for the tissue damage observed in patients with acute respiratory distress syndrome~\cite{hirano_2020}. 
+
+\medskip \noindent {\textbf{Intervention}}
+Originally developed to treat autoimmune disorders such as rheumatoid arthritis~\cite{oldfield_2009},
+Tocilizumab is an antibody that targets the soluble IL6 receptor (SIL6R) and can effectively block the IL6 signal transduction pathway~\cite{zhang_2020}.
+Tocilizumab has emerged as a promising drug repurposing candidate to reduce mortality in severely ill COVID-19 patients~\cite{coomes_2020,xaoling_2020}.
+
+
+@article{ulhaq_2020,
+title = {Interleukin-6 as a potential biomarker of {COVID}-19 progression.},
+author = {Ulhaq, Z. S. and Soraya, G. V.},
+pages = {382},
+year = {2020},
+journal = {Medecine et Maladies Infectieuses},
+volume = {50}
+}
+
+@article{hirano_2020,
+title = {{COVID}-19: A New Virus, but a Familiar Receptor and Cytokine Release Syndrome.},
+author = {Hirano, T. and Murakami, M.},
+pages = {731},
+year = {2020},
+journal = {Immunity},
+volume = {52}
+}
+@article{murakami_2012,
+title = {The pathological and physiological roles of {IL}-6 amplifier activation.},
+author = {Murakami, M. and Hirano, T.},
+pages = {1267},
+year = {2012},
+journal = {International Journal of Biological Sciences},
+volume = {8}
+}
+@article{ogura2008interleukin,
+    title = {Interleukin-17 promotes autoimmunity by triggering a positive-feedback loop via interleukin-6 induction},
+    author = {Ogura, H. and Murakami, M. and Okuyama, Y. and Tsuruoka, M. and Kitabayashi, C. and Kanamoto, M. and Nishihara, M. and Iwakura, Y. and Hirano, T.},
+    journal = {Immunity},
+    volume = {29},
+    pages = {628},
+    year = {2008}
+}
+@article{oldfield_2009,
+title = {Tocilizumab: a review of its use in the management of rheumatoid arthritis.},
+author = {Oldfield, V. and Dhillon, S. and Plosker, G. L.},
+pages = {609},
+year = {2009},
+journal = {Drugs},
+volume = {69}
+}
+@article{zhang_2020,
+title = {{Cytokine release syndrome in severe COVID-19: Interleukin-6 receptor antagonist Tocilizumab may be the key to reduce mortality}},
+author = {Zhang, C. and Wu, Z. and Li, J.-W. and Zhao, H. and Wang, G.-Q.},
+pages = {105954},
+year = {2020},
+journal = {International Journal of Antimicrobial Agents},
+volume = {55}
+}
+@article{coomes_2020,
+title = {Interleukin-6 in {COVID}-19: A systematic review and meta-analysis},
+author = {Coomes, E. A. and Haghbayan, H.},
+year = {2020},
+journal = {medRxiv}
+}
+@article{xaoling_2020,
+title = {{Effective Treatment of Severe {COVID} - 19 Patients with Tocilizumab}},
+author = {X. Xu and  M. Han and T. Li and W. Sun and  D. Wang and B. Fu and Y. Zhou and X. Zheng and  Y. Yang, X. Li and X. Zhang and A. Pan and H. Wei},
+year = {2020},
+volume={117},
+pages={10970},
+journal = {PNAS}
+}
